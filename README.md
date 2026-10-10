@@ -25,8 +25,8 @@ Put the descriptive name in the page `<title>`, which is what appears in browser
 
 1. Save its HTML into the correct module directory (any filename containing `Section_M_S`, e.g. `Section_4_3_Whatever.html`).
 2. Run `python3 authoring/standardize_lessons.py` from the project root. It renames the file to `section-M-S.html` and applies the standard title, breadcrumbs (Home → Secondary Math [course] → Module [number] → Section [number]), and MVP disclaimer subheader. To do this by hand instead, use `authoring/lesson-template.txt`.
-3. Add a tile for it on the module's `index.html`, and update the "available" counts on the course index and home page.
-4. If the module is new, create its `index.html` (copy an existing module index) and add it to the course index and the home page's "Available now" list.
+3. Add a tile for it on the module's `index.html`, and update that module's "Sections … available" count on the course index.
+4. If the module is new, create its `index.html` (copy an existing module index) and add a tile for it on the course index. If it's the course's first module, also update that course's tile on the home page.
 5. Publish:
 
    ```sh
