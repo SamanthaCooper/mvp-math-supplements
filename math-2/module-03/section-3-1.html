@@ -1,0 +1,1427 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Math II 3.1 — The In-Betweeners | MVP Supplement</title>
+<script>window.MathJax={tex:{inlineMath:[['\\(','\\)']],displayMath:[['\\[','\\]']]},options:{skipHtmlTags:['script','noscript','style','textarea','pre']}};</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><style>
+:root{--ink:#172338;--muted:#526179;--accent:#145a80;--light:#eff6fa;--border:#dce5eb;--warm:#fbf5e8;--green:#edf8f1}*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;line-height:1.66;color:var(--ink);background:#f6f8fa}main{max-width:920px;margin:0 auto;padding:36px 46px 90px;background:#fff;box-shadow:0 5px 35px #12233b12}h1,h2,h3{line-height:1.22}h1{font-size:2.25rem;margin:.3em 0}h2{font-size:1.7rem;margin:2.1em 0 .8em;border-bottom:2px solid var(--accent);padding-bottom:.3em}h3{font-size:1.17rem;margin:1.7em 0 .4em}p{margin:.65em 0}small,.muted{color:var(--muted)}.eyebrow{font-weight:750;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-size:.75rem}nav{background:var(--light);padding:16px 22px;border-radius:10px;margin:25px 0}nav a{display:inline-block;margin:3px 18px 3px 0;color:var(--accent);font-weight:650}.summary{border-left:5px solid var(--accent);background:var(--light);padding:16px 20px;margin:20px 0;border-radius:0 8px 8px 0}.rule{padding:17px 20px;background:var(--green);border-radius:9px;margin:18px 0}.worked{padding:18px 22px;border:1px solid var(--border);border-left:4px solid #387da4;border-radius:7px;margin:18px 0}.worked>strong:first-child{color:var(--accent)}.caution{padding:17px 20px;background:var(--warm);border-left:4px solid #be8a2d;border-radius:5px;margin:20px 0}.teacher{background:#fcfcff;border:1px solid var(--border);padding:22px;border-radius:9px;margin:20px 0}.tag{font-size:.73rem;letter-spacing:.08em;text-transform:uppercase;font-weight:800;color:var(--accent)}table{border-collapse:collapse;width:100%;margin:14px 0 22px;font-size:.94rem}td,th{border:1px solid var(--border);padding:10px;text-align:left;vertical-align:top}th{background:var(--light)}.cols{display:grid;grid-template-columns:1fr 1fr;gap:20px}.eq{font-size:1.07rem}.meta{margin:10px 0 22px;color:var(--muted)}.print{position:fixed;right:18px;bottom:18px;border:none;border-radius:24px;background:var(--accent);color:white;padding:12px 20px;font-weight:700;cursor:pointer;box-shadow:0 2px 12px #0002}hr{border:0;border-top:1px solid var(--border);margin:36px 0}li{margin:.4em 0}.toc-list{columns:2}figure{margin:20px 0}.plot svg{width:100%;height:auto;max-height:440px}.glossary td:first-child{font-weight:700;white-space:nowrap}.lesson-intro{font-size:1.06rem;border-bottom:1px solid var(--border);padding-bottom:13px}figcaption{font-size:.85rem;color:var(--muted);text-align:center}.diagram{max-width:100%;display:block;margin:auto;background:white}.pill{display:inline-block;border-radius:40px;padding:4px 11px;background:var(--light);font-weight:750;color:var(--accent);font-size:.8rem;margin-right:8px}@media(max-width:700px){main{padding:24px 20px}.cols{grid-template-columns:1fr}h1{font-size:1.9rem}.toc-list{columns:1}}@media print{body{background:#fff}main{box-shadow:none;padding:0;max-width:unset}.print,nav{display:none}h2{break-before:page}h3,.worked,.caution,.rule,table{break-inside:avoid}body{font-size:10pt}}
+.packet-clarification{margin:26px 0 32px;padding:20px 24px;background:#f3f6fb;border:1px solid #bacce1;border-left:5px solid #557ba9;border-radius:8px}.packet-clarification-heading{display:flex;flex-direction:column;gap:3px;margin-bottom:10px}.packet-clarification-heading strong{font-size:1.13rem}.packet-clarification-label{font-size:.75rem;letter-spacing:.065em;text-transform:uppercase;color:#315b82;font-weight:800}.packet-source{font-size:.92rem;color:#41536a}.packet-clarification table{background:white;margin:13px 0}.packet-clarification th{background:#e7eef8}@media print{.packet-clarification{break-inside:avoid;background:#f3f6fb !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}} .smallnote{font-size:.92rem;color:#526179}.plot svg{max-height:none;display:block}.tight td{padding:7px 10px}a{color:#145a80} .no-break{break-inside:avoid} @media print{figure{break-inside:avoid}.plot svg{max-height:260px}h2{break-before:auto}} </style><style>.site-breadcrumbs{display:flex;flex-wrap:wrap;gap:9px;align-items:center;font-size:.88rem;color:#526179;margin:0 0 20px}.site-breadcrumbs a,.site-return a{color:#145a80}.site-return{margin:0 0 16px;font-size:.9rem}@media print{.site-breadcrumbs,.site-return{display:none}}</style></head><body><main><nav aria-label="Breadcrumb" class="site-breadcrumbs"><a href="../../index.html">Home</a> <span aria-hidden="true">›</span> <a href="../index.html">Secondary Math II</a> <span aria-hidden="true">›</span> <a href="index.html">Module 3</a> <span aria-hidden="true">›</span> <span aria-current="page">Section 3.1</span></nav><div class="site-return"><a href="index.html">← All Module 3 lessons</a></div><div class="eyebrow">Secondary Math II · Module 3 · Solving Quadratics &amp; Other Equations</div><h1>3.1 — The In-Betweeners</h1>
+<p class="meta">Supplementary instruction for <strong>Secondary Math II</strong> students using the <strong>Mathematics Vision Project (MVP)</strong> curriculum · Module 3, Section 3.1<br><span class="smallnote">Independently created to support students using MVP Math. Not official publisher material and not affiliated with or endorsed by the Mathematics Vision Project.</span></p>
+<div class="summary"><strong>Today’s goal.</strong> Understand how continuous exponential growth works between whole-number inputs; find consistent half-step and third-step growth factors; interpret a graph and sequences; and review exponent rules for the Ready, Set, Go homework.</div>
+<nav><strong>On this page</strong><div class="toc-list"><a href="#whole">Whole-number growth</a><br><a href="#midpoints">Why averaging fails</a><br><a href="#half">Half-step multipliers</a><br><a href="#third">Third-step multipliers</a><br><a href="#graph">Reading the graph</a><br><a href="#ready">Ready: sequences and graph</a><br><a href="#set">Set: growth tables</a><br><a href="#go">Go: exponent rules</a><br><a href="#resources">Additional resources</a><br><a href="#teacher">Teacher’s review</a><br><a href="#coverage">Coverage</a></div></nav>
+<p><span class="pill">Core idea</span> When an exponential quantity doubles in one unit of time, it must grow by the <em>same proportional factor</em> over every equally long subdivision. Equal time intervals do not add equal amounts.</p>
+<h2 id="whole">1. Begin with growth at whole-number inputs</h2>
+<p>Suppose a quantity starts at 4 and doubles whenever the input increases by 1. The function is \(f(x)=4\cdot 2^x\). The 4 is the <strong>initial value</strong>; the 2 is the <strong>growth factor</strong> for one full unit of input.</p>
+<table><tr><th>\(x\)</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr>
+<tr><td>\(f(x)\)</td><td>4</td><td>8</td><td>16</td><td>32</td><td>64</td></tr>
+</table>
+<div class="worked"><strong>Worked example 1 — Extend a doubling table</strong><p>Given \(f(x)=4\cdot 2^x\), calculate \(f(3)\):</p><p>\[f(3)=4\cdot2^3=4\cdot8=32.\]</p><p>Move to the next whole-number input by multiplying 32 by 2, giving \(f(4)=64\). Moving backward from 4 to 3 reverses the multiplication: divide by 2.</p></div>
+<p>A <strong>continuous exponential function</strong> is defined at inputs between whole numbers as well. The question is how to assign values between 4 and 8, between 8 and 16, and so on, while preserving the same pattern of proportional growth.</p>
+<h2 id="midpoints">2. Why ordinary midpoint averaging is not exponential growth</h2>
+<p>Travis proposes averaging two consecutive outputs. Between \(f(0)=4\) and \(f(1)=8\), he obtains \((4+8)/2=6\). His values halfway between 8 and 16, and between 16 and 32, would be 12 and 24.</p>
+<table><tr><th>Input</th><th>Start</th><th>Halfway by averaging</th><th>End</th></tr>
+<tr><td>0 to 1</td><td>4</td><td>6</td><td>8</td></tr>
+<tr><td>1 to 2</td><td>8</td><td>12</td><td>16</td></tr>
+<tr><td>2 to 3</td><td>16</td><td>24</td><td>32</td></tr>
+<tr><td>3 to 4</td><td>32</td><td>48</td><td>64</td></tr>
+</table>
+<p>The two half-interval factors between 4 and 8 would be \(6/4=1.5\) and \(8/6=4/3\). They are <strong>different</strong>. Thus Travis’s rule does not produce a consistent exponential growth factor over equal half-unit intervals.</p>
+<div class="worked"><strong>Worked example 2 — When averaging is appropriate</strong><p>A <strong>linear</strong> function adds the same amount whenever x rises by 1. For \(g(x)=4+4x\), we have \(g(0)=4\), \(g(1)=8\), and \(g(1/2)=6\). The average is correct for this linear function because each half-step adds 2.</p><p>For a doubling exponential function, an equal half-step must multiply by the same factor instead.</p></div>
+<h2 id="half">3. Find the multiplier for a half-step</h2>
+<p>Let \(r\) be the factor for every increase of \(1/2\) in x. Two half-steps make one whole step. Therefore two multiplications by \(r\) must equal multiplication by 2:</p>
+<div class="rule">\[r\cdot r=2\quad\Longrightarrow\quad r^2=2,\qquad r=\sqrt2\approx1.4142.\]<p>We choose the positive number because the model describes positive growth. The <strong>square root of 2</strong> is the positive number whose square is 2.</p></div>
+<p>The halfway output is the <strong>geometric mean</strong> of the two endpoint outputs: for example, \(4\sqrt2\approx5.657\), which is less than Travis’s 6.</p>
+<div class="worked"><strong>Worked example 3 — Halfway between two doubling values</strong><p>Start from 8 at \(x=1\). One half-step later, multiply by \(\sqrt2\): \(8\sqrt2\approx11.314\). Another half-step later, multiply by \(\sqrt2\) again:</p><p>\[8\sqrt2\cdot\sqrt2=8\cdot2=16.\]</p><p>The same factor works for both intervals.</p></div>
+<table><tr><th>\(x\)</th><th>0</th><th>\(1/2\)</th><th>1</th><th>\(3/2\)</th><th>2</th><th>\(5/2\)</th><th>3</th><th>\(7/2\)</th><th>4</th></tr>
+<tr><td>Exact \(f(x)\)</td><td>4</td><td>\(4\sqrt2\)</td><td>8</td><td>\(8\sqrt2\)</td><td>16</td><td>\(16\sqrt2\)</td><td>32</td><td>\(32\sqrt2\)</td><td>64</td></tr>
+<tr><td>Approx.</td><td>4</td><td>5.657</td><td>8</td><td>11.314</td><td>16</td><td>22.627</td><td>32</td><td>45.255</td><td>64</td></tr>
+</table>
+<p>Writing \(2^{1/2}\) is another way of labeling the half-step multiplier \(\sqrt2\) in this context: \(2^{1/2}\cdot2^{1/2}=2\). A later lesson develops the general rules for fractional exponents; here we need only understand the consistent half-step factor.</p>
+<h2 id="third">4. Find the multiplier for a third-step</h2>
+<p>To split a one-unit doubling into three equal steps, choose a positive factor \(s\) that works three times in a row:</p>
+<div class="rule">\[s\cdot s\cdot s=2\quad\Longrightarrow\quad s^3=2,\qquad s=\sqrt[3]{2}\approx1.2599.\]<p>The <strong>cube root</strong> of 2 is the positive number whose cube is 2. Three consecutive third-steps give \(\sqrt[3]{2}^3=2\).</p></div>
+<div class="worked"><strong>Worked example 4 — Complete one third-step interval</strong><p>Starting from \(f(0)=4\), the outputs at \(x=1/3,2/3,1\) are:</p><p>\[4\sqrt[3]{2}\approx5.040,\qquad4(\sqrt[3]{2})^2\approx6.350,\qquad4(\sqrt[3]{2})^3=8.\]</p><p>Each step multiplies by exactly the same factor, approximately 1.2599.</p></div>
+<table><tr><th>\(x\)</th><th>0</th><th>\(1/3\)</th><th>\(2/3\)</th><th>1</th><th>\(4/3\)</th><th>\(5/3\)</th><th>2</th><th>\(7/3\)</th><th>\(8/3\)</th><th>3</th></tr>
+<tr><td>\(f(x)\) approx.</td><td>4.000</td><td>5.040</td><td>6.350</td><td>8.000</td><td>10.079</td><td>12.699</td><td>16.000</td><td>20.159</td><td>25.398</td><td>32.000</td></tr>
+</table>
+<h3>Estimating a value such as \(f(5/3)\)</h3>
+<p>Since \(5/3=1+2/3\), start at \(f(1)=8\) and take two third-steps. Multiply by \(\sqrt[3]{2}\) twice: \[f(5/3)=8(\sqrt[3]{2})^2\approx8(1.5874)\approx12.699.\] This also matches extending the third-step table.</p>
+<p>A useful pattern to remember for positive exponential growth: when a whole unit multiplies by \(b\), two equal substeps need a factor whose square is \(b\); three equal substeps need a factor whose cube is \(b\).</p>
+<h2 id="graph">5. See why the exponential curve bends</h2>
+<figure class="plot">
+
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="640.433125pt" height="315.99625pt" viewBox="0 0 640.433125 315.99625" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-10T06:00:53.437600</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 315.99625 
+L 640.433125 315.99625 
+L 640.433125 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 40.603125 278.44 
+L 633.233125 278.44 
+L 633.233125 7.2 
+L 40.603125 7.2 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 57.065069 278.44 
+L 57.065069 7.2 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="mcd530afe58" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mcd530afe58" x="57.065069" y="278.44" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- 0.0 -->
+      <g transform="translate(49.113507 293.038437) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-30" d="M 2034 4250 
+Q 1547 4250 1301 3770 
+Q 1056 3291 1056 2328 
+Q 1056 1369 1301 889 
+Q 1547 409 2034 409 
+Q 2525 409 2770 889 
+Q 3016 1369 3016 2328 
+Q 3016 3291 2770 3770 
+Q 2525 4250 2034 4250 
+z
+M 2034 4750 
+Q 2819 4750 3233 4129 
+Q 3647 3509 3647 2328 
+Q 3647 1150 3233 529 
+Q 2819 -91 2034 -91 
+Q 1250 -91 836 529 
+Q 422 1150 422 2328 
+Q 422 3509 836 4129 
+Q 1250 4750 2034 4750 
+z
+" transform="scale(0.015625)"/>
+        <path id="DejaVuSans-2e" d="M 684 794 
+L 1344 794 
+L 1344 0 
+L 684 0 
+L 684 794 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-30"/>
+       <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0)"/>
+       <use xlink:href="#DejaVuSans-30" transform="translate(95.410156 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 125.656505 278.44 
+L 125.656505 7.2 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mcd530afe58" x="125.656505" y="278.44" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- 0.5 -->
+      <g transform="translate(117.704942 293.038437) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-35" d="M 691 4666 
+L 3169 4666 
+L 3169 4134 
+L 1269 4134 
+L 1269 2991 
+Q 1406 3038 1543 3061 
+Q 1681 3084 1819 3084 
+Q 2600 3084 3056 2656 
+Q 3513 2228 3513 1497 
+Q 3513 744 3044 326 
+Q 2575 -91 1722 -91 
+Q 1428 -91 1123 -41 
+Q 819 9 494 109 
+L 494 744 
+Q 775 591 1075 516 
+Q 1375 441 1709 441 
+Q 2250 441 2565 725 
+Q 2881 1009 2881 1497 
+Q 2881 1984 2565 2268 
+Q 2250 2553 1709 2553 
+Q 1456 2553 1204 2497 
+Q 953 2441 691 2322 
+L 691 4666 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-30"/>
+       <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0)"/>
+       <use xlink:href="#DejaVuSans-35" transform="translate(95.410156 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 194.24794 278.44 
+L 194.24794 7.2 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mcd530afe58" x="194.24794" y="278.44" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- 1.0 -->
+      <g transform="translate(186.296377 293.038437) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-31" d="M 794 531 
+L 1825 531 
+L 1825 4091 
+L 703 3866 
+L 703 4441 
+L 1819 4666 
+L 2450 4666 
+L 2450 531 
+L 3481 531 
+L 3481 0 
+L 794 0 
+L 794 531 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-31"/>
+       <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0)"/>
+       <use xlink:href="#DejaVuSans-30" transform="translate(95.410156 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 262.839375 278.44 
+L 262.839375 7.2 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mcd530afe58" x="262.839375" y="278.44" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- 1.5 -->
+      <g transform="translate(254.887813 293.038437) scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-31"/>
+       <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0)"/>
+       <use xlink:href="#DejaVuSans-35" transform="translate(95.410156 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 331.43081 278.44 
+L 331.43081 7.2 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mcd530afe58" x="331.43081" y="278.44" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- 2.0 -->
+      <g transform="translate(323.479248 293.038437) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-32" d="M 1228 531 
+L 3431 531 
+L 3431 0 
+L 469 0 
+L 469 531 
+Q 828 903 1448 1529 
+Q 2069 2156 2228 2338 
+Q 2531 2678 2651 2914 
+Q 2772 3150 2772 3378 
+Q 2772 3750 2511 3984 
+Q 2250 4219 1831 4219 
+Q 1534 4219 1204 4116 
+Q 875 4013 500 3803 
+L 500 4441 
+Q 881 4594 1212 4672 
+Q 1544 4750 1819 4750 
+Q 2544 4750 2975 4387 
+Q 3406 4025 3406 3419 
+Q 3406 3131 3298 2873 
+Q 3191 2616 2906 2266 
+Q 2828 2175 2409 1742 
+Q 1991 1309 1228 531 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-32"/>
+       <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0)"/>
+       <use xlink:href="#DejaVuSans-30" transform="translate(95.410156 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 400.022245 278.44 
+L 400.022245 7.2 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mcd530afe58" x="400.022245" y="278.44" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- 2.5 -->
+      <g transform="translate(392.070683 293.038437) scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-32"/>
+       <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0)"/>
+       <use xlink:href="#DejaVuSans-35" transform="translate(95.410156 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 468.613681 278.44 
+L 468.613681 7.2 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#mcd530afe58" x="468.613681" y="278.44" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- 3.0 -->
+      <g transform="translate(460.662118 293.038437) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-33" d="M 2597 2516 
+Q 3050 2419 3304 2112 
+Q 3559 1806 3559 1356 
+Q 3559 666 3084 287 
+Q 2609 -91 1734 -91 
+Q 1441 -91 1130 -33 
+Q 819 25 488 141 
+L 488 750 
+Q 750 597 1062 519 
+Q 1375 441 1716 441 
+Q 2309 441 2620 675 
+Q 2931 909 2931 1356 
+Q 2931 1769 2642 2001 
+Q 2353 2234 1838 2234 
+L 1294 2234 
+L 1294 2753 
+L 1863 2753 
+Q 2328 2753 2575 2939 
+Q 2822 3125 2822 3475 
+Q 2822 3834 2567 4026 
+Q 2313 4219 1838 4219 
+Q 1578 4219 1281 4162 
+Q 984 4106 628 3988 
+L 628 4550 
+Q 988 4650 1302 4700 
+Q 1616 4750 1894 4750 
+Q 2613 4750 3031 4423 
+Q 3450 4097 3450 3541 
+Q 3450 3153 3228 2886 
+Q 3006 2619 2597 2516 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-33"/>
+       <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0)"/>
+       <use xlink:href="#DejaVuSans-30" transform="translate(95.410156 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_15">
+      <path d="M 537.205116 278.44 
+L 537.205116 7.2 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#mcd530afe58" x="537.205116" y="278.44" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <!-- 3.5 -->
+      <g transform="translate(529.253553 293.038437) scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-33"/>
+       <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0)"/>
+       <use xlink:href="#DejaVuSans-35" transform="translate(95.410156 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_17">
+      <path d="M 605.796551 278.44 
+L 605.796551 7.2 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#mcd530afe58" x="605.796551" y="278.44" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <!-- 4.0 -->
+      <g transform="translate(597.844988 293.038437) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-34" d="M 2419 4116 
+L 825 1625 
+L 2419 1625 
+L 2419 4116 
+z
+M 2253 4666 
+L 3047 4666 
+L 3047 1625 
+L 3713 1625 
+L 3713 1100 
+L 3047 1100 
+L 3047 0 
+L 2419 0 
+L 2419 1100 
+L 313 1100 
+L 313 1709 
+L 2253 4666 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-34"/>
+       <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0)"/>
+       <use xlink:href="#DejaVuSans-30" transform="translate(95.410156 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_10">
+     <!-- Input x -->
+     <g transform="translate(319.422813 306.716562) scale(0.1 -0.1)">
+      <defs>
+       <path id="DejaVuSans-49" d="M 628 4666 
+L 1259 4666 
+L 1259 0 
+L 628 0 
+L 628 4666 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-6e" d="M 3513 2113 
+L 3513 0 
+L 2938 0 
+L 2938 2094 
+Q 2938 2591 2744 2837 
+Q 2550 3084 2163 3084 
+Q 1697 3084 1428 2787 
+Q 1159 2491 1159 1978 
+L 1159 0 
+L 581 0 
+L 581 3500 
+L 1159 3500 
+L 1159 2956 
+Q 1366 3272 1645 3428 
+Q 1925 3584 2291 3584 
+Q 2894 3584 3203 3211 
+Q 3513 2838 3513 2113 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-70" d="M 1159 525 
+L 1159 -1331 
+L 581 -1331 
+L 581 3500 
+L 1159 3500 
+L 1159 2969 
+Q 1341 3281 1617 3432 
+Q 1894 3584 2278 3584 
+Q 2916 3584 3314 3078 
+Q 3713 2572 3713 1747 
+Q 3713 922 3314 415 
+Q 2916 -91 2278 -91 
+Q 1894 -91 1617 61 
+Q 1341 213 1159 525 
+z
+M 3116 1747 
+Q 3116 2381 2855 2742 
+Q 2594 3103 2138 3103 
+Q 1681 3103 1420 2742 
+Q 1159 2381 1159 1747 
+Q 1159 1113 1420 752 
+Q 1681 391 2138 391 
+Q 2594 391 2855 752 
+Q 3116 1113 3116 1747 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-75" d="M 544 1381 
+L 544 3500 
+L 1119 3500 
+L 1119 1403 
+Q 1119 906 1312 657 
+Q 1506 409 1894 409 
+Q 2359 409 2629 706 
+Q 2900 1003 2900 1516 
+L 2900 3500 
+L 3475 3500 
+L 3475 0 
+L 2900 0 
+L 2900 538 
+Q 2691 219 2414 64 
+Q 2138 -91 1772 -91 
+Q 1169 -91 856 284 
+Q 544 659 544 1381 
+z
+M 1991 3584 
+L 1991 3584 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-74" d="M 1172 4494 
+L 1172 3500 
+L 2356 3500 
+L 2356 3053 
+L 1172 3053 
+L 1172 1153 
+Q 1172 725 1289 603 
+Q 1406 481 1766 481 
+L 2356 481 
+L 2356 0 
+L 1766 0 
+Q 1100 0 847 248 
+Q 594 497 594 1153 
+L 594 3053 
+L 172 3053 
+L 172 3500 
+L 594 3500 
+L 594 4494 
+L 1172 4494 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-20" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-78" d="M 3513 3500 
+L 2247 1797 
+L 3578 0 
+L 2900 0 
+L 1881 1375 
+L 863 0 
+L 184 0 
+L 1544 1831 
+L 300 3500 
+L 978 3500 
+L 1906 2253 
+L 2834 3500 
+L 3513 3500 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#DejaVuSans-49"/>
+      <use xlink:href="#DejaVuSans-6e" transform="translate(29.492188 0)"/>
+      <use xlink:href="#DejaVuSans-70" transform="translate(92.871094 0)"/>
+      <use xlink:href="#DejaVuSans-75" transform="translate(156.347656 0)"/>
+      <use xlink:href="#DejaVuSans-74" transform="translate(219.726562 0)"/>
+      <use xlink:href="#DejaVuSans-20" transform="translate(258.935547 0)"/>
+      <use xlink:href="#DejaVuSans-78" transform="translate(290.722656 0)"/>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_19">
+      <path d="M 40.603125 278.44 
+L 633.233125 278.44 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_20">
+      <defs>
+       <path id="m925f4c8497" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m925f4c8497" x="40.603125" y="278.44" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <!-- 0 -->
+      <g transform="translate(27.240625 282.239219) scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-30"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_21">
+      <path d="M 40.603125 240.767778 
+L 633.233125 240.767778 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m925f4c8497" x="40.603125" y="240.767778" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <!-- 10 -->
+      <g transform="translate(20.878125 244.566997) scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-31"/>
+       <use xlink:href="#DejaVuSans-30" transform="translate(63.623047 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_23">
+      <path d="M 40.603125 203.095556 
+L 633.233125 203.095556 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m925f4c8497" x="40.603125" y="203.095556" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <!-- 20 -->
+      <g transform="translate(20.878125 206.894774) scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-32"/>
+       <use xlink:href="#DejaVuSans-30" transform="translate(63.623047 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_25">
+      <path d="M 40.603125 165.423333 
+L 633.233125 165.423333 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m925f4c8497" x="40.603125" y="165.423333" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <!-- 30 -->
+      <g transform="translate(20.878125 169.222552) scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-33"/>
+       <use xlink:href="#DejaVuSans-30" transform="translate(63.623047 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_27">
+      <path d="M 40.603125 127.751111 
+L 633.233125 127.751111 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m925f4c8497" x="40.603125" y="127.751111" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <!-- 40 -->
+      <g transform="translate(20.878125 131.55033) scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-34"/>
+       <use xlink:href="#DejaVuSans-30" transform="translate(63.623047 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_29">
+      <path d="M 40.603125 90.078889 
+L 633.233125 90.078889 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m925f4c8497" x="40.603125" y="90.078889" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <!-- 50 -->
+      <g transform="translate(20.878125 93.878108) scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-35"/>
+       <use xlink:href="#DejaVuSans-30" transform="translate(63.623047 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_31">
+      <path d="M 40.603125 52.406667 
+L 633.233125 52.406667 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#m925f4c8497" x="40.603125" y="52.406667" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <!-- 60 -->
+      <g transform="translate(20.878125 56.205885) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-36" d="M 2113 2584 
+Q 1688 2584 1439 2293 
+Q 1191 2003 1191 1497 
+Q 1191 994 1439 701 
+Q 1688 409 2113 409 
+Q 2538 409 2786 701 
+Q 3034 994 3034 1497 
+Q 3034 2003 2786 2293 
+Q 2538 2584 2113 2584 
+z
+M 3366 4563 
+L 3366 3988 
+Q 3128 4100 2886 4159 
+Q 2644 4219 2406 4219 
+Q 1781 4219 1451 3797 
+Q 1122 3375 1075 2522 
+Q 1259 2794 1537 2939 
+Q 1816 3084 2150 3084 
+Q 2853 3084 3261 2657 
+Q 3669 2231 3669 1497 
+Q 3669 778 3244 343 
+Q 2819 -91 2113 -91 
+Q 1303 -91 875 529 
+Q 447 1150 447 2328 
+Q 447 3434 972 4092 
+Q 1497 4750 2381 4750 
+Q 2619 4750 2861 4703 
+Q 3103 4656 3366 4563 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-36"/>
+       <use xlink:href="#DejaVuSans-30" transform="translate(63.623047 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_33">
+      <path d="M 40.603125 14.734444 
+L 633.233125 14.734444 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#m925f4c8497" x="40.603125" y="14.734444" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <!-- 70 -->
+      <g transform="translate(20.878125 18.533663) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-37" d="M 525 4666 
+L 3525 4666 
+L 3525 4397 
+L 1831 0 
+L 1172 0 
+L 2766 4134 
+L 525 4134 
+L 525 4666 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-37"/>
+       <use xlink:href="#DejaVuSans-30" transform="translate(63.623047 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_19">
+     <!-- Output f(x) -->
+     <g transform="translate(14.798438 170.398125) rotate(-90) scale(0.1 -0.1)">
+      <defs>
+       <path id="DejaVuSans-4f" d="M 2522 4238 
+Q 1834 4238 1429 3725 
+Q 1025 3213 1025 2328 
+Q 1025 1447 1429 934 
+Q 1834 422 2522 422 
+Q 3209 422 3611 934 
+Q 4013 1447 4013 2328 
+Q 4013 3213 3611 3725 
+Q 3209 4238 2522 4238 
+z
+M 2522 4750 
+Q 3503 4750 4090 4092 
+Q 4678 3434 4678 2328 
+Q 4678 1225 4090 567 
+Q 3503 -91 2522 -91 
+Q 1538 -91 948 565 
+Q 359 1222 359 2328 
+Q 359 3434 948 4092 
+Q 1538 4750 2522 4750 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-66" d="M 2375 4863 
+L 2375 4384 
+L 1825 4384 
+Q 1516 4384 1395 4259 
+Q 1275 4134 1275 3809 
+L 1275 3500 
+L 2222 3500 
+L 2222 3053 
+L 1275 3053 
+L 1275 0 
+L 697 0 
+L 697 3053 
+L 147 3053 
+L 147 3500 
+L 697 3500 
+L 697 3744 
+Q 697 4328 969 4595 
+Q 1241 4863 1831 4863 
+L 2375 4863 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-28" d="M 1984 4856 
+Q 1566 4138 1362 3434 
+Q 1159 2731 1159 2009 
+Q 1159 1288 1364 580 
+Q 1569 -128 1984 -844 
+L 1484 -844 
+Q 1016 -109 783 600 
+Q 550 1309 550 2009 
+Q 550 2706 781 3412 
+Q 1013 4119 1484 4856 
+L 1984 4856 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-29" d="M 513 4856 
+L 1013 4856 
+Q 1481 4119 1714 3412 
+Q 1947 2706 1947 2009 
+Q 1947 1309 1714 600 
+Q 1481 -109 1013 -844 
+L 513 -844 
+Q 928 -128 1133 580 
+Q 1338 1288 1338 2009 
+Q 1338 2731 1133 3434 
+Q 928 4138 513 4856 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#DejaVuSans-4f"/>
+      <use xlink:href="#DejaVuSans-75" transform="translate(78.710938 0)"/>
+      <use xlink:href="#DejaVuSans-74" transform="translate(142.089844 0)"/>
+      <use xlink:href="#DejaVuSans-70" transform="translate(181.298828 0)"/>
+      <use xlink:href="#DejaVuSans-75" transform="translate(244.775391 0)"/>
+      <use xlink:href="#DejaVuSans-74" transform="translate(308.154297 0)"/>
+      <use xlink:href="#DejaVuSans-20" transform="translate(347.363281 0)"/>
+      <use xlink:href="#DejaVuSans-66" transform="translate(379.150391 0)"/>
+      <use xlink:href="#DejaVuSans-28" transform="translate(414.355469 0)"/>
+      <use xlink:href="#DejaVuSans-78" transform="translate(453.369141 0)"/>
+      <use xlink:href="#DejaVuSans-29" transform="translate(512.548828 0)"/>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_35">
+    <path d="M 57.065069 263.371111 
+L 80.386157 261.486619 
+L 102.335417 259.498205 
+L 122.912847 257.422763 
+L 143.490278 255.119915 
+L 162.69588 252.743479 
+L 180.529653 250.320459 
+L 198.363426 247.668963 
+L 214.82537 245.000042 
+L 231.287315 242.099632 
+L 246.377431 239.220448 
+L 261.467546 236.113152 
+L 275.185833 233.075208 
+L 288.90412 229.81922 
+L 302.622407 226.329538 
+L 314.968866 222.975178 
+L 327.315324 219.404897 
+L 339.661782 215.604797 
+L 352.008241 211.560084 
+L 362.98287 207.746722 
+L 373.9575 203.71593 
+L 384.93213 199.45531 
+L 395.906759 194.951757 
+L 406.881389 190.191421 
+L 417.856019 185.15966 
+L 427.458819 180.522071 
+L 437.06162 175.653916 
+L 446.664421 170.543733 
+L 456.267222 165.179489 
+L 465.870023 159.548552 
+L 475.472824 153.637663 
+L 485.075625 147.432905 
+L 493.306597 141.869589 
+L 501.537569 136.070022 
+L 509.768542 130.024173 
+L 517.999514 123.721582 
+L 526.230486 117.151347 
+L 534.461458 110.302101 
+L 542.692431 103.161998 
+L 550.923403 95.718684 
+L 559.154375 87.959284 
+L 567.385347 79.870376 
+L 575.616319 71.437965 
+L 583.847292 62.647466 
+L 592.078264 53.483672 
+L 600.309236 43.930731 
+L 605.796551 37.337778 
+L 605.796551 37.337778 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke: #145a80; stroke-width: 2.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_36">
+    <path d="M 57.065069 263.371111 
+L 125.656505 255.836667 
+L 194.24794 248.302222 
+L 262.839375 233.233333 
+L 331.43081 218.164444 
+L 400.022245 188.026667 
+L 468.613681 157.888889 
+L 537.205116 97.613333 
+L 605.796551 37.337778 
+" clip-path="url(#p6d8e5fe628)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #c1782b; stroke-width: 1.5"/>
+    <defs>
+     <path id="m4cca3ae0f1" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #c1782b"/>
+    </defs>
+    <g clip-path="url(#p6d8e5fe628)">
+     <use xlink:href="#m4cca3ae0f1" x="57.065069" y="263.371111" style="fill: #c1782b; stroke: #c1782b"/>
+     <use xlink:href="#m4cca3ae0f1" x="125.656505" y="255.836667" style="fill: #c1782b; stroke: #c1782b"/>
+     <use xlink:href="#m4cca3ae0f1" x="194.24794" y="248.302222" style="fill: #c1782b; stroke: #c1782b"/>
+     <use xlink:href="#m4cca3ae0f1" x="262.839375" y="233.233333" style="fill: #c1782b; stroke: #c1782b"/>
+     <use xlink:href="#m4cca3ae0f1" x="331.43081" y="218.164444" style="fill: #c1782b; stroke: #c1782b"/>
+     <use xlink:href="#m4cca3ae0f1" x="400.022245" y="188.026667" style="fill: #c1782b; stroke: #c1782b"/>
+     <use xlink:href="#m4cca3ae0f1" x="468.613681" y="157.888889" style="fill: #c1782b; stroke: #c1782b"/>
+     <use xlink:href="#m4cca3ae0f1" x="537.205116" y="97.613333" style="fill: #c1782b; stroke: #c1782b"/>
+     <use xlink:href="#m4cca3ae0f1" x="605.796551" y="37.337778" style="fill: #c1782b; stroke: #c1782b"/>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 40.603125 278.44 
+L 40.603125 7.2 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 40.603125 278.44 
+L 633.233125 278.44 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="med9a237fd8" d="M 0 1.936492 
+C 0.513564 1.936492 1.006162 1.732451 1.369306 1.369306 
+C 1.732451 1.006162 1.936492 0.513564 1.936492 0 
+C 1.936492 -0.513564 1.732451 -1.006162 1.369306 -1.369306 
+C 1.006162 -1.732451 0.513564 -1.936492 0 -1.936492 
+C -0.513564 -1.936492 -1.006162 -1.732451 -1.369306 -1.369306 
+C -1.732451 -1.006162 -1.936492 -0.513564 -1.936492 0 
+C -1.936492 0.513564 -1.732451 1.006162 -1.369306 1.369306 
+C -1.006162 1.732451 -0.513564 1.936492 0 1.936492 
+z
+" style="stroke: #145a80"/>
+    </defs>
+    <g clip-path="url(#p6d8e5fe628)">
+     <use xlink:href="#med9a237fd8" x="57.065069" y="263.371111" style="fill: #145a80; stroke: #145a80"/>
+     <use xlink:href="#med9a237fd8" x="125.656505" y="257.129373" style="fill: #145a80; stroke: #145a80"/>
+     <use xlink:href="#med9a237fd8" x="194.24794" y="248.302222" style="fill: #145a80; stroke: #145a80"/>
+     <use xlink:href="#med9a237fd8" x="262.839375" y="235.818746" style="fill: #145a80; stroke: #145a80"/>
+     <use xlink:href="#med9a237fd8" x="331.43081" y="218.164444" style="fill: #145a80; stroke: #145a80"/>
+     <use xlink:href="#med9a237fd8" x="400.022245" y="193.197492" style="fill: #145a80; stroke: #145a80"/>
+     <use xlink:href="#med9a237fd8" x="468.613681" y="157.888889" style="fill: #145a80; stroke: #145a80"/>
+     <use xlink:href="#med9a237fd8" x="537.205116" y="107.954984" style="fill: #145a80; stroke: #145a80"/>
+     <use xlink:href="#med9a237fd8" x="605.796551" y="37.337778" style="fill: #145a80; stroke: #145a80"/>
+    </g>
+   </g>
+   <g id="legend_1">
+    <g id="patch_5">
+     <path d="M 47.603125 44.678125 
+L 219.051563 44.678125 
+Q 221.051563 44.678125 221.051563 42.678125 
+L 221.051563 14.2 
+Q 221.051563 12.2 219.051563 12.2 
+L 47.603125 12.2 
+Q 45.603125 12.2 45.603125 14.2 
+L 45.603125 42.678125 
+Q 45.603125 44.678125 47.603125 44.678125 
+z
+" style="fill: #ffffff; opacity: 0.8; stroke: #cccccc; stroke-linejoin: miter"/>
+    </g>
+    <g id="line2d_37">
+     <path d="M 49.603125 20.4 
+L 59.603125 20.4 
+L 69.603125 20.4 
+" style="fill: none; stroke: #145a80; stroke-width: 2.8; stroke-linecap: square"/>
+    </g>
+    <g id="text_20">
+     <!-- Exponential $4\cdot2^x$ -->
+     <g transform="translate(77.603125 23.9) scale(0.1 -0.1)">
+      <defs>
+       <path id="DejaVuSans-45" d="M 628 4666 
+L 3578 4666 
+L 3578 4134 
+L 1259 4134 
+L 1259 2753 
+L 3481 2753 
+L 3481 2222 
+L 1259 2222 
+L 1259 531 
+L 3634 531 
+L 3634 0 
+L 628 0 
+L 628 4666 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-6f" d="M 1959 3097 
+Q 1497 3097 1228 2736 
+Q 959 2375 959 1747 
+Q 959 1119 1226 758 
+Q 1494 397 1959 397 
+Q 2419 397 2687 759 
+Q 2956 1122 2956 1747 
+Q 2956 2369 2687 2733 
+Q 2419 3097 1959 3097 
+z
+M 1959 3584 
+Q 2709 3584 3137 3096 
+Q 3566 2609 3566 1747 
+Q 3566 888 3137 398 
+Q 2709 -91 1959 -91 
+Q 1206 -91 779 398 
+Q 353 888 353 1747 
+Q 353 2609 779 3096 
+Q 1206 3584 1959 3584 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-65" d="M 3597 1894 
+L 3597 1613 
+L 953 1613 
+Q 991 1019 1311 708 
+Q 1631 397 2203 397 
+Q 2534 397 2845 478 
+Q 3156 559 3463 722 
+L 3463 178 
+Q 3153 47 2828 -22 
+Q 2503 -91 2169 -91 
+Q 1331 -91 842 396 
+Q 353 884 353 1716 
+Q 353 2575 817 3079 
+Q 1281 3584 2069 3584 
+Q 2775 3584 3186 3129 
+Q 3597 2675 3597 1894 
+z
+M 3022 2063 
+Q 3016 2534 2758 2815 
+Q 2500 3097 2075 3097 
+Q 1594 3097 1305 2825 
+Q 1016 2553 972 2059 
+L 3022 2063 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-69" d="M 603 3500 
+L 1178 3500 
+L 1178 0 
+L 603 0 
+L 603 3500 
+z
+M 603 4863 
+L 1178 4863 
+L 1178 4134 
+L 603 4134 
+L 603 4863 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-61" d="M 2194 1759 
+Q 1497 1759 1228 1600 
+Q 959 1441 959 1056 
+Q 959 750 1161 570 
+Q 1363 391 1709 391 
+Q 2188 391 2477 730 
+Q 2766 1069 2766 1631 
+L 2766 1759 
+L 2194 1759 
+z
+M 3341 1997 
+L 3341 0 
+L 2766 0 
+L 2766 531 
+Q 2569 213 2275 61 
+Q 1981 -91 1556 -91 
+Q 1019 -91 701 211 
+Q 384 513 384 1019 
+Q 384 1609 779 1909 
+Q 1175 2209 1959 2209 
+L 2766 2209 
+L 2766 2266 
+Q 2766 2663 2505 2880 
+Q 2244 3097 1772 3097 
+Q 1472 3097 1187 3025 
+Q 903 2953 641 2809 
+L 641 3341 
+Q 956 3463 1253 3523 
+Q 1550 3584 1831 3584 
+Q 2591 3584 2966 3190 
+Q 3341 2797 3341 1997 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-6c" d="M 603 4863 
+L 1178 4863 
+L 1178 0 
+L 603 0 
+L 603 4863 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-22c5" d="M 684 2619 
+L 1344 2619 
+L 1344 1825 
+L 684 1825 
+L 684 2619 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-Oblique-78" d="M 3841 3500 
+L 2234 1784 
+L 3219 0 
+L 2559 0 
+L 1819 1388 
+L 531 0 
+L -166 0 
+L 1556 1844 
+L 641 3500 
+L 1300 3500 
+L 1972 2234 
+L 3144 3500 
+L 3841 3500 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#DejaVuSans-45" transform="translate(0 0.4375)"/>
+      <use xlink:href="#DejaVuSans-78" transform="translate(63.183594 0.4375)"/>
+      <use xlink:href="#DejaVuSans-70" transform="translate(122.363281 0.4375)"/>
+      <use xlink:href="#DejaVuSans-6f" transform="translate(185.839844 0.4375)"/>
+      <use xlink:href="#DejaVuSans-6e" transform="translate(247.021484 0.4375)"/>
+      <use xlink:href="#DejaVuSans-65" transform="translate(310.400391 0.4375)"/>
+      <use xlink:href="#DejaVuSans-6e" transform="translate(371.923828 0.4375)"/>
+      <use xlink:href="#DejaVuSans-74" transform="translate(435.302734 0.4375)"/>
+      <use xlink:href="#DejaVuSans-69" transform="translate(474.511719 0.4375)"/>
+      <use xlink:href="#DejaVuSans-61" transform="translate(502.294922 0.4375)"/>
+      <use xlink:href="#DejaVuSans-6c" transform="translate(563.574219 0.4375)"/>
+      <use xlink:href="#DejaVuSans-20" transform="translate(591.357422 0.4375)"/>
+      <use xlink:href="#DejaVuSans-34" transform="translate(623.144531 0.4375)"/>
+      <use xlink:href="#DejaVuSans-22c5" transform="translate(706.25 0.4375)"/>
+      <use xlink:href="#DejaVuSans-32" transform="translate(757.519531 0.4375)"/>
+      <use xlink:href="#DejaVuSans-Oblique-78" transform="translate(822.099609 38.71875) scale(0.7)"/>
+     </g>
+    </g>
+    <g id="line2d_38">
+     <path d="M 49.603125 35.098437 
+L 59.603125 35.098437 
+L 69.603125 35.098437 
+" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #c1782b; stroke-width: 1.5"/>
+     <g>
+      <use xlink:href="#m4cca3ae0f1" x="59.603125" y="35.098437" style="fill: #c1782b; stroke: #c1782b"/>
+     </g>
+    </g>
+    <g id="text_21">
+     <!-- Travis: arithmetic midpoints -->
+     <g transform="translate(77.603125 38.598437) scale(0.1 -0.1)">
+      <defs>
+       <path id="DejaVuSans-54" d="M -19 4666 
+L 3928 4666 
+L 3928 4134 
+L 2272 4134 
+L 2272 0 
+L 1638 0 
+L 1638 4134 
+L -19 4134 
+L -19 4666 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-72" d="M 2631 2963 
+Q 2534 3019 2420 3045 
+Q 2306 3072 2169 3072 
+Q 1681 3072 1420 2755 
+Q 1159 2438 1159 1844 
+L 1159 0 
+L 581 0 
+L 581 3500 
+L 1159 3500 
+L 1159 2956 
+Q 1341 3275 1631 3429 
+Q 1922 3584 2338 3584 
+Q 2397 3584 2469 3576 
+Q 2541 3569 2628 3553 
+L 2631 2963 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-76" d="M 191 3500 
+L 800 3500 
+L 1894 563 
+L 2988 3500 
+L 3597 3500 
+L 2284 0 
+L 1503 0 
+L 191 3500 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-73" d="M 2834 3397 
+L 2834 2853 
+Q 2591 2978 2328 3040 
+Q 2066 3103 1784 3103 
+Q 1356 3103 1142 2972 
+Q 928 2841 928 2578 
+Q 928 2378 1081 2264 
+Q 1234 2150 1697 2047 
+L 1894 2003 
+Q 2506 1872 2764 1633 
+Q 3022 1394 3022 966 
+Q 3022 478 2636 193 
+Q 2250 -91 1575 -91 
+Q 1294 -91 989 -36 
+Q 684 19 347 128 
+L 347 722 
+Q 666 556 975 473 
+Q 1284 391 1588 391 
+Q 1994 391 2212 530 
+Q 2431 669 2431 922 
+Q 2431 1156 2273 1281 
+Q 2116 1406 1581 1522 
+L 1381 1569 
+Q 847 1681 609 1914 
+Q 372 2147 372 2553 
+Q 372 3047 722 3315 
+Q 1072 3584 1716 3584 
+Q 2034 3584 2315 3537 
+Q 2597 3491 2834 3397 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-3a" d="M 750 794 
+L 1409 794 
+L 1409 0 
+L 750 0 
+L 750 794 
+z
+M 750 3309 
+L 1409 3309 
+L 1409 2516 
+L 750 2516 
+L 750 3309 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-68" d="M 3513 2113 
+L 3513 0 
+L 2938 0 
+L 2938 2094 
+Q 2938 2591 2744 2837 
+Q 2550 3084 2163 3084 
+Q 1697 3084 1428 2787 
+Q 1159 2491 1159 1978 
+L 1159 0 
+L 581 0 
+L 581 4863 
+L 1159 4863 
+L 1159 2956 
+Q 1366 3272 1645 3428 
+Q 1925 3584 2291 3584 
+Q 2894 3584 3203 3211 
+Q 3513 2838 3513 2113 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-6d" d="M 3328 2828 
+Q 3544 3216 3844 3400 
+Q 4144 3584 4550 3584 
+Q 5097 3584 5394 3201 
+Q 5691 2819 5691 2113 
+L 5691 0 
+L 5113 0 
+L 5113 2094 
+Q 5113 2597 4934 2840 
+Q 4756 3084 4391 3084 
+Q 3944 3084 3684 2787 
+Q 3425 2491 3425 1978 
+L 3425 0 
+L 2847 0 
+L 2847 2094 
+Q 2847 2600 2669 2842 
+Q 2491 3084 2119 3084 
+Q 1678 3084 1418 2786 
+Q 1159 2488 1159 1978 
+L 1159 0 
+L 581 0 
+L 581 3500 
+L 1159 3500 
+L 1159 2956 
+Q 1356 3278 1631 3431 
+Q 1906 3584 2284 3584 
+Q 2666 3584 2933 3390 
+Q 3200 3197 3328 2828 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-63" d="M 3122 3366 
+L 3122 2828 
+Q 2878 2963 2633 3030 
+Q 2388 3097 2138 3097 
+Q 1578 3097 1268 2742 
+Q 959 2388 959 1747 
+Q 959 1106 1268 751 
+Q 1578 397 2138 397 
+Q 2388 397 2633 464 
+Q 2878 531 3122 666 
+L 3122 134 
+Q 2881 22 2623 -34 
+Q 2366 -91 2075 -91 
+Q 1284 -91 818 406 
+Q 353 903 353 1747 
+Q 353 2603 823 3093 
+Q 1294 3584 2113 3584 
+Q 2378 3584 2631 3529 
+Q 2884 3475 3122 3366 
+z
+" transform="scale(0.015625)"/>
+       <path id="DejaVuSans-64" d="M 2906 2969 
+L 2906 4863 
+L 3481 4863 
+L 3481 0 
+L 2906 0 
+L 2906 525 
+Q 2725 213 2448 61 
+Q 2172 -91 1784 -91 
+Q 1150 -91 751 415 
+Q 353 922 353 1747 
+Q 353 2572 751 3078 
+Q 1150 3584 1784 3584 
+Q 2172 3584 2448 3432 
+Q 2725 3281 2906 2969 
+z
+M 947 1747 
+Q 947 1113 1208 752 
+Q 1469 391 1925 391 
+Q 2381 391 2643 752 
+Q 2906 1113 2906 1747 
+Q 2906 2381 2643 2742 
+Q 2381 3103 1925 3103 
+Q 1469 3103 1208 2742 
+Q 947 2381 947 1747 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#DejaVuSans-54"/>
+      <use xlink:href="#DejaVuSans-72" transform="translate(46.333984 0)"/>
+      <use xlink:href="#DejaVuSans-61" transform="translate(87.447266 0)"/>
+      <use xlink:href="#DejaVuSans-76" transform="translate(148.726562 0)"/>
+      <use xlink:href="#DejaVuSans-69" transform="translate(207.90625 0)"/>
+      <use xlink:href="#DejaVuSans-73" transform="translate(235.689453 0)"/>
+      <use xlink:href="#DejaVuSans-3a" transform="translate(287.789062 0)"/>
+      <use xlink:href="#DejaVuSans-20" transform="translate(321.480469 0)"/>
+      <use xlink:href="#DejaVuSans-61" transform="translate(353.267578 0)"/>
+      <use xlink:href="#DejaVuSans-72" transform="translate(414.546875 0)"/>
+      <use xlink:href="#DejaVuSans-69" transform="translate(455.660156 0)"/>
+      <use xlink:href="#DejaVuSans-74" transform="translate(483.443359 0)"/>
+      <use xlink:href="#DejaVuSans-68" transform="translate(522.652344 0)"/>
+      <use xlink:href="#DejaVuSans-6d" transform="translate(586.03125 0)"/>
+      <use xlink:href="#DejaVuSans-65" transform="translate(683.443359 0)"/>
+      <use xlink:href="#DejaVuSans-74" transform="translate(744.966797 0)"/>
+      <use xlink:href="#DejaVuSans-69" transform="translate(784.175781 0)"/>
+      <use xlink:href="#DejaVuSans-63" transform="translate(811.958984 0)"/>
+      <use xlink:href="#DejaVuSans-20" transform="translate(866.939453 0)"/>
+      <use xlink:href="#DejaVuSans-6d" transform="translate(898.726562 0)"/>
+      <use xlink:href="#DejaVuSans-69" transform="translate(996.138672 0)"/>
+      <use xlink:href="#DejaVuSans-64" transform="translate(1023.921875 0)"/>
+      <use xlink:href="#DejaVuSans-70" transform="translate(1087.398438 0)"/>
+      <use xlink:href="#DejaVuSans-6f" transform="translate(1150.875 0)"/>
+      <use xlink:href="#DejaVuSans-69" transform="translate(1212.056641 0)"/>
+      <use xlink:href="#DejaVuSans-6e" transform="translate(1239.839844 0)"/>
+      <use xlink:href="#DejaVuSans-74" transform="translate(1303.21875 0)"/>
+      <use xlink:href="#DejaVuSans-73" transform="translate(1342.427734 0)"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6d8e5fe628">
+   <rect x="40.603125" y="7.2" width="592.63" height="271.24"/>
+  </clipPath>
+ </defs>
+</svg>
+<figcaption>The blue curve has a constant multiplicative pattern; orange midpoint averages lie above the true exponential values between the whole-number inputs. The two agree at integer inputs.</figcaption></figure>
+<p>The graph becomes steeper because multiplying a larger amount by the same factor produces a larger numerical increase. For example, doubling 4 adds 4, while doubling 32 adds 32. A straight line would have a constant additive rate instead.</p>
+<h2 id="ready">6. Ready: arithmetic and geometric sequences (problems 1–11)</h2>
+<p>A <strong>sequence</strong> lists values in order. To classify it, compare consecutive terms. A constant <strong>difference</strong> makes an arithmetic (additive) sequence; a constant <strong>ratio</strong> makes a geometric (multiplicative) sequence.</p>
+<table><tr><th>Feature</th><th>Arithmetic sequence</th><th>Geometric sequence</th></tr>
+<tr><td>Same operation</td><td>Add a fixed number \(d\)</td><td>Multiply by a fixed factor \(r\)</td></tr>
+<tr><td>First term \(a\); term number \(n\)</td><td>\(a_n=a+(n-1)d\)</td><td>\(a_n=a\cdot r^{n-1}\)</td></tr>
+<tr><td>Example</td><td>5, 9, 13, 17, …</td><td>5, 10, 20, 40, …</td></tr>
+</table>
+<p>The \(n-1\) is important: the <strong>first</strong> term requires zero changes, the second term one change, and the third term two changes.</p>
+<div class="worked"><strong>Worked example 5 — Write an arithmetic rule</strong><p>The sequence 13, 8, 3, −2, … subtracts 5 each time, so \(a=13\), \(d=-5\).</p><p>\[a_n=13+(n-1)(-5)=18-5n.\]</p><p>Check: \(a_1=13\), \(a_4=-2\).</p></div>
+<div class="worked"><strong>Worked example 6 — Write a geometric rule, including a negative ratio</strong><p>The sequence 2, −6, 18, −54, … multiplies by −3 each time. Therefore \(a_n=2(-3)^{n-1}\). The signs alternate because the multiplier is negative. This is a discrete sequence rule; it does <em>not</em> describe the positive continuous growth curves of today’s main task.</p></div>
+<h3>Read an exponential graph accurately</h3>
+<p>For Ready problems 6–11, read \(f(2)\) by moving vertically from input 2 until reaching the curve, then horizontally to the output axis. For \(f(x)=4\), start at height 4 and move horizontally to the curve before reading x. These are different questions: <em>given x, find y</em> versus <em>given y, find x</em>.</p>
+<div class="worked"><strong>Worked example 7 — Read a graph and identify its equation</strong><p>Suppose the graph contains \((0,1),(2,2),(4,4),(6,8),(8,16)\). Doubling takes <em>two</em> units of x, so each one-unit increase uses the factor \(\sqrt2\). The graph’s rule is \(f(x)=2^{x/2}\), equivalently \(f(x)=(\sqrt2)^x\).</p><p>Thus \(f(2)=2\), \(f(6)=8\), and \(f(x)=4\) at \(x=4\). The graph in the packet is intended to represent this approximate pattern; check its axis marks carefully.</p></div>
+<h2 id="set">7. Set: growth tables with halves and thirds (problems 12–14)</h2>
+<p>The bacteria tables give the starting quantity and the multiplier for <em>one whole year</em>. The blanks include fractional years. Find the positive equal-interval factor first, and use it repeatedly across the row.</p>
+<div class="worked"><strong>Worked example 8 — Tripling every whole year</strong><p>Start with 2 bacteria units at year 0, and triple in a full year. A half-year factor \(r\) must satisfy \(r^2=3\), so \(r=\sqrt3\).</p><p>\[B(1/2)=2\sqrt3\approx3.464,\quad B(1)=2(\sqrt3)^2=6,\quad B(3/2)=6\sqrt3\approx10.392.\]</p><p>The year-2 value is \(6\cdot3=18\). Continue multiplying by \(\sqrt3\) for every additional half-year.</p></div>
+<div class="worked"><strong>Worked example 9 — Tripling with third-year entries</strong><p>If a full year multiplies by 3, the factor for each third of a year is \(s=\sqrt[3]{3}\approx1.44225\).</p><p>At \(t=2/3\), multiply twice from the initial value: \[B(2/3)=2s^2=2(\sqrt[3]{3})^2\approx4.160.\]</p><p>After three third-steps, \(B(1)=2s^3=6\).</p></div>
+<div class="worked"><strong>Worked example 10 — Quadrupling with half-year entries</strong><p>If the full-year multiplier is 4, then the half-year factor is the positive number whose square is 4: \(r=2\).</p><p>From an initial amount of 2, the first four half-year values are \(2,4,8,16,32\) at years \(0,1/2,1,3/2,2\). In this case every half-year entry is a whole number.</p></div>
+<div class="packet-clarification"><div class="packet-clarification-heading"><span class="packet-clarification-label">Packet clarification</span><strong>Section 3.1, Set, problems 12–14</strong></div><p>The title says “Evaluate the Expressions with Rational Exponents,” but the exercises actually present <em>growth tables</em>. The intended work is to determine a constant half-year or third-year multiplier and use it to fill the table. Exact radical forms and reasonable decimal approximations express the same model. The tables describe modeled quantities, so fractional numerical predictions need not be whole-number bacterial counts.</p></div>
+<h2 id="go">8. Go: simplify expressions with integer exponents (problems 15–20)</h2>
+<p>These homework items review laws for integer exponents. They do not require the general fractional-exponent rules that the next section develops. Exponent rules assume the stated base is nonzero wherever division is involved.</p>
+<table><tr><th>Situation</th><th>Rule</th><th>Reason / example</th></tr>
+<tr><td>Multiply same base</td><td>\(a^m a^n=a^{m+n}\)</td><td>\(3^2\cdot3^4=3^6\)</td></tr>
+<tr><td>Divide same base</td><td>\(a^m/a^n=a^{m-n}\)</td><td>\(5^7/5^2=5^5\)</td></tr>
+<tr><td>Exponent zero</td><td>\(a^0=1\) for \(a\ne0\)</td><td>\(11^0=1\)</td></tr>
+<tr><td>Negative integer exponent</td><td>\(a^{-n}=1/a^n\)</td><td>\(2^{-4}=1/2^4\)</td></tr>
+</table>
+<div class="worked"><strong>Worked Go problem A — Straightforward (original)</strong><p><strong>Problem:</strong> Simplify \(6^3\cdot6^4\) in exponential form.</p><p><strong>Step 1.</strong> The bases are both 6. Add the exponents when multiplying equal bases.</p><p>\[6^3\cdot6^4=6^{3+4}=\boxed{6^7}.\]</p><p><strong>Check:</strong> Three factors of 6 and four more factors of 6 give seven factors total. Do not multiply the exponents.</p></div>
+<div class="worked"><strong>Worked Go problem B — More challenging (original)</strong><p><strong>Problem:</strong> Simplify \(\dfrac{5^{-2}\cdot5^6}{5^3}\) in exponential form.</p><p><strong>Step 1.</strong> Combine powers across the numerator: \(5^{-2}\cdot5^6=5^4\).</p><p><strong>Step 2.</strong> Divide powers by subtracting the denominator exponent: \[\frac{5^4}{5^3}=5^{4-3}=\boxed{5^1}.\]</p><p><strong>Common error:</strong> A negative exponent does not make the value negative; \(5^{-2}=1/25\).</p></div>
+<div class="worked"><strong>Worked Go problem C — Zero and negative powers (original)</strong><p><strong>Problem:</strong> Simplify \(\dfrac{7^0\cdot7^{-3}}{7^{-5}}\) in exponential form.</p><p>\[\frac{7^{0+(-3)}}{7^{-5}}=7^{-3-(-5)}=\boxed{7^2}.\]</p><p>Subtracting a negative exponent means adding. Notice also that \(7^0=1\).</p></div>
+<div class="caution"><strong>Watch the difference.</strong> \(2^{-5}\) is a positive small number, \(1/32\), not \(-32\). Similarly, exponent 0 gives 1 for a nonzero base, not 0.</div>
+<h2 id="resources">9. Additional learning resources</h2>
+<p>These are optional supports for this specific daily lesson. All links require internet access.</p>
+<table><tr><th>Resource and direct link</th><th>Best use for Section 3.1</th><th>Scope / What to skip</th></tr>
+<tr><td><a href="https://tutorial.math.lamar.edu/extras/algebratrigreview/ExponentialFcns.aspx">Paul’s Online Math Notes — Basic Exponential Functions</a></td><td>Written discussion of exponential values, tables and graph behavior; supports the main task and Ready graph reading.</td><td><strong>Some extra material.</strong> Concentrate on basic exponential examples. Skip material about \(e\) and calculus.</td></tr>
+<tr><td><a href="https://tutorial.math.lamar.edu/problems/alg/expfunctions.aspx">Paul’s Online Math Notes — Exponential Functions Practice</a></td><td>Extra function-evaluation and graph practice with available solutions.</td><td><strong>Some extra material.</strong> Use evaluation questions, particularly fractional inputs; skip transformed curves and natural-base examples.</td></tr>
+<tr><td><a href="https://openstax.org/books/college-algebra-2e/pages/1-3-radicals-and-rational-exponents">OpenStax — 1.3 Radicals and Rational Exponents</a></td><td>Optional reference on square/cube roots if half- and third-step multipliers are unfamiliar.</td><td><strong>Significantly broader.</strong> Use only the opening explanations of square and cube roots; leave general fractional exponent manipulations and radical simplification for later sections.</td></tr>
+</table>
+<h2 id="teacher">Teacher / parent review: serious packet issues</h2>
+<div class="teacher"><p><strong>Section 3.1, Set, problems 12–14:</strong> The heading “Evaluate the Expressions with Rational Exponents” does not match the actual table-completion questions. The instruction describes growth but does not explain whether the resulting bacteria entries should be reported exactly or approximately. <strong>Suggested revision:</strong> “For each table, find the constant growth factor for each indicated fractional year. Fill the entries using exact expressions or approximations rounded to three decimal places.”</p><p><strong>Section 3.1, Ready, problems 6–11:</strong> Reading exact values from the printed graph requires interpreting a lightly labeled graph; students may give slightly different estimates. <strong>Suggested revision:</strong> Clearly label the unit of each horizontal grid step and indicate that values read from the graph are approximate unless exact coordinate points are supplied.</p><p>No further serious mathematical errors were identified in the reviewed section.</p></div>
+<h2 id="coverage">Coverage of the original Section 3.1 packet</h2>
+<table><tr><th>Packet component</th><th>Requested skill</th><th>Where taught</th></tr>
+<tr><td>Main task 1–2</td><td>Whole-number doubling table and graph</td><td>§1, §5</td></tr>
+<tr><td>Main task 3–4</td><td>Evaluate Travis’s midpoint approach; contrast linear and exponential patterns</td><td>§2, §5</td></tr>
+<tr><td>Main task 5, 7</td><td>Geometric half-step multiplier and interpolated values</td><td>§3</td></tr>
+<tr><td>Main task 6, 8–9</td><td>Third-step multiplier and estimating \(f(5/3)\)</td><td>§4</td></tr>
+<tr><td>Ready 1–5</td><td>Classify arithmetic/geometric sequences and write explicit rules</td><td>§6</td></tr>
+<tr><td>Ready 6–11</td><td>Read function inputs/outputs from graph and find explicit exponential rule</td><td>§6</td></tr>
+<tr><td>Set 12–14</td><td>Tripling/quadrupling growth tables at fractional years</td><td>§7</td></tr>
+<tr><td>Go 15–20</td><td>Product, quotient, zero, and negative integer exponent rules</td><td>§8 + original worked Go problems</td></tr>
+</table>
+<hr><p class="smallnote">Source curriculum: Mathematics Vision Project, <em>Secondary Math II, Module 3, Section 3.1: The In-Betweeners</em> and its Ready, Set, Go homework (2017), distributed under CC BY 4.0. This supplement is independently authored.</p>
+<button class="print" onclick="window.print()">Print lesson</button></main></body></html>
