@@ -23,8 +23,8 @@ Put the descriptive name in the page `<title>`, which is what appears in browser
 
 ## Adding a new lesson
 
-1. Save its HTML into the correct module directory with its standard filename.
-2. Apply the standard header from `authoring/lesson-template.txt`: title, breadcrumbs (Home → Secondary Math [course] → Module [number] → Section [number]), and the MVP disclaimer subheader.
+1. Save its HTML into the correct module directory (any filename containing `Section_M_S`, e.g. `Section_4_3_Whatever.html`).
+2. Run `python3 authoring/standardize_lessons.py` from the project root. It renames the file to `section-M-S.html` and applies the standard title, breadcrumbs (Home → Secondary Math [course] → Module [number] → Section [number]), and MVP disclaimer subheader. To do this by hand instead, use `authoring/lesson-template.txt`.
 3. Add a tile for it on the module's `index.html`, and update the "available" counts on the course index and home page.
 4. If the module is new, create its `index.html` (copy an existing module index) and add it to the course index and the home page's "Available now" list.
 5. Publish:
