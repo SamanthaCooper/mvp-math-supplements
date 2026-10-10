@@ -115,6 +115,27 @@ Place graphs near the explanations they illustrate.
 
 **Every visualization should serve an instructional purpose.** Avoid decorative or redundant graphics.
 
+**Visual simplicity and curriculum progression:** Use the simplest visual that teaches the day's concept while preserving the curriculum's intended progression. Show only the geometric elements, labels, auxiliary lines, and construction steps needed for the current lesson. Do not add advanced constructions, notation, proof markings, or later-section concepts merely because they make a diagram more comprehensive or elegant. Simplicity never excuses inaccurate geometry: every relationship actually depicted or asserted must remain mathematically correct.
+
+### Mandatory mathematically constrained geometry diagrams
+
+**For instructional geometry, never rely on approximate, hand-positioned drawing coordinates to establish a mathematical claim.** Construct each diagram from mathematically defined relationships and verify those relationships before delivery. An illustration that merely *looks* perpendicular, congruent, tangent, parallel, symmetric, or equilateral is not sufficient.
+
+Follow this workflow for every geometric diagram, including diagrams recreated or adapted from a curriculum packet:
+
+1. **Choose the simplest instructionally sufficient figure.** Identify what students must understand *today* and omit unnecessary visual complexity or relationships belonging to later sections. Preserve the curriculum's intended order of ideas.
+2. **Identify the mathematical constraints.** Before drawing, list the given and claimed geometric relationships that the image must accurately represent: incidences, intersection points, collinearity, lengths, equal radii, midpoints, angle measures, bisectors, parallelism, perpendicularity, congruence, and so on. Distinguish explicit givens from relationships that only appear plausible in the packet's picture. Never silently treat a visual impression as a given.
+3. **Construct coordinates from those constraints.** Choose convenient exact coordinates and derive the remaining points through valid geometric constructions or formulas. For example, for an equilateral triangle with side length \(s\), use \(A=(0,0)\), \(B=(s,0)\), and \(C=(s/2,\sqrt{3}s/2)\). For intersecting circles, calculate their intersections from the circle equations, rather than moving dots until they look aligned. Use exact or symbolic expressions where practical and only round at final rendering.
+4. **Verify the claimed geometry computationally.** Use a suitable tool such as Python with SymPy (or equally reliable calculations) to test each relevant relationship: equality of distances or radii; zero dot products for perpendicularity; zero 2D cross products for parallelism/collinearity; midpoint coordinate averages; point-on-circle distance equations; equal angle measures for angle bisectors; valid intersections; and triangle congruence conditions. For numerical checks, use an explicit tolerance suited to the drawing scale. A failed check means **fix the construction**, not the assertion or the test.
+5. **Generate SVG or another scalable vector format directly from verified coordinates.** Preserve the mathematical aspect ratio: use equal scaling on both axes, so a true perpendicular intersection displays as a right angle and a circle remains circular. Calculate all auxiliary rays, arcs, congruence ticks, arrowheads, right-angle squares, dashed construction circles, and highlighted segments from the same geometric data. Make labels and markers consistent with the verified relationships.
+6. **Render and visually inspect *every* diagram.** Export or rasterize each generated graphic and examine the result, not just its code. Check for clipped vertices, overlapping labels, misplaced angle arcs, misleading tick marks, wrong endpoint labels, excessive line extension, invisible intersections, unclear construction order, and legibility at normal HTML and print sizes. Adjust *label placement and styling* without altering the proven geometry; regenerate and reinspect as necessary.
+7. **Audit diagrams against the lesson narrative and packet.** Verify that every stated or implied geometric fact in the surrounding explanation is reflected accurately in the drawing and that diagram labels match the prose. If the packet itself contains an inconsistent, underspecified, or impossible construction, do not force a false illustration: clarify the issue in a separately labeled packet clarification and teacher's review as appropriate.
+8. **Validate the final embedded version.** Inspect the SVG as it appears in the produced HTML, accounting for resizing, `viewBox`, responsive CSS, and printing. Checks performed on an intermediate image do not replace checking the final embedded graphic. If real-browser inspection is unavailable, rasterize and inspect all generated diagrams separately, run geometric and structural validations, and clearly disclose that the completed HTML was not browser-verified.
+
+**Geometry diagram acceptance test:** Every meaningful length, angle, circle, incidence, alignment, construction marker, and labeled relationship must either be mathematically correct by construction or explicitly marked as schematic/not to scale. Do not label a figure as mathematically verified unless the required constraints were actually tested. Prefer rebuilding an inaccurate diagram over nudging individual points by eye.
+
+This requirement applies to **all** geometry diagrams in the main lesson, worked examples, Ready/Set/Go supplements, and packet clarifications. It complements the requirements for accurate function graphs and does not authorize introducing concepts from later sections.
+
 ## 5. Separate packet-specific clarifications from the main lesson
 
 **This is a particularly important requirement.**
@@ -368,6 +389,8 @@ Before delivering the document, review it carefully.
 - Verify every worked example.
 - Check all calculations and algebraic manipulations.
 - Verify plotted coordinates and graph shapes.
+- For each geometry diagram, record its defining constraints, construct its coordinates from those constraints, and validate the relevant relationships computationally before embedding it.
+- Render and inspect every geometry diagram for correct labels, markings, intersections, clipping, and aspect ratio; verify that the final embedded diagram agrees with the surrounding explanation.
 - Check vertices, intercepts, transformations, and other labeled features.
 - Ensure that mathematical terminology is used correctly.
 - Distinguish rigorous mathematical conclusions from assumptions or observations based on examples.

@@ -11,7 +11,7 @@ All links are **relative**, so the site works both at `username.github.io/mvp-ma
 - `math-2/module-02/index.html` — module index
 - `math-2/module-02/section-2-1.html` — Section 2.1 lesson
 - `assets/site.css` — shared styling for the navigation pages (lessons carry their own embedded styles)
-- `math_supplement_master_instructions_v4.md` — instructions used to author each lesson (in the repo, not linked from the site)
+- `math_supplement_master_instructions_v6.md` — instructions used to author each lesson (in the repo, not linked from the site)
 - `.nojekyll` — tells GitHub Pages to serve files as-is
 - `authoring/` — local-only working files (reference lesson, header template); excluded from the repo by `.gitignore`
 
