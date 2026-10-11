@@ -23,6 +23,8 @@ Use zero-padded two-digit **module directories** (`module-01`, `module-02`, etc.
 
 Put the descriptive name in the page `<title>`, which is what appears in browser tabs, bookmarks, search results, and printouts. Format: `Math II 2.1 — Transformers: Shifty y’s | MVP Supplement`.
 
+Supplementary resources that cover several sections use descriptive, lowercase, hyphenated filenames without version suffixes (for example, `discrete-continuous-clarification.html`). List them separately under **Supplementary resources** on the module index, link them from the relevant lessons, and provide a link back to those lessons. Do not count them as numbered lessons.
+
 ## Adding a new lesson
 
 1. Save its HTML into the correct module directory (any filename containing `Section_M_S`, e.g. `Section_4_3_Whatever.html`).
@@ -47,4 +49,4 @@ Lessons typeset equations with MathJax from a CDN, so an internet connection is 
 
 ## Human review status
 
-Math II lessons awaiting thorough human review display a pale amber **Human review pending** banner beneath the lesson header. It remains visible in print. After reviewing a section for mathematical accuracy, clarity, and alignment with its MVP packet, remove that lesson’s `<aside class="review-pending" ...>...</aside>` block. Keep the banner on every other pending lesson. Include the same banner when adding new Math II lessons; its shared styles are in `assets/packet-navigation.css`.
+Lessons and supplementary resources awaiting thorough human review display a pale amber **Human review pending** banner beneath the lesson header. It remains visible in print. After reviewing a section for mathematical accuracy, clarity, and alignment with its MVP packet, remove that lesson’s `<aside class="review-pending" ...>...</aside>` block. Keep the banner on every other pending lesson. Include the same banner when adding new lessons or supplementary resources; its shared styles are in `assets/packet-navigation.css`.

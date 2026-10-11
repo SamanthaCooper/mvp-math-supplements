@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Math I Module 2 — Discrete Inputs, Jumping Counts, and Continuous Functions | MVP Supplement</title>
+<style>
+:root{--ink:#172338;--muted:#526179;--accent:#145a80;--border:#dce5eb;--light:#eef5fa;--warm:#faf4e7;--student:#edf8f3}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{background:#f6f8fa;color:var(--ink);font:17px/1.64 system-ui,-apple-system,"Segoe UI",sans-serif;margin:0}main{background:#fff;max-width:930px;padding:36px 48px 72px;margin:0 auto;box-shadow:0 5px 35px #12233b12}h1,h2,h3{line-height:1.23}h1{font-size:2.2rem;margin:9px 0 8px}h2{font-size:1.53rem;margin:40px 0 18px;border-bottom:2px solid var(--accent);padding-bottom:9px}h3{font-size:1.13rem;margin:25px 0 9px}p{margin:10px 0}ul,ol{padding-left:27px}li{margin:7px 0}a{color:var(--accent)}.eyebrow{font-size:.77rem;letter-spacing:.11em;font-weight:800;text-transform:uppercase;color:var(--accent)}.subtitle{font-size:1.02rem;color:var(--muted)}.disclaimer{font-size:.84rem;color:var(--muted)}.summary{border-left:5px solid var(--accent);background:var(--light);padding:16px 19px;margin:23px 0;border-radius:0 8px 8px 0}.term{background:var(--student);padding:12px 18px;border-left:4px solid #4f927b;border-radius:0 6px 6px 0;margin:13px 0}.term strong{font-size:.86rem;letter-spacing:.015em;color:#216b57}.term p{margin:5px 0 0}.contrast{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin:20px 0}.panel{border:1px solid var(--border);border-radius:8px;padding:13px 13px 14px;min-width:0}.panel h3{margin:2px 0 6px;font-size:1.06rem}.panel .formula{font-size:.95rem;color:#32526d}.model-graph{width:100%;height:auto;display:block}.axis-tick{font:12px system-ui,sans-serif;fill:#526179}.axis-title{font:600 13px system-ui,sans-serif;fill:#344962}.small{font-size:.86rem;color:var(--muted)}.warn{padding:14px 19px;background:var(--warm);border-left:4px solid #bd8832;border-radius:0 8px 8px 0;margin:23px 0}nav{background:#edf4f8;padding:12px 17px;border-radius:7px;margin:23px 0;display:flex;flex-wrap:wrap;gap:8px 22px;font-size:.93rem;font-weight:650}nav a{text-decoration:none}.formula{font-family:ui-serif,Georgia,serif;font-size:1.1rem;font-weight:600;white-space:nowrap}.worked{border:1px solid var(--border);border-left:4px solid #477a9d;padding:15px 19px;border-radius:6px;background:#fff;margin:18px 0}.worked h3{margin:0 0 5px}.evidence{margin:20px 0 25px;padding:17px 21px;border:1px solid var(--border);border-radius:7px}.evidence h3{margin:0 0 10px}.excerpt{background:#f5f8fc;padding:9px 14px 11px;border-left:3px solid #6182a1;margin:9px 0}.source{font-size:.82rem;font-weight:700;color:#3d5771}.excerpt blockquote{margin:4px 0 0;font-size:.96rem;line-height:1.52}.interpretation{margin:9px 0 0}table{border-collapse:collapse;width:100%;font-size:.94rem;margin:16px 0 25px}td,th{border:1px solid var(--border);padding:9px 11px;vertical-align:top;text-align:left}th{background:var(--light)}.teacher-only{margin-top:45px;border-top:5px solid #cedce8;padding-top:6px}.recap{background:var(--light);padding:15px 21px;border-radius:8px}.footer{border-top:1px solid var(--border);margin-top:45px;padding-top:13px;color:var(--muted);font-size:.85rem}code{font-size:.96em;white-space:normal;background:#f2f5f7;padding:1px 4px;border-radius:3px}
+@media(max-width:680px){main{padding:23px 18px 55px}h1{font-size:1.8rem}.contrast{grid-template-columns:1fr}.panel{padding:12px}body{font-size:16px}table{display:block;overflow-x:auto}}
+@media print{body{background:white;font-size:10.5pt}main{max-width:none;margin:0;padding:0;box-shadow:none}h1{font-size:22pt}.contrast{grid-template-columns:1fr 1fr}h2{break-after:avoid}h3{break-after:avoid}.panel,.evidence,.worked,.term,.warn,.excerpt{break-inside:avoid}nav{display:none}.teacher-only{break-before:auto}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+.purpose-notice{background:#fff1f0;border:1px solid #e7bab8;border-left:5px solid #a53d42;border-radius:0 8px 8px 0;padding:17px 20px;margin:24px 0 20px}.purpose-notice strong{color:#872c32;font-size:1.04rem}.purpose-notice p{margin:7px 0 0}.purpose-notice p:first-child{margin:0}@media print{.purpose-notice{break-inside:avoid}}
+</style><style>.site-breadcrumbs{display:flex;flex-wrap:wrap;gap:9px;align-items:center;font-size:.88rem;color:#526179;margin:0 0 20px;padding:0;background:none;font-weight:400}.site-breadcrumbs a,.site-return a{color:#145a80}.site-return{margin:0 0 16px;font-size:.9rem}.lesson-subtitle{font-size:.9rem}@media print{.site-breadcrumbs,.site-return{display:none}}</style><link rel="stylesheet" href="../../assets/packet-navigation.css"></head><body><main><nav aria-label="Breadcrumb" class="site-breadcrumbs"><a href="../../index.html">Home</a> <span aria-hidden="true">›</span> <a href="../index.html">Secondary Math I</a> <span aria-hidden="true">›</span> <a href="index.html">Module 2</a> <span aria-hidden="true">›</span> <span aria-current="page">Discrete and continuous clarification</span></nav><div class="site-return"><a href="index.html">← All Module 2 lessons and resources</a></div>
+<div class="eyebrow">Secondary Math I · Module 2 · Conceptual clarification</div>
+<h1>Discrete inputs, jumping counts, and continuous functions</h1>
+<p class="subtitle">A student-friendly explanation and a source-based review of MVP Sections 2.1–2.2</p>
+<p class="disclaimer">Independent companion to Mathematics Vision Project (MVP) materials; not affiliated with or endorsed by MVP.</p>
+<aside class="review-pending" aria-label="Human review pending"><strong>Human review pending</strong><p>This supplementary resource has undergone only a cursory review. A thorough human review for mathematical accuracy, clarity, and alignment with the MVP packet is still pending.</p></aside>
+<p class="related-lesson">Companion to MVP Sections 2.1–2.2. <a href="section-2-1.html">Read the Section 2.1 lesson: Connecting the Dots: Piggies and Pools</a>.</p>
+<aside class="purpose-notice" aria-label="Purpose of this document">
+<p><strong>Why this document exists</strong></p>
+<p>The MVP student packet and teacher’s manual for Module 2 do not always distinguish clearly between <em>which inputs a function allows</em>, <em>which outputs it can produce</em>, and <em>whether its values change in jumps</em>. As a result, some explanations use inconsistent criteria, and some exercises cannot be classified uniquely without additional assumptions.</p>
+<p>This independent companion explains the distinctions in ninth-grade language, shows how different models of the same situation can both be valid, and examines specific passages from the original materials that need clarification or correction.</p>
+</aside>
+<div class="summary"><strong>Central distinction.</strong> A function's <strong>domain</strong> tells us which inputs are allowed. Its <strong>outputs</strong> tell us what the function can produce. Whether a function is <strong>continuous</strong> concerns how its outputs behave as its input changes. These are different questions.</div>
+<nav><a href="#student">Student explanation</a><a href="#same-story">One story, two models</a><a href="#interpret">Why the distinction matters</a><a href="#teacher">Evidence from MVP</a><a href="#corrections">Proposed corrections</a></nav>
+<section id="student">
+<h2>1. Three different questions about a function</h2>
+<p>A function assigns <strong>one output</strong> to each allowed input. Before graphing a real-world relationship, decide what each input and output means.</p>
+<aside class="term"><strong>Clear definition · Domain</strong><p>The <strong>domain</strong> is the set of input values for which a function is defined. If the input is “day number” and the model records only days 0, 1, 2, …, its domain consists of whole numbers. If the input is “time since the start,” measured at any instant, its domain can contain all real numbers in a time interval.</p></aside><aside class="term"><strong>Clear definition · Discrete-domain function</strong><p>A <strong>discrete-domain function</strong> has separated, individual input values, such as 0, 1, 2, 3, … . We normally draw it as isolated points, not as a connected line. A sequence is a familiar example.</p></aside><aside class="term"><strong>Clear definition · Continuous function</strong><p>On a time interval, a <strong>continuous function</strong> changes without a sudden jump or break. Its graph can be traced without lifting the pencil. This is different from merely allowing a time input at every instant.</p></aside><aside class="term"><strong>Clear definition · Discontinuous function</strong><p>A <strong>discontinuous function</strong> has a jump, hole, or other break at some point in its domain. A step function that counts completed events over time is a common example: time flows continuously, but the count jumps.</p></aside><div class="warn"><strong>Don't confuse these:</strong> “the output must be a whole number,” “the input must be a whole number,” and “the graph has no jumps” describe <em>three different properties</em>. None automatically implies the others.</div>
+</section>
+<section id="same-story">
+<h2>2. The same piggy bank can have two valid models</h2>
+<p>MVP 2.1, main task Problem 1, describes five pennies initially and three more added once each day. <strong>For these graphs, assume each deposit happens at the end of a completed day</strong> (times 1, 2, 3, …). The graphs describe <strong>the same deposits</strong> but answer different questions.</p>
+<div class="contrast">
+<div class="panel"><h3>A. Count only at the end of each day</h3><p class="formula">f(n) = 5 + 3n, n = 0, 1, 2, …</p>
+<svg class="model-graph" viewBox="0 0 510 350" role="img" aria-label="Discrete input domain with isolated points" xmlns="http://www.w3.org/2000/svg">
+<line x1="83.840" y1="15" x2="83.840" y2="303" stroke="#e4ebf0" stroke-width="1"/>
+<text x="83.840" y="321" text-anchor="middle" class="axis-tick">0</text>
+<line x1="173.440" y1="15" x2="173.440" y2="303" stroke="#e4ebf0" stroke-width="1"/>
+<text x="173.440" y="321" text-anchor="middle" class="axis-tick">1</text>
+<line x1="263.040" y1="15" x2="263.040" y2="303" stroke="#e4ebf0" stroke-width="1"/>
+<text x="263.040" y="321" text-anchor="middle" class="axis-tick">2</text>
+<line x1="352.640" y1="15" x2="352.640" y2="303" stroke="#e4ebf0" stroke-width="1"/>
+<text x="352.640" y="321" text-anchor="middle" class="axis-tick">3</text>
+<line x1="442.240" y1="15" x2="442.240" y2="303" stroke="#e4ebf0" stroke-width="1"/>
+<text x="442.240" y="321" text-anchor="middle" class="axis-tick">4</text>
+<line x1="48" y1="252.176" x2="496" y2="252.176" stroke="#e4ebf0" stroke-width="1"/>
+<text x="37" y="256.176" text-anchor="end" class="axis-tick">5</text>
+<line x1="48" y1="201.353" x2="496" y2="201.353" stroke="#e4ebf0" stroke-width="1"/>
+<text x="37" y="205.353" text-anchor="end" class="axis-tick">8</text>
+<line x1="48" y1="150.529" x2="496" y2="150.529" stroke="#e4ebf0" stroke-width="1"/>
+<text x="37" y="154.529" text-anchor="end" class="axis-tick">11</text>
+<line x1="48" y1="99.706" x2="496" y2="99.706" stroke="#e4ebf0" stroke-width="1"/>
+<text x="37" y="103.706" text-anchor="end" class="axis-tick">14</text>
+<line x1="48" y1="48.882" x2="496" y2="48.882" stroke="#e4ebf0" stroke-width="1"/>
+<text x="37" y="52.882" text-anchor="end" class="axis-tick">17</text>
+<line x1="48" y1="15" x2="48" y2="303" stroke="#718399" stroke-width="1.5"/>
+<line x1="48" y1="303" x2="496" y2="303" stroke="#718399" stroke-width="1.5"/>
+<text x="272.0" y="344" text-anchor="middle" class="axis-title">Days since start</text>
+<text x="48" y="11" text-anchor="start" class="axis-title">Pennies</text>
+<circle cx="83.840" cy="252.176" r="5.5" fill="#16648c"/>
+<circle cx="173.440" cy="201.353" r="5.5" fill="#16648c"/>
+<circle cx="263.040" cy="150.529" r="5.5" fill="#16648c"/>
+<circle cx="352.640" cy="99.706" r="5.5" fill="#16648c"/>
+<circle cx="442.240" cy="48.882" r="5.5" fill="#16648c"/>
+</svg><p class="small">This model answers: “How many pennies after <em>n completed days</em>?” Only those day-number inputs belong to the domain.</p></div>
+<div class="panel"><h3>B. Count at every moment</h3><p class="formula">g(t) = pennies present at time t</p>
+<svg class="model-graph" viewBox="0 0 510 350" role="img" aria-label="Continuous time input with jump changes in counted pennies" xmlns="http://www.w3.org/2000/svg">
+<line x1="83.840" y1="15" x2="83.840" y2="303" stroke="#e4ebf0" stroke-width="1"/>
+<text x="83.840" y="321" text-anchor="middle" class="axis-tick">0</text>
+<line x1="173.440" y1="15" x2="173.440" y2="303" stroke="#e4ebf0" stroke-width="1"/>
+<text x="173.440" y="321" text-anchor="middle" class="axis-tick">1</text>
+<line x1="263.040" y1="15" x2="263.040" y2="303" stroke="#e4ebf0" stroke-width="1"/>
+<text x="263.040" y="321" text-anchor="middle" class="axis-tick">2</text>
+<line x1="352.640" y1="15" x2="352.640" y2="303" stroke="#e4ebf0" stroke-width="1"/>
+<text x="352.640" y="321" text-anchor="middle" class="axis-tick">3</text>
+<line x1="442.240" y1="15" x2="442.240" y2="303" stroke="#e4ebf0" stroke-width="1"/>
+<text x="442.240" y="321" text-anchor="middle" class="axis-tick">4</text>
+<line x1="48" y1="252.176" x2="496" y2="252.176" stroke="#e4ebf0" stroke-width="1"/>
+<text x="37" y="256.176" text-anchor="end" class="axis-tick">5</text>
+<line x1="48" y1="201.353" x2="496" y2="201.353" stroke="#e4ebf0" stroke-width="1"/>
+<text x="37" y="205.353" text-anchor="end" class="axis-tick">8</text>
+<line x1="48" y1="150.529" x2="496" y2="150.529" stroke="#e4ebf0" stroke-width="1"/>
+<text x="37" y="154.529" text-anchor="end" class="axis-tick">11</text>
+<line x1="48" y1="99.706" x2="496" y2="99.706" stroke="#e4ebf0" stroke-width="1"/>
+<text x="37" y="103.706" text-anchor="end" class="axis-tick">14</text>
+<line x1="48" y1="48.882" x2="496" y2="48.882" stroke="#e4ebf0" stroke-width="1"/>
+<text x="37" y="52.882" text-anchor="end" class="axis-tick">17</text>
+<line x1="48" y1="15" x2="48" y2="303" stroke="#718399" stroke-width="1.5"/>
+<line x1="48" y1="303" x2="496" y2="303" stroke="#718399" stroke-width="1.5"/>
+<text x="272.0" y="344" text-anchor="middle" class="axis-title">Days since start</text>
+<text x="48" y="11" text-anchor="start" class="axis-title">Pennies</text>
+<path d="M 83.840 252.176 L 173.440 252.176" fill="none" stroke="#b56d20" stroke-width="4" stroke-linecap="round"/>
+<circle cx="83.840" cy="252.176" r="5.6" fill="#b56d20"/>
+<circle cx="173.440" cy="252.176" r="5.0" fill="white" stroke="#b56d20" stroke-width="2.4"/>
+<path d="M 173.440 201.353 L 263.040 201.353" fill="none" stroke="#b56d20" stroke-width="4" stroke-linecap="round"/>
+<circle cx="173.440" cy="201.353" r="5.6" fill="#b56d20"/>
+<circle cx="263.040" cy="201.353" r="5.0" fill="white" stroke="#b56d20" stroke-width="2.4"/>
+<path d="M 263.040 150.529 L 352.640 150.529" fill="none" stroke="#b56d20" stroke-width="4" stroke-linecap="round"/>
+<circle cx="263.040" cy="150.529" r="5.6" fill="#b56d20"/>
+<circle cx="352.640" cy="150.529" r="5.0" fill="white" stroke="#b56d20" stroke-width="2.4"/>
+<path d="M 352.640 99.706 L 442.240 99.706" fill="none" stroke="#b56d20" stroke-width="4" stroke-linecap="round"/>
+<circle cx="352.640" cy="99.706" r="5.6" fill="#b56d20"/>
+<circle cx="442.240" cy="99.706" r="5.0" fill="white" stroke="#b56d20" stroke-width="2.4"/>
+<path d="M 442.240 48.882 L 487.040 48.882" fill="none" stroke="#b56d20" stroke-width="4" stroke-linecap="round"/>
+<circle cx="442.240" cy="48.882" r="5.6" fill="#b56d20"/>
+</svg><p class="small">This model answers: “How many pennies are there <em>right now</em>?” Every moment is an allowed input; at each deposit, the number jumps by three.</p></div>
+</div>
+<div class="worked"><h3>Check the actual quantities</h3><p>At <strong>t = 0.5 days</strong>, there are still 5 pennies. At <strong>t = 1.5 days</strong>, there are 8 pennies. At <strong>t = 2.5 days</strong>, there are 11 pennies. The second model accepts fractional-day <em>inputs</em>, even though its <em>outputs</em> are always whole numbers.</p><p><strong>Important:</strong> the blue points in A are not “wrong” or incomplete; they represent a deliberate choice to record only completed days. The orange steps in B are also valid under the stated deposit schedule.</p></div>
+</section>
+<section id="interpret">
+<h2>3. Why this distinction matters in the packet</h2>
+<table><thead><tr><th>Situation</th><th>What a student must decide</th><th>Possible valid models</th></tr></thead><tbody>
+<tr><td>Pennies added daily, MVP 2.1 #1</td><td>Do inputs mean day numbers, or elapsed time at any moment?</td><td>Discrete-day sequence, or continuous-time step function.</td></tr>
+<tr><td>Bank earns interest at the end of each month, MVP 2.1 #3</td><td>Are we recording balances after each month, or tracking the balance at every instant?</td><td>The packet’s natural answer is a discrete monthly sequence. A real-time step model is a possible alternative question, not a required correction.</td></tr>
+<tr><td>Pool fills, MVP 2.1 #2</td><td>Are we modeling water volume continuously, or just measuring it once per minute?</td><td>Continuous-volume function, or a discrete table of samples from it.</td></tr>
+<tr><td>Books shelved, MVP 2.2 #3</td><td>Are we counting books at each minute, or at every moment?</td><td>Whole-minute sequence, or an integer-valued step function of continuous time.</td></tr>
+<tr><td>Electronic books downloaded, MVP 2.2 #2</td><td>Are we measuring completed books, or amount of data downloaded?</td><td>Completed books jump by whole numbers; data transferred can change continuously.</td></tr>
+</tbody></table>
+<p><strong>Student rule:</strong> First state <em>what the input measures</em> and <em>which inputs the model allows</em>. Then decide how to draw the graph. Don't decide solely from whether the output is a count.</p>
+</section>
+<section class="teacher-only" id="teacher"><div class="eyebrow">Teacher / parent analysis · Source excerpts and critique</div>
+<h2>4. Where MVP’s terminology and models need clearer distinctions</h2>
+<p>The main concern is not that MVP chooses discrete day numbers or smooth approximations: those are often reasonable choices for ninth-grade modeling. The concern is that the notes sometimes use <em>discrete</em> to describe separated inputs and elsewhere to describe a quantity changing all at once, without clearly distinguishing these properties. Some tasks also leave the input and output variables unspecified while asking for a single classification.</p>
+<article class="evidence"><h3>A. Piggy bank: a valid discrete model, but an overbroad explanation</h3><div class="excerpt"><div class="source">Student packet · §2.1, printed p. 1, Problem 1</div><blockquote>“the number of pennies in the piggy bank on day n”</blockquote></div><div class="excerpt"><div class="source">Teacher notes · §2.1, PDF p. 8</div><blockquote>“Since money is only put in once a day, then it doesn’t make sense to have inputs like ½ or 3.5. That makes the domain the set of whole numbers.”</blockquote></div><p class="interpretation"><strong>Analysis:</strong> Because the student problem explicitly asks for the count on “day n,” using whole-number day indices is appropriate; the resulting discrete sequence is not an error. The teacher’s reasoning is less precise when read as a general claim that a count cannot have fractional-time inputs merely because deposits occur once a day. A different question—how many pennies are present <em>at any instant</em>—allows a real-time input and yields a step function. Students need to learn that this is a change in the <em>model and its input</em>, not a contradiction in the mathematics.</p></article><article class="evidence"><h3>B. Shelving books: distinguish continuous time from a continuous function</h3><div class="excerpt"><div class="source">Student packet · §2.2, printed p. 7, Problems 3–5</div><blockquote>“Would it make sense in any of these situations for there to be a time when 32.5 books had been shipped, downloaded into the computer or placed on the shelf?”</blockquote></div><div class="excerpt"><div class="source">Teacher notes · §2.2, PDF p. 19</div><blockquote>“the domain in this case is continuous, but the outputs are not because the librarians can’t shelve half of a book.”</blockquote></div><div class="excerpt"><div class="source">Teacher notes · §2.2, PDF p. 19</div><blockquote>“This is the type of situation that is often modeled as a continuous function for the sake of simplicity.”</blockquote></div><p class="interpretation"><strong>Analysis:</strong> The manual correctly recognizes that elapsed time can be measured at any instant even though a count of completed books must be an integer. An <em>exact</em> running count rises in jumps and is not a continuous function on the whole time interval. By contrast, a smooth line of the form “books shelved ≈ 3 × hours elapsed” is a reasonable <em>approximation</em> for classroom modeling. The teacher notes even acknowledge using a continuous model “for the sake of simplicity.” The instructional improvement is to say explicitly when the graph is an approximation and not to equate a continuous <em>domain</em> with a mathematically continuous <em>function</em>.</p></article><article class="evidence"><h3>C. Downloads: specify whether the output counts completed books or downloaded data</h3><div class="excerpt"><div class="source">Student packet · §2.2, printed p. 6, Problem 2</div><blockquote>“about 13 e-books can be downloaded onto the computer each hour”</blockquote></div><div class="excerpt"><div class="source">Teacher notes · §2.2, PDF p. 19</div><blockquote>“the graph should be continuous because parts of the books are being downloaded as the time continues”</blockquote></div><p class="interpretation"><strong>Analysis:</strong> Treating downloads as a gradual process is a reasonable simplification if the quantity being modeled is the amount of data transferred or the equivalent number of e-books worth of data. However, “how many e-books have been downloaded” can also mean <em>completed files</em>, an integer-valued count that changes in steps. The difficulty is not choosing the smooth model; it is failing to specify which quantity that model represents.</p></article><article class="evidence"><h3>D. Teacher guidance switches between input-domain and change-behavior criteria</h3><div class="excerpt"><div class="source">Teacher notes · §2.2, PDF p. 18</div><blockquote>“the change is happening gradually over the interval (continuous) or all at once (discrete)”</blockquote></div><div class="excerpt"><div class="source">Teacher notes · §2.2, PDF p. 19</div><blockquote>“Consider the domains for the two functions #1 and #2. How are the domains of these two functions different?”</blockquote></div><p class="interpretation"><strong>Analysis:</strong> These are two distinct questions: which inputs belong to the <em>domain</em>, and whether the outputs change gradually or jump. For instance, an exact running count can accept every instant of time as an input yet jump whenever an event occurs. Using “discrete/continuous” for both distinctions without explicitly separating them can lead students to apply different classification rules to similar examples. This is the strongest conceptual problem identified in the teacher guidance.</p></article><article class="evidence"><h3>E. Some homework classifications lack an identified input variable</h3><div class="excerpt"><div class="source">Student packet · §2.1, Ready/Set/Go, printed p. 4, Set introduction</div><blockquote>“Identify whether the following statements represent a discrete or a continuous relationship.”</blockquote></div><div class="excerpt"><div class="source">Student packet · §2.1, Ready/Set/Go, printed p. 4, Problem 13</div><blockquote>“The average person laughs 15 times per day.”</blockquote></div><p class="interpretation"><strong>Analysis:</strong> This is a reasonable prompt for informal discussion: students can infer a likely count-based interpretation. But as a question about <em>functions</em>, it does not identify the input variable or domain. A sequence of end-of-day counts and a real-time running total are both legitimate models. If the exercise expects one answer, it should state the intended model, or allow students to explain their assumptions.</p></article><h2 id="corrections">5. Recommended correction to the curriculum</h2>
+<ol><li><strong>State the variables and domain.</strong> When different models are plausible, identify the input and its allowed values rather than treating one sampling choice as mandatory.</li>
+<li><strong>Use distinct terms.</strong> Say “discrete-domain model” for isolated input values, “continuous-time model” for an interval of time inputs, and “continuous function” only when the values also change without jumps.</li>
+<li><strong>Identify the output.</strong> “Completed books,” “downloaded bytes,” and “fraction of a file transferred” are different measurable quantities.</li>
+<li><strong>Label approximations.</strong> If a smooth line stands in for stepwise inventory or book counts, explicitly state that it is an approximation.</li>
+<li><strong>Accept justified alternatives when the prompt permits them.</strong> Whole-number snapshots and exact real-time counts can answer different questions about the same situation; when the prompt explicitly asks for “day n,” a sequence is a natural default.</li>
+</ol>
+<div class="recap"><strong>Suggested revised student prompt for §2.2, Problem 3:</strong> “Let <em>n</em> be the number of completed minutes. Model how many books have been shelved after <em>n</em> minutes and graph the allowed input values. Then suppose <em>t</em> is time measured continuously. Sketch how the actual count of completed books might change over time. Explain how the two models differ.”</div>
+<h2>6. Assessment and limits of the criticism</h2>
+<p class="small"><strong>Mathematical nuance:</strong> The formal definition of continuity is made relative to the domain. A function with isolated domain points can be continuous at all its domain points; therefore “discrete-domain” and “discontinuous” are not strict logical opposites. The key classroom distinction here is between a function recorded only at separated inputs and a real-time function that jumps.</p>
+<p><strong>Supported conclusion:</strong> The materials contain a significant <em>instructional consistency problem</em>: they sometimes distinguish models by their domains and sometimes by how quantities change, without explicitly saying which property is being classified. The examples themselves are usually defensible once their inputs, outputs, and approximations are made explicit.</p>
+<p><strong>Important qualification:</strong> Choosing whole-number day indices for the piggy bank and monthly checkpoints for interest is reasonable. Smooth models of book handling can also be useful approximations. The criticism concerns the <em>lack of consistent definitions and labeled modeling assumptions</em>, not those ordinary choices or the authors’ knowledge.</p>
+<h2>Sources and page references</h2>
+<table><thead><tr><th>Source</th><th>Locations discussed</th></tr></thead><tbody>
+<tr><td><em>Secondary Math One, Module 2: Linear &amp; Exponential Functions</em> (student packet, © 2016 Mathematics Vision Project)</td><td>§2.1 printed pp. 1–4 (PDF pp. 3–6); §2.2 printed pp. 6–7 (PDF pp. 8–9).</td></tr>
+<tr><td><em>Secondary Math One, Module 2: Standard Teacher Notes</em> (© 2016 Mathematics Vision Project)</td><td>§2.1 notes, PDF pp. 6–9; §2.2 notes, PDF pp. 17–19. Teacher-note PDF page numbers are viewer pages, not student-packet printed pages.</td></tr>
+</tbody></table>
+<p class="small">Quotations are short excerpts from the supplied packet and teacher notes; unquoted explanations, example models, and mathematical analysis are independent commentary. MVP source materials are licensed under Creative Commons Attribution 4.0. This file is independently created and not endorsed by MVP.</p>
+<div class="footer">Independent mathematics clarification · Secondary Math I · Module 2 · Reviewed against supplied student and teacher PDFs</div>
+</section>
+</main></body></html>
