@@ -266,6 +266,18 @@ However, avoid unnecessary repetition. Each additional example should teach or r
 
 All problems should be original, not copies of exercises in the packet.
 
+### Avoid repeating packet tables and task data
+
+Do not reproduce a complete packet table, data set, or task description merely to make the supplement self-contained. Explain the mathematical idea with a short original worked example or the few packet values needed for a focused explanation, then refer students to the packet for the rest. Include a full table only when it supports a worked explanation that adds substantial instructional value. This is the same principle as avoiding redundant graphics.
+
+Remove leftover caveats that merely acknowledge hypothetical alternatives. Keep a qualification only when it helps students understand the intended mathematics or prevents a meaningful error; do not add one automatically to every simplified classroom example.
+
+### Use reasonable classroom interpretations; avoid excessive precision
+
+Accept ordinary classroom simplifications and the clearly intended reading of tables, sketches, and pattern exercises. Do not turn every unstated modeling assumption, missing continuation arrow, or theoretically nonunique sequence pattern into a warning or curriculum criticism. Teach the intended mathematics directly. A brief nearby qualification is enough when it helps—for example, using a table to describe the overall pattern between measurements or reading a curve as continuing beyond the plotting window.
+
+Reserve clarification boxes, especially light-red boxes, and teacher-review criticism for issues that materially confuse students, teach an incorrect method, or lead to a consequentially wrong conclusion. Preserve useful precision about units, input versus output, endpoint inclusion, starting indices, and one-step changes. Avoid repeated caveats that add little instructional value. If the section has no serious issues, say so briefly rather than manufacturing criticisms.
+
 ## 8. Include a concise teacher's review
 
 At the end of the document, include a separate section intended for teachers or parents.
