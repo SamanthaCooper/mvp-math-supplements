@@ -23,3 +23,6 @@ nav[aria-label="On this page"] .toc-list a{break-inside:avoid}
 section[aria-labelledby="in-class"] h3{line-height:1.25}
 section[aria-labelledby="in-class"] h4{font-size:1.07rem;line-height:1.25;margin:1.7em 0 .4em}
 .in-class-note{border-left:5px solid #145a80;background:#eff6fa;padding:16px 20px;margin:20px 0}
+
+.human-review-complete{margin:20px 0;padding:14px 20px;background:#edf8ee;border:1px solid #bfdcc4;border-left:4px solid #54875c;border-radius:6px;color:#285532;font-size:.9rem;line-height:1.5}
+@media print{.human-review-complete{break-inside:avoid;print-color-adjust:exact;-webkit-print-color-adjust:exact}}
