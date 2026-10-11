@@ -49,7 +49,7 @@ Identify the principal learning objectives and all supporting mathematical skill
 
 **Do not assume that the main activity adequately identifies everything students are expected to learn.** The homework may introduce or assess additional mathematical concepts that are not explicitly addressed in the main task.
 
-Make sure every mathematical topic addressed in Ready, Set, Go is covered somewhere in the supplemental instruction.
+Identify the worthwhile mathematical skills addressed in Ready, Set, Go and teach them at an appropriate depth. Apply the instructional judgment in Section 6; reviewing every exercise does not require teaching or solving every exercise separately.
 
 Distinguish between material that requires substantial new instruction and material that needs only a brief review.
 
@@ -206,30 +206,37 @@ Do not place a warning such as “first verify that the function is quadratic”
 
 The purpose is to help students understand the mathematics correctly, not to introduce unnecessary confusion.
 
-## 6. Cover Ready, Set, Go comprehensively
+### Light-red callouts for serious instructional problems
 
-Analyze all three homework components separately.
+Use the light-red boxes in **Secondary Math I, Module 2, Sections 2.1–2.2** as the visual and editorial reference. Reserve them for the really problematic cases: a false or misleading mathematical explanation, a conflation of distinct concepts, a missing assumption that materially changes the answer, or a question that cannot be answered uniquely as written. Serious instructional ambiguity can warrant a red box even when there is no simple factual error.
 
-For each:
+**Use these sparingly.** Ordinary awkward phrasing, unfamiliar notation, routine modeling assumptions, or a preference for a different teaching approach do not warrant a red warning. Use an ordinary packet-clarification box when a short neutral explanation is enough. Do not manufacture criticism or add a red box to every lesson for consistency.
 
-- Identify the mathematical skills being tested.
-- Determine whether those skills are already covered in the main lesson.
-- Add explicit instruction for any missing skills.
-- Include examples sufficient to demonstrate the required procedures.
+Each red callout should:
 
-Ready may review prerequisite concepts.
+1. Identify the exact section, task or Ready/Set/Go component, and problem numbers; include the printed page when available. Identify teacher notes explicitly when they are the source of the issue.
+2. Explain the substantive problem precisely and calmly, distinguishing an actual error from ambiguity, an unstated assumption, or an interpretation.
+3. State the correct mathematical distinction and give a practical way to proceed, where one can responsibly be offered. Acknowledge multiple valid models or answers when appropriate.
+4. Remain separate from the main teaching and neutral packet-reference strips. Place it near the affected instruction, without making criticism the lesson's organizing principle.
 
-Set may reinforce or extend the primary mathematical ideas.
+Label the box **“MVP clarification — Section …”** or **“Important mathematical clarification — …”** according to its scope; use stronger wording only when the evidence supports it. Retain readable text, a light-red background, a darker red left border, and print-visible styling, following the reference lessons' `.mvp-correction` and `.mvp-correction-title` styles. The label and explanation must communicate its purpose without relying on color alone.
 
-Go may introduce additional review material or skills that are only loosely related to the main task.
+An opening red notice is appropriate only when a serious recurring issue affects much of the section. Keep it concise, use focused local notes for the affected problems, and link a separate supplementary explanation if deeper discussion would overwhelm the daily lesson. The teacher's review may summarize the serious issue without repeating the full student-facing explanation.
 
-**Do not omit material simply because it appears tangential to the main lesson.**
+## 6. Review Ready, Set, Go and use instructional judgment
 
-At the same time, use appropriate judgment about depth. Familiar prerequisite material may need only a brief refresher, while genuinely new concepts deserve fuller treatment.
+Examine every problem in all three homework components to identify the mathematics students need. **Coverage means teaching relevant skills, not providing an answer key, treating every exercise equally, or reproducing every packet problem.**
 
-The student should be equipped to complete the entire Ready, Set, Go assignment after studying the supplement.
+- Teach genuinely new, worthwhile skills explicitly, including relevant skills that the main task does not introduce.
+- Group repetitive exercises by skill. A brief explanation and a representative worked example may support many problems; do not expand the lesson merely to match the number of exercises.
+- Give familiar prerequisite material a brief refresher when needed. An exercise's being routine, uninteresting, or tangential does not by itself justify omitting an important skill.
+- If a question is ambiguous, explain the ambiguity and any reasonable interpretation or necessary assumption. Do not invent a uniquely intended answer when the packet does not establish one. If the intended skill cannot be determined, say so.
+- If an exercise adds no worthwhile instructional topic, or cannot be interpreted responsibly from the available information, it may be omitted from detailed instruction. Identify its problem number or range and a brief reason in the coverage notes so the omission is visible to the human reviewer.
+- Distinguish skills taught, skills already supported elsewhere in the lesson, assumed prior knowledge, ambiguous exercises, and deliberate omissions. Do not claim complete coverage when exceptions remain.
 
-It is not necessary to provide solutions to every exercise in the original packet.
+Ready often reviews prerequisites; Set often reinforces or extends the main ideas; Go may review loosely related skills. Judge the instructional value and needed depth rather than assigning importance solely by the component's name.
+
+The goal is useful preparation for the day's meaningful mathematics. Provide enough examples to teach distinct procedures, without forcing lengthy treatment of repetitive or poorly specified homework.
 
 ## 7. Create additional, fully worked Go problems
 
@@ -491,10 +498,10 @@ For every lesson, build an internal **scope ledger** before drafting: (a) previo
 For each section, confirm that:
 - The first substantial instructional paragraph begins with an accessible concept, not a fully generalized rule that students have not learned to interpret.
 - Every new idea gets its own explanation and at least one worked example; supply a graph when it substantially improves understanding.
-- Today's main task and all its Ready/Set/Go topics are covered in this section, not deferred to a different section merely for narrative neatness.
+- Today's main-task objectives and worthwhile Ready/Set/Go skills are taught within this section; any ambiguous exercises or deliberate omissions are identified under Section 6. Do not defer needed skills merely for narrative neatness.
 - Concepts from later packet sections are not used to explain earlier lessons.
 - The lesson is substantial enough to **teach** its content, not simply summarize it. Do not sacrifice the explanation, distinct transformations, graphs, and worked examples to fit an arbitrary page count or to generate a large module in one pass.
-- A student can read this section directly after the previous day's lesson and complete today's exercises without reading ahead.
+- A student can read this section directly after the previous day's lesson and work on the supported exercises without reading ahead; limitations caused by ambiguous or deliberately omitted exercises are stated honestly.
 
 ### Instructional coherence
 
@@ -549,7 +556,7 @@ The table should identify:
 - The skills addressed by Go.
 - Where each skill is taught in the supplemental lesson, consistent with the section's **“In your MVP packet”** reference strips.
 
-The purpose is to verify instructional completeness, not to provide a lengthy commentary on every original exercise.
+The purpose is to make instructional coverage and its limits clear, not to provide lengthy commentary on every exercise. Include concise rows or notes for ambiguous exercises and deliberate omissions, with problem numbers and reasons; do not present those entries as taught or verified.
 
 Group related problems where appropriate.
 
@@ -635,10 +642,10 @@ Provide a downloadable **HTML document for only the requested numbered section**
 3. Fully worked examples throughout the instruction.
 4. Accurate mathematical graphs and diagrams where useful.
 5. Additional fully worked Go problems, with sufficient coverage of distinct skills.
-6. Selective, clearly labeled packet clarifications referencing specific exercises.
+6. Selective, clearly labeled packet clarifications referencing specific exercises, with light-red callouts reserved for serious mathematical or instructional problems.
 7. Curated additional learning resources **for each section**, with specific links and explicit scope/skip guidance.
 8. A concise teacher's review of serious problems.
-9. A coverage table demonstrating that all intended mathematical content has been addressed.
+9. A coverage table showing where worthwhile mathematical skills are taught and identifying any ambiguous exercises, assumed prior knowledge, or deliberate omissions.
 
 Use the attached curriculum for determining content coverage and the previous supplement, if supplied, for maintaining visual consistency.
 
