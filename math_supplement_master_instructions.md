@@ -47,6 +47,8 @@ For the **one section requested**, carefully examine:
 
 Identify the principal learning objectives and all supporting mathematical skills.
 
+**Do not assume the packet or its teacher notes are correct or self-consistent.** Independently check the actual wording, graphs, tables, equations, and expected results against one another. Inspect the source figures closely rather than relying on an earlier supplement or an assumed answer key. Teacher notes can help identify intent, but they are evidence to check, not an authority that overrides the mathematics.
+
 **Do not assume that the main activity adequately identifies everything students are expected to learn.** The homework may introduce or assess additional mathematical concepts that are not explicitly addressed in the main task.
 
 Identify the worthwhile mathematical skills addressed in Ready, Set, Go and teach them at an appropriate depth. Apply the instructional judgment in Section 6; reviewing every exercise does not require teaching or solving every exercise separately.
@@ -184,31 +186,32 @@ Do not present these notes as numbered instructional topics, and do not let them
 
 Use them selectively.
 
+### Check the packet critically without being pedantic
+
+**Be thorough in the internal review and selective in the student-facing explanation.** Catch actual mistakes, inconsistent representations, conceptual conflations, and wording that obscures what a student is being asked to do. Do not preserve an incorrect statement merely to agree with the curriculum, and do not silently redraw or reinterpret a graph to force an expected answer.
+
+- **Use an instructional-impact test:** Would this issue plausibly change a student’s answer, teach a wrong idea or method, or make the task materially confusing? If so, address it. If it only raises a remote technical possibility that does not affect the intended lesson, normally omit it.
+- Accept reasonable classroom simplifications when the intent is clear. Do not demand unnecessary formal assumptions or discuss every hypothetical alternative. Multiple valid graphs or models may be an intentional part of a task, rather than an error.
+- For consequential wording ambiguity, give a short, concrete restatement with the exact packet reference. For example, specify gasoline remaining *between completed tanker deliveries*, or watermelons remaining *throughout one Thursday*, so students know what time interval the graph describes.
+- Preserve meaningful conceptual distinctions. Horizontal segments contain intervals of inputs; do not replace them with isolated points to call a graph discrete. Distinguish discrete inputs from discontinuities and whole-number outputs, using only the explanation needed for the current task.
+- Separate a verified error from an inferred intention. Check the evidence before criticizing the packet, state an interpretation as an interpretation when necessary, and offer a practical way to proceed. Apply the same scrutiny to existing supplementary material; correct or remove mistaken examples and critiques.
+- Use an ordinary clarification for a wording repair or brief interpretive help. Reserve light-red boxes for substantial mathematical or instructional problems. Keep the teacher’s review proportionate; it is not a place to expand minor issues into lengthy criticism.
+
+The aim is reliable, understandable instruction for the student—not defending the packet and not cataloguing every possible technical objection.
+
 ### Distinguish clarification from correction
 
 If the packet uses unfamiliar or awkward wording, clarify it.
 
-If the packet omits a mathematically necessary assumption, contains an error, or makes an unjustified claim, identify the problem explicitly.
+If the packet contains an error, an unjustified claim, or a missing assumption that materially affects the task, identify the problem explicitly. Apply the instructional-impact test above before adding a qualification.
 
-For example, suppose the packet provides a finite table of values and expects students to identify the vertex of a quadratic function, without stating that the data come from a quadratic.
-
-A suitable note would say:
-
-> **Packet clarification — Section 2.2, Ready, Set, Go, problems 26–29**
->
-> These exercises are intended to use tables of values from quadratic functions, although the instructions do not explicitly say so.
->
-> For these problems, assume the tables represent quadratic functions.
->
-> In general, however, a finite table of values cannot establish that a function is quadratic. Even constant second differences do not prove that the function must be quadratic for every input.
-
-Do not place a warning such as “first verify that the function is quadratic” in the main solution procedure when the information provided does not permit such verification.
+For example, if the section clearly concerns quadratic functions, use that context when interpreting its tables. Do not add a lecture about the many other functions that could pass through finitely many points. If the function type is genuinely unclear and changes the answer, give a short packet-specific note stating the interpretation being used.
 
 The purpose is to help students understand the mathematics correctly, not to introduce unnecessary confusion.
 
 ### Light-red callouts for serious instructional problems
 
-Use the light-red boxes in **Secondary Math I, Module 2, Sections 2.1–2.2** as the visual and editorial reference. Reserve them for the really problematic cases: a false or misleading mathematical explanation, a conflation of distinct concepts, a missing assumption that materially changes the answer, or a question that cannot be answered uniquely as written. Serious instructional ambiguity can warrant a red box even when there is no simple factual error.
+Use the light-red boxes in **Secondary Math I, Module 2, Sections 2.1–2.2** as the visual and editorial reference. Reserve them for the really problematic cases: a false or misleading mathematical explanation, a conflation of distinct concepts, a missing assumption that materially changes the answer, or a question whose ambiguity prevents a meaningful answer. An exercise intentionally inviting several valid answers does not warrant a warning. Serious instructional ambiguity can warrant a red box even when there is no simple factual error.
 
 **Use these sparingly.** Ordinary awkward phrasing, unfamiliar notation, routine modeling assumptions, or a preference for a different teaching approach do not warrant a red warning. Use an ordinary packet-clarification box when a short neutral explanation is enough. Do not manufacture criticism or add a red box to every lesson for consistency.
 
