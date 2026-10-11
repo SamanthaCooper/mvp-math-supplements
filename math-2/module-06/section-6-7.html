@@ -16,9 +16,12 @@ nav .toc-list{display:flex;gap:7px 17px;flex-wrap:wrap;margin-top:6px}nav .toc-l
 <h1>6.7 — Pythagoras by Proportions</h1>
 <p class="meta"><span class="lesson-subtitle">Supplement for <strong>Mathematics Vision Project (MVP)</strong> curriculum · Secondary Math II, Module 6, Section 6.7</span><br><span class="smallnote">Independently created to support students using MVP Math. Not official publisher material and not affiliated with or endorsed by the Mathematics Vision Project.</span></p><aside class="publisher-materials" aria-label="Original MVP materials"><strong>Use this supplement with your MVP packet</strong><a href="https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m2_mod6_se_52017f.pdf">Open Math II · Module 6 student packet (PDF)</a><span>This supplement accompanies Section 6.7.</span><a class="publisher-all" href="https://www.mathematicsvisionproject.org/secondary-mathematics-ii.html">All MVP Math II materials, including teacher notes and honors editions</a></aside><aside class="review-pending" aria-label="Human review pending"><strong>Human review pending</strong><p>This lesson has undergone only a cursory review. A thorough human review for mathematical accuracy, clarity, and alignment with the MVP packet is still pending.</p></aside>
 <div class="summary"><strong>What you will learn.</strong> Use similar right triangles to prove the Pythagorean theorem and the two right-triangle geometric-mean theorems, then find unknown lengths. Review triangle similarity and congruence, proportions formed by parallel lines, and arithmetic and geometric sequences.</div>
-<nav aria-label="On this page"><strong>On this page</strong><div class="toc-list"><a href="#similar">Why three right triangles are similar</a><a href="#pythagoras">Prove the Pythagorean theorem</a><a href="#altitude">Prove the altitude theorem</a><a href="#legs">Prove the leg theorems</a><a href="#apply">Apply the three relationships</a><a href="#ready">Ready: similarity and congruence (1)</a><a href="#set">Set: right-triangle proportions (2–9)</a><a href="#go-parallel">Go: parallel-line proportions (10–11)</a><a href="#go-sequences">Go: arithmetic and geometric sequences (12–15)</a><a href="#resources">Resources</a><a href="#teacher">Teacher review</a><a href="#coverage">Coverage map</a></div></nav>
+<nav aria-label="On this page"><strong>On this page</strong><div class="toc-list"><a href="#in-class">In class: A Practice Understanding Task</a><a href="#ready">Ready: similarity and congruence (1)</a><a href="#set">Set: right-triangle proportions (2–9)</a><a href="#go-parallel">Go: parallel-line proportions (10–11)</a><a href="#go-sequences">Go: arithmetic and geometric sequences (12–15)</a><a href="#resources">Resources</a><a href="#teacher">Teacher review</a><a href="#coverage">Coverage map</a></div></nav>
 
-<h2 id="similar">1. Why the three right triangles are similar</h2>
+<section aria-labelledby="in-class">
+<h2 id="in-class">1. In class: A Practice Understanding Task</h2>
+<aside class="summary in-class-note" role="note" aria-label="About the in-class material"><strong>Revisit the ideas from class</strong><p>This section explains some of the ideas you explored in class through the guided exercises, in a more formal, step-by-step way. Use it alongside the “A Practice Understanding Task” portion of Section 6.7 in your MVP packet.</p></aside>
+<h3 id="similar">Why the three right triangles are similar</h3>
 <div class="mvp-crossref" role="note"><div class="mvp-crossref-head"><span class="mvp-crossref-label">In your MVP packet</span><span class="mvp-crossref-target">Section 6.7 · Main task · p. 37 · Steps 1–6</span></div><div class="mvp-crossref-detail">Cut a right triangle along an altitude to its hypotenuse, compare the resulting triangles, and write corresponding-side proportions.</div></div>
 <p>Begin with a right triangle. Draw an <strong>altitude</strong> from its right-angle vertex to the <strong>hypotenuse</strong>—a line segment perpendicular to that side. The altitude divides the original triangle into two smaller right triangles.</p>
 <figure class="diagram fig"><svg width="690" height="505" viewBox="0 0 690 505" role="img" aria-label="A right triangle with legs a and b and hypotenuse c, an altitude h from its right angle splitting hypotenuse into segments x and y." xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +45,7 @@ nav .toc-list{display:flex;gap:7px 17px;flex-wrap:wrap;margin-top:6px}nav .toc-l
 <div class="rule"><strong>Corresponding sides must match.</strong> The hypotenuse of the large triangle is \(c\). The hypotenuses of the small triangles are \(a\) (left) and \(b\) (right). A side called the “base” in one triangle can correspond to an entirely different-looking side after rotating a triangle.</div>
 <p>The altitude divides the hypotenuse into pieces \(x\) and \(y\), so we also know \(x+y=c\). These facts are enough to discover the relationships we need.</p>
 
-<h2 id="pythagoras">2. Prove the Pythagorean theorem using proportions</h2>
+<h3 id="pythagoras">Prove the Pythagorean theorem using proportions</h3>
 <div class="mvp-crossref" role="note"><div class="mvp-crossref-head"><span class="mvp-crossref-label">In your MVP packet</span><span class="mvp-crossref-target">Section 6.7 · Main task · p. 37 · Steps 6–8</span></div><div class="mvp-crossref-detail">Use the matching sides to produce two equations, then combine them to show the Pythagorean theorem.</div></div>
 <p>In the large triangle, the left leg has length \(a\). In the smaller left triangle, the side next to the shared angle L has length \(x\), and its hypotenuse is \(a\). Matching the left small triangle to the large one gives</p>
 \[\frac{a}{c}=\frac{x}{a}\quad\Longrightarrow\quad a^2=cx.\]
@@ -53,7 +56,7 @@ nav .toc-list{display:flex;gap:7px 17px;flex-wrap:wrap;margin-top:6px}nav .toc-l
 <div class="rule"><strong>Pythagorean theorem (proved):</strong> for a right triangle with legs \(a,b\) and hypotenuse \(c\), \(\boxed{a^2+b^2=c^2}\).</div>
 <p>Notice that we did <em>not</em> assume the Pythagorean theorem to derive it. The proof used angle similarity, equal side ratios, and the fact that the two hypotenuse pieces add to \(c\).</p>
 
-<h2 id="altitude">3. The altitude is the geometric mean of the two pieces</h2>
+<h3 id="altitude">The altitude is the geometric mean of the two pieces</h3>
 <div class="mvp-crossref" role="note"><div class="mvp-crossref-head"><span class="mvp-crossref-label">In your MVP packet</span><span class="mvp-crossref-target">Section 6.7 · Main task · p. 38 · Right Triangle Altitude Theorem 1</span></div><div class="mvp-crossref-detail">Compare the two smaller triangles and establish a proportionality relationship for the altitude.</div></div>
 <p>Compare the two smaller right triangles. Their sides correspond so that the altitude \(h\) in one triangle matches the segment \(y\) in the other, while \(x\) matches \(h\). Thus</p>
 \[\frac{x}{h}=\frac{h}{y}\quad\Longrightarrow\quad\boxed{h^2=xy}.\]
@@ -64,7 +67,7 @@ nav .toc-list{display:flex;gap:7px 17px;flex-wrap:wrap;margin-top:6px}nav .toc-l
 <p>We take the positive square root because a length cannot be negative.</p></div>
 <div class="caution"><strong>Common mistake:</strong> The altitude is not usually the arithmetic average \((x+y)/2\). It is the <em>geometric</em> mean \(\sqrt{xy}\). In the example, the arithmetic average is 12.5, but the actual altitude is 12.</div>
 
-<h2 id="legs">4. Each leg is a geometric mean, too</h2>
+<h3 id="legs">Each leg is a geometric mean, too</h3>
 <div class="mvp-crossref" role="note"><div class="mvp-crossref-head"><span class="mvp-crossref-label">In your MVP packet</span><span class="mvp-crossref-target">Section 6.7 · Main task · p. 38 · Right Triangle Altitude Theorem 2</span></div><div class="mvp-crossref-detail">Prove a relation between each leg, the full hypotenuse, and the piece of the hypotenuse beside that leg.</div></div>
 <p>Recall the two proportions from the Pythagorean proof. They already give</p>
 \[\boxed{a^2=cx}\qquad\text{and}\qquad\boxed{b^2=cy}.\]
@@ -93,7 +96,7 @@ nav .toc-list{display:flex;gap:7px 17px;flex-wrap:wrap;margin-top:6px}nav .toc-l
       <line x1="608.00" y1="420.00" x2="608.00" y2="432.00" stroke="#607c99" />
     </svg><figcaption>Verified 15–20–25 right triangle: 9 + 16 = 25 and h = 12.</figcaption></figure>
 
-<h2 id="apply">5. Finding unknown lengths in altitude diagrams</h2>
+<h3 id="apply">Finding unknown lengths in altitude diagrams</h3>
 <div class="mvp-crossref" role="note"><div class="mvp-crossref-head"><span class="mvp-crossref-label">In your MVP packet</span><span class="mvp-crossref-target">Section 6.7 · Main task · p. 38 · Final \(x,y\) diagram</span></div><div class="mvp-crossref-detail">Use a given altitude and one hypotenuse piece to find the whole hypotenuse and a missing leg.</div></div>
 <p>Sometimes you know the altitude and one piece of the hypotenuse instead of both pieces. Find the other piece <em>first</em>, using \(h^2=xy\); then add the pieces to get \(c\). If you need a leg, use the full hypotenuse and its adjacent piece.</p>
 <div class="worked"><strong>Worked example 3 — Given one hypotenuse piece and the altitude.</strong><p>In an original example, the left piece of the hypotenuse is 4 and the altitude is 6. Find the other piece, the whole hypotenuse, and the left leg.</p>
@@ -104,7 +107,8 @@ nav .toc-list{display:flex;gap:7px 17px;flex-wrap:wrap;margin-top:6px}nav .toc-l
 <p>Check: \(h^2=36=4\cdot 9\), as required.</p></div>
 <div class="caution"><strong>Common mistake:</strong> The two hypotenuse pieces must be <em>added</em> to get the full hypotenuse. Do not treat the length of one piece as \(c\). Also distinguish the <em>altitude to the hypotenuse</em> from the legs of the original triangle.</div>
 
-<h2 id="ready">6. Ready review — Recognize similar and congruent triangles</h2>
+</section>
+<h2 id="ready">2. Ready review — Recognize similar and congruent triangles</h2>
 <div class="mvp-crossref" role="note"><div class="mvp-crossref-head"><span class="mvp-crossref-label">In your MVP packet</span><span class="mvp-crossref-target">Section 6.7 · Ready · p. 39 · Problem 1 (Triangles A–H)</span></div><div class="mvp-crossref-detail">Use the angle arcs and side tick marks to identify which pairs are similar and which are provably congruent.</div></div>
 <p><strong>Similar</strong> triangles have equal corresponding angles, with corresponding side lengths in the same ratio. <strong>Congruent</strong> triangles have equal corresponding angles <em>and</em> matching side lengths. Every pair of congruent triangles is also similar, but similar triangles can have different sizes.</p>
 <table><thead><tr><th>What the diagram tells you</th><th>What you can conclude</th></tr></thead><tbody>
@@ -115,7 +119,7 @@ nav .toc-list{display:flex;gap:7px 17px;flex-wrap:wrap;margin-top:6px}nav .toc-l
 <div class="worked"><strong>Worked example 4 — A marking is evidence, a sketch is not.</strong><p>Two triangles both have angles of \(42^\circ\) and \(68^\circ\). Their third angles are \(70^\circ\), so they are <strong>similar by AA</strong>. If a corresponding side in the first is 5 and in the second is 10, they are not congruent. If those corresponding sides are instead marked <em>equal</em>, the equal scale factor makes the triangles congruent by AAS or ASA.</p></div>
 <p>When reviewing the packet's triangles, start with the identical angle-arc patterns (A, C; B, G; E, F) and identical side-tick patterns (D, H). Decide congruence only when the marks justify it. <strong>Do not rely on which triangle looks bigger.</strong></p>
 
-<h2 id="set">7. Set review — Use the right-triangle proportions</h2>
+<h2 id="set">3. Set review — Use the right-triangle proportions</h2>
 <div class="mvp-crossref" role="note"><div class="mvp-crossref-head"><span class="mvp-crossref-label">In your MVP packet</span><span class="mvp-crossref-target">Section 6.7 · Set · p. 40 · Problems 2–7 (proportions), 8–9 (lengths)</span></div><div class="mvp-crossref-detail">Complete ratios using corresponding sides, then find lengths from right triangles with altitudes to their hypotenuses.</div></div>
 <p>Set problems 2–7 use the same picture, with the notation \(a,b,c\), altitude \(f\), and hypotenuse pieces \(d,e\). It is the same geometry as our diagram, but the symbols have changed: \(h\) becomes \(f\), \(x\) becomes \(d\), and \(y\) becomes \(e\).</p>
 <div class="rule"><strong>Relationships for the Set diagram:</strong> \(c=d+e\), \(f^2=de\), \(a^2=cd\), \(b^2=ce\). Every proportional statement must come from corresponding sides of similar triangles.</div>
@@ -135,7 +139,7 @@ nav .toc-list{display:flex;gap:7px 17px;flex-wrap:wrap;margin-top:6px}nav .toc-l
 \[h=\sqrt{xy}=\sqrt{\frac{25\cdot144}{169}}=\boxed{\frac{60}{13}}.\]</div>
 <p><strong>For Set 8–9:</strong> if two original legs are given, first find the hypotenuse using the Pythagorean theorem; if a hypotenuse and one original leg are given, find the missing hypotenuse segment using the leg theorem. Once both hypotenuse pieces are known, the altitude follows from the altitude theorem. These are applications of the same relationships, not new trigonometry.</p>
 
-<h2 id="go-parallel">8. Go review — Solve proportions from parallel lines</h2>
+<h2 id="go-parallel">4. Go review — Solve proportions from parallel lines</h2>
 <div class="mvp-crossref" role="note"><div class="mvp-crossref-head"><span class="mvp-crossref-label">In your MVP packet</span><span class="mvp-crossref-target">Section 6.7 · Go · p. 41 · Problems 10–11</span></div><div class="mvp-crossref-detail">Use parallel segments to identify similar triangles and solve unknown side lengths with proportions.</div></div>
 <p>A line segment parallel to one side of a triangle creates a smaller triangle with the same angles as the whole triangle. Corresponding side lengths are proportional. You may compare <strong>small to large</strong> lengths, or compare the <strong>upper portion to lower portion</strong> on each transversal; just keep the order consistent.</p>
 <figure class="diagram fig"><svg width="620" height="555" viewBox="0 0 620 555" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two parallel diagonal segments connecting sides of a right triangle, with consecutive side lengths 6 then 3 and 10 then 5">
@@ -156,7 +160,7 @@ nav .toc-list{display:flex;gap:7px 17px;flex-wrap:wrap;margin-top:6px}nav .toc-l
 \[35-14=\boxed{21}.\]
 <p><strong>Common mistake:</strong> the proportion \(8/20=z/35\) finds the <em>whole upper section</em> \(z\), not the leftover lower section asked for.</p></div>
 
-<h2 id="go-sequences">9. Go review — Complete arithmetic and geometric sequences</h2>
+<h2 id="go-sequences">5. Go review — Complete arithmetic and geometric sequences</h2>
 <div class="mvp-crossref" role="note"><div class="mvp-crossref-head"><span class="mvp-crossref-label">In your MVP packet</span><span class="mvp-crossref-target">Section 6.7 · Go · p. 41 · Problems 12–15</span></div><div class="mvp-crossref-detail">Fill missing values in tables whose terms increase by a constant difference or a constant multiplier.</div></div>
 <p>An <strong>arithmetic sequence</strong> changes by adding the same number each step, called the <strong>common difference</strong>. A <strong>geometric sequence</strong> changes by multiplying by the same number each step, called the <strong>common ratio</strong>.</p>
 <table><thead><tr><th>Type</th><th>How to move one term</th><th>Four sample terms</th></tr></thead><tbody>
@@ -184,12 +188,12 @@ nav .toc-list{display:flex;gap:7px 17px;flex-wrap:wrap;margin-top:6px}nav .toc-l
 
 <h2 id="coverage">Section 6.7 packet-to-lesson coverage</h2>
 <table><thead><tr><th>Curriculum component</th><th>Original problems / objectives</th><th>Where this lesson teaches it</th></tr></thead><tbody>
-<tr><td>Main task (pp. 37–38)</td><td>Steps 1–6: three similar triangles and proportions</td><td>§1</td></tr>
-<tr><td>Main task (p. 37)</td><td>Steps 7–8: prove the Pythagorean theorem</td><td>§2</td></tr>
-<tr><td>Main task (p. 38)</td><td>Altitude theorem 1, altitude theorem 2, final length problem</td><td>§§3–5</td></tr>
-<tr><td>Ready (p. 39)</td><td>1: AA similarity, triangle congruence via marked sides/angles</td><td>§6</td></tr>
-<tr><td>Set (p. 40)</td><td>2–7: complete ratios; 8–9: solve right-triangle altitude diagrams</td><td>§7</td></tr>
-<tr><td>Go (p. 41)</td><td>10–11: nested parallel-line similar triangles</td><td>§8 + Go practice A–B</td></tr>
-<tr><td>Go (p. 41)</td><td>12–15: arithmetic and geometric sequence table completion</td><td>§9 + Go practice C–D</td></tr>
+<tr><td>Main task (pp. 37–38)</td><td>Steps 1–6: three similar triangles and proportions</td><td>In class</td></tr>
+<tr><td>Main task (p. 37)</td><td>Steps 7–8: prove the Pythagorean theorem</td><td>In class</td></tr>
+<tr><td>Main task (p. 38)</td><td>Altitude theorem 1, altitude theorem 2, final length problem</td><td>In class</td></tr>
+<tr><td>Ready (p. 39)</td><td>1: AA similarity, triangle congruence via marked sides/angles</td><td>Section 2</td></tr>
+<tr><td>Set (p. 40)</td><td>2–7: complete ratios; 8–9: solve right-triangle altitude diagrams</td><td>Section 3</td></tr>
+<tr><td>Go (p. 41)</td><td>10–11: nested parallel-line similar triangles</td><td>Section 4 + Go practice A–B</td></tr>
+<tr><td>Go (p. 41)</td><td>12–15: arithmetic and geometric sequence table completion</td><td>Section 5 + Go practice C–D</td></tr>
 </tbody></table>
 <button class="print" onclick="window.print()" aria-label="Print this lesson">Print</button></main></body></html>

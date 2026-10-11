@@ -57,6 +57,10 @@ Distinguish between material that requires substantial new instruction and mater
 
 ## 2. Organize the instruction into a coherent mathematical sequence
 
+Group the explanations for the packet’s main in-class task under one top-level heading, **In class: [exact task label printed in the packet]** (for example, “A Develop Understanding Task”). Begin with a prominent note: “This section explains some of the ideas you explored in class through the guided exercises, in a more formal, step-by-step way.” Identify the corresponding packet section in the note. Use subordinate headings for the mathematical topics within this group.
+
+Keep Ready, Set, and Go distinct from the In class group. When a shared explanation supports both the main task and homework, teach it once in In class, then link back from the relevant homework section. Place homework-specific examples and extensions in that homework section. Check these boundaries against the actual MVP packet, and update the contents menu, heading numbers, and coverage references together. Preserve existing topic anchors and human-review status when reorganizing a lesson.
+
 **Preserve the original packet section order. Inside each individual section, teach its mathematics in a logical explicit-instruction sequence; never reorganize the module so that later concepts appear early.**
 
 Introduce prerequisite concepts before more advanced ones. Group closely related ideas together and arrange the lesson so that each concept builds naturally on what students have already learned.

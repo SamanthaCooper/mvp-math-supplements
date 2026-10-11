@@ -18,3 +18,8 @@ nav[aria-label="On this page"] .toc-list a{break-inside:avoid}
 .review-pending>strong{display:block;font-size:1rem;color:#704b0d}
 .review-pending p{margin:5px 0 0;font-size:.94rem;line-height:1.55}
 @media print{.review-pending{display:block!important;break-inside:avoid;print-color-adjust:exact;-webkit-print-color-adjust:exact}}
+
+/* Grouped main-task instruction and its subordinate topics. */
+section[aria-labelledby="in-class"] h3{line-height:1.25}
+section[aria-labelledby="in-class"] h4{font-size:1.07rem;line-height:1.25;margin:1.7em 0 .4em}
+.in-class-note{border-left:5px solid #145a80;background:#eff6fa;padding:16px 20px;margin:20px 0}

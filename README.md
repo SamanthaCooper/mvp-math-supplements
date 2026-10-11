@@ -48,6 +48,10 @@ This site is independently created to support students using MVP. It is **not an
 
 Lessons typeset equations with MathJax from a CDN, so an internet connection is needed for formulas to display.
 
+## Lesson organization
+
+Group main-task instruction under **In class: [the packet’s exact task label]**, with a prominent note explaining that it revisits the guided class exercises in a more formal, step-by-step way. Keep Ready, Set, and Go separate. Link homework back to shared explanations instead of repeating them; keep homework-specific examples in its own section. Check the corresponding MVP packet and update navigation and coverage references whenever ingesting or reorganizing a lesson.
+
 ## Human review status
 
 Lessons and supplementary resources awaiting thorough human review display a pale amber **Human review pending** banner beneath the lesson header. It remains visible in print. After reviewing a section for mathematical accuracy, clarity, and alignment with its MVP packet, remove that lesson’s `<aside class="review-pending" ...>...</aside>` block. Keep the banner on every other pending lesson. Include the same banner when adding new lessons or supplementary resources; its shared styles are in `assets/packet-navigation.css`.
