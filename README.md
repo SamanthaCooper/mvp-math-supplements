@@ -44,3 +44,7 @@ Put the descriptive name in the page `<title>`, which is what appears in browser
 This site is independently created to support students using MVP. It is **not an official publication** of or endorsed by the Mathematics Vision Project. Review licensing/attribution before incorporating textbook passages or images into published lessons.
 
 Lessons typeset equations with MathJax from a CDN, so an internet connection is needed for formulas to display.
+
+## Human review status
+
+Math II lessons awaiting thorough human review display a pale amber **Human review pending** banner beneath the lesson header. It remains visible in print. After reviewing a section for mathematical accuracy, clarity, and alignment with its MVP packet, remove that lesson’s `<aside class="review-pending" ...>...</aside>` block. Keep the banner on every other pending lesson. Include the same banner when adding new Math II lessons; its shared styles are in `assets/packet-navigation.css`.

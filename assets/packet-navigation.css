@@ -12,3 +12,9 @@
 nav[aria-label="On this page"] .toc-list{columns:2;column-gap:24px}
 nav[aria-label="On this page"] .toc-list a{break-inside:avoid}
 @media(max-width:700px){nav[aria-label="On this page"] .toc-list{columns:1}}
+
+/* Remove a lesson’s review-pending aside after its thorough human review. */
+.review-pending{margin:20px 0;padding:16px 20px;background:#fff7e6;border:1px solid #e5c987;border-left:4px solid #ad761c;border-radius:6px;color:#594214}
+.review-pending>strong{display:block;font-size:1rem;color:#704b0d}
+.review-pending p{margin:5px 0 0;font-size:.94rem;line-height:1.55}
+@media print{.review-pending{display:block!important;break-inside:avoid;print-color-adjust:exact;-webkit-print-color-adjust:exact}}
