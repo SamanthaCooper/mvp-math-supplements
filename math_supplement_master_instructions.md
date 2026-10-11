@@ -371,6 +371,10 @@ Every lesson must include:
 
 Follow the exact header styling and layout of the approved HTML reference file, when provided.
 
+### Publisher packet links
+
+Place a prominent “Use this supplement with your MVP packet” box beneath the lesson header, linking directly to the corresponding module student-edition PDF on the publisher’s website. Identify the course, module, and numbered section. Include a smaller link to the official course materials for teacher notes and honors editions. Verify the URL and matching edition; never upload local packet PDFs. Use the site’s established publisher-materials styling. During ingestion, refresh these links with `python3 tools/update_publisher_links.py` after updating the navigation indexes.
+
 ### Mandatory connections to the original MVP packet
 
 **Make the correspondence between the supplemental lesson and the original packet immediately clear to students.** Under each major student-facing instructional heading, include a compact, visually distinctive **“In your MVP packet”** reference strip. Add a smaller version below a subheading when it helps locate a more specific set of problems. Use the established reference-file style when one is provided: a restrained blue or blue-gray shaded background, subtle left border, and readable text, not an oversized callout.

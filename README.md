@@ -2,7 +2,7 @@
 
 A static website of explicit, step-by-step companion lessons for **Secondary Math I, II, and III** students using the Mathematics Vision Project (MVP) curriculum, organized by course, module, and section. Published with GitHub Pages; the home page is `index.html`.
 
-All links are **relative**, so the site works both at `username.github.io/mvp-math-supplements/` and under a custom domain.
+Internal links are **relative**, so the site works both at `username.github.io/mvp-math-supplements/` and under a custom domain.
 
 ## Project layout
 
@@ -51,3 +51,7 @@ Lessons typeset equations with MathJax from a CDN, so an internet connection is 
 ## Human review status
 
 Lessons and supplementary resources awaiting thorough human review display a pale amber **Human review pending** banner beneath the lesson header. It remains visible in print. After reviewing a section for mathematical accuracy, clarity, and alignment with its MVP packet, remove that lesson’s `<aside class="review-pending" ...>...</aside>` block. Keep the banner on every other pending lesson. Include the same banner when adding new lessons or supplementary resources; its shared styles are in `assets/packet-navigation.css`.
+
+## Publisher materials links
+
+Every published lesson and supplementary resource has a prominent link beneath its header to its module’s original student PDF on the MVP website. Module pages repeat this link; course and home pages link to the official course materials. During every ingestion, run `python3 tools/update_publisher_links.py` after updating the indexes and before committing. This updates only resources listed in module indexes, leaving unpublished drafts alone. For a new module, verify its student-edition PDF URL and add it to `PACKETS` in that script first; use the edition that matches the supplement. Never upload local MVP PDFs.
