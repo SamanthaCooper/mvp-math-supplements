@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Two Uses of the Gradient</title>
+  <style>
+    :root { color-scheme: light; --ink: #202d3b; --muted: #536477; --line: #d9e2eb; --accent: #235f85; --tint: #f3f7fa; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f7f9fb; color: var(--ink); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    main { max-width: 850px; margin: 44px auto; padding: 34px 44px 44px; background: white; box-shadow: 0 2px 20px rgba(20,40,70,.06); border: 1px solid var(--line); border-radius: 12px; }
+    h1 { margin: 0 0 14px; font-size: 2rem; line-height: 1.2; letter-spacing: -.03em; }
+    h2 { font-size: 1.18rem; color: #214763; margin: 30px 0 10px; }
+    p { margin: 10px 0; }
+    ul { padding-left: 24px; margin: 9px 0 0; }
+    li + li { margin-top: 5px; }
+    .equation { text-align: center; background: var(--tint); border: 1px solid var(--line); border-radius: 8px; padding: 12px 15px; margin: 16px 0; font: 1.22rem/1.6 Georgia, 'Times New Roman', serif; overflow-x: auto; }
+    .math { font-family: Georgia, 'Times New Roman', serif; font-style: italic; }
+    .math sub { font-size: .72em; }
+    .example { border-top: 1px solid var(--line); margin-top: 25px; padding-top: 8px; }
+    .case { padding: 13px 18px; border-left: 3px solid var(--accent); background: var(--tint); margin: 15px 0; border-radius: 0 7px 7px 0; }
+    .case p { margin: 6px 0; }
+    .case .result { font-size: 1.12em; }
+    .takeaway { margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--line); }
+    strong { font-weight: 650; }
+    @media (max-width: 620px) { body { background: white; } main { margin: 0; border: 0; border-radius: 0; box-shadow: none; padding: 22px; } h1 { font-size: 1.75rem; } }
+    @media print { body { background: white; } main { margin: 0; max-width: none; border: 0; box-shadow: none; padding: 0; } .case, .equation { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>The Two Uses of the Gradient</h1>
+    <p><strong>The gradient always points in the direction of steepest increase and is perpendicular to level curves or level surfaces.</strong> The difference is which function we're taking the gradient of.</p>
+
+    <h2>1. Explicit function: <span class="math">z = f(x, y)</span></h2>
+    <div class="equation">∇<i>f</i> = ⟨<i>f</i><sub>x</sub>, <i>f</i><sub>y</sub>⟩</div>
+    <p>This is a <strong>2D vector</strong> that:</p>
+    <ul>
+      <li>Points in the direction of steepest increase of <span class="math">z</span> in the <span class="math">xy</span>-plane.</li>
+      <li>Is perpendicular to the level curves <span class="math">f(x, y) = c</span>.</li>
+    </ul>
+
+    <h2>2. Implicit function: <span class="math">F(x, y, z) = 0</span></h2>
+    <div class="equation">∇<i>F</i> = ⟨<i>F</i><sub>x</sub>, <i>F</i><sub>y</sub>, <i>F</i><sub>z</sub>⟩</div>
+    <p>This is a <strong>3D vector</strong> that:</p>
+    <ul>
+      <li>Is perpendicular to the level surface <span class="math">F(x, y, z) = 0</span>.</li>
+      <li>Can be used to find the tangent plane.</li>
+    </ul>
+
+    <section class="example">
+      <h2>Example: <span class="math">z = x² + y²</span></h2>
+      <div class="case">
+        <p><strong>To find the direction of steepest increase:</strong></p>
+        <p class="math">f(x, y) = x² + y²</p>
+        <p class="math result">∇f(1, 0) = ⟨2, 0⟩</p>
+        <p>This points in the positive <span class="math">x</span>-direction, where height increases fastest.</p>
+      </div>
+      <div class="case">
+        <p><strong>To find a normal vector to the surface:</strong></p>
+        <p>Rewrite the same equation implicitly:</p>
+        <p class="math">F(x, y, z) = x² + y² − z = 0</p>
+        <p class="math result">∇F(1, 0, 1) = ⟨2, 0, −1⟩</p>
+        <p>This vector is perpendicular to the surface and can be used to find its tangent plane.</p>
+      </div>
+    </section>
+
+    <p class="takeaway"><strong>Key distinction:</strong> <span class="math">∇f</span> describes steepest increase of <em>height</em> in the <span class="math">xy</span>-plane. <span class="math">∇F</span> is perpendicular to the <em>3D surface</em>. They're gradients of different functions.</p>
+  </main>
+</body>
+</html>
