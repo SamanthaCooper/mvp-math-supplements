@@ -30,8 +30,9 @@ Supplementary resources that cover several sections use descriptive, lowercase, 
 1. Save its HTML into the correct module directory (any filename containing `Section_M_S`, e.g. `Section_4_3_Whatever.html`).
 2. Run `python3 authoring/standardize_lessons.py` from the project root. It renames the file to `section-M-S.html` and applies the standard title, breadcrumbs (Home → Secondary Math [course] → Module [number] → Section [number]), and MVP disclaimer subheader. To do this by hand instead, use `authoring/lesson-template.txt`.
 3. Add a tile for it on the module's `index.html`, and update that module's "Sections … available" count on the course index.
-4. If the module is new, create its `index.html` (copy an existing module index) and add a tile for it on the course index. If it's the course's first module, also update that course's tile on the home page.
-5. Publish:
+4. If the module is new, create its `index.html` (copy an existing module index) and add a tile for it on the course index.
+5. **Every ingestion must refresh the affected course button on the main `index.html`,** including its smaller availability text. Describe the published sections or lesson count and module range accurately, and mention supplementary resources where useful. Count only lessons linked from module indexes, not untracked files or supplementary resources. Avoid wording that implies a whole module is complete when only some sections are published. This applies to additions, removals, and supplementary-resource updates, even when no new module is created.
+6. Publish:
 
    ```sh
    git add -A
@@ -39,7 +40,7 @@ Supplementary resources that cover several sections use descriptive, lowercase, 
    git push
    ```
 
-6. After a minute or two, check the lesson on the live site: links work, equations are typeset, graphs display.
+7. After a minute or two, check the lesson on the live site: links work, equations are typeset, graphs display.
 
 ## Attribution and independence
 
