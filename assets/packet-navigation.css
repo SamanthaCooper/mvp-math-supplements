@@ -1,0 +1,14 @@
+/* Packet references matching the Math I 3.1 lesson. */
+.mvp-crossref{background:#eef5fa;border-left:4px solid #527fa5;border-radius:0 7px 7px 0;padding:12px 17px;margin:-5px 0 24px;color:#263e57}
+.mvp-crossref-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;line-height:1.5}
+.mvp-crossref-label{color:#315b82;letter-spacing:.075em;font-size:.73rem;font-weight:800;text-transform:uppercase;white-space:nowrap}
+.mvp-crossref-target{font-size:.96rem;font-weight:720}
+.mvp-crossref p{margin:4px 0 0;font-size:.9rem;line-height:1.52;color:#43556a}
+.mvp-crossref--sub{margin:4px 0 17px;padding:9px 14px;background:#f5f8fc;border-left-width:3px}
+.mvp-crossref--sub .mvp-crossref-target{font-size:.89rem;font-weight:660}
+.mvp-crossref--sub p{font-size:.86rem;margin:2px 0 0}
+@media print{.mvp-crossref{break-inside:avoid;print-color-adjust:exact;-webkit-print-color-adjust:exact}}
+
+nav[aria-label="On this page"] .toc-list{columns:2;column-gap:24px}
+nav[aria-label="On this page"] .toc-list a{break-inside:avoid}
+@media(max-width:700px){nav[aria-label="On this page"] .toc-list{columns:1}}
