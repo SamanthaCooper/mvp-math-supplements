@@ -115,6 +115,20 @@ Place graphs near the explanations they illustrate.
 
 **Every visualization should serve an instructional purpose.** Avoid decorative or redundant graphics.
 
+### Do not add redundant or misleading graphs
+
+**First inspect the graphs and diagrams already in the assigned MVP packet.** If a packet problem already provides a suitable illustration of the concept, do not automatically create another graph merely because the lesson discusses graphs or because visualizations are generally encouraged. Explain how to interpret the relevant features and refer students to the original problem. The supplemental lesson must still teach the mathematical idea clearly in its own prose; a packet reference alone is not an explanation.
+
+Create or reproduce a visualization **only when it provides a concrete instructional benefit that the existing packet graphic does not**—for example, when the packet's image is unclear, when a new worked example requires its own figure, when a concept needs a more accurate drawing, or when a carefully controlled comparison significantly improves understanding. This rule applies to function graphs, geometry diagrams, tables, and other illustrations; it does not prohibit graphs that are genuinely necessary for explicit instruction.
+
+For any new comparison graphic:
+
+- **Isolate the concept being taught.** Keep unrelated variables, equations, scales, intercepts, and other properties the same when practical, so students are not distracted by incidental differences.
+- **Connect it precisely to the instruction and packet problems.** Do not imply that an invented graph reproduces a particular packet problem when it does not. Label original examples as original, if confusion is possible.
+- **Check pedagogical accuracy in addition to mathematical accuracy.** A technically correct graph can still be misleading, unnecessary, or poorly aligned with the explanation. Remove it rather than adding more prose to defend it.
+
+**Example — Secondary Math I, Module 3, Section 3.1:** The original packet already includes graphs for comparing linear versus nonlinear and continuous versus discrete relationships (Set Problems 12–13). A new graph juxtaposing an unrelated line with offset discrete points distracts from the intended comparison. Prefer explaining how to make the comparisons using the packet's own graphs. If another graphic is truly needed, ensure its mathematical choices isolate the precise distinction being taught.
+
 **Visual simplicity and curriculum progression:** Use the simplest visual that teaches the day's concept while preserving the curriculum's intended progression. Show only the geometric elements, labels, auxiliary lines, and construction steps needed for the current lesson. Do not add advanced constructions, notation, proof markings, or later-section concepts merely because they make a diagram more comprehensive or elegant. Simplicity never excuses inaccurate geometry: every relationship actually depicted or asserted must remain mathematically correct.
 
 ### Mandatory mathematically constrained geometry diagrams
@@ -133,6 +147,8 @@ Follow this workflow for every geometric diagram, including diagrams recreated o
 8. **Validate the final embedded version.** Inspect the SVG as it appears in the produced HTML, accounting for resizing, `viewBox`, responsive CSS, and printing. Checks performed on an intermediate image do not replace checking the final embedded graphic. If real-browser inspection is unavailable, rasterize and inspect all generated diagrams separately, run geometric and structural validations, and clearly disclose that the completed HTML was not browser-verified.
 
 **Geometry diagram acceptance test:** Every meaningful length, angle, circle, incidence, alignment, construction marker, and labeled relationship must either be mathematically correct by construction or explicitly marked as schematic/not to scale. Do not label a figure as mathematically verified unless the required constraints were actually tested. Prefer rebuilding an inaccurate diagram over nudging individual points by eye.
+
+**One mathematical specification across every representation:** For every figure or worked example containing numerical relationships, maintain a canonical record of the givens and derived quantities (for example, dilation center, original vertices, scale factor, and derived image vertices). Generate coordinates and figure annotations from this record whenever possible. The same principle applies to function plots, numerical tables, axes, captions, example headings, formulas, and solutions. A mathematically correct SVG is **not** sufficient if the example text, title, legend, or caption describes a different value. Check the completed HTML across all these representations using the blocking consistency gate in Section 11.
 
 This requirement applies to **all** geometry diagrams in the main lesson, worked examples, Ready/Set/Go supplements, and packet clarifications. It complements the requirements for accurate function graphs and does not authorize introducing concepts from later sections.
 
@@ -348,6 +364,32 @@ Every lesson must include:
 
 Follow the exact header styling and layout of the approved HTML reference file, when provided.
 
+### Mandatory connections to the original MVP packet
+
+**Make the correspondence between the supplemental lesson and the original packet immediately clear to students.** Under each major student-facing instructional heading, include a compact, visually distinctive **“In your MVP packet”** reference strip. Add a smaller version below a subheading when it helps locate a more specific set of problems. Use the established reference-file style when one is provided: a restrained blue or blue-gray shaded background, subtle left border, and readable text, not an oversized callout.
+
+Each reference strip should provide:
+
+1. **An exact location:** MVP section number, main task or Ready/Set/Go, the **page number printed in the MVP packet** (not the PDF viewer's page index), and the relevant problem number or range.
+2. **A brief explanation (usually one sentence)** of what those problems ask students to do and how the immediately following instruction helps.
+3. **A precise scope:** List the problems that the nearby instruction actually addresses, not all problems belonging to a larger activity or topic.
+
+**Example of a clean mapping for Secondary Math I, Section 3.1:**
+
+- Under *A complete example: Sylvia's pool*: **In your MVP packet — Section 3.1 · Main task · p. 1 · Problems 1–2.** Explain that this material develops and describes the pool graph.
+- Under *Why this water-height graph is a function*: **In your MVP packet — Section 3.1 · Main task · p. 1 · Problem 3.** Explain that this material addresses why water height is a function of time.
+
+**Do not automatically label the first heading “Problems 1–3” and then separately label the function subsection “Problem 3.”** Some overlap is appropriate when one explanation genuinely supports multiple exercises, but overlap must be intentional and informative. Prefer a clear, specific mapping over repeated broad references; distinguish overview coverage from focused instruction when both are genuinely useful.
+
+Additional rules:
+
+- Keep the supplement's **logical, explicit-instruction sequence**. References are signposts, not instructions to reorganize the lesson into a problem-by-problem answer key.
+- Use reference strips under **major headings** and selected subheadings, not after every paragraph, worked example, or minor concept. Avoid decorative repetition.
+- Where a navigation menu exists, use helpful problem ranges such as **Ready (1–6)**, **Set (7–13)**, **Go (14–22)**, drawn from the actual packet.
+- Distinguish these **neutral location/coverage guides** from **packet clarifications**, which address errors, ambiguities, or assumptions. Packet-reference strips should not criticize the packet or replace the mathematical teaching.
+- Verify each cited title, page number, problem range, and explanation against the actual packet. If a page or problem reference cannot be verified, do not invent it.
+- Preserve both directions of use: a student should be able to read the supplement in order **and** to find the instruction relevant to an exercise in the MVP packet quickly.
+
 ### Preserve the established visual style
 
 **When I provide a previous supplement as a formatting reference, use it as the visual template.**
@@ -368,15 +410,17 @@ The HTML supplement developed for MVP Math 2, Module 2, sections 2.1 and 2.2 is 
 
 ## 10. Maintain a clean distinction between instruction and commentary
 
-The document should have three clearly identifiable kinds of content.
+The document should have four clearly identifiable kinds of content.
 
 **Main instructional material:** The primary textbook-style explanation of the mathematics. It should be organized logically, independent of the packet's narrative, and free of unnecessary commentary about the curriculum.
 
-**Packet clarifications:** Student-facing notes about specific exercises that require interpretation, qualification, or correction. They must be visibly distinguished from the lesson and must identify the relevant problem numbers.
+**Packet-reference strips:** Brief, neutral student-facing signposts under major headings and selected subheadings that map the nearby instruction to exact MVP pages and problems. They describe correspondence, not curriculum defects, and are not substitutes for teaching.
+
+**Packet clarifications:** Student-facing notes about specific exercises that require interpretation, qualification, or correction. They must be visibly distinguished from both the lesson and reference strips, and must identify the relevant problem numbers.
 
 **Teacher's review:** A separate end section identifying only egregious problems in the packet.
 
-Do not mix these three functions.
+Do not mix these four functions.
 
 In particular, do not introduce a mathematical concept primarily through a criticism of the curriculum when it could be taught directly and clearly.
 
@@ -394,6 +438,34 @@ Before delivering the document, review it carefully.
 - Check vertices, intercepts, transformations, and other labeled features.
 - Ensure that mathematical terminology is used correctly.
 - Distinguish rigorous mathematical conclusions from assumptions or observations based on examples.
+
+### Mandatory cross-document mathematical consistency gate — BLOCKING
+
+**Every lesson must pass this gate on the actual final HTML file before delivery.** The gate applies to *all* mathematical claims and representations: geometry diagrams, function graphs, tables, algebraic solutions, examples, headings, figure labels, axis labels, legends, captions, and explanatory prose. It supplements—not replaces—the geometry construction tests and rendering checks elsewhere in this document.
+
+1. **Establish a single source of truth for the construction.** Before generating each example or visualization, record the mathematical givens, parameters, units, transformations, claimed properties, and expected numerical results in a canonical specification (structured data when practical). Compute dependent coordinates and numeric annotations from those values rather than typing conflicting values independently. Keep the specification separate from presentation and label-placement choices.
+2. **Verify the mathematics independently.** Use a mathematically independent calculation or test—not merely the same drawing function reporting its own inputs—to recompute every relevant constraint. For dilations, verify \(P'=O+k(P-O)\) and each applicable nonzero distance ratio; for other diagrams, check the actual claimed incidences, lengths, angles, parallelism, congruence, etc.; for graphs, test important plotted points, function values, intercepts, vertices, and graph labels. Record expected and observed values and numerical tolerances where applicable.
+3. **Inventory and reconcile every related claim.** Check each example's narrative, displayed equations, worked steps, table entries, SVG text, figure heading, legend, and caption against the verified specification. Extract or inspect these items from the *finished HTML*, not just from the script or earlier assets. Treat mathematically equivalent expressions (such as \(3/2\) and \(1.5\)) as consistent; distinguish unlike quantities (such as a length factor of 2 and an area factor of 4). Flag any unexplained value, unit, label, or relationship mismatch.
+4. **Inspect the final rendered output.** After embedding the graphics, render or rasterize every diagram and inspect labels and captions together with the nearby example. Check correspondence labels, overlaps, truncation, equal axis scales for geometry, responsiveness, and print legibility. When a full browser is available, inspect the *final HTML* in it; when unavailable, use the Section 11 fallback and explicitly disclose the missing browser check.
+5. **Retest after corrections.** If a discrepancy is found, correct the canonical specification or affected prose/diagram as mathematically appropriate, regenerate the affected outputs, and rerun both numerical and cross-document checks on the revised *final deliverable*. Do not fix a true mathematical inconsistency by changing only a caption, suppressing a failed assertion, loosening the tolerance without justification, or adding a vague 'not to scale' disclaimer.
+6. **Enforce failure conditions.** Mark the validation **FAIL** and **do not deliver as a completed/verified lesson** if a required geometric or numerical constraint fails; a diagram, formula, example, title, or caption contradicts another representation; a required check was not performed; or final-file content was not reconciled with its specification. Correct and rerun until all required mathematical checks pass. If browser rendering is unavailable but the permitted automated/rasterized fallback is complete, delivery may proceed with an explicit disclosure of that limitation; the unperformed browser test must never be marked PASS.
+7. **Report only evidence-based outcomes.** Use **PASS**, **FAIL**, or **NOT CHECKED** for each test, with a meaningful actual observation (a calculated value, inspected label, parsed final-file text, or documented visual observation) and, where useful, the exact file/figure checked. A declaration that a diagram was 'verified' is not evidence by itself. Do not automatically fill report rows with PASS from the same values used to generate the illustration.
+
+**Required internal verification report:** Create and inspect a concise, section-specific report *before* delivery. It is for quality control, not a student-facing section. Include each substantive visualization/example, its canonical parameters and relevant invariants, independent computational results, the actual title/caption/label values extracted or observed in the final file, visual-inspection status, and the final outcome. Retain the report as an internal audit artifact when practical; it need not accompany the student HTML unless requested.
+
+For example, a dilation worked example with \(k=3/2\) requires independent checks of the corresponding point distances **and** agreement of the example statement, diagram coordinates, heading, labels, and caption:
+
+| Test | Expected | Observed in final output or independent calculation | Status |
+|---|---|---|---|
+| Worked-example scale factor | \(3/2 = 1.5\) | Value extracted from the example | PASS / FAIL / NOT CHECKED |
+| Point-distance ratios | \(OA'/OA = OB'/OB = OC'/OC = 1.5\) | Independently computed ratios | PASS / FAIL / NOT CHECKED |
+| Figure heading | Scale factor 1.5 | Heading read from delivered HTML/SVG | PASS / FAIL / NOT CHECKED |
+| Figure caption | Scale factor 1.5 | Caption read from delivered HTML | PASS / FAIL / NOT CHECKED |
+| Visual inspection | Correct vertex labels and readable geometry | Inspected rendered final image, or noted limitation | PASS / FAIL / NOT CHECKED |
+
+*This table is a reporting template, not evidence of completed checks.* A heading of 1.8 and a caption of 1.6 for an example with \(k=1.5\) are **two blocking failures**, even if the SVG coordinates happen to depict a valid dilation. Every finished lesson must have its own observed results, not a prefilled template.
+
+**Final acceptance rule:** A lesson is ready only when its mathematical and cross-document checks **PASS**, its final-file HTML/math-syntax validation has been performed, and any browser-rendering limitation is disclosed accurately. The final delivered file—not an intermediate draft—is the object of verification.
 
 ### Instructional completeness
 
@@ -422,6 +494,7 @@ For each section, confirm that:
 - Each concept is introduced before it is used.
 - The instructional sequence develops naturally.
 - Examples follow logically from the explanations.
+- Every additional graph, diagram, or table has a specific instructional justification; it does not merely duplicate a useful packet graphic or introduce irrelevant mathematical differences that obscure the point being taught.
 - New terminology is defined when needed.
 - Packet-specific clarifications do not interrupt the narrative.
 - The level of detail is appropriate for the intended students.
@@ -434,7 +507,9 @@ For each section, confirm that:
 - Ensure that text is not clipped or overlapping.
 - Check that the document displays well at ordinary browser widths.
 - Verify that the print layout is readable.
-- Confirm that all packet references are accurate.
+- Confirm that all packet references are accurate, including printed MVP page numbers, task labels, problem ranges, and the link between the immediately following explanation and the referenced problems.
+- Check that reference strips under headings and selected subheadings are concise, readable, and not misleadingly repetitive. Resolve unnecessary overlapping ranges and keep these strips visually distinct from packet-clarification boxes.
+- Confirm that every supplemental illustration materially improves the lesson compared with referring to the original packet figure; remove accurate but redundant or conceptually confusing graphics.
 
 ### Mandatory rendering checks or explicitly disclosed validation fallback
 
@@ -461,7 +536,7 @@ The table should identify:
 - The skills addressed by Ready.
 - The skills addressed by Set.
 - The skills addressed by Go.
-- Where each skill is taught in the supplemental lesson.
+- Where each skill is taught in the supplemental lesson, consistent with the section's **“In your MVP packet”** reference strips.
 
 The purpose is to verify instructional completeness, not to provide a lengthy commentary on every original exercise.
 
@@ -555,6 +630,8 @@ Provide a downloadable **HTML document for only the requested numbered section**
 9. A coverage table demonstrating that all intended mathematical content has been addressed.
 
 Use the attached curriculum for determining content coverage and the previous supplement, if supplied, for maintaining visual consistency.
+
+**Before providing the download link, complete the mandatory cross-document mathematical consistency gate in Section 11 against the exact HTML file being delivered. Do not substitute checks of generation scripts or intermediate SVGs for checks of the final document.**
 
 Do not ask unnecessary clarifying questions. If the assigned sections and packet are provided, proceed with the analysis and document creation.
 
