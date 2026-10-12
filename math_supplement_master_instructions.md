@@ -245,6 +245,18 @@ Ready often reviews prerequisites; Set often reinforces or extends the main idea
 
 The goal is useful preparation for the day's meaningful mathematics. Provide enough examples to teach distinct procedures, without forcing lengthy treatment of repetitive or poorly specified homework.
 
+### Ready, Set, Go answer keys
+
+Provide an answer key for each Ready, Set, and Go component, checked exercise by exercise against the corresponding student packet. Preserve the original problem numbers, subparts, and statement wording; do not turn true/false statements into questions. Give concise explanations where the problem asks for reasoning, and explain each true/false answer. For other numerical exercises, give the answer rather than reproducing a whole value table or every solution step.
+
+- Put each key in a collapsed `<details class="answer-key" id="ready-answer-key">` (or `set-answer-key` / `go-answer-key`) below that component's instruction and worked examples. Use a descriptive summary such as **Check your work — Ready 1–6 answer key**. Use `assets/answer-keys.css` on the site.
+- Near the top of each component, tell students to study the worked examples, attempt the exercises independently, and use the key below to check their work. This requested answer-key guidance is an exception to the general rule against introductory meta-instructions.
+- When a plot is also required, give the numerical answer, intersection, equation, or sample points and explicitly say **Plot not shown**. Identify sample answers as samples. Do not imply a numerical result completes a graphing or construction task.
+- Match recursive notation to MVP: give a starting value and `f(n+1)` in terms of `f(n)`, with the appropriate index domain; put the recursive rule before the explicit rule when both are requested.
+- Verify diagram scales, endpoint inclusion, labels, units, domains, rounding, equivalent forms, and all real solutions. Briefly identify genuinely missing information or ambiguous wording; do not silently choose an interpretation or manufacture a unique answer. Accept normal classroom simplifications without pedantry.
+- Verify the **actual final answer keys in a browser**, expanding all three disclosures. Confirm that fractions and formulas render, rather than exposing raw LaTeX, and that numbering and navigation work. Existing pre-rendered equations do not guarantee that newly added LaTeX will render.
+- Preserve the existing human-review status. Automated checks and new answer keys do not constitute human review.
+
 ## 7. Create additional, fully worked Go problems
 
 For each section, create **at least two new problems** modeled on the mathematical skills tested in its Go homework.

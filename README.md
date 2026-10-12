@@ -52,6 +52,10 @@ Lessons typeset equations with MathJax from a CDN, so an internet connection is 
 
 Group main-task instruction under **In class: [the packet’s exact task label]**, with a prominent note explaining that it revisits the guided class exercises in a more formal, step-by-step way. Keep Ready, Set, and Go separate. Link homework back to shared explanations instead of repeating them; keep homework-specific examples in its own section. Check the corresponding MVP packet and update navigation and coverage references whenever ingesting or reorganizing a lesson.
 
+## Homework answer keys
+
+Ready, Set, and Go answer keys are collapsed beneath their respective worked examples. Students should study the examples and try exercises independently before checking answers. Preserve packet numbering and statement wording; show numerical results where useful and state when required plots are not shown. Check every answer against the matching source packet and verify final math rendering. Follow the detailed conventions in `math_supplement_master_instructions.md`. Run `python3 tools/check_answer_keys.py` to check all published lessons for missing or malformed keys, broken answer links, and math-renderer setup; also expand the keys in a browser to verify actual rendering.
+
 ## Human review status
 
 Lessons and supplementary resources awaiting thorough human review display a pale amber **Human review pending** banner beneath the lesson header. It remains visible in print. After reviewing a section for mathematical accuracy, clarity, and alignment with its MVP packet, remove that lesson’s `<aside class="review-pending" ...>...</aside>` block. Keep the banner on every other pending lesson. Include the same banner when adding new lessons or supplementary resources; its shared styles are in `assets/packet-navigation.css`.
