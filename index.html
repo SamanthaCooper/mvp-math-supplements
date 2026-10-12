@@ -14,9 +14,10 @@
     .home-purpose p{margin:8px 0}
     .course-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
     .course-grid .tile{margin:0}
+    .course-grid .map-tile{grid-column:1/-1;background:#f8fbfd}
     .home-content{max-width:88ch}
     #mvp-materials{margin-top:42px;padding-top:4px}
-    @media(max-width:700px){.home-hero h1{font-size:2.2rem}.course-grid{grid-template-columns:1fr}.home-purpose{padding:18px}}
+    @media(max-width:700px){.home-hero h1{font-size:2.2rem}.course-grid{grid-template-columns:1fr}.course-grid .map-tile{grid-column:auto}.home-purpose{padding:18px}}
   </style>
 </head>
 <body>
@@ -36,15 +37,11 @@
   <section aria-labelledby="courses-heading">
     <h2 id="courses-heading">Choose a course</h2>
     <div class="course-grid">
+      <a class="tile map-tile" href="curriculum-map.html"><strong>Cumulative curriculum map</strong><small>Explore how skills appear across Math I, Math II, and Math III.</small></a>
       <a class="tile" href="math-1/index.html"><strong>Secondary Math I</strong><small>Sections 2.1–2.6 and 3.1–3.5 · Supplementary clarification for Module 2</small></a>
       <a class="tile" href="math-2/index.html"><strong>Secondary Math II</strong><small>41 lessons across Modules 2–6</small></a>
       <a class="tile" href="math-3/index.html"><strong>Secondary Math III</strong><small>Coming soon. No lessons published yet</small></a>
     </div>
-  </section>
-
-  <section aria-labelledby="map-heading">
-    <h2 id="map-heading">Cumulative curriculum map</h2>
-    <a class="tile" href="curriculum-map.html"><strong>Explore the map</strong><small>See where skills appear across Math I, Math II, and Math III.</small></a>
   </section>
 
   <div class="home-content">
