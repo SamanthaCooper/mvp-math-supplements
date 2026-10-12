@@ -1,6 +1,6 @@
 # MVP Math Supplements
 
-A static website of explicit, step-by-step companion lessons for **Secondary Math I, II, and III** students using the Mathematics Vision Project (MVP) curriculum, organized by course, module, and section. Published with GitHub Pages; the home page is `index.html`.
+A static website of companion lessons with explicit instruction where needed for **Secondary Math I, II, and III** students using the Mathematics Vision Project (MVP) curriculum, organized by course, module, and section. Published with GitHub Pages; the home page is `index.html`.
 
 Internal links are **relative**, so the site works both at `username.github.io/mvp-math-supplements/` and under a custom domain.
 
@@ -56,11 +56,11 @@ Lessons typeset equations with MathJax from a CDN, so an internet connection is 
 
 ## Lesson organization
 
-Group main-task instruction under **In class: [the packet’s exact task label]**, with a prominent note explaining that it revisits the guided class exercises as a companion to the corresponding MVP task. Keep Ready, Set, and Go separate. Link homework back to shared explanations instead of repeating them; keep homework-specific examples in its own section. Check the corresponding MVP packet and update navigation and coverage references whenever ingesting or reorganizing a lesson.
+Group main-task instruction under **In class: [the packet’s exact task label]**, with a prominent note explaining that it revisits the guided class exercises as a companion to the corresponding MVP task. Keep all content for each of Ready, Set, and Go in its own section, using subsections where useful. New foundational ideas need definitions, explanations, and worked examples sufficient for a student who missed class; review may need only a brief reminder, a link to earlier teaching, and checked answers. Additional Go problems are optional. Check the corresponding MVP packet and update navigation and coverage references whenever ingesting or reorganizing a lesson. Record substantive curricular disconnects in `curriculum-coherence-notes.md`.
 
 ## Homework answer keys
 
-Ready, Set, and Go answer keys are collapsed beneath their respective worked examples. Students should study the examples and try exercises independently before checking answers. Preserve packet numbering and statement wording; show numerical results where useful and state when required plots are not shown. Check every answer against the matching source packet and verify final math rendering. Follow the detailed conventions in `math_supplement_master_instructions.md`. Run `python3 tools/check_answer_keys.py` to check all published lessons for missing or malformed keys, broken answer links, and math-renderer setup; also expand the keys in a browser to verify actual rendering.
+Compact Ready, Set, and Go checking keys are collapsed beneath the relevant instruction. Substantial worked solutions may stay visible in the main body. Encourage students to use relevant examples and try exercises independently before checking answers. Clearly distinguish original prompts from solutions, and preserve packet numbering, subpart letters, notation, and statement wording. State when required plots are not shown. Check every answer against the actual source page, including visual verification of expressions that PDF extraction may misread. Follow `math_supplement_master_instructions.md` and verify final math rendering. Run `python3 tools/check_answer_keys.py` as an additional structural check, and inspect both expanded keys and visible solutions in a browser. The checker may need updating for intentionally visible solution layouts.
 
 ## Human review status
 
