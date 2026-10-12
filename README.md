@@ -7,6 +7,7 @@ Internal links are **relative**, so the site works both at `username.github.io/m
 ## Project layout
 
 - `index.html` — website home page
+- `curriculum-map.html` — searchable Math I–III skill and lesson map, generated from `mvp_math1-3_complete_curriculum_map.xlsx`
 - `math-1/index.html`, `math-2/index.html`, `math-3/index.html` — course indexes
 - `math-2/module-02/index.html` — module index
 - `math-2/module-02/section-2-1.html` — Section 2.1 lesson
@@ -16,6 +17,10 @@ Internal links are **relative**, so the site works both at `username.github.io/m
 - `authoring/` — local-only working files (reference lesson, header template); excluded from the repo by `.gitignore`
 
 The `MVP 1/`, `MVP 2/`, and `MVP 3/` folders hold local source PDFs and are excluded from Git.
+
+## Cumulative curriculum map
+
+The public `curriculum-map.html` page is generated from the Excel workbook in the project root. After editing the workbook, run `python3 tools/build_curriculum_map.py` to refresh the page. The map links to lessons that are already listed on published module indexes; unpublished drafts remain unlinked.
 
 ## Naming conventions
 
