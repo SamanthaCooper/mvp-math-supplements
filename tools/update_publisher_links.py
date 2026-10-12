@@ -28,7 +28,7 @@ def update(path, markup, lesson=False):
     if lesson:
         if 'publisher-links.css' not in text:
             text = text.replace('</head>', '<link rel="stylesheet" href="../../assets/publisher-links.css"></head>')
-        pattern = r'(<p class="meta">.*?</p>)' if 'class="meta"' in text else r'(<p class="subtitle">.*?</p>)'
+        pattern = r'(<p class="meta">.*?</p>(?:\s*<p class="human-review-complete[^"]*"[^>]*>.*?</p>)?)' if 'class="meta"' in text else r'(<p class="subtitle">.*?</p>)'
     else:
         pattern = r'(<p class="subtitle">.*?</p>)'
     text, count = re.subn(pattern, lambda m: m[1] + markup, text, count=1, flags=re.S)
