@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="color-scheme" content="light" />
+<title>Introduction to the Jacobian — A Multivariable Calculus Guide</title>
+<meta name="description" content="A step-by-step introduction to the Jacobian matrix, its geometric meaning, and the multivariable chain rule, with examples leading to Problem 24." />
+<style>
+:root{--ink:#1b2940;--body:#29384d;--muted:#65748a;--blue:#235d94;--blue-light:#edf5fc;--line:#dce5ed;--paper:#ffffff;--bg:#f3f6fa;--warm:#f7fafc}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--body);font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:16px;line-height:1.75;-webkit-font-smoothing:antialiased}
+.page{width:min(100% - 40px,850px);margin:38px auto 64px;padding:clamp(24px,5vw,66px);background:var(--paper);border:1px solid #e5ebf1;box-shadow:0 12px 38px rgba(19,43,69,.07);border-radius:14px}
+.eyebrow{font-size:11.5px;font-weight:750;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);margin:0 0 9px}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;color:var(--ink);line-height:1.22}h1{font-size:clamp(32px,4.5vw,47px);margin:0 0 20px;letter-spacing:-.028em}h2{font-size:clamp(22px,3.1vw,28px);margin:42px 0 16px;padding-top:25px;border-top:1px solid var(--line)}h3{font-size:19px;margin:24px 0 10px}p{margin:0 0 16px}p:last-child{margin-bottom:0}strong{color:var(--ink)}.lede{font-size:17.5px;line-height:1.72}.intro{padding-bottom:9px}.math{overflow-x:auto;overflow-y:hidden;margin:12px 0 19px;max-width:100%;padding:2px 0}mjx-container[display="true"]{margin:0.8em 0 !important;overflow-x:auto;overflow-y:hidden;max-width:100%}mjx-container{color:#142945}
+ul,ol{padding-left:24px;margin:9px 0 18px}li{padding-left:3px;margin:5px 0}li::marker{color:var(--blue)}.callout{background:var(--blue-light);border-left:4px solid var(--blue);padding:17px 21px;margin:22px 0;border-radius:0 9px 9px 0}.callout p{margin:0}.small{font-size:14px;color:var(--muted)}.table-wrap{overflow-x:auto;margin:16px 0 23px;border:1px solid var(--line);border-radius:9px}table{width:100%;border-collapse:collapse;min-width:380px}thead{background:#edf4f9}th,td{text-align:left;padding:12px 16px;border-bottom:1px solid var(--line);vertical-align:middle}tr:last-child td{border-bottom:0}th{color:var(--ink);font-size:14px}td{font-size:15px}
+.jac-figure{border:1px solid var(--line);border-radius:10px;padding:20px;max-width:565px;margin:23px auto;background:var(--warm)}.figure-caption{font-size:14px;font-weight:650;text-align:center;color:var(--ink);margin:0 0 16px}.jac-grid{display:grid;grid-template-columns:110px repeat(2,minmax(0,1fr));gap:8px;align-items:stretch}.jac-grid .heading{font-size:13px;color:var(--muted);font-weight:600;text-align:center;align-self:center;padding:5px}.jac-grid .rowlabel{font-size:13px;font-weight:600;align-self:center;text-align:center}.jac-grid .cell{padding:14px 6px;text-align:center;border:1px solid #d6e5f1;background:#e9f3fc;border-radius:7px;color:var(--blue);font-size:19px;overflow-x:auto}.jac-grid .cell mjx-container{font-size:104% !important}
+.flow-chart{border:1px solid var(--line);border-radius:10px;padding:19px 15px;background:var(--warm);margin:22px 0}.flow-svg{display:block;width:100%;height:auto;max-width:600px;margin:auto}.flow-svg .b{fill:#eaf3fb;stroke:#80a8cb;stroke-width:1.5}.flow-svg .arr{fill:none;stroke:#35597b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.flow-svg text{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;fill:#192e46}.flow-svg .lab{font-size:17px;font-style:italic}.flow-svg .node{font-size:17px;font-weight:550}.flow-svg .sub{font-size:12px;fill:#59728b}.flow-chart .math{margin:6px 0 0}
+.rule{height:1px;background:var(--line);margin:28px 0}.recap{padding:20px 23px;border:1px solid #b7cfe1;border-radius:10px;background:linear-gradient(115deg,#f5fafe,#fff);margin:22px 0 4px}.recap p:last-child{margin-bottom:0}
+footer{border-top:1px solid var(--line);margin-top:32px;padding-top:18px;font-size:12px;color:var(--muted)}
+@media(max-width:640px){.page{width:100%;border:0;box-shadow:none;border-radius:0;margin:0;padding:24px 18px 35px}.jac-grid{grid-template-columns:70px repeat(2,minmax(0,1fr));gap:5px}.jac-grid .cell{padding:12px 0;font-size:16px}.jac-grid .heading,.jac-grid .rowlabel{font-size:11px}.flow-chart{padding:10px 3px}.flow-svg .node{font-size:16px}table{min-width:340px}h2{margin-top:32px}}
+@media print{@page{size:letter;margin:0.65in}html,body{background:white!important;font-size:11.2pt}.page{width:100%;margin:0;padding:0;border:0;box-shadow:none}h1{font-size:27pt}h2{font-size:18pt;break-after:avoid}h3{break-after:avoid}.math,.jac-figure,.flow-chart,.table-wrap,.callout,.recap{break-inside:avoid}footer{margin-top:20px}.callout,.jac-grid .cell,.flow-chart,.recap{print-color-adjust:exact;-webkit-print-color-adjust:exact}}
+</style>
+<script>
+window.MathJax={
+  tex:{inlineMath:[['\\(','\\)']],displayMath:[['\\[','\\]']],processEscapes:true,packages:{'[+]':['ams']}},
+  options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']},
+  svg:{fontCache:'global'}
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+<body>
+<main class="page">
+<header class="intro">
+<p class="eyebrow">Multivariable Calculus · Study Guide</p>
+<h1>Introduction to the Jacobian</h1>
+<p class="lede">Let's start from the beginning. The Jacobian is actually not a particularly complicated idea. <strong>It's a way of organizing partial derivatives into a matrix.</strong> The interesting part is that this matrix lets us extend the ordinary chain rule to functions of several variables.</p>
+<p>I'll build this up gradually, using examples, and then connect it to Problem 24.</p>
+</header>
+
+<section>
+<h2>1. Start with the ordinary derivative</h2>
+<p>In single-variable calculus, if we have</p>
+<div class="math">\[f(x)=x^2\]</div>
+<p>we take the derivative:</p>
+<div class="math">\[f'(x)=2x\]</div>
+<p>This derivative tells us how the output changes when we change the input.</p>
+<p>For a small change \(\Delta x\),</p>
+<div class="math">\[\Delta f\approx f'(x)\Delta x\]</div>
+<p>For example, at \(x=3\), the derivative is 6. Increasing \(x\) by 0.01 increases \(f\) by approximately 0.06.</p>
+<div class="callout"><p><strong>The derivative measures how sensitive the output is to changes in the input.</strong></p></div>
+</section>
+
+<section>
+<h2>2. What if a function has two inputs?</h2>
+<p>Suppose</p>
+<div class="math">\[f(x,y)=x^2+3y\]</div>
+<p>Now the function has two inputs, \(x\) and \(y\), but still only one output.</p>
+<p>We can measure how the function changes when either input changes:</p>
+<div class="math">\[\frac{\partial f}{\partial x}=2x\]</div>
+<div class="math">\[\frac{\partial f}{\partial y}=3\]</div>
+<p>We already know how to combine these into a gradient:</p>
+<div class="math">\[\nabla f(x,y)=(2x,3)\]</div>
+<p>The <strong>Jacobian</strong> contains exactly the same information, but it's written as a row matrix:</p>
+<div class="math">\[\boxed{Df(x,y)=\begin{bmatrix}2x&3\end{bmatrix}}\]</div>
+<p>Notice that it's a \(1\times2\) matrix:</p>
+<ul><li>One row, because we have one output.</li><li>Two columns, because we have two inputs.</li></ul>
+<p>So for a scalar-valued function, the Jacobian is just the transpose of the gradient (when the gradient is written as a column vector).</p>
+</section>
+
+<section>
+<h2>3. What if a function has two inputs AND two outputs?</h2>
+<p>This is where the Jacobian becomes more interesting.</p>
+<p>Suppose we have</p>
+<div class="math">\[G(x,y)=(x^2+y,xy)\]</div>
+<p>This function takes a point \((x,y)\) and returns another point with two coordinates.</p>
+<p>Let's name the outputs:</p>
+<div class="math">\[\begin{aligned}u(x,y)&=x^2+y\\v(x,y)&=xy\end{aligned}\]</div>
+<p>We want to know how <strong>each output changes in response to each input</strong>.</p>
+<p>That gives us four partial derivatives:</p>
+<div class="math">\[\begin{aligned}u_x&=2x&\qquad u_y&=1\\v_x&=y&\qquad v_y&=x\end{aligned}\]</div>
+<p>The Jacobian organizes these four derivatives into a matrix:</p>
+<div class="math">\[\boxed{DG(x,y)=\begin{bmatrix}u_x&u_y\\v_x&v_y\end{bmatrix}=\begin{bmatrix}2x&1\\y&x\end{bmatrix}}\]</div>
+<p>The organization is important:</p>
+<ul><li><strong>Rows correspond to outputs.</strong></li><li><strong>Columns correspond to inputs.</strong></li></ul>
+<p>Here is the structure visually:</p>
+<figure class="jac-figure" aria-label="A two-by-two Jacobian matrix annotated with rows for outputs and columns for inputs">
+<figcaption class="figure-caption">Jacobian of \(G(x,y)=(u(x,y),v(x,y))\)</figcaption>
+<div class="jac-grid">
+<div></div><div class="heading">Input \(x\)</div><div class="heading">Input \(y\)</div>
+<div class="rowlabel">Output \(u\)</div><div class="cell">\(\dfrac{\partial u}{\partial x}\)</div><div class="cell">\(\dfrac{\partial u}{\partial y}\)</div>
+<div class="rowlabel">Output \(v\)</div><div class="cell">\(\dfrac{\partial v}{\partial x}\)</div><div class="cell">\(\dfrac{\partial v}{\partial y}\)</div>
+</div>
+</figure>
+<p>This works for any number of inputs or outputs.</p>
+<p>In general:</p>
+<div class="math">\[\boxed{\text{Jacobian dimensions}=(\text{number of outputs})\times(\text{number of inputs})}\]</div>
+<div class="table-wrap"><table><thead><tr><th>Function</th><th>Jacobian size</th></tr></thead><tbody>
+<tr><td>\(\mathbb R\to\mathbb R\)</td><td>\(1\times1\)</td></tr>
+<tr><td>\(\mathbb R^2\to\mathbb R\)</td><td>\(1\times2\)</td></tr>
+<tr><td>\(\mathbb R^2\to\mathbb R^2\)</td><td>\(2\times2\)</td></tr>
+<tr><td>\(\mathbb R^2\to\mathbb R^3\)</td><td>\(3\times2\)</td></tr>
+<tr><td>\(\mathbb R^3\to\mathbb R^2\)</td><td>\(2\times3\)</td></tr>
+</tbody></table></div>
+</section>
+
+<section>
+<h2>4. What does the Jacobian actually mean?</h2>
+<p>This is the part I think is worth understanding, rather than simply memorizing how to fill in a matrix.</p>
+<p>Remember how the ordinary derivative tells us that</p>
+<div class="math">\[\Delta f\approx f'(x)\Delta x\]</div>
+<p>The Jacobian does the same thing, but for several inputs and outputs.</p>
+<p>For our example,</p>
+<div class="math">\[G(x,y)=(x^2+y,xy)\]</div>
+<p>we have</p>
+<div class="math">\[DG(x,y)=\begin{bmatrix}2x&1\\y&x\end{bmatrix}\]</div>
+<p>Suppose we are at \((x,y)=(2,3)\). Then</p>
+<div class="math">\[DG(2,3)=\begin{bmatrix}4&1\\3&2\end{bmatrix}\]</div>
+<p>Now suppose we change the inputs by small amounts \(\Delta x,\Delta y\).</p>
+<p>We can estimate the change in the two outputs by multiplying:</p>
+<div class="math">\[\boxed{\begin{bmatrix}\Delta u\\\Delta v\end{bmatrix}\approx\begin{bmatrix}4&1\\3&2\end{bmatrix}\begin{bmatrix}\Delta x\\\Delta y\end{bmatrix}}\]</div>
+<p>Multiplying out gives</p>
+<div class="math">\[\Delta u\approx4\Delta x+\Delta y\]</div>
+<div class="math">\[\Delta v\approx3\Delta x+2\Delta y\]</div>
+<p>This tells us how changes in the inputs produce changes in the outputs.</p>
+<div class="callout"><p><strong>The Jacobian is the multivariable version of the derivative: it provides the best linear approximation to how a function changes near a point.</strong></p></div>
+<p>That's also why it's useful for linearization, which we've already worked with.</p>
+</section>
+
+<section>
+<h2>5. The Jacobian and the multivariable chain rule</h2>
+<p>Now we're ready for the important application in Problem 24.</p>
+<p>Remember the ordinary chain rule:</p>
+<div class="math">\[\frac{d}{dx}f(g(x))=f'(g(x))g'(x)\]</div>
+<p>We take the derivative of the outer function, evaluate it at the inner function, and multiply by the derivative of the inner function.</p>
+<p><strong>The multivariable chain rule works exactly the same way, except that we multiply Jacobian matrices instead of ordinary derivatives.</strong></p>
+<p>Suppose</p>
+<div class="math">\[g:\mathbb R^2\to\mathbb R^2\]</div>
+<p>and</p>
+<div class="math">\[f:\mathbb R^2\to\mathbb R\]</div>
+<p>We compose them:</p>
+<div class="math">\[h=f\circ g\]</div>
+<p>That is,</p>
+<div class="math">\[h(x,y)=f(g(x,y))\]</div>
+<p>The Jacobian chain rule says</p>
+<div class="math">\[\boxed{Dh(x,y)=Df(g(x,y))\,Dg(x,y)}\]</div>
+<p>Let's see what that means.</p>
+<p>Write the inner function as</p>
+<div class="math">\[g(x,y)=(u(x,y),v(x,y))\]</div>
+<p>The Jacobian of \(f\) is</p>
+<div class="math">\[Df(u,v)=\begin{bmatrix}f_u&f_v\end{bmatrix}\]</div>
+<p>The Jacobian of \(g\) is</p>
+<div class="math">\[Dg(x,y)=\begin{bmatrix}u_x&u_y\\v_x&v_y\end{bmatrix}\]</div>
+<p>Multiply:</p>
+<div class="math">\[Dh(x,y)=\begin{bmatrix}f_u&f_v\end{bmatrix}\begin{bmatrix}u_x&u_y\\v_x&v_y\end{bmatrix}\]</div>
+<p>The result is</p>
+<div class="math">\[\boxed{Dh(x,y)=\begin{bmatrix}f_uu_x+f_vv_x&f_uu_y+f_vv_y\end{bmatrix}}\]</div>
+<p>Notice that this is just the expanded multivariable chain rule:</p>
+<div class="math">\[\frac{\partial h}{\partial x}=\frac{\partial f}{\partial u}\frac{\partial u}{\partial x}+\frac{\partial f}{\partial v}\frac{\partial v}{\partial x}\]</div>
+<div class="math">\[\frac{\partial h}{\partial y}=\frac{\partial f}{\partial u}\frac{\partial u}{\partial y}+\frac{\partial f}{\partial v}\frac{\partial v}{\partial y}\]</div>
+<p>The Jacobian matrix multiplication is simply a convenient way to perform these calculations.</p>
+<p>One detail to remember: the derivatives \(f_u,f_v\) are evaluated at \((u,v)=g(x,y)\).</p>
+</section>
+
+<section>
+<h2>6. Connecting this to Problem 24</h2>
+<p>Here's the problem you were given:</p>
+<div class="math">\[f(u,v)=ve^u\]</div>
+<div class="math">\[g(x,y)=(2xy,x+y)\]</div>
+<p>Notice how the functions fit together:</p>
+<div class="flow-chart" role="img" aria-label="The composition sends two inputs x,y through g to two intermediate coordinates u,v, then through f to a single output h(x,y).">
+<svg class="flow-svg" viewBox="0 0 610 150" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<rect class="b" x="6" y="39" width="163" height="74" rx="10"/>
+<rect class="b" x="226" y="39" width="157" height="74" rx="10"/>
+<rect class="b" x="442" y="39" width="162" height="74" rx="10"/>
+<path class="arr" d="M172 76 H220 M210 68 L220 76 L210 84"/>
+<path class="arr" d="M386 76 H436 M426 68 L436 76 L426 84"/>
+<text class="lab" x="196" y="26" text-anchor="middle">g</text>
+<text class="lab" x="410" y="26" text-anchor="middle">f</text>
+<text class="node" x="87" y="73" text-anchor="middle">(x, y)</text>
+<text class="sub" x="87" y="95" text-anchor="middle">2 inputs</text>
+<text class="node" x="305" y="73" text-anchor="middle">(u, v)</text>
+<text class="sub" x="305" y="95" text-anchor="middle">2 outputs</text>
+<text class="node" x="523" y="73" text-anchor="middle">h(x, y)</text>
+<text class="sub" x="523" y="95" text-anchor="middle">1 output</text>
+</svg>
+<div class="math">\[\mathbb R^2\xrightarrow{\;g\;}\mathbb R^2\xrightarrow{\;f\;}\mathbb R\]</div>
+</div>
+<p>So:</p>
+<ul>
+<li>Part (a) asks for \(Df\), a \(1\times2\) matrix.</li>
+<li>Part (b) asks for \(Dg\), a \(2\times2\) matrix.</li>
+<li>Part (c) asks for \(Dh\), which we obtain by multiplying those matrices in the correct order.</li>
+</ul>
+<p>The dimensions work perfectly:</p>
+<div class="math">\[\underbrace{Dh}_{1\times2}=\underbrace{Df(g(x,y))}_{1\times2}\underbrace{Dg(x,y)}_{2\times2}\]</div>
+<p>And importantly, we are not taking a determinant here. We're calculating and multiplying Jacobian matrices.</p>
+</section>
+
+<section>
+<h2>7. Jacobian matrix versus Jacobian determinant</h2>
+<p>One final distinction, because the terminology can be confusing.</p>
+<p>The <strong>Jacobian matrix</strong> is the matrix of first partial derivatives:</p>
+<div class="math">\[DG=\begin{bmatrix}u_x&u_y\\v_x&v_y\end{bmatrix}\]</div>
+<p>The <strong>Jacobian determinant</strong> is the determinant of that matrix:</p>
+<div class="math">\[\det DG=u_xv_y-u_yv_x\]</div>
+<p>The determinant is particularly useful in change-of-variables problems involving double integrals, where it measures local area scaling.</p>
+<p>In Problem 24, you're being asked for the <em>Jacobian derivative</em>, meaning the matrix, not its determinant.</p>
+</section>
+
+<section class="recap">
+<h2 style="border:0;margin:0 0 14px;padding:0">What to remember</h2>
+<p>There are really only three essential ideas:</p>
+<ol>
+<li>The Jacobian is a matrix containing all first partial derivatives, with one row per output and one column per input.</li>
+<li>The Jacobian tells us how small changes in the inputs affect the outputs, just as an ordinary derivative does.</li>
+<li>The multivariable chain rule is matrix multiplication:</li>
+</ol>
+<div class="math">\[\boxed{D(f\circ g)(x,y)=Df(g(x,y))Dg(x,y)}\]</div>
+<p><strong>Now I'd suggest tackling just part (a) of Problem 24.</strong> We have \(f(u,v)=ve^u\). All we need to do is take its two partial derivatives and put them into a \(1\times2\) matrix. That will be our first application of the Jacobian.</p>
+</section>
+<footer>Introduction to the Jacobian · A shareable calculus study guide. Mathematical formulas are rendered with MathJax and require an internet connection when opened from this HTML file.</footer>
+</main>
+</body>
+</html>
