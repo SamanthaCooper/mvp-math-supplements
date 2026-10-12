@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ROMAN = {1: 'I', 2: 'II', 3: 'III'}
 BASE = 'https://www.mathematicsvisionproject.org/'
 PDF_BASE = BASE + 'uploads/1/1/6/3/11636986/'
-PACKETS = {(1,2): 'm1_mod2_se_5_2015f.pdf', (1,3): 'm1_mod3_se_52016f.pdf', **{(2,m): f'm2_mod{m}_se_52017f.pdf' for m in range(2,7)}}
+PACKETS = {(1,2): 'm1_mod2_se_5_2015f.pdf', (1,3): 'm1_mod3_se_52016f.pdf', (1,4): 'm1_mod4_se_52016f.pdf', **{(2,m): f'm2_mod{m}_se_52017f.pdf' for m in range(2,7)}}
 def course_url(course):
     return BASE + 'secondary-mathematics-' + ROMAN[course].lower() + '.html'
 def box(course, module=None, section=None):
