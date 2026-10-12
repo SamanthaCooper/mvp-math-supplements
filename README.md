@@ -8,6 +8,7 @@ Internal links are **relative**, so the site works both at `username.github.io/m
 
 - `index.html` — website home page
 - `curriculum-map.html` — searchable Math I–III skill and lesson map, generated from `mvp_math1-3_complete_curriculum_map.xlsx`
+- `curriculum-coherence-notes.md` — working observations about connections and gaps between in-class tasks and homework; a companion to the curriculum map, not linked from the website
 - `math-1/index.html`, `math-2/index.html`, `math-3/index.html` — course indexes
 - `math-2/module-02/index.html` — module index
 - `math-2/module-02/section-2-1.html` — Section 2.1 lesson
