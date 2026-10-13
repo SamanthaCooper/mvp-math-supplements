@@ -10,6 +10,8 @@ Depth depends on instructional need. Review material may need only a brief remin
 
 ## 1. Scope and source analysis
 
+Use the school's **honors student edition** for source analysis, problem numbering, page references, and publisher links. The active PDFs are in `MVP 1/`, `MVP 2/`, and `MVP 3/`; `tools/mvp_packets.json` identifies the honors selection for each module. Some modules use a shared standard/honors PDF. Do not use archived standard editions when a separate honors packet exists. Verify page references against the active edition.
+
 Generate **one numbered packet section per request**, unless the user explicitly requests otherwise. Do not start another section or broaden the task to a module overview. Each section is independently reviewable; combining approved lessons later should preserve their instructional content.
 
 Read the complete module for context and examine the assigned main task and every Ready, Set, Go exercise. Identify previously introduced ideas, genuinely new material, review, extensions, and concepts reserved for later sections. Use a brief internal scope record to guide drafting. Check earlier packets or supplements before assuming that students know a method or notation.
@@ -147,11 +149,13 @@ Run `python3 tools/update_review_badges.py` after changing review status or publ
 
 Follow the README’s ingestion and naming conventions. Publish only approved lessons on module indexes. Refresh the module/course availability text and the affected home-page course button whenever lessons or supplementary resources are added or removed. Run `python3 tools/update_publisher_links.py` after updating indexes. Refresh the curriculum map with `python3 tools/build_curriculum_map.py` when the workbook or published lesson links change.
 
+Each lesson has unobtrusive “Last updated” dates at the top and bottom, separate from its human-review status. After editing a lesson, run `python3 tools/update_lesson_dates.py path/to/lesson.html` to refresh its revision date in the America/Los_Angeles timezone. Running the tool without paths initializes published lessons and established drafts using their latest Git modification date; edited or new lessons use today’s date.
+
 Edit this instructions file in place. Git preserves history; do not create version-suffixed instruction copies. Publication, committing, and pushing follow the user’s authorization. Preserve unrelated work and exclude local-only files.
 
 ## 7. Additional learning resources
 
-Research resources during source analysis and choose specific, age-appropriate explanations or practice that closely match the mathematics and methods of the current section. **Prefer Khan Academy when it offers a good match, and put the best matches first.** Written material from Paul’s, OpenStax, or another reputable source may be useful when suitably scoped. There is no required search for Professor Leonard or any fixed provider quota; omit advanced or significantly broader material that would distract students.
+Research resources during source analysis and choose specific, age-appropriate explanations or practice that closely match the mathematics and methods of the current section. **Prefer Khan Academy when it offers a good match, and put the best matches first.** **The Organic Chemistry Tutor (YouTube) is also a preferred source for mathematics explanations and worked examples.** Consider its videos alongside Khan Academy, choosing specific videos whose content, methods, and prerequisite level fit the lesson. Written material from Paul’s, OpenStax, or another reputable source may be useful when suitably scoped. There is no required search for Professor Leonard or any fixed provider quota; omit advanced or significantly broader material that would distract students.
 
 Link to the specific lesson, video, article, or practice set, not a homepage. Verify the title, destination, relevant content, and prerequisite level. Briefly explain what each link supports and any small scope difference. Do not claim an exact method match unless verified; do not invent timestamps or content boundaries. Use a compact table or similarly readable format, consistent with the site.
 

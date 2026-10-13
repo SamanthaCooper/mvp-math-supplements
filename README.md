@@ -19,6 +19,8 @@ Internal links are **relative**, so the site works both at `username.github.io/m
 
 The `MVP 1/`, `MVP 2/`, and `MVP 3/` folders hold local source PDFs and are excluded from Git.
 
+Use the **honors student editions** as the source packets. `tools/mvp_packets.json` records the publisher's honors selection for every module; some modules share the same PDF with the standard edition. `honors-packets.html` links directly to these publisher PDFs. Superseded standard packets are archived locally under ignored `authoring/standard-packets/`. After changing the packet manifest, run `python3 tools/update_publisher_links.py`; verify printed and PDF page references against the replacement edition before rebuilding reference indexes.
+
 ## Cumulative curriculum map
 
 The public `curriculum-map.html` page is generated from the Excel workbook in the project root. After editing the workbook, run `python3 tools/build_curriculum_map.py` to refresh the page. The map links to lessons that are already listed on published module indexes; unpublished drafts remain unlinked.
@@ -71,3 +73,7 @@ After human review is explicitly completed, use the standard dated `human-review
 ## Publisher materials links
 
 Every published lesson and supplementary resource has a prominent link beneath its header to its module’s original student PDF on the MVP website. Module pages repeat this link; course and home pages link to the official course materials. During every ingestion, run `python3 tools/update_publisher_links.py` after updating the indexes and before committing. This updates only resources listed in module indexes, leaving unpublished drafts alone. For a new module, verify its student-edition PDF URL and add it to `PACKETS` in that script first; use the edition that matches the supplement. Never upload local MVP PDFs.
+
+### Lesson revision dates
+
+Lessons display small **Last updated** dates at the top and bottom, separate from human-review dates. After editing a lesson, run `python3 tools/update_lesson_dates.py math-1/module-03/section-3-1.html` with the affected paths. Without paths, the tool uses Git history for unchanged published lessons and established drafts, and today’s date for edited or new lessons. Dates use America/Los_Angeles.

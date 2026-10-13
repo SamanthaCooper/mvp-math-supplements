@@ -40,7 +40,7 @@ Recorded October 12, 2026, while reviewing Section 4.2. This entry tracks a poss
 
 ### Reference to remember
 
-**Section 4.2 · Go 25 · printed p. 9** asks: “Which notation, interval or set, would most appropriate when working with a domain of whole numbers?” Source: `MVP 1/m1_mod4_se_52016f.pdf` (May 2016, stored locally).
+**Section 4.2 · Go 25 · printed p. 9** asks: “Which notation, interval or set, would most appropriate when working with a domain of whole numbers?” Source: `MVP 1/m1_mod4_seh_52016f.pdf` (May 2016, stored locally).
 
 The intended answer is **set notation**. An ordinary interval describes all real numbers between its endpoints; it does not restrict the values to integers. For example, `[0,3]` includes 1.5, while `{0,1,2,3}` does not. A set-builder description can explicitly restrict its members to whole numbers or integers.
 

@@ -6,6 +6,7 @@
   <title>Math Supplements — Home</title>
   <link rel="stylesheet" href="assets/site.css">
   <style>
+    #local-packet-index[hidden]{display:none}
     .home-page{max-width:1180px}
     .home-hero{max-width:76ch;margin-bottom:24px}
     .home-hero h1{font-size:2.8rem}
@@ -38,6 +39,7 @@
     <h2 id="courses-heading">Choose a course</h2>
     <div class="course-grid">
       <a class="tile map-tile" href="curriculum-map.html"><strong>Cumulative curriculum map</strong><small>Explore how skills appear across Math I, Math II, and Math III.</small></a>
+      <a class="tile map-tile" id="local-packet-index" href="authoring/packet-reference-index.html" hidden><strong>MVP packet reference index</strong><small>Find definitions and worked examples in Math I, II, and III · Modules 1–9</small></a>
       <a class="tile" href="math-1/index.html"><strong>Secondary Math I</strong><small>Sections 2.1–2.6, 3.1–3.7, and 4.1–4.2 · Supplementary clarification for Module 2</small><span class="review-badge review-badge--partial" data-reviewed="9" data-total="16"><span class="review-dot" aria-hidden="true"></span>Partly human reviewed · 9 of 16</span></a>
       <a class="tile" href="math-2/index.html"><strong>Secondary Math II</strong><small>41 lessons across Modules 2–6</small><span class="review-badge review-badge--pending" data-reviewed="0" data-total="41"><span class="review-dot" aria-hidden="true"></span>None human reviewed · 0 of 41</span></a>
       <a class="tile" href="math-3/index.html"><strong>Secondary Math III</strong><small>Coming soon. No lessons published yet</small><span class="review-badge review-badge--pending" data-reviewed="0" data-total="0"><span class="review-dot" aria-hidden="true"></span>No lessons published</span></a>
@@ -72,10 +74,16 @@
   <section id="mvp-materials" aria-labelledby="mvp-heading">
     <h2 id="mvp-heading">Get the MVP packets</h2>
     <p>Use these supplements alongside the corresponding MVP packet. Download the original materials from the publisher:</p>
-    <p><a href="https://www.mathematicsvisionproject.org/secondary-mathematics-i.html">Math I</a> · <a href="https://www.mathematicsvisionproject.org/secondary-mathematics-ii.html">Math II</a> · <a href="https://www.mathematicsvisionproject.org/secondary-mathematics-iii.html">Math III</a></p>
+    <p><a href="honors-packets.html#math-1">Math I</a> · <a href="honors-packets.html#math-2">Math II</a> · <a href="honors-packets.html#math-3">Math III</a></p>
   </section>
 
   <footer>Independent supplementary instruction for students using the Mathematics Vision Project (MVP) curriculum. Not official MVP publisher material; not affiliated with or endorsed by MVP.<p><a href="index.html">Return to home</a></p></footer>
 </main>
+<script>
+  // The index uses local source PDFs and stays in the ignored authoring directory.
+  if (location.protocol === 'file:' || ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname)) {
+    document.getElementById('local-packet-index').hidden = false;
+  }
+</script>
 </body>
 </html>

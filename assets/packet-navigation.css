@@ -26,3 +26,8 @@ section[aria-labelledby="in-class"] h4{font-size:1.07rem;line-height:1.25;margin
 
 .human-review-complete{margin:20px 0;padding:14px 20px;background:#edf8ee;border:1px solid #bfdcc4;border-left:4px solid #54875c;border-radius:6px;color:#285532;font-size:.9rem;line-height:1.5}
 @media print{.human-review-complete{break-inside:avoid;print-color-adjust:exact;-webkit-print-color-adjust:exact}}
+
+/* Content revision date, separate from human-review status. */
+.lesson-updated{margin:2rem 0 0;font-size:.78rem;line-height:1.5;color:#64748b}
+
+.lesson-updated--top{margin:0 0 .6rem;text-align:right}
