@@ -8,6 +8,12 @@ a{color:var(--accent)}.eyebrow{font-weight:750;letter-spacing:.1em;text-transfor
 .breadcrumbs a{text-decoration:none}.breadcrumbs a:hover{text-decoration:underline}
 .tile{display:block;border:1px solid var(--border);padding:18px 20px;border-radius:9px;margin:12px 0;color:inherit;text-decoration:none}
 .tile:hover{background:var(--pale);border-color:#aec3d0}.tile strong{color:var(--accent)}.tile small{display:block;color:var(--muted);margin-top:5px}
+.review-badge{display:inline-flex;align-items:center;gap:7px;max-width:100%;margin-top:12px;padding:4px 10px;border:1px solid;border-radius:20px;font-size:.8rem;font-weight:650;line-height:1.45}
+.review-dot{flex:0 0 8px;width:8px;height:8px;border-radius:50%;background:currentColor}
+.review-badge--complete{color:#24653d;background:#edf8f0;border-color:#c6dfce}
+.review-badge--partial{color:#765500;background:#fff7dc;border-color:#e8d69a}
+.review-badge--pending{color:#943a37;background:#fff0ee;border-color:#e8c8c4}
+@media print{.review-badge{print-color-adjust:exact;-webkit-print-color-adjust:exact}}
 .note{background:var(--pale);border-left:4px solid var(--accent);padding:16px 20px;margin:24px 0;border-radius:0 8px 8px 0}
 footer{border-top:1px solid var(--border);margin-top:42px;padding-top:18px;font-size:.86rem;color:var(--muted)}
 @media(max-width:700px){main{padding:24px 20px}h1{font-size:1.8rem}}@media print{body{background:#fff}main{box-shadow:none;padding:0}}

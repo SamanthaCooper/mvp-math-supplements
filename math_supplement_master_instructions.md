@@ -143,6 +143,8 @@ New drafts awaiting cursory review use `section-M-S-pending-cursory-review.html`
 
 When the user explicitly completes human review, replace the pending banner with the standard light-green `human-review-complete` note immediately after the header metadata, before the publisher box. Include the user-approved date using a machine-readable `time` element. Follow Math I 3.1’s established placement and shared styling.
 
+Run `python3 tools/update_review_badges.py` after changing review status or published index links. It refreshes lesson review badges and module/course aggregate counts from the published lessons and supplementary resources; cursory review does not count as completed human review.
+
 Follow the README’s ingestion and naming conventions. Publish only approved lessons on module indexes. Refresh the module/course availability text and the affected home-page course button whenever lessons or supplementary resources are added or removed. Run `python3 tools/update_publisher_links.py` after updating indexes. Refresh the curriculum map with `python3 tools/build_curriculum_map.py` when the workbook or published lesson links change.
 
 Edit this instructions file in place. Git preserves history; do not create version-suffixed instruction copies. Publication, committing, and pushing follow the user’s authorization. Preserve unrelated work and exclude local-only files.
