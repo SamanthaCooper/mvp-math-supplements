@@ -1,0 +1,152 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Math I 4.4 — Greater Than?</title><style>
+:root{--ink:#172338;--muted:#526179;--accent:#145a80;--light:#eff6fa;--border:#dce5eb;--warm:#fbf5e8;--green:#edf8f1}*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;line-height:1.66;color:var(--ink);background:#f6f8fa}main{max-width:920px;margin:0 auto;padding:36px 46px 90px;background:#fff;box-shadow:0 5px 35px #12233b12}h1,h2,h3{line-height:1.22}h1{font-size:2.25rem;margin:.3em 0}h2{font-size:1.7rem;margin:2.1em 0 .8em;border-bottom:2px solid var(--accent);padding-bottom:.3em}h3{font-size:1.17rem;margin:1.7em 0 .4em}p{margin:.65em 0}small,.muted{color:var(--muted)}.eyebrow{font-weight:750;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-size:.75rem}nav{background:var(--light);padding:16px 22px;border-radius:10px;margin:25px 0}nav a{display:inline-block;margin:3px 18px 3px 0;color:var(--accent);font-weight:650}.summary{border-left:5px solid var(--accent);background:var(--light);padding:16px 20px;margin:20px 0;border-radius:0 8px 8px 0}.rule{padding:17px 20px;background:var(--green);border-radius:9px;margin:18px 0}.worked{padding:18px 22px;border:1px solid var(--border);border-left:4px solid #387da4;border-radius:7px;margin:18px 0}.worked>strong:first-child{color:var(--accent)}.caution{padding:17px 20px;background:var(--warm);border-left:4px solid #be8a2d;border-radius:5px;margin:20px 0}.teacher{background:#fcfcff;border:1px solid var(--border);padding:22px;border-radius:9px;margin:20px 0}.tag{font-size:.73rem;letter-spacing:.08em;text-transform:uppercase;font-weight:800;color:var(--accent)}table{border-collapse:collapse;width:100%;margin:14px 0 22px;font-size:.94rem}td,th{border:1px solid var(--border);padding:10px;text-align:left;vertical-align:top}th{background:var(--light)}.cols{display:grid;grid-template-columns:1fr 1fr;gap:20px}.eq{font-size:1.07rem}.meta{margin:10px 0 22px;color:var(--muted)}.print{position:fixed;right:18px;bottom:18px;border:none;border-radius:24px;background:var(--accent);color:white;padding:12px 20px;font-weight:700;cursor:pointer;box-shadow:0 2px 12px #0002}hr{border:0;border-top:1px solid var(--border);margin:36px 0}li{margin:.4em 0}.toc-list{columns:2}figure{margin:20px 0}.plot > svg.diagram{width:100%;height:auto;max-height:440px}.glossary td:first-child{font-weight:700;white-space:nowrap}.lesson-intro{font-size:1.06rem;border-bottom:1px solid var(--border);padding-bottom:13px}figcaption{font-size:.85rem;color:var(--muted);text-align:center}.diagram{max-width:100%;display:block;margin:auto;background:white}.pill{display:inline-block;border-radius:40px;padding:4px 11px;background:var(--light);font-weight:750;color:var(--accent);font-size:.8rem;margin-right:8px}@media(max-width:700px){main{padding:24px 20px}.cols{grid-template-columns:1fr}h1{font-size:1.9rem}.toc-list{columns:1}}@media print{body{background:#fff}main{box-shadow:none;padding:0;max-width:unset}.print,nav{display:none}h2{break-before:page}h3,.worked,.caution,.rule,table{break-inside:avoid}body{font-size:10pt}}
+.packet-clarification{margin:26px 0 32px;padding:20px 24px;background:#f3f6fb;border:1px solid #bacce1;border-left:5px solid #557ba9;border-radius:8px}.packet-clarification-heading{display:flex;flex-direction:column;gap:3px;margin-bottom:10px}.packet-clarification-heading strong{font-size:1.13rem}.packet-clarification-label{font-size:.75rem;letter-spacing:.065em;text-transform:uppercase;color:#315b82;font-weight:800}.packet-source{font-size:.92rem;color:#41536a}.packet-clarification table{background:white;margin:13px 0}.packet-clarification th{background:#e7eef8}@media print{.packet-clarification{break-inside:avoid;background:#f3f6fb !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}}.plot > svg.diagram{max-height:none;display:block;width:100%;height:auto}.plot{max-width:760px;margin:18px auto}.plot figcaption{text-align:center;color:#526179;font-size:.9rem}.teacher{margin-top:30px}.print{font-family:inherit}@media print{.plot{break-inside:avoid}.plot > svg.diagram{max-height:340px}.print{display:none}}
+.smallnote{font-size:.92rem;color:#526179}.grid-label{font:12px system-ui,sans-serif;fill:#516276}.axis-label{font:600 14px system-ui,sans-serif;fill:#334761}.point-label{font:600 13px system-ui,sans-serif;fill:#253d53;paint-order:stroke;stroke:white;stroke-width:3px;stroke-linejoin:round}.graphkey{display:flex;gap:8px 16px;flex-wrap:wrap;justify-content:center;margin:6px 0;font-size:.86rem;color:var(--muted)}.keychip{display:inline-block;width:17px;height:5px;vertical-align:middle;margin-right:4px;border-radius:2px}.math-display{text-align:center;margin:14px 0;overflow-x:auto;padding:1px}.math-inline{white-space:nowrap}.math-inline mjx-container,.math-display mjx-container{display:inline-block!important;vertical-align:middle}.math-display mjx-container{margin:0 auto!important}.math-display svg{max-width:100%;height:auto;overflow:visible}.math-inline svg{height:auto;max-height:2em;overflow:visible}.mini{font-size:.94rem}.example-label{color:var(--accent);font-weight:700}.seq{padding-left:1.45em}.seq li{padding-left:.25em}.focus{font-weight:750;color:var(--accent)}a{color:#145a80;text-underline-offset:2px}.resource-table td:nth-child(3){min-width:215px}details{margin:8px 0}summary{cursor:pointer;font-weight:650}@media (max-width:700px){.resource-table td:nth-child(3){min-width:unset}table{font-size:.88rem;display:block;max-width:100%;overflow-x:auto}.graphkey{font-size:.76rem}}@media print{.math-inline svg{max-height:1.7em}.resource-table a{overflow-wrap:anywhere}}
+@media print{main>h2:first-of-type{break-before:auto}}
+
+/* MVP section-to-supplement cross-references */
+.mvp-crossref{background:#eef5fa;border-left:4px solid #527fa5;border-radius:0 7px 7px 0;padding:12px 17px;margin:-5px 0 24px;color:#263e57}
+.mvp-crossref-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;line-height:1.5}
+.mvp-crossref-label{color:#315b82;letter-spacing:.075em;font-size:.73rem;font-weight:800;text-transform:uppercase;white-space:nowrap}
+.mvp-crossref-target{font-size:.96rem;font-weight:720}
+.mvp-crossref p{margin:4px 0 0;font-size:.9rem;line-height:1.52;color:#43556a}
+.mvp-crossref--sub{margin:4px 0 17px;padding:9px 14px;background:#f5f8fc;border-left-width:3px}
+.mvp-crossref--sub .mvp-crossref-target{font-size:.89rem;font-weight:660}
+.mvp-crossref--sub p{font-size:.86rem;margin:2px 0 0}
+@media print{.mvp-crossref{break-inside:avoid;print-color-adjust:exact;-webkit-print-color-adjust:exact;background:#eef5fa !important}.mvp-crossref--sub{background:#f5f8fc !important}}
+
+body{font-size:17px}.site-breadcrumbs{background:none;padding:0;display:flex;flex-wrap:wrap;gap:9px;font-size:.88rem;margin:0 0 20px;color:#526179}.site-breadcrumbs a{font-weight:400;margin:0}.site-return{font-size:.9rem;margin:0 0 16px}.lesson-subtitle{font-size:.9rem}.smallnote{font-size:.85rem}.plot > svg.diagram{max-height:none;width:100%;height:auto}.plot{max-width:720px;margin:22px auto}.packet-clarification{background:#f3f6fb;border:1px solid #bacce1;border-left:4px solid #557ba9;border-radius:6px;padding:17px 21px;margin:22px 0}.packet-clarification>strong{color:#315b82;font-size:.92rem}.mvp-correction{background:#fff3f2;border:1px solid #e8bcba;border-left:5px solid #ab3b3d;border-radius:0 8px 8px 0;padding:17px 21px;margin:22px 0;color:#2e2b34}.mvp-correction>strong{display:block;font-size:.9rem;color:#8b262b}.worked h3{margin:0 0 10px;color:#145a80}.math-display{overflow-x:auto;max-width:100%}mjx-container[display=true]{overflow-x:auto;overflow-y:hidden;padding:5px 0}.table-wrap{max-width:100%;overflow-x:auto}.source{font-size:.85rem;color:#526179}nav[aria-label="On this page"] a{display:block}.resource-table{font-size:.9rem}.resource-table td{min-width:0!important}.review-pending{margin:20px 0;padding:16px 20px;background:#fff7e6;border:1px solid #e5c987;border-left:4px solid #ad761c;border-radius:6px;color:#594214}.review-pending>strong{display:block;color:#704b0d}.review-pending p{margin:5px 0 0;font-size:.94rem}.graph-label{font:15px system-ui,sans-serif;fill:#172338}@media(max-width:700px){main{padding:24px 20px}table{font-size:.86rem}.worked{padding:16px}.resource-table th,.resource-table td{min-width:170px!important}}@media print{main{padding:0;box-shadow:none}.site-breadcrumbs,.site-return,nav[aria-label="On this page"]{display:none}.plot > svg.diagram{max-height:340px}.worked{break-inside:auto}.plot,.review-pending,.mvp-correction{break-inside:avoid}.review-pending,.mvp-correction,.packet-clarification{print-color-adjust:exact;-webkit-print-color-adjust:exact}.table-wrap{overflow:visible}table{display:table}h2{break-before:auto;break-after:avoid}}
+</style><link rel="stylesheet" href="../../assets/publisher-links.css"><link rel="stylesheet" href="../../assets/answer-keys.css"><script>window.MathJax={tex:{inlineMath:[['\\(','\\)']],displayMath:[['\\[','\\]']]},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><link rel="stylesheet" href="../../assets/packet-navigation.css"></head><body><main><p class="lesson-updated lesson-updated--top">Last updated <time datetime="2026-10-13">October 13, 2026</time>.</p>
+<nav aria-label="Breadcrumb" class="site-breadcrumbs"><a href="../../index.html">Home</a><span aria-hidden="true">›</span><a href="../index.html">Secondary Math I</a><span aria-hidden="true">›</span><a href="index.html">Module 4</a><span aria-hidden="true">›</span><span aria-current="page">Section 4.4</span></nav><div class="site-return"><a href="index.html">← Module 4 lessons</a></div>
+<div class="eyebrow">Secondary Math I · Module 4 · Equations and Inequalities</div><h1>4.4 — Greater Than?</h1>
+<p class="meta"><span class="lesson-subtitle">Supplement for <strong>Mathematics Vision Project (MVP)</strong> curriculum · Secondary Math I, Module 4, Section 4.4</span><br><span class="smallnote">Independently created to support students using MVP Math. Not official publisher material and not affiliated with or endorsed by the Mathematics Vision Project.</span></p><p class="human-review-complete smallnote" aria-label="Human review completed">Human review completed <time datetime="2026-10-13">October 13, 2026</time>.</p><aside class="publisher-materials" aria-label="Original MVP materials"><strong>Use this supplement with your MVP honors packet</strong><a href="https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_seh_52016f.pdf">Open Math I · Module 4 honors student packet (PDF)</a><span>This supplement accompanies Section 4.4.</span><a class="publisher-all" href="../../honors-packets.html#math-1">All MVP Math I honors student packets</a></aside>
+
+
+
+
+
+
+
+
+
+<p class="lesson-intro">Compare expressions, solve inequalities, and recognize when the information given does not determine which expression is greater.</p>
+<nav aria-label="On this page"><div class="toc-list"><a href="#in-class">In class: A Develop Understanding Task</a><a href="#ready">Ready: story equations and inequality claims (1–7)</a><a href="#set">Set: solve and check inequalities (8–20)</a><a href="#go">Go: systems by substitution (21–26)</a><a href="#resources">Additional learning resources</a><a href="#teacher">Teacher review and coverage</a></div></nav>
+<section aria-labelledby="in-class"><h2 id="in-class">1. In class: A Develop Understanding Task</h2>
+<aside class="summary in-class-note" role="note"><strong>Revisit the ideas from class</strong><p>This section explains some of the ideas you explored in class through the guided exercises. Use it alongside the “A Develop Understanding Task” portion of Section 4.4 in your MVP packet.</p></aside>
+<div class="mvp-crossref" role="note"><div class="mvp-crossref-head"><span class="mvp-crossref-label">In your MVP packet</span><span class="mvp-crossref-target">Section 4.4 · Main task · pp. 14–15 · Problems 1–11</span></div></div>
+<h3 id="inequality-meaning">What does an inequality tell you?</h3>
+<p>An <strong>inequality</strong> compares two quantities. \(x&lt;2\) means “x is less than 2”; \(x&gt;2\) means “x is greater than 2.” The symbols \(\le\) and \(\ge\) include equality: \(x\ge2\) means “x is greater than or equal to 2.”</p>
+<p>Read the quantities in the order written. \(2&lt;x\) and \(x&gt;2\) say the same thing. When you exchange the two sides, reverse the symbol so it continues to point toward the smaller quantity.</p>
+<p>A <strong>solution</strong> is a value that makes the inequality true. The <strong>solution set</strong> contains all such values. Solving an inequality means describing that whole set, rather than finding just one value that works.</p>
+<h3 id="inequality-rules">Keep the comparison true</h3>
+<div class="table-wrap"><table><thead><tr><th>Operation on both sides</th><th>What happens to the inequality?</th></tr></thead><tbody>
+<tr><td>Add or subtract the same number</td><td>Keep its direction.</td></tr>
+<tr><td>Multiply or divide by the same positive number</td><td>Keep its direction.</td></tr>
+<tr><td>Multiply or divide by the same negative number</td><td><strong>Reverse its direction.</strong></td></tr>
+</tbody></table></div>
+<p>For example, \(2&lt;5\), but \(-2&gt;-5\). Multiplying both numbers by −1 reverses their order on the number line. The reversal also applies to \(\le\) and \(\ge\).</p>
+<aside class="rule" role="note"><strong>The operation determines whether you reverse the symbol</strong><p>Reverse it when you multiply or divide <em>both sides</em> by a negative number. Getting a negative answer, adding a negative number, or distributing within an expression does not itself reverse the symbol.</p></aside>
+<div class="worked"><h3>Worked example 1 — Compare x with 2</h3>
+<p><strong>Original problem — Main 3:</strong> Given \(10-2x&lt;6\), compare \(x\) and 2.</p>
+<div class="math-display">\[\begin{aligned}10-2x&amp;&lt;6\\-2x&amp;&lt;-4\\x&amp;&gt;2\end{aligned}\]</div>
+<p>Subtract 10 from both sides, then divide both sides by −2 and reverse the symbol. The answer is <strong>x is greater than 2</strong>.</p>
+<p>Every number greater than 2 works; 2 itself does not. For example, \(x=3\) gives \(10-2(3)=4&lt;6\), while \(x=2\) gives \(6&lt;6\), which is false.</p>
+<figure class="plot"><svg class="diagram" role="img" aria-labelledby="ineq-line-title" viewBox="0 0 520 120" xmlns="http://www.w3.org/2000/svg"><title id="ineq-line-title">The solution x greater than 2: an open circle at 2 and a ray pointing right</title><path d="M50 55 H470 M50 55 l8 -5 M50 55 l8 5 M470 55 l-8 -5 M470 55 l-8 5" fill="none" stroke="#526179" stroke-width="1.5"/><path d="M50.0 50 V60" stroke="#526179"/><text x="50.0" y="86" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15">-2</text><path d="M102.5 50 V60" stroke="#526179"/><text x="102.5" y="86" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15">-1</text><path d="M155.0 50 V60" stroke="#526179"/><text x="155.0" y="86" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15">0</text><path d="M207.5 50 V60" stroke="#526179"/><text x="207.5" y="86" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15">1</text><path d="M260.0 50 V60" stroke="#526179"/><text x="260.0" y="86" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15">2</text><path d="M312.5 50 V60" stroke="#526179"/><text x="312.5" y="86" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15">3</text><path d="M365.0 50 V60" stroke="#526179"/><text x="365.0" y="86" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15">4</text><path d="M417.5 50 V60" stroke="#526179"/><text x="417.5" y="86" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15">5</text><path d="M470.0 50 V60" stroke="#526179"/><text x="470.0" y="86" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15">6</text><path d="M260 55 H470 M470 55 l-10 -7 M470 55 l-10 7" fill="none" stroke="#145a80" stroke-width="4"/><circle cx="260" cy="55" r="7" fill="white" stroke="#145a80" stroke-width="3"/></svg><figcaption>An open circle excludes 2; the ray includes all numbers greater than 2.</figcaption></figure>
+</div>
+<h3 id="not-determined">Sometimes more information is needed</h3>
+<p>In Main 8, knowing \(5&gt;4\) is not enough to compare \(5x\) with \(4x\):</p>
+<ul><li>If \(x&gt;0\), then \(5x&gt;4x\).</li><li>If \(x&lt;0\), then \(5x&lt;4x\).</li><li>If \(x=0\), both expressions are 0.</li></ul>
+<p>So the comparison depends on the sign of \(x\).</p>
+<div class="worked"><h3>Worked example 2 — Compare fractions with an unknown denominator</h3>
+<p><strong>Original problem — Main 9:</strong> Given \(5&gt;4\), compare \(\frac5x\) and \(\frac4x\).</p>
+<p>Dividing both sides by \(x\) keeps or reverses the comparison depending on its sign:</p>
+<ul><li>If \(x&gt;0\), then \(\frac5x&gt;\frac4x\). For example, with \(x=2\), \(\frac52&gt;2\).</li><li>If \(x&lt;0\), then \(\frac5x&lt;\frac4x\). For example, with \(x=-2\), \(-\frac52&lt;-2\).</li></ul>
+<p>When \(x=0\), neither fraction is defined. <strong>The relationship cannot be determined</strong> without knowing whether \(x\) is positive or negative.</p></div>
+<div class="worked"><h3>Worked example 3 — Overlapping ranges do not establish an order</h3>
+<p><strong>Original problem — Main 10:</strong> Given \(0&lt;x&lt;10\) and \(0&lt;y&lt;12\), compare \(x\) and \(y\).</p>
+<p>The bounds allow both orders: \(x=8,y=3\) gives \(x&gt;y\), while \(x=3,y=8\) gives \(x&lt;y\). They also allow equality, such as \(x=y=5\). <strong>The relationship cannot be determined</strong> without more information about the values of \(x\) and \(y\).</p></div>
+<p>Try the other comparisons yourself. Use these answers to check both your result and your reasoning:</p>
+<div class="table-wrap"><table><thead><tr><th>Main problem</th><th>Comparison and reason</th></tr></thead><tbody>
+<tr><td>1</td><td>\(x-y&gt;y-x\). Since \(y&lt;x\), \(x-y\) is positive and \(y-x\) is negative.</td></tr>
+<tr><td>2</td><td>\(x&gt;5\). Add 3 to both sides of \(2x-3&gt;7\), then divide by 2.</td></tr>
+<tr><td>4</td><td>\(1&gt;x\). Dividing \(4x\le0\) by 4 gives \(x\le0\).</td></tr>
+<tr><td>5</td><td>Cannot be determined. If \(n&gt;0\), \(n&gt;-n\); if \(n&lt;0\), \(n&lt;-n\); if \(n=0\), they are equal. Knowing that \(n\) is an integer does not specify its sign.</td></tr>
+<tr><td>6</td><td>\(x+a&gt;y+a\). Adding the same number preserves the order, even when \(a\) is negative.</td></tr>
+<tr><td>7</td><td>\(x-a&gt;y-a\). Subtracting the same number preserves the order.</td></tr>
+<tr><td>11</td><td>\(n\ge1\). Write \(27=3^3\). Since powers of 3 increase as their exponents increase, \(3^{n+2}\ge3^3\) implies \(n+2\ge3\), hence \(n\ge1\). Equality is possible when \(n=1\).</td></tr>
+</tbody></table></div>
+</section>
+<h2 id="ready">2. Ready — Story equations and inequality claims</h2>
+<div class="mvp-crossref" role="note"><div class="mvp-crossref-head"><span class="mvp-crossref-label">In your MVP packet</span><span class="mvp-crossref-target">Section 4.4 · Ready · p. 16 · Problems 1–7</span></div></div>
+<p>For the two stories, write “fixed charge + charge per unit × number of units = total charge,” then solve as in <a href="section-4-1.html#equality">Section 4.1</a>. For the true/false statements, use <a href="#inequality-rules">the inequality rules above</a>. Try the problems before checking the key.</p>
+<details class="answer-key" id="ready-answer-key"><summary>Check your work — Ready 1–7 answer key</summary><ol>
+<li><p><strong>Equation:</strong> \(10+0.20s=50\), where \(s\) is the area painted in square feet</p><p><strong>Answer:</strong> \(s=200\) square feet</p></li>
+<li><p><strong>Equation:</strong> \(200+4p=324\), where \(p\) is the number of people</p><p><strong>Answer:</strong> \(p=31\) people</p></li>
+<li><p><strong>Statement:</strong> “The notation \(12&lt;x\) means the same thing as \(x&lt;12\). It works just like \(12=x\) and \(x=12\).”</p><p><strong>False.</strong> \(12&lt;x\) means \(x&gt;12\). Exchanging the sides of an inequality requires reversing its direction.</p></li>
+<li><p><strong>Statement:</strong> “The inequality \(-2(x+10)\ge75\) says the same thing as \(-2x-20\ge75\). I can multiply by −2 on the left side without reversing the inequality symbol.”</p><p><strong>True.</strong> This distributes the −2 already present in the expression. It rewrites the left side without changing its value; it does not multiply both sides of the inequality by −2.</p></li>
+<li><p><strong>Statement:</strong> “When solving the inequality \(10x+22&lt;2\), the second step should say \(10x&gt;-20\) because I added −22 to both sides and I got a negative number on the right.”</p><p><strong>False.</strong> Subtracting 22 preserves the symbol, giving \(10x&lt;-20\). A negative result is not a reason to reverse it.</p></li>
+<li><p><strong>Statement:</strong> “When solving the inequality \(-5x\ge45\), the answer is \(x\le-9\) because I divided both sides of the inequality by a negative number.”</p><p><strong>True.</strong> Dividing both sides by −5 reverses \(\ge\) to \(\le\).</p></li>
+<li><p><strong>Statement:</strong> “The words that describe the inequality \(x\ge100\) are ‘x is greater than or equal to 100.’”</p><p><strong>True.</strong> The symbol includes both values greater than 100 and 100 itself.</p></li>
+</ol></details>
+<h2 id="set">3. Set — Solve and check inequalities</h2>
+<div class="mvp-crossref" role="note"><div class="mvp-crossref-head"><span class="mvp-crossref-label">In your MVP packet</span><span class="mvp-crossref-target">Section 4.4 · Set · pp. 16–17 · Problems 8–20</span></div></div>
+<p>Use the same simplifying steps as for equations, remembering to reverse the symbol when multiplying or dividing by a negative number. For a proposed value, substitute it into the <em>original</em> inequality to check whether it belongs to the solution set.</p>
+<div class="worked"><h3>Worked example 4 — Clear the fractions first</h3>
+<p><strong>Original problem — Set 19:</strong> Solve \(\frac{3(x-4)}{12}\le\frac{2x}{3}\).</p>
+<p>Multiply both sides by positive 12, keeping the inequality’s direction:</p>
+<div class="math-display">\[\begin{aligned}3(x-4)&amp;\le8x\\3x-12&amp;\le8x\\-12&amp;\le5x\\-\frac{12}{5}&amp;\le x\end{aligned}\]</div>
+<p>Distribute, subtract \(3x\) from both sides, then divide both sides by 5. Write the result with \(x\) first as \(x\ge-\frac{12}{5}\). Exchanging the sides changes \(\le\) to \(\ge\) while preserving the meaning.</p></div>
+<p>For the number-line graphs, use an open circle for \(&lt;\) or \(&gt;\), and a filled circle for \(\le\) or \(\ge\). Shade all values that satisfy the inequality. Study the examples, try Set independently, then check your work.</p>
+<details class="answer-key" id="set-answer-key"><summary>Check your work — Set 8–20 answer key</summary>
+<h3>Solutions and proposed values — 8–11</h3><ol start="8">
+<li><p>\(2x&lt;12\), so \(x&lt;6\)</p><p><strong>Given \(x=6\):</strong> no; \(2(6)-9=3\), and \(3&lt;3\) is false.</p></li>
+<li><p>\(4x&gt;-12\), so \(x&gt;-3\)</p><p><strong>Given \(x=-5\):</strong> no; \(4(-5)+25=5\), and \(5&gt;13\) is false.</p></li>
+<li><p>\(6x\le-24\), so \(x\le-4\)</p><p><strong>Given \(x=-10\):</strong> yes; \(6(-10)-4=-64\le-28\).</p></li>
+<li><p>\(3x\ge0\), so \(x\ge0\)</p><p><strong>Given \(x=1\):</strong> yes; \(3(1)-5=-2\ge-5\).</p></li>
+</ol><h3>Solutions and number-line graphs — 12–17</h3><p><strong>Plots not shown.</strong> Endpoint and shading descriptions are provided to check your graphs.</p><ol start="12">
+<li><p>\(x\le-2\)</p><p>Filled circle at −2; shade left.</p></li>
+<li><p>\(-3x&gt;6\), so \(x&lt;-2\)</p><p>Open circle at −2; shade left.</p></li>
+<li><p>\(x&lt;-2\)</p><p>Open circle at −2; shade left.</p></li>
+<li><p>\(x&gt;-\frac32\)</p><p>Open circle at \(-\frac32\); shade right.</p></li>
+<li><p>\(x&lt;-15\)</p><p>Open circle at −15; shade left.</p></li>
+<li><p>\(x\le35\)</p><p>Filled circle at 35; shade left.</p></li>
+</ol><h3>Multi-step inequalities — 18–20</h3><ol start="18">
+<li><p>\(-5&gt;x+3\)</p><p>\(-8&gt;x\), or \(x&lt;-8\)</p></li>
+<li><p>\(3(x-4)\le8x\)</p><p>\(-12\le5x\)</p><p>\(x\ge-\frac{12}{5}\)</p></li>
+<li><p>\(2x-6\le3x-2\)</p><p>\(-6\le x-2\)</p><p>\(-4\le x\), or \(x\ge-4\)</p></li>
+</ol></details>
+<h2 id="go">4. Go — Solve systems by substitution</h2>
+<div class="mvp-crossref" role="note"><div class="mvp-crossref-head"><span class="mvp-crossref-label">In your MVP packet</span><span class="mvp-crossref-target">Section 4.4 · Go · p. 18 · Problems 21–26</span></div></div>
+<p>A solution of a system makes <em>both</em> equations true. For a refresher, see <a href="../module-03/section-3-2.html#ready">Section 3.2</a>. <strong>Substitution</strong> replaces a variable in one equation with an equal value or expression from the other equation. This leaves one equation in one variable.</p>
+<div class="worked"><h3>Worked example 5 — Substitute an expression for y</h3>
+<p><strong>Original problem — Go 25:</strong></p><div class="math-display">\[\begin{cases}y=2x-5\\y=x+8\end{cases}\]</div>
+<p>Replace \(y\) in the second equation with \(2x-5\) from the first:</p>
+<div class="math-display">\[\begin{aligned}2x-5&amp;=x+8\\x-5&amp;=8\\x&amp;=13\end{aligned}\]</div>
+<p>Then use either original equation to find \(y\): \(y=13+8=21\). The solution is \((13,21)\). Checking the first equation gives \(21=2(13)-5\).</p></div>
+<p>Try the remaining systems on your own before opening the key. Give each solution as an ordered pair \((x,y)\).</p>
+<details class="answer-key" id="go-answer-key"><summary>Check your work — Go 21–26 answer key</summary><ol start="21">
+<li><p><strong>Solution:</strong> \((4,5)\)</p><p>Substitute \(y=5\): \(-x+5=1\), so \(x=4\).</p></li>
+<li><p><strong>Solution:</strong> \((8,-20)\)</p><p>Substitute \(x=8\): \(40+2y=0\), so \(y=-20\).</p></li>
+<li><p><strong>Solution:</strong> \((15,5)\)</p><p>First \(y=5\). Substitute into the second equation: \(4x-10=50\), so \(x=15\).</p></li>
+<li><p><strong>Solution:</strong> \((4,11)\)</p><p>First \(x=4\). Then \(16-y=5\), so \(y=11\).</p></li>
+<li><p><strong>Solution:</strong> \((13,21)\)</p><p>Substitute \(y=2x-5\) into \(y=x+8\): \(2x-5=x+8\), so \(x=13\) and \(y=21\).</p></li>
+<li><p><strong>Solution:</strong> \((3,-20)\)</p><p>First \(x=3\). Then \(15+y=-5\), so \(y=-20\).</p></li>
+</ol></details>
+<h2 id="resources">Additional learning resources</h2>
+<div class="table-wrap"><table class="resource-table"><thead><tr><th>Resource</th><th>What it supports</th></tr></thead><tbody>
+<tr><td><a href="https://www.khanacademy.org/math/algebra/solving-linear-equations-and-inequalities/inequalities/v/solving-inequalities">Khan Academy — Two-step inequalities</a></td><td>Solving inequalities with addition, subtraction, multiplication, and division; supports the main task and Set.</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=DrZJKdXlZ3I">The Organic Chemistry Tutor — How To Solve Linear Inequalities, Basic Introduction, Algebra</a></td><td>Worked inequalities, number-line graphs, and interval notation. Focus on the linear inequalities and graphs; compound inequalities go beyond this section.</td></tr>
+<tr><td><a href="https://www.khanacademy.org/math/algebra-home/alg-system-of-equations/alg-solving-systems-of-equations-with-substitution/v/practice-using-substitution-for-systems">Khan Academy — Systems of equations with substitution</a></td><td>Replacing a variable with an expression from the other equation; supports Go.</td></tr>
+</tbody></table></div>
+<h2 id="teacher">Teacher’s review of the source packet</h2>
+<p>No substantial mathematical error was found. Main 5, 8–10 deliberately allow different comparisons depending on the values; these are reasoning tasks, not missing-data mistakes. Ready 3–7 deliberately include false statements for students to evaluate.</p>
+<h2 id="coverage">Coverage — Section 4.4</h2>
+<div class="table-wrap"><table><thead><tr><th>Packet location</th><th>Where supported</th></tr></thead><tbody>
+<tr><td>Main 1–11 · pp. 14–15</td><td>Inequality meanings and rules, worked comparisons, sign-dependent cases, and visible checking answers</td></tr>
+<tr><td>Ready 1–7 · p. 16</td><td>Equation-modeling reminder and true/false key preserving statement form</td></tr>
+<tr><td>Set 8–20 · pp. 16–17</td><td>Solving and checking, clearing fractions, number-line conventions, and a worked key; required plots omitted from the key</td></tr>
+<tr><td>Go 21–26 · p. 18</td><td>Substitution explanation, worked system, and ordered-pair answers with substitution steps</td></tr>
+</tbody></table></div>
+<p class="source">Source: Mathematics Vision Project, Secondary Mathematics One, Module 4: Equations and Inequalities (May 2016), Section 4.4, printed pp. 14–18; teacher notes for 4.4. Packet equations and short excerpts are attributed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Equations use MathJax.</p>
+<p class="lesson-updated">Last updated <time datetime="2026-10-13">October 13, 2026</time>.</p>
+</main></body></html>
