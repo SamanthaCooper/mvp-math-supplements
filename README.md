@@ -77,3 +77,7 @@ Every published lesson and supplementary resource has a prominent link beneath i
 ### Lesson revision dates
 
 Lessons display small **Last updated** dates at the top and bottom, separate from human-review dates. After editing a lesson, run `python3 tools/update_lesson_dates.py math-1/module-03/section-3-1.html` with the affected paths. Without paths, the tool uses Git history for unchanged published lessons and established drafts, and today’s date for edited or new lessons. Dates use America/Los_Angeles.
+
+## Published packet reference index
+
+`packet-reference-index.html` is linked from the home page. Rebuild it with `python3 tools/build_packet_reference_index.py`; curated entries are in `tools/packet_reference_index.json`. The 27 active student PDFs are distributed unchanged as attachments to the `mvp-student-packets-2026-10` GitHub release, with attribution and licensing information. Local PDFs and archived editions remain excluded from Git. Release links may download PDFs; the index also provides explicit PDF page numbers.

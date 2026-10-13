@@ -1,0 +1,2526 @@
+[
+  {
+    "module": 1,
+    "section": "1.1",
+    "kind": "Definition",
+    "title": "Solution of an equation",
+    "part": "Ready",
+    "pdf_pages": [
+      6
+    ],
+    "printed_pages": [
+      3
+    ],
+    "description": "Explains that a solution makes an equation true and demonstrates substitution.",
+    "note": "The example initially prints a right side of \u221221, but checks and solves using \u221219. The definition is clear; the numerical example has a typo.",
+    "file": "MVP 1/m1_mod1_se_52016f.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 1,
+    "section": "1.1",
+    "kind": "Definition",
+    "title": "Ordered pairs and two-variable solutions",
+    "part": "Ready",
+    "pdf_pages": [
+      6
+    ],
+    "printed_pages": [
+      3
+    ],
+    "description": "Explains that a two-variable solution includes both coordinates, with x first.",
+    "note": "",
+    "file": "MVP 1/m1_mod1_se_52016f.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 1,
+    "section": "1.2",
+    "kind": "Definition / worked example",
+    "title": "Function notation and evaluating a function",
+    "part": "Ready",
+    "pdf_pages": [
+      11
+    ],
+    "printed_pages": [
+      8
+    ],
+    "description": "Substitutes a specified input into a linear rule, then explains function notation.",
+    "note": "",
+    "file": "MVP 1/m1_mod1_se_52016f.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 1,
+    "section": "1.8",
+    "kind": "Worked example",
+    "title": "Arithmetic sequence: recursive and explicit rules",
+    "part": "Main",
+    "pdf_pages": [
+      38
+    ],
+    "printed_pages": [
+      35
+    ],
+    "description": "A completed table example explains the next-term rule, starting term, explicit rule, and arithmetic classification.",
+    "note": "",
+    "file": "MVP 1/m1_mod1_se_52016f.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 1,
+    "section": "1.8",
+    "kind": "Reference",
+    "title": "Slope and y-intercept in slope-intercept form",
+    "part": "Go",
+    "pdf_pages": [
+      43
+    ],
+    "printed_pages": [
+      40
+    ],
+    "description": "A short reminder identifies m as slope or rate of change and b as the y-intercept.",
+    "note": "",
+    "file": "MVP 1/m1_mod1_se_52016f.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 1,
+    "section": "1.9",
+    "kind": "Definition",
+    "title": "Arithmetic means",
+    "part": "Main",
+    "pdf_pages": [
+      45
+    ],
+    "printed_pages": [
+      42
+    ],
+    "description": "Names the missing terms between supplied arithmetic-sequence terms.",
+    "note": "",
+    "file": "MVP 1/m1_mod1_se_52016f.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 2,
+    "section": "2.2",
+    "kind": "Worked example",
+    "title": "One-step equations: addition and multiplication",
+    "part": "Go",
+    "pdf_pages": [
+      15
+    ],
+    "printed_pages": [
+      12
+    ],
+    "description": "Two completed solutions show undoing addition and multiplying by a reciprocal.",
+    "note": "",
+    "file": "MVP 1/m1_mod2_seh_5_2015f.pdf",
+    "checked": "Source-page text matched to honors edition",
+    "course": 1
+  },
+  {
+    "module": 2,
+    "section": "2.4",
+    "kind": "Worked example",
+    "title": "Fill missing arithmetic and geometric terms",
+    "part": "Ready",
+    "pdf_pages": [
+      27
+    ],
+    "printed_pages": [
+      24
+    ],
+    "description": "A completed pair of sequences shows repeated addition and multiplication between the same endpoints.",
+    "note": "",
+    "file": "MVP 1/m1_mod2_seh_5_2015f.pdf",
+    "checked": "Source-page text matched to honors edition",
+    "course": 1
+  },
+  {
+    "module": 2,
+    "section": "2.5",
+    "kind": "Worked illustration",
+    "title": "Equivalent linear rules from a growing pattern",
+    "part": "Main",
+    "pdf_pages": [
+      30
+    ],
+    "printed_pages": [
+      27
+    ],
+    "description": "Two students explain completed rules for the same quilt pattern.",
+    "note": "Their reasoning is supplied; the student is still asked to justify equivalence.",
+    "file": "MVP 1/m1_mod2_seh_5_2015f.pdf",
+    "checked": "Source-page text matched to honors edition",
+    "course": 1
+  },
+  {
+    "module": 2,
+    "section": "2.5",
+    "kind": "Worked illustration",
+    "title": "Write a line rule from two points",
+    "part": "Main",
+    "pdf_pages": [
+      31,
+      32
+    ],
+    "printed_pages": [
+      28,
+      29
+    ],
+    "description": "Student dialogue supplies a slope, table, and point-based rules for the displayed line.",
+    "note": "This is supplied reasoning for discussion, not a finished proof of equivalence.",
+    "file": "MVP 1/m1_mod2_seh_5_2015f.pdf",
+    "checked": "Source-page text matched to honors edition",
+    "course": 1
+  },
+  {
+    "module": 2,
+    "section": "2.5",
+    "kind": "Worked example",
+    "title": "Simplify equivalent expressions with justifications",
+    "part": "Go",
+    "pdf_pages": [
+      37
+    ],
+    "printed_pages": [
+      34
+    ],
+    "description": "A completed simplification distributes, combines like terms, and names a property.",
+    "note": "The heading calls them equivalent equations, but the worked comparison is an identity between expressions.",
+    "file": "MVP 1/m1_mod2_seh_5_2015f.pdf",
+    "checked": "Source-page text matched to honors edition",
+    "course": 1
+  },
+  {
+    "module": 2,
+    "section": "2.6",
+    "kind": "Reference",
+    "title": "Linear and exponential equation forms",
+    "part": "Main",
+    "pdf_pages": [
+      38
+    ],
+    "printed_pages": [
+      35
+    ],
+    "description": "A table names slope-intercept, point-slope, explicit exponential, and recursive forms and explains their parameters.",
+    "note": "",
+    "file": "MVP 1/m1_mod2_seh_5_2015f.pdf",
+    "checked": "Source-page text matched to honors edition",
+    "course": 1
+  },
+  {
+    "module": 2,
+    "section": "2.6",
+    "kind": "Definition / worked example",
+    "title": "Additive and multiplicative properties of equality",
+    "part": "Go",
+    "pdf_pages": [
+      46
+    ],
+    "printed_pages": [
+      43
+    ],
+    "description": "States the properties and gives two completed one-step solutions with justifications.",
+    "note": "",
+    "file": "MVP 1/m1_mod2_seh_5_2015f.pdf",
+    "checked": "Source-page text matched to honors edition",
+    "course": 1
+  },
+  {
+    "course": 1,
+    "module": 2,
+    "section": "2.7H",
+    "kind": "Definition",
+    "title": "Average rate of change",
+    "part": "Main task",
+    "pdf_pages": [
+      47
+    ],
+    "printed_pages": [
+      44
+    ],
+    "description": "Defines average rate of change as change in output divided by change in input.",
+    "note": "",
+    "file": "MVP 1/m1_mod2_seh_5_2015f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "module": 3,
+    "section": "3.6",
+    "kind": "Worked example",
+    "title": "Find an intersection algebraically",
+    "part": "Ready",
+    "pdf_pages": [
+      33
+    ],
+    "printed_pages": [
+      30
+    ],
+    "description": "Sets two linear rules equal, solves for x, and finds the shared y-coordinate.",
+    "note": "",
+    "file": "MVP 1/m1_mod3_se_52016f.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 4,
+    "section": "4.3",
+    "kind": "Worked example",
+    "title": "Solve a two-step equation with justifications",
+    "part": "Go",
+    "pdf_pages": [
+      16
+    ],
+    "printed_pages": [
+      13
+    ],
+    "description": "A completed example uses addition and division properties of equality.",
+    "note": "",
+    "file": "MVP 1/m1_mod4_seh_52016f.pdf",
+    "checked": "Source-page text matched to honors edition",
+    "course": 1
+  },
+  {
+    "module": 4,
+    "section": "4.4",
+    "kind": "Worked example",
+    "title": "Compare expressions using a known variable value",
+    "part": "Main",
+    "pdf_pages": [
+      17
+    ],
+    "printed_pages": [
+      14
+    ],
+    "description": "Substitutes a given value into two expressions and writes the resulting inequality.",
+    "note": "",
+    "file": "MVP 1/m1_mod4_seh_52016f.pdf",
+    "checked": "Source-page text matched to honors edition",
+    "course": 1
+  },
+  {
+    "module": 4,
+    "section": "4.4",
+    "kind": "Worked example",
+    "title": "Substitution in a system with a known variable",
+    "part": "Go",
+    "pdf_pages": [
+      21
+    ],
+    "printed_pages": [
+      18
+    ],
+    "description": "Uses a fixed y-value in the second equation to calculate x.",
+    "note": "",
+    "file": "MVP 1/m1_mod4_seh_52016f.pdf",
+    "checked": "Source-page text matched to honors edition",
+    "course": 1
+  },
+  {
+    "module": 4,
+    "section": "4.5",
+    "kind": "Worked example",
+    "title": "Translate \u201cgreater than\u201d into an inequality",
+    "part": "Ready",
+    "pdf_pages": [
+      25
+    ],
+    "printed_pages": [
+      22
+    ],
+    "description": "One completed word-to-symbol example precedes the inequality-language exercises.",
+    "note": "",
+    "file": "MVP 1/m1_mod4_seh_52016f.pdf",
+    "checked": "Source-page text matched to honors edition",
+    "course": 1
+  },
+  {
+    "module": 4,
+    "section": "4.5",
+    "kind": "Worked example",
+    "title": "Substitute an expression to solve a linear system",
+    "part": "Go",
+    "pdf_pages": [
+      26
+    ],
+    "printed_pages": [
+      23
+    ],
+    "description": "Explains substitution, distributing a negative sign, solving for x, and finding y.",
+    "note": "",
+    "file": "MVP 1/m1_mod4_seh_52016f.pdf",
+    "checked": "Source-page text matched to honors edition",
+    "course": 1
+  },
+  {
+    "module": 4,
+    "section": "4.6",
+    "kind": "Worked illustration",
+    "title": "Translate and solve \u201csix less than a number\u201d",
+    "part": "Main",
+    "pdf_pages": [
+      27
+    ],
+    "printed_pages": [
+      24
+    ],
+    "description": "A completed dialogue corrects the translation and obtains the solution inequality.",
+    "note": "",
+    "file": "MVP 1/m1_mod4_seh_52016f.pdf",
+    "checked": "Source-page text matched to honors edition",
+    "course": 1
+  },
+  {
+    "module": 5,
+    "section": "5.5",
+    "kind": "Definition",
+    "title": "Feasible region",
+    "part": "Main",
+    "pdf_pages": [
+      21
+    ],
+    "printed_pages": [
+      18
+    ],
+    "description": "Names the first-quadrant combinations that satisfy all constraints in the pet-boarding situation.",
+    "note": "",
+    "file": "MVP 1/m1_mod5_seh_52016f.pdf",
+    "checked": "Source-page text matched to honors edition",
+    "course": 1
+  },
+  {
+    "module": 5,
+    "section": "5.7",
+    "kind": "Definition / worked example",
+    "title": "Pythagorean theorem and hypotenuse",
+    "part": "Ready",
+    "pdf_pages": [
+      31
+    ],
+    "printed_pages": [
+      28
+    ],
+    "description": "Identifies the sides in the theorem and checks the 5\u201312\u201313 triangle.",
+    "note": "",
+    "file": "MVP 1/m1_mod5_seh_52016f.pdf",
+    "checked": "Source-page text matched to honors edition",
+    "course": 1
+  },
+  {
+    "module": 5,
+    "section": "5.8",
+    "kind": "Definition",
+    "title": "Transformation, pre-image, and image",
+    "part": "Ready",
+    "pdf_pages": [
+      35
+    ],
+    "printed_pages": [
+      32
+    ],
+    "description": "Introduces transformations as moving figures, with slide, flip, and turn illustrations.",
+    "note": "Pre-image and image label the before-and-after pictures rather than receiving separate formal definitions.",
+    "file": "MVP 1/m1_mod5_seh_52016f.pdf",
+    "checked": "Source-page text matched to honors edition",
+    "course": 1
+  },
+  {
+    "course": 1,
+    "module": 5,
+    "section": "5.12H",
+    "kind": "Reference",
+    "title": "Row reduction of a matrix",
+    "part": "Main task",
+    "pdf_pages": [
+      49
+    ],
+    "printed_pages": [
+      46
+    ],
+    "description": "Supplies a step-by-step row-reduction procedure for solving a system, making diagonal entries one and other entries zero.",
+    "note": "",
+    "file": "MVP 1/m1_mod5_seh_52016f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "module": 6,
+    "section": "6.1",
+    "kind": "Definition",
+    "title": "Translations, reflections, and rotations",
+    "part": "Main",
+    "pdf_pages": [
+      4
+    ],
+    "printed_pages": [
+      1
+    ],
+    "description": "Introduces translations as slides, reflections as flips, and rotations as turns.",
+    "note": "A brief vocabulary introduction followed by unsolved transformation tasks.",
+    "file": "MVP 1/m1_mod6_se_52016f.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 6,
+    "section": "6.2",
+    "kind": "Reference / illustration",
+    "title": "Horizontal and vertical lines are perpendicular",
+    "part": "Main",
+    "pdf_pages": [
+      10
+    ],
+    "printed_pages": [
+      7
+    ],
+    "description": "States the relationship and supplies a horizontal-line/vertical-line example.",
+    "note": "",
+    "file": "MVP 1/m1_mod6_se_52016f.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 6,
+    "section": "6.5",
+    "kind": "Definition",
+    "title": "Line symmetry and rotational symmetry",
+    "part": "Main",
+    "pdf_pages": [
+      28
+    ],
+    "printed_pages": [
+      25
+    ],
+    "description": "Defines reflecting or rotating a figure onto itself.",
+    "note": "",
+    "file": "MVP 1/m1_mod6_se_52016f.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 6,
+    "section": "6.5",
+    "kind": "Definition",
+    "title": "Quadrilateral and its diagonals",
+    "part": "Main",
+    "pdf_pages": [
+      28
+    ],
+    "printed_pages": [
+      25
+    ],
+    "description": "Defines a four-sided polygon and a segment joining opposite vertices.",
+    "note": "",
+    "file": "MVP 1/m1_mod6_se_52016f.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 6,
+    "section": "6.5",
+    "kind": "Definition bank",
+    "title": "Rectangle, parallelogram, rhombus, square, and trapezoid",
+    "part": "Main",
+    "pdf_pages": [
+      28,
+      29
+    ],
+    "printed_pages": [
+      25,
+      26
+    ],
+    "description": "Prints the defining side and angle properties before the symmetry investigation.",
+    "note": "",
+    "file": "MVP 1/m1_mod6_se_52016f.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 6,
+    "section": "6.6",
+    "kind": "Definition",
+    "title": "Polygon diagonal and symmetry reminders",
+    "part": "Main",
+    "pdf_pages": [
+      33
+    ],
+    "printed_pages": [
+      30
+    ],
+    "description": "Defines a diagonal using nonconsecutive vertices and repeats line and rotational symmetry definitions.",
+    "note": "",
+    "file": "MVP 1/m1_mod6_se_52016f.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 6,
+    "section": "6.7",
+    "kind": "Definition bank",
+    "title": "Quadrilateral definitions used to justify properties",
+    "part": "Main",
+    "pdf_pages": [
+      40,
+      41
+    ],
+    "printed_pages": [
+      37,
+      38
+    ],
+    "description": "Restates definitions of rectangle, parallelogram, rhombus, and square before asking students to derive further properties.",
+    "note": "",
+    "file": "MVP 1/m1_mod6_se_52016f.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 7,
+    "section": "7.1",
+    "kind": "Reference",
+    "title": "Compass-and-straightedge construction and arcs",
+    "part": "Main",
+    "pdf_pages": [
+      3
+    ],
+    "printed_pages": [
+      1
+    ],
+    "description": "Explains the roles of an unmarked straightedge and a compass, and names part of a circle an arc.",
+    "note": "The construction tasks that follow are student work, not completed examples.",
+    "file": "MVP 1/m1_mod7_se_62016r.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 7,
+    "section": "7.4",
+    "kind": "Definition",
+    "title": "Congruent triangles and ASA criteria",
+    "part": "Main",
+    "pdf_pages": [
+      19
+    ],
+    "printed_pages": [
+      17
+    ],
+    "description": "Describes corresponding congruent sides and angles, and names the two-angle/included-side information ASA.",
+    "note": "The justification of ASA is left to the student.",
+    "file": "MVP 1/m1_mod7_se_62016r.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 7,
+    "section": "7.5",
+    "kind": "Definition bank",
+    "title": "Rectangle, rhombus, and square reminders",
+    "part": "Main",
+    "pdf_pages": [
+      27
+    ],
+    "printed_pages": [
+      25
+    ],
+    "description": "Restates the quadrilateral definitions before congruent-triangle investigations.",
+    "note": "",
+    "file": "MVP 1/m1_mod7_se_62016r.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 8,
+    "section": "8.1",
+    "kind": "Reference",
+    "title": "Slope triangles, rise/run, and the slope formula",
+    "part": "Set",
+    "pdf_pages": [
+      8
+    ],
+    "printed_pages": [
+      5
+    ],
+    "description": "A labeled triangle connects coordinate differences to rise and run and gives the slope formula.",
+    "note": "The distance formula is to be developed by students; this is not a worked distance calculation.",
+    "file": "MVP 1/m1_mod8_seh_52016f.pdf",
+    "checked": "Source-page text matched to honors edition",
+    "course": 1
+  },
+  {
+    "module": 8,
+    "section": "8.2",
+    "kind": "Reference",
+    "title": "What a proof must establish",
+    "part": "Main",
+    "pdf_pages": [
+      11
+    ],
+    "printed_pages": [
+      8
+    ],
+    "description": "Explains why a general argument using variables is needed rather than a few numerical examples.",
+    "note": "The perpendicular-slope proof itself is a student task.",
+    "file": "MVP 1/m1_mod8_seh_52016f.pdf",
+    "checked": "Source-page text matched to honors edition",
+    "course": 1
+  },
+  {
+    "course": 1,
+    "module": 8,
+    "section": "8.7H",
+    "kind": "Definition / reference",
+    "title": "Vectors and graphical vector addition",
+    "part": "Main task",
+    "pdf_pages": [
+      40,
+      41
+    ],
+    "printed_pages": [
+      37,
+      38
+    ],
+    "description": "Defines magnitude and direction, explains end-to-end and parallelogram addition, and introduces horizontal and vertical components.",
+    "note": "",
+    "file": "MVP 1/m1_mod8_seh_52016f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 1,
+    "module": 8,
+    "section": "8.9H",
+    "kind": "Definition / reference",
+    "title": "Determinant of a 2 \u00d7 2 matrix",
+    "part": "Main task",
+    "pdf_pages": [
+      53
+    ],
+    "printed_pages": [
+      50
+    ],
+    "description": "Defines the determinant, supplies its formula, and relates a nonzero determinant to the existence of a matrix inverse.",
+    "note": "",
+    "file": "MVP 1/m1_mod8_seh_52016f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 1,
+    "module": 8,
+    "section": "8.11H",
+    "kind": "Reference",
+    "title": "Vector notation and reflections with matrices",
+    "part": "Main task",
+    "pdf_pages": [
+      64
+    ],
+    "printed_pages": [
+      61
+    ],
+    "description": "Explains column-matrix vector notation and supplies an original vector and its reflected coordinates.",
+    "note": "",
+    "file": "MVP 1/m1_mod8_seh_52016f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "module": 9,
+    "section": "9.2",
+    "kind": "Definition bank",
+    "title": "Distribution shape, skew, outliers, variability, and center",
+    "part": "Main",
+    "pdf_pages": [
+      8
+    ],
+    "printed_pages": [
+      5
+    ],
+    "description": "A reference list describes uniform/unimodal/bimodal/multimodal shapes, skew, normal distributions, outliers, and variability.",
+    "note": "The normal-distribution and outlier descriptions are classroom shorthand, not a complete statistical definition.",
+    "file": "MVP 1/m1_mod9_se_62016f.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 9,
+    "section": "9.3",
+    "kind": "Definition",
+    "title": "Marginal and joint frequencies",
+    "part": "Main",
+    "pdf_pages": [
+      14
+    ],
+    "printed_pages": [
+      11
+    ],
+    "description": "Defines the outer row/column totals and the interior two-way-table counts using the supplied table.",
+    "note": "",
+    "file": "MVP 1/m1_mod9_se_62016f.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 9,
+    "section": "9.4",
+    "kind": "Definition / worked example",
+    "title": "Relative and conditional frequencies",
+    "part": "Main",
+    "pdf_pages": [
+      20,
+      21
+    ],
+    "printed_pages": [
+      17,
+      18
+    ],
+    "description": "Defines frequency-table language and supplies completed column and whole-table percentage tables.",
+    "note": "The packet groups whole-table relative frequencies with conditional frequencies; the denominator matters. The unfinished row-table exercise is not part of this entry.",
+    "file": "MVP 1/m1_mod9_se_62016f.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "module": 9,
+    "section": "9.8",
+    "kind": "Definition",
+    "title": "Residuals and their signs",
+    "part": "Main",
+    "pdf_pages": [
+      46,
+      47
+    ],
+    "printed_pages": [
+      43,
+      44
+    ],
+    "description": "Explains observed-versus-predicted differences and the sign for points above or below a regression line.",
+    "note": "The reference to segment lengths is informal: residuals are signed vertical differences. Students calculate the actual residual values.",
+    "file": "MVP 1/m1_mod9_se_62016f.pdf",
+    "checked": "Visual source review",
+    "course": 1
+  },
+  {
+    "course": 2,
+    "module": 1,
+    "section": "1.2",
+    "kind": "Worked example",
+    "title": "Distribute and combine like terms",
+    "part": "Ready",
+    "pdf_pages": [
+      12
+    ],
+    "printed_pages": [
+      8
+    ],
+    "description": "A completed algebraic expansion shows two uses of the distributive property and collection of like terms.",
+    "note": "",
+    "file": "MVP 2/m2_mod1_se_22017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 1,
+    "section": "1.3",
+    "kind": "Worked example",
+    "title": "Multiply two binomials",
+    "part": "Ready",
+    "pdf_pages": [
+      17
+    ],
+    "printed_pages": [
+      13
+    ],
+    "description": "The same expansion is rewritten as a product of two binomials and simplified.",
+    "note": "",
+    "file": "MVP 2/m2_mod1_se_22017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 2,
+    "section": "2.2",
+    "kind": "Definition / worked example",
+    "title": "Standard form of a quadratic and its coefficients",
+    "part": "Ready",
+    "pdf_pages": [
+      13
+    ],
+    "printed_pages": [
+      10
+    ],
+    "description": "Defines standard form and gives a completed identification of a, b, and c.",
+    "note": "",
+    "file": "MVP 2/m2_mod2_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 2,
+    "section": "2.7",
+    "kind": "Definition",
+    "title": "Trinomial",
+    "part": "Main task",
+    "pdf_pages": [
+      41
+    ],
+    "printed_pages": [
+      38
+    ],
+    "description": "Names the three-term quadratic expression used in the quilt-block task.",
+    "note": "The wording describes the quadratic trinomials in this task; trinomials in general need not be quadratic.",
+    "file": "MVP 2/m2_mod2_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 2,
+    "section": "2.9",
+    "kind": "Worked example",
+    "title": "Multiply binomials with a two-way table",
+    "part": "Ready",
+    "pdf_pages": [
+      58
+    ],
+    "printed_pages": [
+      55
+    ],
+    "description": "A filled multiplication table supplies the partial products and simplified quadratic.",
+    "note": "",
+    "file": "MVP 2/m2_mod2_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 3,
+    "section": "3.2",
+    "kind": "Definition / worked example",
+    "title": "Square roots, higher roots, and simplifying radicals",
+    "part": "Ready",
+    "pdf_pages": [
+      15
+    ],
+    "printed_pages": [
+      12
+    ],
+    "description": "Explains roots and supplies two completed radical simplifications.",
+    "note": "",
+    "file": "MVP 2/m2_mod3_seh_52017f.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 2,
+    "module": 3,
+    "section": "3.4",
+    "kind": "Worked example",
+    "title": "Solve a cubic equation using roots or rational exponents",
+    "part": "Main task",
+    "pdf_pages": [
+      24
+    ],
+    "printed_pages": [
+      21
+    ],
+    "description": "Two complete solutions of the same cubic equation compare radical and rational-exponent notation.",
+    "note": "",
+    "file": "MVP 2/m2_mod3_seh_52017f.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 2,
+    "module": 3,
+    "section": "3.8",
+    "kind": "Definition / reference",
+    "title": "Polynomial functions and the Fundamental Theorem of Algebra",
+    "part": "Main task",
+    "pdf_pages": [
+      55
+    ],
+    "printed_pages": [
+      52
+    ],
+    "description": "Supplies a general polynomial form and states the root-counting theorem.",
+    "note": "The constant term has exponent zero, despite the phrase \u201cpositive integers.\u201d Roots are counted over the complex numbers, with multiplicity.",
+    "file": "MVP 2/m2_mod3_seh_52017f.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 2,
+    "module": 3,
+    "section": "3.9",
+    "kind": "Definition",
+    "title": "Real numbers and the imaginary unit",
+    "part": "Main task",
+    "pdf_pages": [
+      59
+    ],
+    "printed_pages": [
+      56
+    ],
+    "description": "Big Idea #1 identifies real numbers; Part 2 introduces i to represent square roots of negative numbers.",
+    "note": "",
+    "file": "MVP 2/m2_mod3_seh_52017f.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 2,
+    "module": 3,
+    "section": "3.9",
+    "kind": "Definition / worked example",
+    "title": "Imaginary and complex numbers",
+    "part": "Main task",
+    "pdf_pages": [
+      60
+    ],
+    "printed_pages": [
+      57
+    ],
+    "description": "Big Idea #2 names imaginary and complex numbers; completed examples rewrite negative square roots using i.",
+    "note": "Real numbers are also complex numbers; the next pages explicitly include a + 0i.",
+    "file": "MVP 2/m2_mod3_seh_52017f.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 2,
+    "module": 3,
+    "section": "3.12H",
+    "kind": "Definition / reference",
+    "title": "The complex plane and vector representations",
+    "part": "Main task",
+    "pdf_pages": [
+      82
+    ],
+    "printed_pages": [
+      79
+    ],
+    "description": "Explains the real and imaginary axes and represents a + bi by the point (a, b) or a position vector.",
+    "note": "",
+    "file": "MVP 2/m2_mod3_seh_52017f.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 2,
+    "module": 3,
+    "section": "3.12H",
+    "kind": "Definition",
+    "title": "Modulus of a complex number",
+    "part": "Main task",
+    "pdf_pages": [
+      83
+    ],
+    "printed_pages": [
+      80
+    ],
+    "description": "Defines modulus as distance from the origin in the complex plane.",
+    "note": "",
+    "file": "MVP 2/m2_mod3_seh_52017f.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 2,
+    "module": 3,
+    "section": "3.12H",
+    "kind": "Reference",
+    "title": "Multiply complex numbers",
+    "part": "Main task",
+    "pdf_pages": [
+      84
+    ],
+    "printed_pages": [
+      81
+    ],
+    "description": "Supplies the expansion of (a + bi)(c + di), while asking students to justify it geometrically.",
+    "note": "",
+    "file": "MVP 2/m2_mod3_seh_52017f.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 2,
+    "module": 3,
+    "section": "3.12H",
+    "kind": "Definition",
+    "title": "Complex conjugate",
+    "part": "Main task",
+    "pdf_pages": [
+      85
+    ],
+    "printed_pages": [
+      82
+    ],
+    "description": "Defines the conjugate of a + bi and introduces its notation.",
+    "note": "",
+    "file": "MVP 2/m2_mod3_seh_52017f.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 2,
+    "module": 3,
+    "section": "3.12H",
+    "kind": "Reference",
+    "title": "Divide complex numbers using a conjugate",
+    "part": "Main task",
+    "pdf_pages": [
+      86
+    ],
+    "printed_pages": [
+      83
+    ],
+    "description": "Explains division by a real scalar and introduces multiplying numerator and denominator by a conjugate; the numerical quotient is an exercise.",
+    "note": "",
+    "file": "MVP 2/m2_mod3_seh_52017f.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 2,
+    "module": 3,
+    "section": "3.12H",
+    "kind": "Definition",
+    "title": "Distance and average of complex numbers",
+    "part": "Main task",
+    "pdf_pages": [
+      87
+    ],
+    "printed_pages": [
+      84
+    ],
+    "description": "Defines distance using the modulus of a difference and average using the midpoint in the complex plane.",
+    "note": "",
+    "file": "MVP 2/m2_mod3_seh_52017f.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 2,
+    "module": 4,
+    "section": "4.1",
+    "kind": "Definition",
+    "title": "Piecewise-defined function",
+    "part": "Main task",
+    "pdf_pages": [
+      5
+    ],
+    "printed_pages": [
+      2
+    ],
+    "description": "Defines a function with different rules on different parts of its domain.",
+    "note": "",
+    "file": "MVP 2/m2_mod4_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 4,
+    "section": "4.3",
+    "kind": "Worked illustration",
+    "title": "Absolute value written as a piecewise function",
+    "part": "Main task",
+    "pdf_pages": [
+      16
+    ],
+    "printed_pages": [
+      13
+    ],
+    "description": "A supplied graph and two equivalent formulas illustrate rewriting absolute value piecewise; students explain the connection.",
+    "note": "",
+    "file": "MVP 2/m2_mod4_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 5,
+    "section": "5.1",
+    "kind": "Definition / illustration",
+    "title": "Straight angle and diameter",
+    "part": "Set",
+    "pdf_pages": [
+      7
+    ],
+    "printed_pages": [
+      4
+    ],
+    "description": "A circle-folding illustration explains opposite radii and a straight angle.",
+    "note": "",
+    "file": "MVP 2/m2_mod5_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 5,
+    "section": "5.1",
+    "kind": "Definition",
+    "title": "Linear pair",
+    "part": "Set",
+    "pdf_pages": [
+      8
+    ],
+    "printed_pages": [
+      5
+    ],
+    "description": "Defines a linear pair and supplies angle diagrams and real-life illustrations.",
+    "note": "The intended angles are adjacent: sharing a vertex alone is not enough.",
+    "file": "MVP 2/m2_mod5_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 5,
+    "section": "5.3",
+    "kind": "Worked example",
+    "title": "Write an argument as a two-column proof",
+    "part": "Main task",
+    "pdf_pages": [
+      22
+    ],
+    "printed_pages": [
+      19
+    ],
+    "description": "Travis\u2019s completed statements-and-reasons table establishes that a segment is a median of an equilateral triangle.",
+    "note": "",
+    "file": "MVP 2/m2_mod5_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 5,
+    "section": "5.3",
+    "kind": "Worked example",
+    "title": "Organize a triangle-congruence argument",
+    "part": "Ready",
+    "pdf_pages": [
+      25
+    ],
+    "printed_pages": [
+      22
+    ],
+    "description": "Tehani supplies a complete narrative congruence argument using ASA; students convert it to two-column form.",
+    "note": "The prose uses ED bisecting BC; the given line above the blank proof mistakenly says AC.",
+    "file": "MVP 2/m2_mod5_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 5,
+    "section": "5.4",
+    "kind": "Definition",
+    "title": "Postulates and theorems",
+    "part": "Main task",
+    "pdf_pages": [
+      27
+    ],
+    "printed_pages": [
+      24
+    ],
+    "description": "Distinguishes statements accepted without proof from statements supported by proof.",
+    "note": "",
+    "file": "MVP 2/m2_mod5_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 5,
+    "section": "5.5",
+    "kind": "Definition bank",
+    "title": "Vertical, exterior, and remote interior angles",
+    "part": "Main task",
+    "pdf_pages": [
+      33
+    ],
+    "printed_pages": [
+      30
+    ],
+    "description": "Defines the angle names with labeled diagrams; conjectures about their measures remain exercises.",
+    "note": "",
+    "file": "MVP 2/m2_mod5_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 5,
+    "section": "5.5",
+    "kind": "Definition bank",
+    "title": "Transversals and angle pairs",
+    "part": "Main task",
+    "pdf_pages": [
+      34
+    ],
+    "printed_pages": [
+      31
+    ],
+    "description": "Defines transversal and labels corresponding, alternate interior, and same-side interior angles.",
+    "note": "",
+    "file": "MVP 2/m2_mod5_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 6,
+    "section": "6.3",
+    "kind": "Definition",
+    "title": "Congruence and similarity through transformations",
+    "part": "Main task",
+    "pdf_pages": [
+      16
+    ],
+    "printed_pages": [
+      13
+    ],
+    "description": "Defines congruence using rigid motions and similarity using rigid motions and dilations.",
+    "note": "",
+    "file": "MVP 2/m2_mod6_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 6,
+    "section": "6.3",
+    "kind": "Definition",
+    "title": "Similar polygons",
+    "part": "Main task",
+    "pdf_pages": [
+      18
+    ],
+    "printed_pages": [
+      15
+    ],
+    "description": "Gives the corresponding-angle and proportional-side characterization of similarity.",
+    "note": "",
+    "file": "MVP 2/m2_mod6_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 6,
+    "section": "6.7",
+    "kind": "Reference",
+    "title": "Right Triangle Altitude Theorems",
+    "part": "Main task",
+    "pdf_pages": [
+      41
+    ],
+    "printed_pages": [
+      38
+    ],
+    "description": "States two geometric-mean relationships for an altitude to the hypotenuse; students supply the proofs.",
+    "note": "",
+    "file": "MVP 2/m2_mod6_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 6,
+    "section": "6.9",
+    "kind": "Definition / reference",
+    "title": "Sine, cosine, and tangent in a right triangle",
+    "part": "Main task",
+    "pdf_pages": [
+      51
+    ],
+    "printed_pages": [
+      48
+    ],
+    "description": "Supplies the opposite/hypotenuse, adjacent/hypotenuse, and opposite/adjacent ratios beside a labeled triangle; evaluating them is student work.",
+    "note": "",
+    "file": "MVP 2/m2_mod6_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 6,
+    "section": "6.10",
+    "kind": "Definition",
+    "title": "Angles of elevation and depression",
+    "part": "Main task",
+    "pdf_pages": [
+      60
+    ],
+    "printed_pages": [
+      57
+    ],
+    "description": "Explains each angle relative to a horizontal line of sight.",
+    "note": "",
+    "file": "MVP 2/m2_mod6_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 7,
+    "section": "7.2",
+    "kind": "Definition",
+    "title": "Rotational symmetry",
+    "part": "Ready",
+    "pdf_pages": [
+      14
+    ],
+    "printed_pages": [
+      11
+    ],
+    "description": "Explains a rotation that makes a polygon coincide with itself.",
+    "note": "",
+    "file": "MVP 2/m2_mod7_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 7,
+    "section": "7.3",
+    "kind": "Definition",
+    "title": "Cyclic polygon and inscribed angles",
+    "part": "Main task",
+    "pdf_pages": [
+      17
+    ],
+    "printed_pages": [
+      14
+    ],
+    "description": "Defines a polygon whose vertices lie on one circle and identifies its inscribed angles.",
+    "note": "",
+    "file": "MVP 2/m2_mod7_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 7,
+    "section": "7.3",
+    "kind": "Definition",
+    "title": "Degree measure of an arc",
+    "part": "Main task",
+    "pdf_pages": [
+      18
+    ],
+    "printed_pages": [
+      15
+    ],
+    "description": "Defines arc measure using the corresponding central angle; the inscribed-angle theorem is left to investigate.",
+    "note": "",
+    "file": "MVP 2/m2_mod7_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 7,
+    "section": "7.3",
+    "kind": "Definition",
+    "title": "Circumscribed angle",
+    "part": "Main task",
+    "pdf_pages": [
+      22
+    ],
+    "printed_pages": [
+      19
+    ],
+    "description": "Names the angle formed by two lines tangent to a circle.",
+    "note": "",
+    "file": "MVP 2/m2_mod7_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 7,
+    "section": "7.5",
+    "kind": "Worked example",
+    "title": "Find arc length from a central angle",
+    "part": "Go",
+    "pdf_pages": [
+      37
+    ],
+    "printed_pages": [
+      34
+    ],
+    "description": "A completed example uses the fraction of a full circumference to compute an arc length.",
+    "note": "One sentence calls the result an \u201carea,\u201d but the calculation and units are for length.",
+    "file": "MVP 2/m2_mod7_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 7,
+    "section": "7.9",
+    "kind": "Definition / worked illustration",
+    "title": "Radians and familiar turns",
+    "part": "Main task",
+    "pdf_pages": [
+      56
+    ],
+    "printed_pages": [
+      53
+    ],
+    "description": "Defines one radian and a full turn, then supplies reasoning for half and quarter turns.",
+    "note": "",
+    "file": "MVP 2/m2_mod7_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 7,
+    "section": "7.12H",
+    "kind": "Definition / reference",
+    "title": "Oblique solids and volume formulas",
+    "part": "Main task",
+    "pdf_pages": [
+      77
+    ],
+    "printed_pages": [
+      74
+    ],
+    "description": "Names oblique prisms, pyramids, cylinders, and cones and supplies volume statements in terms of base or cross-sectional area and height.",
+    "note": "",
+    "file": "MVP 2/m2_mod7_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 8,
+    "section": "8.4",
+    "kind": "Definition",
+    "title": "Parabola, focus, and directrix",
+    "part": "Main task",
+    "pdf_pages": [
+      20
+    ],
+    "printed_pages": [
+      17
+    ],
+    "description": "Defines a parabola as points equally distant from a focus and a directrix.",
+    "note": "",
+    "file": "MVP 2/m2_mod8_seh_52017f.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 2,
+    "module": 8,
+    "section": "8.4",
+    "kind": "Worked example",
+    "title": "Sketch a parabola from its focus and directrix",
+    "part": "Set",
+    "pdf_pages": [
+      22
+    ],
+    "printed_pages": [
+      19
+    ],
+    "description": "A completed distance calculation, reflected point, vertex, and graph illustrate the construction.",
+    "note": "",
+    "file": "MVP 2/m2_mod8_seh_52017f.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 2,
+    "module": 8,
+    "section": "8.4",
+    "kind": "Reference",
+    "title": "Standard form of a circle",
+    "part": "Go",
+    "pdf_pages": [
+      23
+    ],
+    "printed_pages": [
+      20
+    ],
+    "description": "Supplies the circle equation with center (h, k) and radius r.",
+    "note": "",
+    "file": "MVP 2/m2_mod8_seh_52017f.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 2,
+    "module": 8,
+    "section": "8.7H",
+    "kind": "Definition",
+    "title": "Ellipse and foci",
+    "part": "Main task",
+    "pdf_pages": [
+      38
+    ],
+    "printed_pages": [
+      35
+    ],
+    "description": "Defines an ellipse using a constant sum of distances from two foci.",
+    "note": "",
+    "file": "MVP 2/m2_mod8_seh_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 8,
+    "section": "8.7H",
+    "kind": "Reference",
+    "title": "Standard form of an ellipse",
+    "part": "Main task",
+    "pdf_pages": [
+      39,
+      40
+    ],
+    "printed_pages": [
+      36,
+      37
+    ],
+    "description": "Supplies standard-form equations and describes horizontal and vertical semiaxes and the distance from the center to a focus.",
+    "note": "",
+    "file": "MVP 2/m2_mod8_seh_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 8,
+    "section": "8.8H",
+    "kind": "Worked example / reference",
+    "title": "Hyperbola sketch and standard forms",
+    "part": "Main task",
+    "pdf_pages": [
+      47,
+      48
+    ],
+    "printed_pages": [
+      44,
+      45
+    ],
+    "description": "Explains a specific asymptote-rectangle construction with its supplied diagram, then gives both standard forms.",
+    "note": "",
+    "file": "MVP 2/m2_mod8_seh_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 9,
+    "section": "9.1",
+    "kind": "Definition / illustration",
+    "title": "Conditional probability and \u201cgiven\u201d notation",
+    "part": "Main task",
+    "pdf_pages": [
+      3
+    ],
+    "printed_pages": [
+      1
+    ],
+    "description": "Introduces conditional probability through a supplied tree diagram and the vertical-bar notation.",
+    "note": "",
+    "file": "MVP 2/m2_mod9_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 2,
+    "module": 9,
+    "section": "9.6",
+    "kind": "Definition / reference",
+    "title": "Independence and conditional probability",
+    "part": "Main task",
+    "pdf_pages": [
+      25
+    ],
+    "printed_pages": [
+      23
+    ],
+    "description": "States independence using conditional probabilities and recalls the conditional-probability formula.",
+    "note": "",
+    "file": "MVP 2/m2_mod9_se_52017f.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 1,
+    "section": "1.4",
+    "kind": "Worked example",
+    "title": "Undo a function with its inverse",
+    "part": "Main task",
+    "pdf_pages": [
+      24
+    ],
+    "printed_pages": [
+      20
+    ],
+    "description": "A completed function-machine example adds eight and then subtracts eight, returning to the starting input.",
+    "note": "",
+    "file": "MVP 3/sec3mod1se518.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 1,
+    "section": "1.4",
+    "kind": "Reference",
+    "title": "Composition notation",
+    "part": "Go",
+    "pdf_pages": [
+      29
+    ],
+    "printed_pages": [
+      25
+    ],
+    "description": "Explains the equivalence between nested function notation and the composition symbol.",
+    "note": "",
+    "file": "MVP 3/sec3mod1se518.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 2,
+    "section": "2.1",
+    "kind": "Worked example",
+    "title": "Translate powers into logarithms",
+    "part": "Main task",
+    "pdf_pages": [
+      5
+    ],
+    "printed_pages": [
+      1
+    ],
+    "description": "Completed base-two and base-ten examples show the inverse relationship between exponential and logarithmic expressions.",
+    "note": "",
+    "file": "MVP 3/sec3mod2seh518.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 3,
+    "module": 2,
+    "section": "2.1",
+    "kind": "Definition",
+    "title": "Logarithm",
+    "part": "Set",
+    "pdf_pages": [
+      9
+    ],
+    "printed_pages": [
+      5
+    ],
+    "description": "Defines a logarithm by its equivalent exponential equation and states restrictions on the base and argument.",
+    "note": "",
+    "file": "MVP 3/sec3mod2seh518.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 3,
+    "module": 2,
+    "section": "2.3",
+    "kind": "Reference",
+    "title": "Product, quotient, and power rules for logarithms",
+    "part": "Main task",
+    "pdf_pages": [
+      25
+    ],
+    "printed_pages": [
+      21
+    ],
+    "description": "Supplies the three logarithm rules; students justify their generality.",
+    "note": "",
+    "file": "MVP 3/sec3mod2seh518.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 3,
+    "module": 2,
+    "section": "2.4",
+    "kind": "Worked example",
+    "title": "Evaluate a logarithm using the product rule",
+    "part": "Main task",
+    "pdf_pages": [
+      28
+    ],
+    "printed_pages": [
+      24
+    ],
+    "description": "Mary and Abe compute a base-two logarithm from supplied values using the product rule.",
+    "note": "",
+    "file": "MVP 3/sec3mod2seh518.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 3,
+    "module": 2,
+    "section": "2.4",
+    "kind": "Reference",
+    "title": "Logarithm rules beside practice problems",
+    "part": "Main task",
+    "pdf_pages": [
+      29
+    ],
+    "printed_pages": [
+      25
+    ],
+    "description": "Repeats the product, quotient, and power rules next to practice.",
+    "note": "Stephen\u2019s calculation at the top is intentionally incorrect: the product rule does not apply to a sum.",
+    "file": "MVP 3/sec3mod2seh518.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 3,
+    "module": 2,
+    "section": "2.4",
+    "kind": "Worked example",
+    "title": "Solve exponential and logarithmic equations",
+    "part": "Ready",
+    "pdf_pages": [
+      32
+    ],
+    "printed_pages": [
+      28
+    ],
+    "description": "Two completed examples rewrite expressions using equal bases or equal logarithms to solve for an input.",
+    "note": "",
+    "file": "MVP 3/sec3mod2seh518.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 3,
+    "module": 2,
+    "section": "2.5",
+    "kind": "Reference",
+    "title": "Compound-interest formula",
+    "part": "Go",
+    "pdf_pages": [
+      39
+    ],
+    "printed_pages": [
+      35
+    ],
+    "description": "Supplies the compound-interest model and explains principal, annual rate, compounding frequency, and time.",
+    "note": "",
+    "file": "MVP 3/sec3mod2seh518.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 3,
+    "module": 2,
+    "section": "2.6H",
+    "kind": "Definition / reference",
+    "title": "The number e and continuous compounding",
+    "part": "Main task",
+    "pdf_pages": [
+      41
+    ],
+    "printed_pages": [
+      37
+    ],
+    "description": "Introduces e and supplies the continuous-compounding formula with principal, rate, and time defined.",
+    "note": "",
+    "file": "MVP 3/sec3mod2seh518.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 2,
+    "section": "2.7H",
+    "kind": "Definition / reference",
+    "title": "Natural logarithms and continuous growth or decay",
+    "part": "Main task",
+    "pdf_pages": [
+      46
+    ],
+    "printed_pages": [
+      42
+    ],
+    "description": "Names the base-e logarithm and gives continuous growth and decay formulas with their parameters.",
+    "note": "",
+    "file": "MVP 3/sec3mod2seh518.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 3,
+    "section": "3.1",
+    "kind": "Worked example",
+    "title": "Integer division with a remainder",
+    "part": "Go",
+    "pdf_pages": [
+      9
+    ],
+    "printed_pages": [
+      5
+    ],
+    "description": "A supplied long-division result illustrates a whole-number quotient and remainder.",
+    "note": "",
+    "file": "MVP 3/sec3mod3se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 3,
+    "section": "3.2",
+    "kind": "Definition / reference",
+    "title": "Cubic functions and polynomial degree",
+    "part": "Main task",
+    "pdf_pages": [
+      10
+    ],
+    "printed_pages": [
+      6
+    ],
+    "description": "Names the cubic function and connects degree with the highest exponent, contrasting linear and quadratic functions.",
+    "note": "",
+    "file": "MVP 3/sec3mod3se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 3,
+    "section": "3.3",
+    "kind": "Worked example",
+    "title": "Subtract polynomials by changing signs",
+    "part": "Main task",
+    "pdf_pages": [
+      19
+    ],
+    "printed_pages": [
+      15
+    ],
+    "description": "A completed subtraction is displayed both horizontally and vertically.",
+    "note": "",
+    "file": "MVP 3/sec3mod3se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 3,
+    "section": "3.4",
+    "kind": "Definition / worked example",
+    "title": "Standard form and a polynomial area model",
+    "part": "Main task",
+    "pdf_pages": [
+      24
+    ],
+    "printed_pages": [
+      20
+    ],
+    "description": "Defines descending-power standard form and supplies a filled multiplication box with its simplified result.",
+    "note": "",
+    "file": "MVP 3/sec3mod3se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 3,
+    "section": "3.5",
+    "kind": "Worked example",
+    "title": "Polynomial long division",
+    "part": "Main task",
+    "pdf_pages": [
+      32,
+      33
+    ],
+    "printed_pages": [
+      28,
+      29
+    ],
+    "description": "A six-step completed division compares polynomial division with integer long division.",
+    "note": "The concluding sentence mistakenly says 121 is divisible by 12; the displayed division is 1452 \u00f7 12 = 121.",
+    "file": "MVP 3/sec3mod3se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 3,
+    "section": "3.6",
+    "kind": "Definition",
+    "title": "Polynomial function and degree",
+    "part": "Main task",
+    "pdf_pages": [
+      41
+    ],
+    "printed_pages": [
+      37
+    ],
+    "description": "Gives a formal definition with real coefficients and nonnegative integer exponents, alongside examples and non-examples.",
+    "note": "",
+    "file": "MVP 3/sec3mod3se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 3,
+    "section": "3.6",
+    "kind": "Definition / illustration",
+    "title": "Closure and counterexamples",
+    "part": "Main task",
+    "pdf_pages": [
+      42
+    ],
+    "printed_pages": [
+      38
+    ],
+    "description": "Explains closure under an operation and how a counterexample refutes a universal claim.",
+    "note": "",
+    "file": "MVP 3/sec3mod3se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 3,
+    "section": "3.6",
+    "kind": "Definition / worked example",
+    "title": "Conjugate pairs",
+    "part": "Go",
+    "pdf_pages": [
+      47
+    ],
+    "printed_pages": [
+      43
+    ],
+    "description": "Defines conjugate pairs and supplies factoring and conjugate examples involving radicals and imaginary numbers.",
+    "note": "",
+    "file": "MVP 3/sec3mod3se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 3,
+    "section": "3.7",
+    "kind": "Reference",
+    "title": "Fundamental Theorem of Algebra",
+    "part": "Main task",
+    "pdf_pages": [
+      48
+    ],
+    "printed_pages": [
+      44
+    ],
+    "description": "States the root-counting theorem before students investigate quadratic and higher-degree polynomials.",
+    "note": "Roots are counted over the complex numbers, with multiplicity.",
+    "file": "MVP 3/sec3mod3se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 3,
+    "section": "3.9",
+    "kind": "Definition",
+    "title": "Even function",
+    "part": "Main task",
+    "pdf_pages": [
+      67
+    ],
+    "printed_pages": [
+      63
+    ],
+    "description": "Gives the algebraic definition of an even function and a supplied example/non-example graph pair.",
+    "note": "",
+    "file": "MVP 3/sec3mod3se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 3,
+    "section": "3.9",
+    "kind": "Definition",
+    "title": "Odd function",
+    "part": "Main task",
+    "pdf_pages": [
+      69
+    ],
+    "printed_pages": [
+      65
+    ],
+    "description": "Gives the algebraic definition of an odd function after its examples and non-examples.",
+    "note": "",
+    "file": "MVP 3/sec3mod3se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 4,
+    "section": "4.4",
+    "kind": "Definition",
+    "title": "Rational function",
+    "part": "Main task",
+    "pdf_pages": [
+      25
+    ],
+    "printed_pages": [
+      21
+    ],
+    "description": "Defines a rational function as a quotient of polynomials whose denominator is not the zero polynomial.",
+    "note": "",
+    "file": "MVP 3/sec3mod4se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 5,
+    "section": "5.7",
+    "kind": "Reference",
+    "title": "Pythagorean theorem",
+    "part": "Main task",
+    "pdf_pages": [
+      39
+    ],
+    "printed_pages": [
+      35
+    ],
+    "description": "Recalls the squared-side relationship and identifies the legs and hypotenuse.",
+    "note": "",
+    "file": "MVP 3/sec3mod5se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 5,
+    "section": "5.7",
+    "kind": "Reference",
+    "title": "Law of Sines and Law of Cosines",
+    "part": "Set",
+    "pdf_pages": [
+      43
+    ],
+    "printed_pages": [
+      39
+    ],
+    "description": "Supplies both triangle-solving laws, including alternate forms.",
+    "note": "",
+    "file": "MVP 3/sec3mod5se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 5,
+    "section": "5.8",
+    "kind": "Definition / illustration",
+    "title": "Rotational symmetry",
+    "part": "Ready",
+    "pdf_pages": [
+      49
+    ],
+    "printed_pages": [
+      45
+    ],
+    "description": "Explains rotational symmetry using a hubcap and a quarter-turn example.",
+    "note": "",
+    "file": "MVP 3/sec3mod5se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 5,
+    "section": "5.8",
+    "kind": "Reference",
+    "title": "Triangle area from two sides and their included angle",
+    "part": "Set",
+    "pdf_pages": [
+      49
+    ],
+    "printed_pages": [
+      45
+    ],
+    "description": "Supplies three equivalent sine-based area formulas, with the corresponding side and angle labels.",
+    "note": "",
+    "file": "MVP 3/sec3mod5se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 5,
+    "section": "5.8",
+    "kind": "Reference",
+    "title": "Triangle area formulas and Heron\u2019s formula",
+    "part": "Set",
+    "pdf_pages": [
+      50
+    ],
+    "printed_pages": [
+      46
+    ],
+    "description": "Supplies an area formula derived from the Law of Sines and Heron\u2019s formula with semiperimeter.",
+    "note": "",
+    "file": "MVP 3/sec3mod5se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 6,
+    "section": "6.1",
+    "kind": "Definition / illustration",
+    "title": "Angular speed and linear speed",
+    "part": "Ready",
+    "pdf_pages": [
+      7
+    ],
+    "printed_pages": [
+      3
+    ],
+    "description": "Defines angular speed and contrasts it with linear speed, using clock hands and rotating records.",
+    "note": "",
+    "file": "MVP 3/sec3mod6se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 6,
+    "section": "6.4",
+    "kind": "Reference",
+    "title": "Positive angles of rotation",
+    "part": "Go",
+    "pdf_pages": [
+      27
+    ],
+    "printed_pages": [
+      23
+    ],
+    "description": "States the counterclockwise convention for positive rotation.",
+    "note": "",
+    "file": "MVP 3/sec3mod6se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 6,
+    "section": "6.5",
+    "kind": "Reference",
+    "title": "Cosine from circle coordinates",
+    "part": "Set",
+    "pdf_pages": [
+      31
+    ],
+    "printed_pages": [
+      27
+    ],
+    "description": "Recalls cosine as the horizontal coordinate divided by the radius.",
+    "note": "",
+    "file": "MVP 3/sec3mod6se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 6,
+    "section": "6.6",
+    "kind": "Worked example",
+    "title": "Convert degrees to radians",
+    "part": "Go",
+    "pdf_pages": [
+      40
+    ],
+    "printed_pages": [
+      36
+    ],
+    "description": "A completed conversion of 72 degrees demonstrates multiplying by the appropriate unit ratio.",
+    "note": "",
+    "file": "MVP 3/sec3mod6se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 6,
+    "section": "6.9",
+    "kind": "Definition / worked example",
+    "title": "Coterminal angles",
+    "part": "Ready",
+    "pdf_pages": [
+      59
+    ],
+    "printed_pages": [
+      55
+    ],
+    "description": "Defines coterminal angles and supplies a labeled positive-and-negative-angle example.",
+    "note": "",
+    "file": "MVP 3/sec3mod6se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 7,
+    "section": "7.2",
+    "kind": "Definition / reference",
+    "title": "Right-triangle tangent ratio",
+    "part": "Ready",
+    "pdf_pages": [
+      16
+    ],
+    "printed_pages": [
+      12
+    ],
+    "description": "Recalls tangent as opposite side length divided by adjacent side length.",
+    "note": "",
+    "file": "MVP 3/sec3mod7seh718.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 3,
+    "module": 7,
+    "section": "7.4H",
+    "kind": "Definition",
+    "title": "Even and odd functions",
+    "part": "Main task",
+    "pdf_pages": [
+      28
+    ],
+    "printed_pages": [
+      24
+    ],
+    "description": "Supplies the two algebraic definitions before students classify trigonometric functions.",
+    "note": "",
+    "file": "MVP 3/sec3mod7seh718.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 3,
+    "module": 7,
+    "section": "7.4H",
+    "kind": "Definition bank",
+    "title": "Secant, cosecant, and cotangent",
+    "part": "Main task",
+    "pdf_pages": [
+      29
+    ],
+    "printed_pages": [
+      25
+    ],
+    "description": "Supplies the three reciprocal right-triangle ratios and their side-length formulas.",
+    "note": "",
+    "file": "MVP 3/sec3mod7seh718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 7,
+    "section": "7.5",
+    "kind": "Reference",
+    "title": "Fundamental trigonometric identities",
+    "part": "Main task",
+    "pdf_pages": [
+      39
+    ],
+    "printed_pages": [
+      35
+    ],
+    "description": "Lists sine and cosine symmetry, the Pythagorean identity, and the tangent quotient identity; students provide justifications.",
+    "note": "",
+    "file": "MVP 3/sec3mod7seh718.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 3,
+    "module": 7,
+    "section": "7.7H",
+    "kind": "Reference",
+    "title": "Sine and cosine sum and difference identities",
+    "part": "Set",
+    "pdf_pages": [
+      52
+    ],
+    "printed_pages": [
+      48
+    ],
+    "description": "Supplies all four sum and difference formulas and explains their use for exact values.",
+    "note": "",
+    "file": "MVP 3/sec3mod7seh718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 7,
+    "section": "7.8H",
+    "kind": "Definition / worked example",
+    "title": "Inverse sine and its principal interval",
+    "part": "Main task",
+    "pdf_pages": [
+      56
+    ],
+    "printed_pages": [
+      52
+    ],
+    "description": "Supplies a calculator evaluation and explicitly defines inverse sine on its restricted output interval.",
+    "note": "",
+    "file": "MVP 3/sec3mod7seh718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 7,
+    "section": "7.11H",
+    "kind": "Reference",
+    "title": "Multiply and divide complex numbers in polar form",
+    "part": "Main task",
+    "pdf_pages": [
+      75,
+      76
+    ],
+    "printed_pages": [
+      71,
+      72
+    ],
+    "description": "States the multiply-moduli/add-angles rule and the divide-moduli/subtract-angles rule. Proof exercises are not indexed.",
+    "note": "",
+    "file": "MVP 3/sec3mod7seh718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 7,
+    "section": "7.11H",
+    "kind": "Reference",
+    "title": "Roots of a complex number in polar form",
+    "part": "Main task",
+    "pdf_pages": [
+      80
+    ],
+    "printed_pages": [
+      76
+    ],
+    "description": "Supplies the root formula, root count, and equal angular spacing.",
+    "note": "",
+    "file": "MVP 3/sec3mod7seh718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 7,
+    "section": "7.11H",
+    "kind": "Definition / reference",
+    "title": "Complex modulus and coordinate representations",
+    "part": "Ready",
+    "pdf_pages": [
+      81
+    ],
+    "printed_pages": [
+      77
+    ],
+    "description": "Explains real and imaginary axes, points and vectors, and supplies the modulus formula.",
+    "note": "",
+    "file": "MVP 3/sec3mod7seh718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 7,
+    "section": "7.11H",
+    "kind": "Reference",
+    "title": "Polar coordinate conversion and trigonometric form",
+    "part": "Set",
+    "pdf_pages": [
+      82,
+      83
+    ],
+    "printed_pages": [
+      78,
+      79
+    ],
+    "description": "Supplies polar-to-rectangular coordinate relationships and the trigonometric form of a complex number.",
+    "note": "",
+    "file": "MVP 3/sec3mod7seh718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 8,
+    "section": "8.4",
+    "kind": "Worked example",
+    "title": "Identify inside and outside operations",
+    "part": "Ready",
+    "pdf_pages": [
+      32
+    ],
+    "printed_pages": [
+      28
+    ],
+    "description": "A completed substitution separates cubing an input from multiplying the result by five.",
+    "note": "",
+    "file": "MVP 3/sec3mod8seh718.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 3,
+    "module": 8,
+    "section": "8.6",
+    "kind": "Definition / illustration",
+    "title": "Frequency polygon and frequency curve",
+    "part": "Ready",
+    "pdf_pages": [
+      43
+    ],
+    "printed_pages": [
+      39
+    ],
+    "description": "Explains connecting histogram midpoints and smoothing them into a frequency curve, with a supplied sketch.",
+    "note": "",
+    "file": "MVP 3/sec3mod8seh718.pdf",
+    "checked": "Source-page text matched to honors edition"
+  },
+  {
+    "course": 3,
+    "module": 8,
+    "section": "8.8H",
+    "kind": "Definition",
+    "title": "Parametric curve and parameter",
+    "part": "Main task",
+    "pdf_pages": [
+      52
+    ],
+    "printed_pages": [
+      48
+    ],
+    "description": "Defines a parametric curve and explains parameter inputs with ordered-pair outputs.",
+    "note": "",
+    "file": "MVP 3/sec3mod8seh718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 9,
+    "section": "9.3",
+    "kind": "Definition / worked example",
+    "title": "Standard normal distribution and z-scores",
+    "part": "Main task",
+    "pdf_pages": [
+      21
+    ],
+    "printed_pages": [
+      17
+    ],
+    "description": "Defines the standardized mean and standard deviation and interprets a negative z-score using an area-table result.",
+    "note": "",
+    "file": "MVP 3/sec3mod9se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 9,
+    "section": "9.3",
+    "kind": "Reference",
+    "title": "Z-score formula",
+    "part": "Main task",
+    "pdf_pages": [
+      22
+    ],
+    "printed_pages": [
+      18
+    ],
+    "description": "Supplies the formula for standardizing a data value by subtracting the mean and dividing by the standard deviation.",
+    "note": "",
+    "file": "MVP 3/sec3mod9se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 9,
+    "section": "9.5",
+    "kind": "Definition bank",
+    "title": "Population, sample, and parameter of interest",
+    "part": "Main task",
+    "pdf_pages": [
+      31
+    ],
+    "printed_pages": [
+      27
+    ],
+    "description": "Defines three core terms used to describe statistical studies.",
+    "note": "",
+    "file": "MVP 3/sec3mod9se718.pdf",
+    "checked": "Visual source review"
+  },
+  {
+    "course": 3,
+    "module": 9,
+    "section": "9.6",
+    "kind": "Definition bank / worked illustration",
+    "title": "Surveys, observational studies, and experiments",
+    "part": "Main task",
+    "pdf_pages": [
+      38
+    ],
+    "printed_pages": [
+      34
+    ],
+    "description": "Defines three study methods and illustrates each with a diet study, including control and experimental groups.",
+    "note": "",
+    "file": "MVP 3/sec3mod9se718.pdf",
+    "checked": "Visual source review"
+  }
+]
