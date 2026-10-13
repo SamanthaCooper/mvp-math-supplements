@@ -1,0 +1,160 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Math I 4.2 — Elvira’s Equations</title><style>
+:root{--ink:#172338;--muted:#526179;--accent:#145a80;--light:#eff6fa;--border:#dce5eb;--warm:#fbf5e8;--green:#edf8f1}*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;line-height:1.66;color:var(--ink);background:#f6f8fa}main{max-width:920px;margin:0 auto;padding:36px 46px 90px;background:#fff;box-shadow:0 5px 35px #12233b12}h1,h2,h3{line-height:1.22}h1{font-size:2.25rem;margin:.3em 0}h2{font-size:1.7rem;margin:2.1em 0 .8em;border-bottom:2px solid var(--accent);padding-bottom:.3em}h3{font-size:1.17rem;margin:1.7em 0 .4em}p{margin:.65em 0}small,.muted{color:var(--muted)}.eyebrow{font-weight:750;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-size:.75rem}nav{background:var(--light);padding:16px 22px;border-radius:10px;margin:25px 0}nav a{display:inline-block;margin:3px 18px 3px 0;color:var(--accent);font-weight:650}.summary{border-left:5px solid var(--accent);background:var(--light);padding:16px 20px;margin:20px 0;border-radius:0 8px 8px 0}.rule{padding:17px 20px;background:var(--green);border-radius:9px;margin:18px 0}.worked{padding:18px 22px;border:1px solid var(--border);border-left:4px solid #387da4;border-radius:7px;margin:18px 0}.worked>strong:first-child{color:var(--accent)}.caution{padding:17px 20px;background:var(--warm);border-left:4px solid #be8a2d;border-radius:5px;margin:20px 0}.teacher{background:#fcfcff;border:1px solid var(--border);padding:22px;border-radius:9px;margin:20px 0}.tag{font-size:.73rem;letter-spacing:.08em;text-transform:uppercase;font-weight:800;color:var(--accent)}table{border-collapse:collapse;width:100%;margin:14px 0 22px;font-size:.94rem}td,th{border:1px solid var(--border);padding:10px;text-align:left;vertical-align:top}th{background:var(--light)}.cols{display:grid;grid-template-columns:1fr 1fr;gap:20px}.eq{font-size:1.07rem}.meta{margin:10px 0 22px;color:var(--muted)}.print{position:fixed;right:18px;bottom:18px;border:none;border-radius:24px;background:var(--accent);color:white;padding:12px 20px;font-weight:700;cursor:pointer;box-shadow:0 2px 12px #0002}hr{border:0;border-top:1px solid var(--border);margin:36px 0}li{margin:.4em 0}.toc-list{columns:2}figure{margin:20px 0}.plot > svg.diagram{width:100%;height:auto;max-height:440px}.glossary td:first-child{font-weight:700;white-space:nowrap}.lesson-intro{font-size:1.06rem;border-bottom:1px solid var(--border);padding-bottom:13px}figcaption{font-size:.85rem;color:var(--muted);text-align:center}.diagram{max-width:100%;display:block;margin:auto;background:white}.pill{display:inline-block;border-radius:40px;padding:4px 11px;background:var(--light);font-weight:750;color:var(--accent);font-size:.8rem;margin-right:8px}@media(max-width:700px){main{padding:24px 20px}.cols{grid-template-columns:1fr}h1{font-size:1.9rem}.toc-list{columns:1}}@media print{body{background:#fff}main{box-shadow:none;padding:0;max-width:unset}.print,nav{display:none}h2{break-before:page}h3,.worked,.caution,.rule,table{break-inside:avoid}body{font-size:10pt}}
+.packet-clarification{margin:26px 0 32px;padding:20px 24px;background:#f3f6fb;border:1px solid #bacce1;border-left:5px solid #557ba9;border-radius:8px}.packet-clarification-heading{display:flex;flex-direction:column;gap:3px;margin-bottom:10px}.packet-clarification-heading strong{font-size:1.13rem}.packet-clarification-label{font-size:.75rem;letter-spacing:.065em;text-transform:uppercase;color:#315b82;font-weight:800}.packet-source{font-size:.92rem;color:#41536a}.packet-clarification table{background:white;margin:13px 0}.packet-clarification th{background:#e7eef8}@media print{.packet-clarification{break-inside:avoid;background:#f3f6fb !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}}.plot > svg.diagram{max-height:none;display:block;width:100%;height:auto}.plot{max-width:760px;margin:18px auto}.plot figcaption{text-align:center;color:#526179;font-size:.9rem}.teacher{margin-top:30px}.print{font-family:inherit}@media print{.plot{break-inside:avoid}.plot > svg.diagram{max-height:340px}.print{display:none}}
+.smallnote{font-size:.92rem;color:#526179}.grid-label{font:12px system-ui,sans-serif;fill:#516276}.axis-label{font:600 14px system-ui,sans-serif;fill:#334761}.point-label{font:600 13px system-ui,sans-serif;fill:#253d53;paint-order:stroke;stroke:white;stroke-width:3px;stroke-linejoin:round}.graphkey{display:flex;gap:8px 16px;flex-wrap:wrap;justify-content:center;margin:6px 0;font-size:.86rem;color:var(--muted)}.keychip{display:inline-block;width:17px;height:5px;vertical-align:middle;margin-right:4px;border-radius:2px}.math-display{text-align:center;margin:14px 0;overflow-x:auto;padding:1px}.math-inline{white-space:nowrap}.math-inline mjx-container,.math-display mjx-container{display:inline-block!important;vertical-align:middle}.math-display mjx-container{margin:0 auto!important}.math-display svg{max-width:100%;height:auto;overflow:visible}.math-inline svg{height:auto;max-height:2em;overflow:visible}.mini{font-size:.94rem}.example-label{color:var(--accent);font-weight:700}.seq{padding-left:1.45em}.seq li{padding-left:.25em}.focus{font-weight:750;color:var(--accent)}a{color:#145a80;text-underline-offset:2px}.resource-table td:nth-child(3){min-width:215px}details{margin:8px 0}summary{cursor:pointer;font-weight:650}@media (max-width:700px){.resource-table td:nth-child(3){min-width:unset}table{font-size:.88rem;display:block;max-width:100%;overflow-x:auto}.graphkey{font-size:.76rem}}@media print{.math-inline svg{max-height:1.7em}.resource-table a{overflow-wrap:anywhere}}
+@media print{main>h2:first-of-type{break-before:auto}}
+
+/* MVP section-to-supplement cross-references */
+.mvp-crossref{background:#eef5fa;border-left:4px solid #527fa5;border-radius:0 7px 7px 0;padding:12px 17px;margin:-5px 0 24px;color:#263e57}
+.mvp-crossref-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;line-height:1.5}
+.mvp-crossref-label{color:#315b82;letter-spacing:.075em;font-size:.73rem;font-weight:800;text-transform:uppercase;white-space:nowrap}
+.mvp-crossref-target{font-size:.96rem;font-weight:720}
+.mvp-crossref p{margin:4px 0 0;font-size:.9rem;line-height:1.52;color:#43556a}
+.mvp-crossref--sub{margin:4px 0 17px;padding:9px 14px;background:#f5f8fc;border-left-width:3px}
+.mvp-crossref--sub .mvp-crossref-target{font-size:.89rem;font-weight:660}
+.mvp-crossref--sub p{font-size:.86rem;margin:2px 0 0}
+@media print{.mvp-crossref{break-inside:avoid;print-color-adjust:exact;-webkit-print-color-adjust:exact;background:#eef5fa !important}.mvp-crossref--sub{background:#f5f8fc !important}}
+
+body{font-size:17px}.site-breadcrumbs{background:none;padding:0;display:flex;flex-wrap:wrap;gap:9px;font-size:.88rem;margin:0 0 20px;color:#526179}.site-breadcrumbs a{font-weight:400;margin:0}.site-return{font-size:.9rem;margin:0 0 16px}.lesson-subtitle{font-size:.9rem}.smallnote{font-size:.85rem}.plot > svg.diagram{max-height:none;width:100%;height:auto}.plot{max-width:720px;margin:22px auto}.packet-clarification{background:#f3f6fb;border:1px solid #bacce1;border-left:4px solid #557ba9;border-radius:6px;padding:17px 21px;margin:22px 0}.packet-clarification>strong{color:#315b82;font-size:.92rem}.mvp-correction{background:#fff3f2;border:1px solid #e8bcba;border-left:5px solid #ab3b3d;border-radius:0 8px 8px 0;padding:17px 21px;margin:22px 0;color:#2e2b34}.mvp-correction>strong{display:block;font-size:.9rem;color:#8b262b}.worked h3{margin:0 0 10px;color:#145a80}.math-display{overflow-x:auto;max-width:100%}mjx-container[display=true]{overflow-x:auto;overflow-y:hidden;padding:5px 0}.table-wrap{max-width:100%;overflow-x:auto}.source{font-size:.85rem;color:#526179}nav[aria-label="On this page"] a{display:block}.resource-table{font-size:.9rem}.resource-table td{min-width:0!important}.review-pending{margin:20px 0;padding:16px 20px;background:#fff7e6;border:1px solid #e5c987;border-left:4px solid #ad761c;border-radius:6px;color:#594214}.review-pending>strong{display:block;color:#704b0d}.review-pending p{margin:5px 0 0;font-size:.94rem}.graph-label{font:15px system-ui,sans-serif;fill:#172338}@media(max-width:700px){main{padding:24px 20px}table{font-size:.86rem}.worked{padding:16px}.resource-table th,.resource-table td{min-width:170px!important}}@media print{main{padding:0;box-shadow:none}.site-breadcrumbs,.site-return,nav[aria-label="On this page"]{display:none}.plot > svg.diagram{max-height:340px}.worked{break-inside:auto}.plot,.review-pending,.mvp-correction{break-inside:avoid}.review-pending,.mvp-correction,.packet-clarification{print-color-adjust:exact;-webkit-print-color-adjust:exact}.table-wrap{overflow:visible}table{display:table}h2{break-before:auto;break-after:avoid}}
+</style><link rel="stylesheet" href="../../assets/publisher-links.css"><link rel="stylesheet" href="../../assets/answer-keys.css"><script>window.MathJax={tex:{inlineMath:[['\\(','\\)']],displayMath:[['\\[','\\]']]},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><link rel="stylesheet" href="../../assets/packet-navigation.css"></head><body><main>
+<nav aria-label="Breadcrumb" class="site-breadcrumbs"><a href="../../index.html">Home</a><span aria-hidden="true">›</span><a href="../index.html">Secondary Math I</a><span aria-hidden="true">›</span><a href="index.html">Module 4</a><span aria-hidden="true">›</span><span aria-current="page">Section 4.2</span></nav><div class="site-return"><a href="index.html">← Module 4 lessons</a></div>
+<div class="eyebrow">Secondary Math I · Module 4 · Equations and Inequalities</div><h1>4.2 — Elvira’s Equations</h1>
+<p class="meta"><span class="lesson-subtitle">Supplement for <strong>Mathematics Vision Project (MVP)</strong> curriculum · Secondary Math I, Module 4, Section 4.2</span><br><span class="smallnote">Independently created to support students using MVP Math. Not official publisher material and not affiliated with or endorsed by the Mathematics Vision Project.</span></p><p class="human-review-complete smallnote" aria-label="Human review completed">Human review completed <time datetime="2026-10-12">October 12, 2026</time>.</p><aside class="publisher-materials" aria-label="Original MVP materials"><strong>Use this supplement with your MVP packet</strong><a href="https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_se_52016f.pdf">Open Math I · Module 4 student packet (PDF)</a><span>This supplement accompanies Section 4.2.</span><a class="publisher-all" href="https://www.mathematicsvisionproject.org/secondary-mathematics-i.html">All MVP Math I materials, including teacher notes and honors editions</a></aside>
+
+
+
+
+
+
+
+
+<p class="lesson-intro">Rearrange a formula to find a different quantity, and use units to understand what an expression means.</p>
+<nav aria-label="On this page"><div class="toc-list"><a href="#in-class">In class: A Solidify Understanding Task</a><a href="#ready">Ready: isolate a variable (1–10)</a><a href="#set">Set: interpret quantities and units (11–17)</a><a href="#go">Go: set notation, intervals, and number lines (18–31)</a><a href="#resources">Additional learning resources</a><a href="#teacher">Teacher review and coverage</a></div></nav>
+<section aria-labelledby="in-class"><h2 id="in-class">1. In class: A Solidify Understanding Task</h2>
+<aside class="summary in-class-note" role="note"><strong>Revisit the ideas from class</strong><p>This section explains some of the ideas you explored in class through the guided exercises. Use it alongside the “A Solidify Understanding Task” portion of Section 4.2 in your MVP packet.</p></aside>
+<div class="mvp-crossref" role="note"><div class="mvp-crossref-head"><span class="mvp-crossref-label">In your MVP packet</span><span class="mvp-crossref-target">Section 4.2 · Main task · pp. 5–7 · Problems 1–10</span></div></div>
+<h3 id="formulas">Solving for a variable in a formula</h3>
+<p>A <strong>formula</strong> is an equation describing a relationship between quantities. A <strong>literal equation</strong> contains more than one variable. To <strong>solve for</strong> a particular variable, rearrange the equation so that variable is alone on one side. The answer will usually be an expression containing the other variables.</p>
+<p>Use the same operations as in <a href="section-4-1.html#equality">Section 4.1</a>: do the same thing to both sides to keep them equal. Letters stand for numbers, so you can add or subtract a variable, or multiply or divide by it. A quantity you divide by must be nonzero.</p>
+<aside class="rule" role="note"><strong>Keep track of the quantity you want</strong><p>When solving for \(S\), isolate \(S\); treat the other quantities as given. You do not need their numerical values to rearrange the formula.</p></aside>
+<h3 id="units">What do the quantities measure?</h3>
+<p>Elvira’s variables describe lunch counts, prices, and serving time. Use these meanings throughout the main task:</p>
+<div class="table-wrap"><table><thead><tr><th>Symbol</th><th>Meaning</th><th>Units</th></tr></thead><tbody>
+<tr><td>\(S\), \(W\), \(P\)</td><td>Students buying salad, sandwich, and pizza lunches, respectively</td><td>Students</td></tr>
+<tr><td>\(F\)</td><td>Food servers</td><td>Servers</td></tr>
+<tr><td>\(C\)</td><td>Classes in the school</td><td>Classes</td></tr>
+<tr><td>\(M_T\)</td><td>Time to serve all students</td><td>Minutes</td></tr>
+<tr><td>\(P_L\)</td><td>Price per lunch</td><td>Dollars per lunch</td></tr>
+</tbody></table></div>
+<p>The subscript distinguishes a variable: \(P_L\) is the price per lunch, while \(P\) counts pizza customers. \(P_L\) is one variable, not \(P\) multiplied by \(L\).</p>
+<p><strong>Units help you interpret an expression.</strong> Add or subtract quantities measured in the same units. Dividing a student count by a class count gives <em>students per class</em>. Multiplying dollars per lunch by the number of lunches gives dollars.</p>
+<div class="worked"><h3>Worked example 1 — Recover the salad-line count</h3>
+<p><strong>Original formula — Main 1–3:</strong> \(A=\frac{S+W+P}{C}\)</p>
+<p>\(A\) is the average number of lunch-buying students per class. To solve for \(S\), <strong>multiply both sides by the denominator \(C\) first</strong>, then subtract \(W\) and \(P\):</p>
+<div class="math-display">\[\begin{aligned}A&amp;=\frac{S+W+P}{C}\\AC&amp;=S+W+P\\S&amp;=AC-W-P\end{aligned}\]</div>
+<p>This makes sense: \(AC\) is the total number of students buying lunch. Removing the sandwich and pizza customers leaves the salad customers.</p></div>
+<div class="worked"><h3>Worked example 2 — Find the price per lunch</h3>
+<p><strong>Original formula — Main 4–6:</strong> \(R=P_L(S+W+P)\)</p>
+<p>\(R\) is total lunch revenue, measured in dollars. Divide both sides by the total number of lunches:</p>
+<div class="math-display">\[\begin{aligned}\frac{R}{S+W+P}&amp;=P_L\\P_L&amp;=\frac{R}{S+W+P}\end{aligned}\]</div>
+<p>The result is dollars per lunch: total revenue divided by the number of lunches sold.</p></div>
+<p>In Main 7, \(T=S+W+P\) names the total number of students buying lunch. It lets us write the revenue equation more simply as \(R=P_LT\).</p>
+<h3 id="denominator-variable">When the variable you want is in the denominator</h3>
+<div class="worked"><h4>Worked example 3 — Recover the total student count</h4>
+<p><strong>Original formula — Main 9:</strong> \(M=\frac{M_T}{T}\)</p>
+<p>\(M\) is the average serving time per student, in minutes per student. To solve for \(T\), multiply both sides by \(T\) to remove the denominator, then divide by \(M\):</p>
+<div class="math-display">\[\begin{aligned}M&amp;=\frac{M_T}{T}\\MT&amp;=M_T\\T&amp;=\frac{M_T}{M}\end{aligned}\]</div>
+<p>Total serving time divided by minutes per student gives the number of students.</p></div>
+<p>In Main 8, \(D_F=\frac{T\cdot P_L}{F}\) is the average lunch revenue per food server, in dollars per server. Multiply both sides by \(F\), then divide by \(T\), to obtain \(P_L=\frac{D_FF}{T}\).</p>
+<h3 id="rates">Writing a rate from its units</h3>
+<p>Main 10(a) asks for average students served each minute. Put students in the numerator and minutes in the denominator: \(\frac{T}{M_T}\). Compare this with \(M=\frac{M_T}{T}\), which measures minutes <em>per student</em>. Reversing the fraction changes the meaning.</p>
+<div class="packet-clarification" role="note"><strong>Packet clarification — Main 10(b) · p. 7</strong><p>The question asks for “the average number of minutes students wait in the pizza line.” It is unclear whether this means time <em>per student</em> or the <em>total time</em> for the pizza students. The likely intention is to use the average serving time per student, \(M=\frac{M_T}{T}\), assuming similar serving times for the different lunch options.</p><p><strong>Per pizza student:</strong> \(\frac{M_T}{T}=M\) minutes per student</p><p><strong>Total for the pizza students:</strong> \(P\frac{M_T}{T}=PM\) minutes of serving time</p><p>“Serving time” would be clearer than “waiting time.” The question should also specify which of these two quantities is wanted.</p></div>
+</section>
+<h2 id="ready">2. Ready — Isolate a variable</h2>
+<div class="mvp-crossref" role="note"><div class="mvp-crossref-head"><span class="mvp-crossref-label">In your MVP packet</span><span class="mvp-crossref-target">Section 4.2 · Ready · p. 8 · Problems 1–10</span></div></div>
+<p>Use <a href="#formulas">the formula-solving method above</a> to isolate the requested variable, then describe the operations you used. Try the problems before checking the key. The formulas below assume any quantity used as a divisor is nonzero.</p>
+<details class="answer-key" id="ready-answer-key"><summary>Check your work — Ready 1–10 answer key</summary><ol>
+<li><p>\(x=\frac7a\)</p><p>Divide both sides by \(a\).</p></li>
+<li><p>\(p=w-8\)</p><p>Subtract 8 from both sides.</p></li>
+<li><p>\(m=\frac{e}{c^2}\)</p><p>Divide both sides by \(c^2\).</p></li>
+<li><p>\(t=\frac dr\)</p><p>Divide both sides by \(r\).</p></li>
+<li><p>\(r=\frac dt\)</p><p>Divide both sides by \(t\).</p></li>
+<li><p>\(h=7\)</p><p>Add \(h\) to both sides.</p></li>
+<li><p>\(b=14\)</p><p>Add 11 to both sides.</p></li>
+<li><p>\(y=2k\)</p><p>Multiply both sides by 2.</p></li>
+<li><p>\(h=\frac{2A}{b}\)</p><p>Multiply both sides by 2, then divide both sides by \(b\).</p></li>
+<li><p>\(x=\frac{y-b}{m}\)</p><p>Subtract \(b\) from both sides, then divide both sides by \(m\).</p></li>
+</ol></details>
+<h2 id="set">3. Set — Interpret quantities and units</h2>
+<div class="mvp-crossref" role="note"><div class="mvp-crossref-head"><span class="mvp-crossref-label">In your MVP packet</span><span class="mvp-crossref-target">Section 4.2 · Set · p. 8 · Problems 11–17</span></div></div>
+<p>Use Jaxon’s variable descriptions to explain each expression, including its units. For example, adding running distances gives a total distance; averaging three running times gives a time. Try Set independently, then check your explanations below.</p>
+<details class="answer-key" id="set-answer-key"><summary>Check your work — Set 11–17 answer key</summary>
+<p><strong>Units column:</strong> \(M\), \(W\), \(F\), and \(S\) are measured in miles; \(H\) in hours; \(t_M\), \(t_W\), and \(t_F\) in minutes.</p>
+<ol start="11">
+<li><p>\(M+W+F\)</p><p>Total miles run in P.E. during one week.</p></li>
+<li><p>\(4(M+W+F)\)</p><p>Total miles run in P.E. over four weeks with the same weekly distances.</p></li>
+<li><p>\(2S\)</p><p>The round-trip distance between home and school, in miles.</p></li>
+<li><p>\(t_M+t_W+t_F\)</p><p>Total minutes spent running in P.E. during one week.</p></li>
+<li><p>\(\frac{t_M+t_W+t_F}{3}\)</p><p>Average running time per P.E. class, in minutes.</p></li>
+<li><p>\(5(2H)\)</p><p>Total hours traveling to and from school during a five-day school week, using \(H\) hours for each one-way trip.</p></li>
+<li><p>\(M+H\)</p><p>This adds miles to hours, so it does not describe a meaningful total.</p></li>
+</ol></details>
+<h2 id="go">4. Go — Set notation, intervals, and number lines</h2>
+<div class="mvp-crossref" role="note"><div class="mvp-crossref-head"><span class="mvp-crossref-label">In your MVP packet</span><span class="mvp-crossref-target">Section 4.2 · Go · p. 9 · Problems 18–31</span></div></div>
+<h3 id="set-builder">Describe a set using a rule</h3>
+<p>A <strong>set</strong> is a collection of values. You can describe a small set by listing its members, such as \(\{1,2,3\}\). But you cannot list every real number in an interval: there are infinitely many. <strong>Set-builder notation</strong> describes a set by giving a rule for which values belong to it.</p>
+<aside class="rule" role="note"><strong>How to read set-builder notation</strong><div class="math-display">\[\{x\mid x\in\mathbb R,\ 0\le x&lt;5\}\]</div><p>Read this as: <strong>“The set of all real numbers \(x\) such that \(x\) is greater than or equal to 0 and less than 5.”</strong></p></aside>
+<div class="table-wrap"><table><thead><tr><th>Part of the notation</th><th>Meaning</th></tr></thead><tbody>
+<tr><td>\(\{\ \}\)</td><td>Braces enclose the description of a set.</td></tr>
+<tr><td>\(x\)</td><td>The first \(x\) names the values in the set. The conditions after the bar tell us which values to include.</td></tr>
+<tr><td>\(\mid\)</td><td>The vertical bar means “such that.”</td></tr>
+<tr><td>\(x\in\mathbb R\)</td><td>\(\in\) means “is a member of,” and \(\mathbb R\) is the set of real numbers—all numbers on the number line, including negative numbers, fractions, and decimals.</td></tr>
+<tr><td>\(0\le x&lt;5\)</td><td>Include values greater than or equal to 0 and less than 5. The comma before this condition means that it must also be satisfied.</td></tr>
+</tbody></table></div>
+<div class="worked"><h4>Worked example — Which values belong?</h4>
+<p>For \(\{x\mid x\in\mathbb R,\ 0\le x&lt;5\}\):</p>
+<ul><li>0 belongs because \(0\le x\) includes 0.</li><li>2 and 1.5 both belong: each is greater than or equal to 0 and less than 5.</li><li>5 does not belong because \(x&lt;5\) excludes 5.</li><li>−1 does not belong because it is less than 0.</li></ul>
+<p>This is the same set as the interval \([0,5)\): the square bracket includes 0, and the parenthesis excludes 5. <strong>Both notations describe all the real numbers between the endpoints, not just whole numbers.</strong></p></div>
+<h3 id="convert-notation">Move between set-builder and interval notation</h3>
+<p>To convert to interval notation, identify the lower and upper bounds and whether each is included. To convert back, write those same bounds as an inequality inside braces, with \(x\in\mathbb R\). For example:</p>
+<div class="math-display">\[[-4,7]=\{x\mid x\in\mathbb R,\ -4\le x\le7\}\]</div>
+<p>Both endpoints are included, so both notations use inclusive symbols. For more on interval notation, see <a href="../module-03/section-3-2.html#interval-reminder">Section 3.2</a>.</p>
+<p>On a number line, use a filled circle for an included endpoint and an open circle for an excluded one. Shade the values that satisfy the inequality. Try the exercises before opening the key.</p>
+<details class="answer-key" id="go-answer-key"><summary>Check your work — Go 18–31 answer key</summary>
+<h3>Convert between notations — 18–24</h3><ol start="18">
+<li>\((-2,6)\)</li>
+<li>\(\{x\mid x\in\mathbb R,\ -4\le x\le7\}\)</li>
+<li>\([-9,\infty)\)</li>
+<li>\(\{x\mid x\in\mathbb R,\ 0&lt;x\le13\}\)</li>
+<li>\([-15,-8]\)</li>
+<li>\(\{x\mid x\in\mathbb R,\ -32\le x&lt;-15\}\)</li>
+<li>\(\{x\mid x\in\mathbb R\}\) (all real numbers)</li>
+</ol><h3>Whole-number domains — 25</h3>
+<p><strong>25.</strong> Set notation. For example, \(\{0,1,2,3\}\) lists only whole numbers; the interval \([0,3]\) also includes numbers such as \(1.5\).</p>
+<h3>Number-line graphs — 26–31</h3><p><strong>Plots not shown.</strong> The endpoint and shading descriptions below let you check your graphs.</p><ol start="26">
+<li>Open circle at 6; shade to the left</li>
+<li>Open circle at 5; shade to the right</li>
+<li>Filled circle at −9; shade to the right</li>
+<li>Filled circle at −7 and open circle at 0; shade between them</li>
+<li>Filled circles at 3 and 25; shade between them</li>
+<li>Open circle at −15 and filled circle at 8; shade between them</li>
+</ol></details>
+<h2 id="resources">Additional learning resources</h2>
+<div class="table-wrap"><table class="resource-table"><thead><tr><th>Resource</th><th>What it supports</th></tr></thead><tbody>
+<tr><td><a href="https://www.khanacademy.org/math/algebra/solving-linear-equations-and-inequalities/solving_for_variable/v/rearrange-formulas-to-isolate-specific-variables">Khan Academy — Rearrange formulas to isolate specific variables</a></td><td>Using inverse operations to solve a formula for a chosen variable; supports the main task and Ready.</td></tr>
+<tr><td><a href="https://www.khanacademy.org/v/dimensional-analysis-units-algebraically">Khan Academy — Intro to dimensional analysis</a></td><td>Using units to make sense of distance, rate, and time. Includes unit conversion as well as the unit reasoning used here.</td></tr>
+</tbody></table></div>
+<h2 id="teacher">Teacher’s review of the source packet</h2>
+<p><strong>Main 10(b) · p. 7:</strong> The wording does not clearly distinguish time per pizza student from total time for the pizza students, and uses “waiting” where “serving” appears to be intended. The clarification gives both interpretations, assuming similar serving times across lunch options.</p>
+<p><strong>Teacher guidance on Main 10:</strong> The notes describe Question 10 as an optional extension and invite students to propose expressions, but do not give an interpretation or solution for 10(b). They mention a separate answer-key page that is not included in this local teacher edition.</p>
+<p><strong>Teacher notes:</strong> The purpose paragraph reverses the division in its gasoline-efficiency example: miles per gallon requires miles divided by gallons, not gallons divided by miles. The student-facing explanation here uses the correct order for rates.</p>
+<h2 id="coverage">Coverage — Section 4.2</h2>
+<div class="table-wrap"><table><thead><tr><th>Packet location</th><th>Where supported</th></tr></thead><tbody>
+<tr><td>Main 1–7 · pp. 5–6</td><td>Variable meanings and units; worked solutions for salad count and lunch price; total student count</td></tr>
+<tr><td>Main 8–10 · p. 7</td><td>Revenue per server, solving for a denominator variable, rate meanings, and the waiting-time clarification</td></tr>
+<tr><td>Ready 1–10 · p. 8</td><td>Formula-solving instruction and answer key with operation descriptions</td></tr>
+<tr><td>Set 11–17 · p. 8</td><td>Unit reasoning and an explanation for each answer</td></tr>
+<tr><td>Go 18–31 · p. 9</td><td>Set-builder notation explained symbol by symbol, a membership example, interval conversion, and an answer key with graph descriptions instead of plots</td></tr>
+</tbody></table></div>
+<p class="source">Source: Mathematics Vision Project, Secondary Mathematics One, Module 4: Equations and Inequalities (May 2016), Section 4.2, printed pp. 5–9; teacher notes for 4.2. Packet equations and short excerpts are attributed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Equations use MathJax.</p>
+</main></body></html>

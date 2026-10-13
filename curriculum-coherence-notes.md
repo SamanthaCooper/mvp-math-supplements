@@ -33,3 +33,21 @@ This is mixed review and extension rather than a focused sequence in which one c
 Explain the worthwhile multiple-function ideas in the in-class material and make the connection to algebraic intersections in Ready clear. Treat individual graph reading and graph-feature descriptions as review, with links to earlier explanations and answer keys where appropriate. Give contextual problems separate worked help when their wording or mathematics warrants it, as with Set 9–10.
 
 Avoid implying that all Ready, Set, Go exercises directly practice the same class technique. No additional redesign or public critique is decided by this note.
+
+## Secondary Math I · Whole-number domains versus interval notation
+
+Recorded October 12, 2026, while reviewing Section 4.2. This entry tracks a possible inconsistency in notation across sections, rather than a mismatch between class and homework.
+
+### Reference to remember
+
+**Section 4.2 · Go 25 · printed p. 9** asks: “Which notation, interval or set, would most appropriate when working with a domain of whole numbers?” Source: `MVP 1/m1_mod4_se_52016f.pdf` (May 2016, stored locally).
+
+The intended answer is **set notation**. An ordinary interval describes all real numbers between its endpoints; it does not restrict the values to integers. For example, `[0,3]` includes 1.5, while `{0,1,2,3}` does not. A set-builder description can explicitly restrict its members to whole numbers or integers.
+
+### Confirmed contrasting example
+
+**Section 4.5 · teacher notes · Teaching Cycle, Launch · PDF p. 36** discusses Main 1, purchasing whole milk cartons. It explicitly rules out fractional cartons and gives a maximum of 1214, then labels `[0,1214]` as the interval-notation answer. Its accompanying set-builder expression `{x | 0 ≤ x ≤ 1214}` also omits the whole-number restriction. Source: `MVP 1/teachers/m1_mod4_te_52016f.pdf`, visually checked.
+
+That presentation relies on the context to impose a whole-number restriction which neither expression states. Compare it with the explicit distinction in 4.2 Go 25 when reviewing 4.5. A precise answer could be `{0,1,...,1214}` or `{x ∈ Z | 0 ≤ x ≤ 1214}`.
+
+The user recalls another occurrence; 4.5 is one confirmed example, not necessarily the one remembered. Keep this issue available for future review without automatically changing other supplements.
