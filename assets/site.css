@@ -12,7 +12,7 @@ a{color:var(--accent)}.eyebrow{font-weight:750;letter-spacing:.1em;text-transfor
 .review-dot{flex:0 0 8px;width:8px;height:8px;border-radius:50%;background:currentColor}
 .review-badge--complete{color:#24653d;background:#edf8f0;border-color:#c6dfce}
 .review-badge--partial{color:#765500;background:#fff7dc;border-color:#e8d69a}
-.review-badge--pending{color:#943a37;background:#fff0ee;border-color:#e8c8c4}
+.review-badge--pending{color:#765500;background:#fff7dc;border-color:#e8d69a}
 @media print{.review-badge{print-color-adjust:exact;-webkit-print-color-adjust:exact}}
 .note{background:var(--pale);border-left:4px solid var(--accent);padding:16px 20px;margin:24px 0;border-radius:0 8px 8px 0}
 footer{border-top:1px solid var(--border);margin-top:42px;padding-top:18px;font-size:.86rem;color:var(--muted)}

@@ -72,7 +72,8 @@ def badge(path):
     else:
         label = ('All human reviewed' if reviewed == total else
                  'Partly human reviewed' if reviewed else 'None human reviewed')
-        label += f' · {reviewed} of {total}'
+        if 0 < reviewed < total:
+            label += f' · {reviewed} of {total}'
     return (f'<span class="review-badge review-badge--{status}" '
             f'data-reviewed="{reviewed}" data-total="{total}">'
             f'<span class="review-dot" aria-hidden="true"></span>{label}</span>')
