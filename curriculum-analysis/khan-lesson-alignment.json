@@ -1,0 +1,2554 @@
+[
+  {
+    "course": 1,
+    "lesson_order": 1,
+    "lesson_title": "Overview and history of algebra",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:algebra-foundation/x89d82521517266d4:overview-history-alg",
+    "topic_ids": [
+      "algebra-background"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 2,
+    "lesson_title": "Introduction to variables",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:algebra-foundation/x89d82521517266d4:variables-intro",
+    "topic_ids": [
+      "writing-and-interpreting-algebraic-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 3,
+    "lesson_title": "Substitution and evaluating expressions",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:algebra-foundation/x89d82521517266d4:substitute-evaluate-expressions",
+    "topic_ids": [
+      "evaluating-algebraic-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 4,
+    "lesson_title": "Combining like terms",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:algebra-foundation/x89d82521517266d4:combine-like-term",
+    "topic_ids": [
+      "writing-and-interpreting-algebraic-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 5,
+    "lesson_title": "Introduction to equivalent expressions",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:algebra-foundation/x89d82521517266d4:equivalent-expression-intro",
+    "topic_ids": [
+      "writing-and-interpreting-algebraic-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 6,
+    "lesson_title": "Division by zero",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:algebra-foundation/x89d82521517266d4:dividing-by-zero",
+    "topic_ids": [
+      "algebra-division-zero"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise.",
+    "prerequisite_for": [
+      "rational-expressions-and-equations"
+    ]
+  },
+  {
+    "course": 1,
+    "lesson_order": 7,
+    "lesson_title": "Linear equations with variables on both sides",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:eq-ineq/x89d82521517266d4:both-sides",
+    "topic_ids": [
+      "solving-linear-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 8,
+    "lesson_title": "Linear equations with parentheses",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:eq-ineq/x89d82521517266d4:parentheses",
+    "topic_ids": [
+      "solving-linear-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 9,
+    "lesson_title": "Analyzing the number of solutions to linear equations",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:eq-ineq/x89d82521517266d4:eq-num-of-sol",
+    "topic_ids": [
+      "solving-linear-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 10,
+    "lesson_title": "Linear equations with unknown coefficients",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:eq-ineq/x89d82521517266d4:unknown-coeff",
+    "topic_ids": [
+      "equations-parameter-coefficients"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 11,
+    "lesson_title": "Multi-step inequalities",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:eq-ineq/x89d82521517266d4:mul-step-ineq",
+    "topic_ids": [
+      "linear-inequalities-in-one-variable"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 12,
+    "lesson_title": "Compound inequalities",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:eq-ineq/x89d82521517266d4:compound-ineq",
+    "topic_ids": [
+      "inequalities-compound"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 13,
+    "lesson_title": "Rate conversion",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:units/x89d82521517266d4:rate-conversion",
+    "topic_ids": [
+      "units-dimensional-analysis"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 14,
+    "lesson_title": "Appropriate units",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:units/x89d82521517266d4:appropriate-units",
+    "topic_ids": [
+      "units-dimensional-analysis"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 15,
+    "lesson_title": "Word problems with multiple units",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:units/x89d82521517266d4:multiple-units",
+    "topic_ids": [
+      "units-dimensional-analysis"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 16,
+    "lesson_title": "Two-variable linear equations intro",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-var-eq/x89d82521517266d4:two-var-eq-intro",
+    "topic_ids": [
+      "writing-and-interpreting-linear-equations-and-models",
+      "tables-graphs-and-ordered-pairs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 17,
+    "lesson_title": "Slope",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-var-eq/x89d82521517266d4:slope",
+    "topic_ids": [
+      "slope-and-rate-of-change",
+      "tables-graphs-and-ordered-pairs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 18,
+    "lesson_title": "Horizontal & vertical lines",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-var-eq/x89d82521517266d4:hor-and-ver-lines",
+    "topic_ids": [
+      "graphing-linear-functions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 19,
+    "lesson_title": "x-intercepts and y-intercepts",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-var-eq/x89d82521517266d4:intercepts",
+    "topic_ids": [
+      "features-and-interpretation-of-function-graphs",
+      "tables-graphs-and-ordered-pairs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 20,
+    "lesson_title": "Applying intercepts and slope",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-var-eq/x89d82521517266d4:slope-app",
+    "topic_ids": [
+      "writing-and-interpreting-linear-equations-and-models"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 21,
+    "lesson_title": "Intro to slope-intercept form",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:linear-forms/x89d82521517266d4:slope-intercept-intro",
+    "topic_ids": [
+      "writing-and-interpreting-linear-equations-and-models"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 22,
+    "lesson_title": "Graphing slope-intercept equations",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:linear-forms/x89d82521517266d4:slope-intercept-graph",
+    "topic_ids": [
+      "graphing-linear-functions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 23,
+    "lesson_title": "Writing slope-intercept equations",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:linear-forms/x89d82521517266d4:slope-intercept-write",
+    "topic_ids": [
+      "writing-and-interpreting-linear-equations-and-models"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 24,
+    "lesson_title": "Point-slope form",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:linear-forms/x89d82521517266d4:point-slope",
+    "topic_ids": [
+      "writing-and-interpreting-linear-equations-and-models"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 25,
+    "lesson_title": "Standard form",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:linear-forms/x89d82521517266d4:standard",
+    "topic_ids": [
+      "writing-and-interpreting-linear-equations-and-models"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 26,
+    "lesson_title": "Summary: Forms of two-variable linear equations",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:linear-forms/x89d82521517266d4:all-linear-forms",
+    "topic_ids": [
+      "writing-and-interpreting-linear-equations-and-models"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 27,
+    "lesson_title": "Introduction to systems of equations",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:systems/x89d82521517266d4:systems-intro",
+    "topic_ids": [
+      "systems-linear-graphical",
+      "comparing-functions-and-finding-intersections"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 28,
+    "lesson_title": "Solving systems of equations with substitution",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:systems/x89d82521517266d4:substitution",
+    "topic_ids": [
+      "systems-linear-substitution",
+      "systems-linear-algebraic"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 29,
+    "lesson_title": "Equivalent systems of equations",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:systems/x89d82521517266d4:equivalent-systems-equations",
+    "topic_ids": [
+      "solving-systems-of-linear-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 30,
+    "lesson_title": "Solving systems of equations with elimination",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:systems/x89d82521517266d4:solving-systems-elimination",
+    "topic_ids": [
+      "systems-linear-elimination",
+      "systems-linear-algebraic"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 31,
+    "lesson_title": "Number of solutions to systems of equations",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:systems/x89d82521517266d4:num-of-sol-systems",
+    "topic_ids": [
+      "systems-linear-solution-count"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 32,
+    "lesson_title": "Systems of equations word problems",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:systems/x89d82521517266d4:systems-modeling",
+    "topic_ids": [
+      "systems-linear-algebraic"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 33,
+    "lesson_title": "Checking solutions of two-variable inequalities",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-var-ineq/x89d82521517266d4:ineq-sol",
+    "topic_ids": [
+      "linear-inequalities-in-two-variables"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 34,
+    "lesson_title": "Graphing two-variable inequalities",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-var-ineq/x89d82521517266d4:ineq-graph",
+    "topic_ids": [
+      "linear-inequalities-in-two-variables"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 35,
+    "lesson_title": "Modeling with linear inequalities",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-var-ineq/x89d82521517266d4:ineq-modeling",
+    "topic_ids": [
+      "systems-of-linear-inequalities"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 36,
+    "lesson_title": "Evaluating functions",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions/x89d82521517266d4:func-eval",
+    "topic_ids": [
+      "function-notation-and-evaluation"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 37,
+    "lesson_title": "Inputs and outputs of a function",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions/x89d82521517266d4:inputs-outputs",
+    "topic_ids": [
+      "function-notation-and-evaluation"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 38,
+    "lesson_title": "Functions and equations",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions/x89d82521517266d4:func-eq",
+    "topic_ids": [
+      "functions-and-input-output-relationships"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 39,
+    "lesson_title": "Interpreting function notation",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions/x89d82521517266d4:func-notation",
+    "topic_ids": [
+      "function-notation-and-evaluation"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 40,
+    "lesson_title": "Introduction to the domain and range of a function",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions/x89d82521517266d4:domain-and-range",
+    "topic_ids": [
+      "domain-and-range"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 41,
+    "lesson_title": "Determining the domain of a function",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions/x89d82521517266d4:domain",
+    "topic_ids": [
+      "domain-and-range"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 42,
+    "lesson_title": "Recognizing functions",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions/x89d82521517266d4:recognizing-func",
+    "topic_ids": [
+      "functions-and-input-output-relationships",
+      "tables-graphs-and-ordered-pairs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 43,
+    "lesson_title": "Maximum and minimum points",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions/x89d82521517266d4:extrema",
+    "topic_ids": [
+      "features-and-interpretation-of-function-graphs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 44,
+    "lesson_title": "Intervals where a function is positive, negative, increasing, or decreasing",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions/x89d82521517266d4:func-intervals",
+    "topic_ids": [
+      "features-and-interpretation-of-function-graphs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 45,
+    "lesson_title": "Interpreting features of graphs",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions/x89d82521517266d4:graph-features",
+    "topic_ids": [
+      "features-and-interpretation-of-function-graphs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 46,
+    "lesson_title": "Average rate of change",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions/x89d82521517266d4:avg-rate-of-change",
+    "topic_ids": [
+      "average-rate-of-change-and-secant-lines",
+      "tables-graphs-and-ordered-pairs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 47,
+    "lesson_title": "Average rate of change word problems",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions/x89d82521517266d4:avg-rate-of-change-modeling",
+    "topic_ids": [
+      "average-rate-of-change-and-secant-lines"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 48,
+    "lesson_title": "Intro to inverse functions",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions/x89d82521517266d4:inverses",
+    "topic_ids": [
+      "inverse-functions-and-square-root-functions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 49,
+    "lesson_title": "Creating and interpreting scatterplots",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:scatterplots/x89d82521517266d4:creating-scatterplots",
+    "topic_ids": [
+      "scatter-plots-and-correlation"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 50,
+    "lesson_title": "Estimating with trend lines",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:scatterplots/x89d82521517266d4:trend-lines",
+    "topic_ids": [
+      "lines-of-best-fit-and-linear-regression"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 51,
+    "lesson_title": "Displays of distributions",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:data-dist/x89d82521517266d4:dist-display",
+    "topic_ids": [
+      "statistical-displays-and-data-distributions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 52,
+    "lesson_title": "Summarizing center of distributions (central tendency)",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:data-dist/x89d82521517266d4:summarizing-center",
+    "topic_ids": [
+      "measures-of-center-spread-and-variability",
+      "statistics-changing-data"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 53,
+    "lesson_title": "Box and whisker plots",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:data-dist/x89d82521517266d4:box-whisker",
+    "topic_ids": [
+      "statistics-boxplots-quartiles"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 54,
+    "lesson_title": "Comparing distributions",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:data-dist/x89d82521517266d4:comparing-dist",
+    "topic_ids": [
+      "measures-of-center-spread-and-variability"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 55,
+    "lesson_title": "Two-way frequency tables",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-way-tables/x89d82521517266d4:frequency-tables",
+    "topic_ids": [
+      "two-way-frequency-and-relative-frequency-tables"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 56,
+    "lesson_title": "Two-way relative frequency tables",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-way-tables/x89d82521517266d4:relative-frequency",
+    "topic_ids": [
+      "two-way-frequency-and-relative-frequency-tables"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 57,
+    "lesson_title": "Introduction to arithmetic sequences",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:sequences/x89d82521517266d4:arith-seq-intro",
+    "topic_ids": [
+      "arithmetic-sequences"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 58,
+    "lesson_title": "Constructing arithmetic sequences",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:sequences/x89d82521517266d4:construct-arith-seq",
+    "topic_ids": [
+      "arithmetic-sequences"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 59,
+    "lesson_title": "Introduction to geometric sequences",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:sequences/x89d82521517266d4:geo-seq-intro",
+    "topic_ids": [
+      "geometric-sequences"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 60,
+    "lesson_title": "Constructing geometric sequences",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:sequences/x89d82521517266d4:construct-geo-seq",
+    "topic_ids": [
+      "geometric-sequences"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 61,
+    "lesson_title": "Modeling with sequences",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:sequences/x89d82521517266d4:seq-modeling",
+    "topic_ids": [
+      "sequence-formulas-and-applications"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 62,
+    "lesson_title": "General sequences",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:sequences/x89d82521517266d4:general-seq",
+    "topic_ids": [
+      "sequence-formulas-and-applications"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 63,
+    "lesson_title": "Exponent properties review",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:exp-rad/x89d82521517266d4:exp-prop-review",
+    "topic_ids": [
+      "exponents-and-simple-exponential-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 64,
+    "lesson_title": "Radicals",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:exp-rad/x89d82521517266d4:radicals",
+    "topic_ids": [
+      "rational-exponents-and-radicals"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 65,
+    "lesson_title": "Simplifying square roots",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:exp-rad/x89d82521517266d4:simplify-radicals",
+    "topic_ids": [
+      "rational-exponents-and-radicals"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 66,
+    "lesson_title": "Exponential vs. linear growth",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:exp-func/x89d82521517266d4:exp-vs-linear",
+    "topic_ids": [
+      "comparing-linear-quadratic-and-exponential-growth"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 67,
+    "lesson_title": "Exponential expressions",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:exp-func/x89d82521517266d4:exp-expressions",
+    "topic_ids": [
+      "writing-and-graphing-exponential-models"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 68,
+    "lesson_title": "Graphs of exponential growth",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:exp-func/x89d82521517266d4:exp-graph",
+    "topic_ids": [
+      "writing-and-graphing-exponential-models"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 69,
+    "lesson_title": "Exponential vs. linear growth over time",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:exp-func/x89d82521517266d4:exp-vs-linear-growth",
+    "topic_ids": [
+      "comparing-linear-quadratic-and-exponential-growth"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 70,
+    "lesson_title": "Exponential growth & decay",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:exp-func/x89d82521517266d4:exp-decay",
+    "topic_ids": [
+      "exponential-growth-and-decay"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 71,
+    "lesson_title": "Exponential functions from tables & graphs",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:exp-func/x89d82521517266d4:exp-from-tables-graphs",
+    "topic_ids": [
+      "writing-and-graphing-exponential-models"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 72,
+    "lesson_title": "Exponential vs. linear models",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:exp-func/x89d82521517266d4:exp-linear-models",
+    "topic_ids": [
+      "comparing-linear-quadratic-and-exponential-growth"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 73,
+    "lesson_title": "Introduction to rigid transformations",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:transformations/x89d82521517266d4:transformations-intro",
+    "topic_ids": [
+      "rigid-motions-and-coordinate-transformations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 74,
+    "lesson_title": "Translations",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:transformations/x89d82521517266d4:translations",
+    "topic_ids": [
+      "rigid-motions-and-coordinate-transformations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 75,
+    "lesson_title": "Rotations",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:transformations/x89d82521517266d4:rotations",
+    "topic_ids": [
+      "rigid-motions-and-coordinate-transformations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 76,
+    "lesson_title": "Reflections",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:transformations/x89d82521517266d4:reflections",
+    "topic_ids": [
+      "rigid-motions-and-coordinate-transformations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 77,
+    "lesson_title": "Dilations",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:transformations/x89d82521517266d4:dilations",
+    "topic_ids": [
+      "dilations-and-scale-factors"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 78,
+    "lesson_title": "Rigid transformations overview",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:transformation-properties-and-proofs/x89d82521517266d4:rigid-transformations",
+    "topic_ids": [
+      "rigid-motions-and-coordinate-transformations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 79,
+    "lesson_title": "Dilation preserved properties",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:transformation-properties-and-proofs/x89d82521517266d4:dilation-preserved-properties",
+    "topic_ids": [
+      "dilations-and-scale-factors"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 80,
+    "lesson_title": "Properties & definitions of transformations",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:transformation-properties-and-proofs/x89d82521517266d4:transformations-definitions",
+    "topic_ids": [
+      "rigid-motions-and-coordinate-transformations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 81,
+    "lesson_title": "Symmetry",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:transformation-properties-and-proofs/x89d82521517266d4:symmetry",
+    "topic_ids": [
+      "reflectional-and-rotational-symmetry"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 82,
+    "lesson_title": "Proofs with transformations",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:transformation-properties-and-proofs/x89d82521517266d4:proofs-with-transformations",
+    "topic_ids": [
+      "triangle-congruence-criteria-and-geometric-proofs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 83,
+    "lesson_title": "Transformations & congruence",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:congruence/x89d82521517266d4:trans-and-congruence",
+    "topic_ids": [
+      "congruence-and-similarity-of-figures"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 84,
+    "lesson_title": "Triangle congruence from transformations",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:congruence/x89d82521517266d4:triangle-cong",
+    "topic_ids": [
+      "triangle-congruence-criteria-and-geometric-proofs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 85,
+    "lesson_title": "Congruent triangles",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:congruence/x89d82521517266d4:congruent-triangles",
+    "topic_ids": [
+      "triangle-congruence-criteria-and-geometric-proofs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 86,
+    "lesson_title": "Theorems concerning triangle properties",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:congruence/x89d82521517266d4:cong-theorems",
+    "topic_ids": [
+      "triangle-congruence-criteria-and-geometric-proofs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 87,
+    "lesson_title": "Working with triangles",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:congruence/x89d82521517266d4:working-with-triangles",
+    "topic_ids": [
+      "triangle-congruence-criteria-and-geometric-proofs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 88,
+    "lesson_title": "Theorems concerning quadrilateral properties",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:congruence/x89d82521517266d4:quad-theorems",
+    "topic_ids": [
+      "polygons-and-quadrilateral-properties"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 89,
+    "lesson_title": "Proofs of general theorems that use triangle congruence",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:congruence/x89d82521517266d4:triangle-theorems",
+    "topic_ids": [
+      "triangle-congruence-criteria-and-geometric-proofs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 90,
+    "lesson_title": "Constructing lines & angles",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:congruence/x89d82521517266d4:bisectors",
+    "topic_ids": [
+      "compass-and-straightedge-geometric-constructions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 91,
+    "lesson_title": "Distance and midpoints",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:analytic-geo/x89d82521517266d4:distance-and-midpoints",
+    "topic_ids": [
+      "pythagorean-theorem-and-coordinate-distance",
+      "midpoints-and-segment-division"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 92,
+    "lesson_title": "Dividing line segments",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:analytic-geo/x89d82521517266d4:dividing-segments",
+    "topic_ids": [
+      "midpoints-and-segment-division"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 93,
+    "lesson_title": "Problem solving with distance on the coordinate plane",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:analytic-geo/x89d82521517266d4:dist-problems",
+    "topic_ids": [
+      "pythagorean-theorem-and-coordinate-distance",
+      "area-perimeter-and-measurement",
+      "equations-of-circles"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 94,
+    "lesson_title": "Parallel & perpendicular lines on the coordinate plane",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:analytic-geo/x89d82521517266d4:parallel-perpendicular",
+    "topic_ids": [
+      "parallel-and-perpendicular-lines"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 1,
+    "lesson_order": 95,
+    "lesson_title": "Equations of parallel & perpendicular lines",
+    "lesson_url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:analytic-geo/x89d82521517266d4:parallel-perpendicular-eq",
+    "topic_ids": [
+      "parallel-and-perpendicular-lines"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 1,
+    "lesson_title": "Graphs of absolute value functions",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:abs-value/xe2ae2386aa2e13d6:abs-graphs",
+    "topic_ids": [
+      "absolute-value-functions-and-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 2,
+    "lesson_title": "Piecewise functions",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:abs-value/xe2ae2386aa2e13d6:piecewise",
+    "topic_ids": [
+      "piecewise-defined-functions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 3,
+    "lesson_title": "Multiplying monomials by polynomials",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-1/xe2ae2386aa2e13d6:mono-mul",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 4,
+    "lesson_title": "Multiplying binomials",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-1/xe2ae2386aa2e13d6:binom-mul",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 5,
+    "lesson_title": "Special products of binomials",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-1/xe2ae2386aa2e13d6:special-products",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 6,
+    "lesson_title": "Introduction to factoring",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-1/xe2ae2386aa2e13d6:factoring-intro",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 7,
+    "lesson_title": "Factoring quadratics intro",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-1/xe2ae2386aa2e13d6:factor-quad-intro",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 8,
+    "lesson_title": "Factoring quadratics by grouping",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-1/xe2ae2386aa2e13d6:grouping",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 9,
+    "lesson_title": "Factoring quadratics with difference of squares",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-1/xe2ae2386aa2e13d6:diff-of-sq",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 10,
+    "lesson_title": "Factoring quadratics with perfect squares",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-1/xe2ae2386aa2e13d6:perfect-sq",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 11,
+    "lesson_title": "Strategy in factoring quadratics",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-1/xe2ae2386aa2e13d6:factor-strategy",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 12,
+    "lesson_title": "Intro to parabolas",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-2/xe2ae2386aa2e13d6:parabolas",
+    "topic_ids": [
+      "quadratic-functions-and-parabolas"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 13,
+    "lesson_title": "Solving and graphing with factored form",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-2/xe2ae2386aa2e13d6:factored-form",
+    "topic_ids": [
+      "quadratic-functions-and-parabolas"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 14,
+    "lesson_title": "Solving by taking the square root",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-2/xe2ae2386aa2e13d6:quad-by-sqrt",
+    "topic_ids": [
+      "solving-quadratic-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 15,
+    "lesson_title": "Vertex form",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-2/xe2ae2386aa2e13d6:vertex-form",
+    "topic_ids": [
+      "completing-the-square-and-quadratic-forms"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 16,
+    "lesson_title": "Solving quadratics by factoring",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-2/xe2ae2386aa2e13d6:quad-by-factoring",
+    "topic_ids": [
+      "solving-quadratic-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 17,
+    "lesson_title": "The quadratic formula",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-2/xe2ae2386aa2e13d6:quad-formula",
+    "topic_ids": [
+      "solving-quadratic-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 18,
+    "lesson_title": "Completing the square",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-2/xe2ae2386aa2e13d6:completing-sq",
+    "topic_ids": [
+      "completing-the-square-and-quadratic-forms"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 19,
+    "lesson_title": "Strategizing to solve quadratic equations",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-2/xe2ae2386aa2e13d6:strategizing-solve-quadratics",
+    "topic_ids": [
+      "solving-quadratic-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 20,
+    "lesson_title": "Quadratics standard form",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-2/xe2ae2386aa2e13d6:quad-standard",
+    "topic_ids": [
+      "completing-the-square-and-quadratic-forms"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 21,
+    "lesson_title": "Features & forms of quadratic functions",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-2/xe2ae2386aa2e13d6:quad-forms",
+    "topic_ids": [
+      "quadratic-functions-and-parabolas"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 22,
+    "lesson_title": "Comparing quadratic functions",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-2/xe2ae2386aa2e13d6:comparing-quadratic-functions",
+    "topic_ids": [
+      "quadratic-functions-and-parabolas"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 23,
+    "lesson_title": "Transforming quadratic functions",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-2/xe2ae2386aa2e13d6:quad-trans",
+    "topic_ids": [
+      "transformations-of-function-graphs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 24,
+    "lesson_title": "Irrational numbers",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:irrationals/xe2ae2386aa2e13d6:irrational-num",
+    "topic_ids": [
+      "real-and-complex-numbers"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 25,
+    "lesson_title": "Sums & products of rational/irrational numbers",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:irrationals/xe2ae2386aa2e13d6:irrational-sums-products",
+    "topic_ids": [
+      "real-and-complex-numbers"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 26,
+    "lesson_title": "Proofs concerning irrational numbers",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:irrationals/xe2ae2386aa2e13d6:irrational-num-proofs",
+    "topic_ids": [
+      "number-irrational-proofs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 27,
+    "lesson_title": "The imaginary unit i",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:complex/xe2ae2386aa2e13d6:imaginary-unit",
+    "topic_ids": [
+      "real-and-complex-numbers"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 28,
+    "lesson_title": "Complex numbers introduction",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:complex/xe2ae2386aa2e13d6:complex-num-intro",
+    "topic_ids": [
+      "real-and-complex-numbers"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 29,
+    "lesson_title": "The complex plane",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:complex/xe2ae2386aa2e13d6:complex-plane",
+    "topic_ids": [
+      "real-and-complex-numbers"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 30,
+    "lesson_title": "Adding & subtracting complex numbers",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:complex/xe2ae2386aa2e13d6:complex-add-sub",
+    "topic_ids": [
+      "real-and-complex-numbers"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 31,
+    "lesson_title": "Multiplying complex numbers",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:complex/xe2ae2386aa2e13d6:complex-mul",
+    "topic_ids": [
+      "real-and-complex-numbers"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 32,
+    "lesson_title": "Quadratic equations with complex solutions",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:complex/xe2ae2386aa2e13d6:quad-eq-complex",
+    "topic_ids": [
+      "solving-quadratic-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 33,
+    "lesson_title": "Rational exponents",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:rational-exp/xe2ae2386aa2e13d6:rational-exp-intro",
+    "topic_ids": [
+      "rational-exponents-and-radicals"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 34,
+    "lesson_title": "Properties of exponents (rational exponents)",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:rational-exp/xe2ae2386aa2e13d6:exp-properties",
+    "topic_ids": [
+      "rational-exponents-and-radicals"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 35,
+    "lesson_title": "Equivalent forms of exponential expressions",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:rational-exp/xe2ae2386aa2e13d6:math2-equivalent-exponential-exp",
+    "topic_ids": [
+      "writing-and-graphing-exponential-models"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 36,
+    "lesson_title": "Evaluating exponents and radicals",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:rational-exp/xe2ae2386aa2e13d6:exp-rad-eval",
+    "topic_ids": [
+      "rational-exponents-and-radicals"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 37,
+    "lesson_title": "Solving exponential expressions using properties of exponents",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:rational-exp/xe2ae2386aa2e13d6:exp-eq",
+    "topic_ids": [
+      "exponents-and-simple-exponential-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 38,
+    "lesson_title": "Interpreting the rate of change of exponential models",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:exp-models/xe2ae2386aa2e13d6:interpreting-exp-model",
+    "topic_ids": [
+      "exponential-growth-and-decay"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 39,
+    "lesson_title": "Constructing exponential models according to rate of change",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:exp-models/xe2ae2386aa2e13d6:construct-exp-model",
+    "topic_ids": [
+      "writing-and-graphing-exponential-models"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 40,
+    "lesson_title": "Advanced interpretation of exponential models",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:exp-models/xe2ae2386aa2e13d6:interpret-exp-model-adv",
+    "topic_ids": [
+      "exponential-growth-and-decay"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 41,
+    "lesson_title": "Definitions of similarity",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:similarity/xe2ae2386aa2e13d6:similarity-def",
+    "topic_ids": [
+      "congruence-and-similarity-of-figures"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 42,
+    "lesson_title": "Introduction to triangle similarity",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:similarity/xe2ae2386aa2e13d6:tri-similarity",
+    "topic_ids": [
+      "congruence-and-similarity-of-figures"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 43,
+    "lesson_title": "Solving similar triangles",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:similarity/xe2ae2386aa2e13d6:sol-similar-tri",
+    "topic_ids": [
+      "congruence-and-similarity-of-figures"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 44,
+    "lesson_title": "Angle bisector theorem",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:similarity/xe2ae2386aa2e13d6:angle-bisector",
+    "topic_ids": [
+      "geometry-angle-bisector-theorem"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 45,
+    "lesson_title": "Solving problems with similar & congruent triangles",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:similarity/xe2ae2386aa2e13d6:similar-cong-tri",
+    "topic_ids": [
+      "congruence-and-similarity-of-figures"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 46,
+    "lesson_title": "Proving relationships using similarity",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:similarity/xe2ae2386aa2e13d6:proving-relationships-using-similarity",
+    "topic_ids": [
+      "triangle-congruence-criteria-and-geometric-proofs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 47,
+    "lesson_title": "Solving modeling problems with similar & congruent triangles",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:similarity/xe2ae2386aa2e13d6:similar-cong-tri-modeling",
+    "topic_ids": [
+      "congruence-and-similarity-of-figures"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 48,
+    "lesson_title": "Pythagorean theorem",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:trig/xe2ae2386aa2e13d6:pyth-theorem",
+    "topic_ids": [
+      "pythagorean-theorem-and-coordinate-distance"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 49,
+    "lesson_title": "Pythagorean theorem proofs",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:trig/xe2ae2386aa2e13d6:pyth-proofs",
+    "topic_ids": [
+      "pythagorean-theorem-and-coordinate-distance"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 50,
+    "lesson_title": "Special right triangles",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:trig/xe2ae2386aa2e13d6:special-right-tri",
+    "topic_ids": [
+      "right-triangle-trigonometry"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 51,
+    "lesson_title": "Ratios in right triangles",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:trig/xe2ae2386aa2e13d6:trig-ratios-similarity",
+    "topic_ids": [
+      "right-triangle-trigonometry"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 52,
+    "lesson_title": "Introduction to the trigonometric ratios",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:trig/xe2ae2386aa2e13d6:trig-ratios-intro",
+    "topic_ids": [
+      "right-triangle-trigonometry"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 53,
+    "lesson_title": "Solving for a side in a right triangle using the trigonometric ratios",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:trig/xe2ae2386aa2e13d6:solve-for-a-side",
+    "topic_ids": [
+      "right-triangle-trigonometry"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 54,
+    "lesson_title": "Solving for an angle in a right triangle using the trigonometric ratios",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:trig/xe2ae2386aa2e13d6:solve-for-an-angle",
+    "topic_ids": [
+      "right-triangle-trigonometry",
+      "inverse-trigonometric-functions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 55,
+    "lesson_title": "Sine & cosine of complementary angles",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:trig/xe2ae2386aa2e13d6:complementary-angles",
+    "topic_ids": [
+      "right-triangle-trigonometry"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 56,
+    "lesson_title": "Modeling with right triangles",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:trig/xe2ae2386aa2e13d6:right-tri-modeling",
+    "topic_ids": [
+      "right-triangle-trigonometry"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 57,
+    "lesson_title": "2D vs. 3D objects",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:solids/xe2ae2386aa2e13d6:2d-vs-3d",
+    "topic_ids": [
+      "cross-sections-and-solids-of-revolution"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 58,
+    "lesson_title": "Cavalieri's principle and dissection methods",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:solids/xe2ae2386aa2e13d6:cavalieri-s-principle-and-dissection-methods",
+    "topic_ids": [
+      "surface-area-volume-and-scaling-of-solids"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 59,
+    "lesson_title": "Volume and surface area",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:solids/xe2ae2386aa2e13d6:solids-intro",
+    "topic_ids": [
+      "surface-area-volume-and-scaling-of-solids",
+      "area-perimeter-and-measurement"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 60,
+    "lesson_title": "Density",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:solids/xe2ae2386aa2e13d6:density",
+    "topic_ids": [
+      "measurement-density"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 61,
+    "lesson_title": "Circle basics",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles/xe2ae2386aa2e13d6:circle-basics",
+    "topic_ids": [
+      "circle-geometry-and-theorems"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 62,
+    "lesson_title": "Arc measure",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles/xe2ae2386aa2e13d6:arc-measures",
+    "topic_ids": [
+      "circumference-circle-area-arc-length-and-sectors"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 63,
+    "lesson_title": "Arc length (from degrees)",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles/xe2ae2386aa2e13d6:arc-length-deg",
+    "topic_ids": [
+      "circumference-circle-area-arc-length-and-sectors"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 64,
+    "lesson_title": "Introduction to radians",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles/xe2ae2386aa2e13d6:radians-intro",
+    "topic_ids": [
+      "radian-measure-of-angles"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 65,
+    "lesson_title": "Arc length (from radians)",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles/xe2ae2386aa2e13d6:arc-length-rad",
+    "topic_ids": [
+      "circumference-circle-area-arc-length-and-sectors"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 66,
+    "lesson_title": "Sectors",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles/xe2ae2386aa2e13d6:sectors",
+    "topic_ids": [
+      "circumference-circle-area-arc-length-and-sectors"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 67,
+    "lesson_title": "Inscribed angles",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles/xe2ae2386aa2e13d6:inscribed-angles",
+    "topic_ids": [
+      "circle-geometry-and-theorems"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 68,
+    "lesson_title": "Inscribed shapes problem solving",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles/xe2ae2386aa2e13d6:inscribed-shapes",
+    "topic_ids": [
+      "circle-geometry-and-theorems"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 69,
+    "lesson_title": "Proofs with inscribed shapes",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles/xe2ae2386aa2e13d6:inscribed-tri-area",
+    "topic_ids": [
+      "circle-geometry-and-theorems"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 70,
+    "lesson_title": "Properties of tangents",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles/xe2ae2386aa2e13d6:tangents",
+    "topic_ids": [
+      "circle-geometry-and-theorems"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 71,
+    "lesson_title": "Constructing regular polygons inscribed in circles",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles/xe2ae2386aa2e13d6:inscribed-polygons",
+    "topic_ids": [
+      "compass-and-straightedge-geometric-constructions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 72,
+    "lesson_title": "Constructing circumcircles & incircles",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles/xe2ae2386aa2e13d6:circumscribed",
+    "topic_ids": [
+      "triangle-centers-and-special-segments"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 73,
+    "lesson_title": "Constructing a line tangent to a circle",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles/xe2ae2386aa2e13d6:constructing-tangents",
+    "topic_ids": [
+      "geometry-tangent-construction"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 74,
+    "lesson_title": "Introduction to conic sections",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:conics/xe2ae2386aa2e13d6:conics-intro",
+    "topic_ids": [
+      "parabolas-from-focus-and-directrix"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 75,
+    "lesson_title": "Features of a circle",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:conics/xe2ae2386aa2e13d6:circle-features",
+    "topic_ids": [
+      "equations-of-circles"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 76,
+    "lesson_title": "Standard equation of a circle",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:conics/xe2ae2386aa2e13d6:circle-standard",
+    "topic_ids": [
+      "equations-of-circles"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 77,
+    "lesson_title": "Expanded equation of a circle",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:conics/xe2ae2386aa2e13d6:circle-expanded",
+    "topic_ids": [
+      "equations-of-circles"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 78,
+    "lesson_title": "Focus & directrix of a parabola",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:conics/xe2ae2386aa2e13d6:focus-directrix",
+    "topic_ids": [
+      "parabolas-from-focus-and-directrix"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 79,
+    "lesson_title": "Probability basics",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:prob/xe2ae2386aa2e13d6:prob-basics",
+    "topic_ids": [
+      "probability-and-representations-of-events"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 80,
+    "lesson_title": "Counting with combinations",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:prob/xe2ae2386aa2e13d6:combinations",
+    "topic_ids": [
+      "counting-combinations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 81,
+    "lesson_title": "Probability with counting, permutations, combinations",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:prob/xe2ae2386aa2e13d6:permutations",
+    "topic_ids": [
+      "counting-permutations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 82,
+    "lesson_title": "Multiplication rule for independent events",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:prob/xe2ae2386aa2e13d6:independent-events",
+    "topic_ids": [
+      "probability-multiplication"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 83,
+    "lesson_title": "Multiplication rule for dependent events",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:prob/xe2ae2386aa2e13d6:dependent-events",
+    "topic_ids": [
+      "probability-multiplication",
+      "conditional-probability"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 84,
+    "lesson_title": "Addition rule for probability",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:prob/xe2ae2386aa2e13d6:prob-add-rule",
+    "topic_ids": [
+      "probability-addition"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 85,
+    "lesson_title": "Conditional probability",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:prob/xe2ae2386aa2e13d6:conditional-prob",
+    "topic_ids": [
+      "conditional-probability"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 86,
+    "lesson_title": "Simulation and randomness",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:prob/xe2ae2386aa2e13d6:randomness",
+    "topic_ids": [
+      "statistical-simulations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 2,
+    "lesson_order": 87,
+    "lesson_title": "Expected value",
+    "lesson_url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:prob/xe2ae2386aa2e13d6:expected-value",
+    "topic_ids": [
+      "probability-expected-value"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 1,
+    "lesson_title": "Intro to polynomials",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-arithmetic/x5549cc1686316ba5:poly-intro",
+    "topic_ids": [
+      "polynomial-functions-and-graphs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 2,
+    "lesson_title": "Average rate of change of polynomials",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-arithmetic/x5549cc1686316ba5:poly-avg-rate",
+    "topic_ids": [
+      "average-rate-of-change-and-secant-lines"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 3,
+    "lesson_title": "Adding and subtracting polynomials",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-arithmetic/x5549cc1686316ba5:poly-add-sub",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 4,
+    "lesson_title": "Multiplying monomials by polynomials",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-arithmetic/x5549cc1686316ba5:mono-by-poly",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 5,
+    "lesson_title": "Multiplying binomials by polynomials",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-arithmetic/x5549cc1686316ba5:bi-by-poly",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 6,
+    "lesson_title": "Special products of polynomials",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-arithmetic/x5549cc1686316ba5:special-products",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 7,
+    "lesson_title": "Factoring monomials",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:factorization/x5549cc1686316ba5:mono-factor",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 8,
+    "lesson_title": "Greatest common factor",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:factorization/x5549cc1686316ba5:gcf",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 9,
+    "lesson_title": "Taking common factors",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:factorization/x5549cc1686316ba5:take-common-factor",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 10,
+    "lesson_title": "Factoring higher degree polynomials",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:factorization/x5549cc1686316ba5:high-deg-poly-factor",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 11,
+    "lesson_title": "Factoring using structure",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:factorization/x5549cc1686316ba5:factor-using-structure",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 12,
+    "lesson_title": "Polynomial identities",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:factorization/x5549cc1686316ba5:poly-id",
+    "topic_ids": [
+      "expanding-and-factoring-polynomial-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 13,
+    "lesson_title": "Geometric series",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:factorization/x5549cc1686316ba5:geo-series",
+    "topic_ids": [
+      "geometric-series-sums"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 14,
+    "lesson_title": "Dividing polynomials by x",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-div/x5549cc1686316ba5:div-by-x",
+    "topic_ids": [
+      "polynomial-division-and-remainder-theorem"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 15,
+    "lesson_title": "Dividing quadratics by linear factors",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-div/x5549cc1686316ba5:div-quad-by-linear",
+    "topic_ids": [
+      "polynomial-division-and-remainder-theorem"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 16,
+    "lesson_title": "Dividing polynomials by linear factors",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-div/x5549cc1686316ba5:div-poly-by-linear",
+    "topic_ids": [
+      "polynomial-division-and-remainder-theorem"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 17,
+    "lesson_title": "Polynomial remainder theorem",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-div/x5549cc1686316ba5:remainder-theorem",
+    "topic_ids": [
+      "polynomial-division-and-remainder-theorem"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 18,
+    "lesson_title": "Zeros of polynomials",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-graphs/x5549cc1686316ba5:poly-zeros",
+    "topic_ids": [
+      "polynomial-roots-and-factors"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 19,
+    "lesson_title": "Positive and negative intervals of polynomials",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-graphs/x5549cc1686316ba5:poly-intervals",
+    "topic_ids": [
+      "polynomial-functions-and-graphs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 20,
+    "lesson_title": "End behavior of polynomials",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-graphs/x5549cc1686316ba5:poly-end-behavior",
+    "topic_ids": [
+      "polynomial-functions-and-graphs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 21,
+    "lesson_title": "Putting it all together",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-graphs/x5549cc1686316ba5:poly-graph-summary",
+    "topic_ids": [
+      "polynomial-functions-and-graphs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 22,
+    "lesson_title": "Introduction to logarithms",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:logs/x5549cc1686316ba5:logs-intro",
+    "topic_ids": [
+      "logarithms-and-logarithmic-functions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 23,
+    "lesson_title": "The constant e and the natural logarithm",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:logs/x5549cc1686316ba5:natural-log",
+    "topic_ids": [
+      "the-number-e-natural-logarithms-and-continuous-models"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 24,
+    "lesson_title": "Properties of logarithms",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:logs/x5549cc1686316ba5:log-properties",
+    "topic_ids": [
+      "logarithms-and-logarithmic-functions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 25,
+    "lesson_title": "Change of base formula for logarithms",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:logs/x5549cc1686316ba5:log-change-of-base",
+    "topic_ids": [
+      "logarithms-change-base"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 26,
+    "lesson_title": "Solving exponential equations with logarithms",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:logs/x5549cc1686316ba5:exp-eq-with-logs",
+    "topic_ids": [
+      "logarithms-and-logarithmic-functions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 27,
+    "lesson_title": "Solving exponential models",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:logs/x5549cc1686316ba5:solve-exp-models",
+    "topic_ids": [
+      "logarithms-and-logarithmic-functions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 28,
+    "lesson_title": "Shifting functions",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:transformations/x5549cc1686316ba5:shift",
+    "topic_ids": [
+      "transformations-of-function-graphs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 29,
+    "lesson_title": "Reflecting functions",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:transformations/x5549cc1686316ba5:reflect",
+    "topic_ids": [
+      "transformations-of-function-graphs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 30,
+    "lesson_title": "Symmetry of functions",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:transformations/x5549cc1686316ba5:symmetry",
+    "topic_ids": [
+      "reflectional-and-rotational-symmetry"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 31,
+    "lesson_title": "Scaling functions",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:transformations/x5549cc1686316ba5:scale",
+    "topic_ids": [
+      "transformations-of-function-graphs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 32,
+    "lesson_title": "Putting it all together",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:transformations/x5549cc1686316ba5:id-transformations",
+    "topic_ids": [
+      "transformations-of-function-graphs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 33,
+    "lesson_title": "Graphs of square and cube root functions",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:transformations/x5549cc1686316ba5:sqrt-cbrt-graphs",
+    "topic_ids": [
+      "inverse-functions-and-square-root-functions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 34,
+    "lesson_title": "Graphs of exponential functions",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:transformations/x5549cc1686316ba5:exp-graphs",
+    "topic_ids": [
+      "writing-and-graphing-exponential-models"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 35,
+    "lesson_title": "Graphs of logarithmic functions",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:transformations/x5549cc1686316ba5:log-graphs",
+    "topic_ids": [
+      "logarithms-and-logarithmic-functions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 36,
+    "lesson_title": "Rational equations",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:equations/x5549cc1686316ba5:rational-eq",
+    "topic_ids": [
+      "rational-expressions-and-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 37,
+    "lesson_title": "Square-root equations",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:equations/x5549cc1686316ba5:sqrt-eq",
+    "topic_ids": [
+      "equations-radical"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 38,
+    "lesson_title": "Extraneous solutions",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:equations/x5549cc1686316ba5:extraneous-sol",
+    "topic_ids": [
+      "equations-extraneous"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 39,
+    "lesson_title": "Cube-root equations",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:equations/x5549cc1686316ba5:cbrt-eq",
+    "topic_ids": [
+      "equations-radical"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 40,
+    "lesson_title": "Quadratic systems",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:equations/x5549cc1686316ba5:quad-systems",
+    "topic_ids": [
+      "systems-nonlinear"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 41,
+    "lesson_title": "Solving equations by graphing",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:equations/x5549cc1686316ba5:eq-by-graphing",
+    "topic_ids": [
+      "comparing-functions-and-finding-intersections"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 42,
+    "lesson_title": "Law of sines",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:math2-trig-func/x5549cc1686316ba5:law-of-sines",
+    "topic_ids": [
+      "law-of-sines-and-law-of-cosines"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 43,
+    "lesson_title": "Law of cosines",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:math2-trig-func/x5549cc1686316ba5:law-of-cosines",
+    "topic_ids": [
+      "law-of-sines-and-law-of-cosines"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 44,
+    "lesson_title": "Solving general triangles",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:math2-trig-func/x5549cc1686316ba5:general-tri",
+    "topic_ids": [
+      "law-of-sines-and-law-of-cosines"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 45,
+    "lesson_title": "Unit circle introduction",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:math2-trig-func/x5549cc1686316ba5:unit-circle",
+    "topic_ids": [
+      "unit-circle-and-circular-trigonometric-functions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 46,
+    "lesson_title": "Radians",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:math2-trig-func/x5549cc1686316ba5:radians",
+    "topic_ids": [
+      "radian-measure-of-angles"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 47,
+    "lesson_title": "The Pythagorean identity",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:math2-trig-func/x5549cc1686316ba5:pythagorean-id",
+    "topic_ids": [
+      "trigonometric-equations-and-identities"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 48,
+    "lesson_title": "Trigonometric values of special angles",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:math2-trig-func/x5549cc1686316ba5:trig-special-angles",
+    "topic_ids": [
+      "unit-circle-and-circular-trigonometric-functions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 49,
+    "lesson_title": "Graphs of sin(x), cos(x), and tan(x)",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:math2-trig-func/x5549cc1686316ba5:sin-cos-tan-graphs",
+    "topic_ids": [
+      "unit-circle-and-circular-trigonometric-functions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 50,
+    "lesson_title": "Amplitude, midline, & period",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:math2-trig-func/x5549cc1686316ba5:amp-mid-period",
+    "topic_ids": [
+      "periodic-functions-and-sinusoidal-models"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 51,
+    "lesson_title": "Transforming sinusoidal graphs",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:math2-trig-func/x5549cc1686316ba5:sinus-transform",
+    "topic_ids": [
+      "periodic-functions-and-sinusoidal-models"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 52,
+    "lesson_title": "Graphing sinusoidal functions",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:math2-trig-func/x5549cc1686316ba5:sinus-graphs",
+    "topic_ids": [
+      "periodic-functions-and-sinusoidal-models"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 53,
+    "lesson_title": "Sinusoidal models",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:math2-trig-func/x5549cc1686316ba5:sinus-models",
+    "topic_ids": [
+      "periodic-functions-and-sinusoidal-models"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 54,
+    "lesson_title": "Modeling with function combination",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:modeling/x5549cc1686316ba5:func-comb",
+    "topic_ids": [
+      "arithmetic-operations-on-functions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 55,
+    "lesson_title": "Interpreting features of functions",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:modeling/x5549cc1686316ba5:func-features",
+    "topic_ids": [
+      "features-and-interpretation-of-function-graphs"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 56,
+    "lesson_title": "Manipulating formulas",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:modeling/x5549cc1686316ba5:manipulating-formulas",
+    "topic_ids": [
+      "rearranging-formulas-and-literal-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 57,
+    "lesson_title": "Modeling with two variables",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:modeling/x5549cc1686316ba5:eq-ineq-models",
+    "topic_ids": [
+      "writing-and-interpreting-linear-equations-and-models",
+      "units-dimensional-analysis",
+      "rational-expressions-and-equations",
+      "quadratic-inequalities",
+      "writing-and-graphing-exponential-models"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 58,
+    "lesson_title": "Modeling with multiple variables",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:modeling/x5549cc1686316ba5:modeling-with-multiple-variables",
+    "topic_ids": [
+      "writing-and-interpreting-algebraic-expressions"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 59,
+    "lesson_title": "Samples and surveys",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:study-design/x5549cc1686316ba5:surveys",
+    "topic_ids": [
+      "sampling-methods-and-statistical-study-design"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 60,
+    "lesson_title": "Observational studies and experiments",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:study-design/x5549cc1686316ba5:observations",
+    "topic_ids": [
+      "sampling-methods-and-statistical-study-design"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 61,
+    "lesson_title": "Binomial probability",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:binomial-prob/x5549cc1686316ba5:binom-prob-lesson",
+    "topic_ids": [
+      "probability-binomial"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 62,
+    "lesson_title": "Normal distributions",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:normal-dist/x5549cc1686316ba5:normal-dist-lesson",
+    "topic_ids": [
+      "normal-distributions-and-z-scores"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 63,
+    "lesson_title": "Cancelling common factors",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:rationals/x5549cc1686316ba5:common-factors",
+    "topic_ids": [
+      "rational-expressions-and-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 64,
+    "lesson_title": "End behavior of rational functions",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:rationals/x5549cc1686316ba5:rational-end-behavior",
+    "topic_ids": [
+      "rational-functions-and-asymptotes"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 65,
+    "lesson_title": "Discontinuities of rational functions",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:rationals/x5549cc1686316ba5:rational-discontinuities",
+    "topic_ids": [
+      "rational-functions-and-asymptotes"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 66,
+    "lesson_title": "Graphs of rational functions",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:rationals/x5549cc1686316ba5:rational-graphs",
+    "topic_ids": [
+      "rational-functions-and-asymptotes"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 67,
+    "lesson_title": "Modeling with rational functions",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:rationals/x5549cc1686316ba5:rational-models",
+    "topic_ids": [
+      "rational-functions-and-asymptotes"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 68,
+    "lesson_title": "Multiplying & dividing rational expressions",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:rationals/x5549cc1686316ba5:rational-mul-div",
+    "topic_ids": [
+      "rational-expressions-and-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 69,
+    "lesson_title": "Adding subtracting rational expressions intro",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:rationals/x5549cc1686316ba5:rational-add-sub-intro",
+    "topic_ids": [
+      "rational-expressions-and-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 70,
+    "lesson_title": "Adding subtracting rational expressions (factored)",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:rationals/x5549cc1686316ba5:rational-add-sub-factored",
+    "topic_ids": [
+      "rational-expressions-and-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  },
+  {
+    "course": 3,
+    "lesson_order": 71,
+    "lesson_title": "Adding subtracting rational expressions (not factored)",
+    "lesson_url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:rationals/x5549cc1686316ba5:rational-add-sub-not-factored",
+    "topic_ids": [
+      "rational-expressions-and-equations"
+    ],
+    "basis": "Reviewed lesson title, its listed activity titles and related current MVP map scope; not a review of every video or exercise."
+  }
+]

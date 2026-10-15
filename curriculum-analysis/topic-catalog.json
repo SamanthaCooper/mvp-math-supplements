@@ -1,0 +1,4176 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-14",
+  "scope": "Regular Khan Integrated Math I–III and the current MVP honors map. Topic comparisons use normalized names and broader entries; original source links and lesson order are preserved.",
+  "sources": [
+    {
+      "label": "Khan Integrated Math 1",
+      "url": "https://www.khanacademy.org/math/math1",
+      "checked": "2026-10-13"
+    },
+    {
+      "label": "Khan Integrated Math 2",
+      "url": "https://www.khanacademy.org/math/math2",
+      "checked": "2026-10-13"
+    },
+    {
+      "label": "Khan Integrated Math 3",
+      "url": "https://www.khanacademy.org/math/math3",
+      "checked": "2026-10-13"
+    }
+  ],
+  "absence_rule": "Provisionally missing is a working inference from the map, not a confirmed absence from all packet exercises.",
+  "topics": [
+    {
+      "id": "writing-and-interpreting-algebraic-expressions",
+      "label": "Writing and interpreting algebraic expressions",
+      "scope": "Translate patterns and contexts into expressions, interpret variables and expression structure.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 1.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 1.2 Main; I 1.3 Main; I 2.5 Main; I 3.4 Main; I 4.1 Main/Set; I 4.2 Main; I 4.3 Main; I 5.3 Main; II 1.2 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 1.2 Set; I 1.11 Main; I 2.5 Main; I 2.6 Main; I 4.1 Set; I 4.3 Set; I 5.4 Ready; I 5.8 Main/Set; I 7.2 Go; I 7.4 Go; I 9.9 Ready; II 1.1 Main; III 3.2 Ready; III 3.3 Ready"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 1,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:algebra-foundation",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 9,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:modeling",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "writing-and-interpreting-algebraic-expressions"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "evaluating-algebraic-expressions",
+      "label": "Evaluating algebraic expressions",
+      "scope": "Substituting values into expressions and formulas.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "developed",
+          "reference": "I 1.2 Ready"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 1.1 Ready; I 1.3 Ready/Go; I 1.4 Ready; I 1.6 Go; I 3.1 Go; I 4.1 Go; I 4.2 Ready; I 4.3 Main; I 4.6 Go; I 5.4 Go; I 5.6 Ready; I 7.4 Go; I 9.9 Go; II 8.2 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 1,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:algebra-foundation",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "evaluating-algebraic-expressions"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "solving-linear-equations",
+      "label": "Solving linear equations",
+      "scope": "Checking solutions; one-step and multi-step linear equations.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 4.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 4.1 Main; I 4.3 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 1.1 Ready; I 2.1 Go; I 2.2 Go; I 2.6 Go; I 3.1 Go; I 4.1 Set/Go; I 4.2 Ready; I 4.3 Set; I 4.6 Ready; I 5.4 Go; I 6.2 Go; I 7.4 Go; I 9.9 Go; II 6.5 Go; III 1.1 Ready; III 1.2 Ready; III 1.4 Main; III 3.5 Ready"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 2,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:eq-ineq",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "solving-linear-equations"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "tables-graphs-and-ordered-pairs",
+      "label": "Tables, graphs, and ordered pairs",
+      "scope": "Representing relationships numerically, graphically, and with equations.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 1.2 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 1.2 Ready; I 1.3 Main; I 2.1 Main; I 2.2 Main; II 1.1 Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 1.1 Ready; I 1.1 Go; I 1.4 Ready; I 1.5 Set/Go; I 1.11 Main; I 2.1 Main; I 2.4 Main; I 2.6 Main; I 3.1 Ready; I 3.5 Ready; I 4.1 Ready; I 4.3 Go; I 5.1 Go; I 5.2 Ready; I 5.3 Set; I 5.5 Go; I 6.1 Set; I 7.2 Ready; I 7.3 Go; I 8.1 Go; I 8.3 Ready; I 9.3 Go; II 1.2 Main; II 1.3 Main; II 1.6 Go; II 2.1 Set; II 2.2 Main/Set; III 6.7 Ready"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 4,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-var-eq",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 1,
+          "unit": 8,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "tables-graphs-and-ordered-pairs"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "exponents-and-simple-exponential-equations",
+      "label": "Exponents and simple exponential equations",
+      "scope": "Evaluating powers and elementary equations involving powers.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "developed",
+          "reference": "II 3.3 Main/Ready"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 1.2 Go; I 1.3 Go; I 2.1 Main; I 3.1 Go; I 8.6 Main/Set; I 9.9 Ready; II 3.1 Go; II 3.2 Go; II 3.3 Ready/Go; III 1.3 Ready; III 1.4 Ready; III 1.5 Ready; III 2.1 Go; III 2.2 Go; III 2.3 Ready/Go; III 3.2 Go; III 3.3 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 13,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:exp-rad",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 2,
+          "unit": 6,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:rational-exp",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "exponents-and-simple-exponential-equations"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "rates-unit-rates-and-percentages",
+      "label": "Rates, unit rates, and percentages",
+      "scope": "Computing and comparing numerical rates and percentages.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "developed",
+          "reference": "II 4.2 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 1.11 Main; I 2.1 Main; I 2.1 Go; I 2.2 Ready; I 2.3 Ready; I 2.4 Main; I 4.2 Main/Set; I 5.1 Main; I 5.5 Go; I 8.4 Go; I 8.6 Ready; I 9.2 Go; I 9.4 Main/Set; I 9.6 Ready; I 9.7 Ready; II 7.6 Ready; II 9.1 Go; II 9.2 Go; III 2.5 Go; III 4.7 Main/Set; III 5.4 Main/Set; III 6.1 Ready; III 6.2 Main"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 3,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:units",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 2,
+          "unit": 10,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:solids",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 9,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:modeling",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "rates-unit-rates-and-percentages"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "arithmetic-sequences",
+      "label": "Arithmetic sequences",
+      "scope": "Common difference; explicit/recursive rules; missing terms.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 1.2 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 1.4 Main; I 1.6 Main; I 1.8 Main; I 1.9 Main; I 2.5 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 1.4 Set; I 1.5 Go; I 1.6 Ready; I 1.6 Set; I 1.7 Main; I 1.7 Ready; I 1.8 Main; I 1.9 Main/Set; I 1.9 Ready; I 1.9 Set; I 1.9 Go; I 1.11 Main; I 1.11 Main/Set; I 2.1 Ready; I 2.3 Set; I 2.4 Ready; I 3.2 Go; I 3.4 Go; I 5.1 Go; I 7.2 Go; I 7.4 Go; I 9.6 Go; I 9.9 Ready; II 2.8H Ready; II 3.1 Ready; II 6.7 Go; III 3.1 Main"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 12,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:sequences",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "arithmetic-sequences"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "geometric-sequences",
+      "label": "Geometric sequences",
+      "scope": "Common ratio; explicit/recursive rules; missing terms and multiplicative patterns.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 1.3 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 1.5 Main; I 1.8 Main; I 1.10 Main; I 2.1 Main; II 3.1 Main; II 3.2 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 1.4 Set; I 1.6 Ready; I 1.7 Main; I 1.7 Ready; I 1.8 Main; I 1.8 Ready; I 1.9 Ready; I 1.10 Set; I 1.10 Go; I 1.11 Main; I 2.1 Ready; I 2.2 Main; I 2.3 Go; I 2.4 Main; I 2.4 Ready; I 2.4 Go; I 3.2 Go; I 3.4 Go; I 7.2 Go; I 7.4 Go; I 9.6 Go; I 9.9 Ready; II 2.8H Ready; II 3.1 Ready; II 6.7 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 12,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:sequences",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "geometric-sequences"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "sequence-formulas-and-applications",
+      "label": "Sequence formulas and applications",
+      "scope": "Nth terms, starting index, explicit vs. recursive notation, and contextual problems.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 1.2 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 1.3 Main; I 1.4 Main; I 1.5 Main; I 1.6 Main; I 1.7 Main; I 1.8 Main; I 2.5 Main; I 2.6 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 1.5 Main; I 1.7 Main; I 1.8 Main; I 1.11 Main; I 1.11 Main/Set; I 2.1 Main; I 2.1 Ready; I 2.2 Main; I 2.6 Main; I 3.2 Go; I 3.4 Go; I 5.1 Go; I 7.2 Go; I 7.4 Go; I 9.6 Go; II 1.3 Go; II 2.5 Go; III 3.1 Main"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 12,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:sequences",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "sequence-formulas-and-applications"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "comparing-linear-quadratic-and-exponential-growth",
+      "label": "Comparing linear, quadratic, and exponential growth",
+      "scope": "Identify and compare additive, quadratic and multiplicative growth in tables, graphs and equations.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 1.7 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 1.8 Main; I 2.3 Main; I 2.4 Main; I 2.4 Set; I 2.4 Go; I 2.6 Main; I 2.6 Ready; II 1.1 Set; II 1.3 Set; II 1.5 Main/Set; III 3.1 Main; III 3.2 Main; III 3.9 Main; I 2.7H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 1.4 Set; I 1.7 Main; I 1.9 Ready; I 1.11 Main; I 1.11 Ready; I 2.1 Ready; I 2.2 Set; I 2.3 Main; I 2.3 Ready; I 2.4 Ready; I 2.6 Ready; I 3.1 Set; I 3.2 Go; I 3.4 Ready; I 3.4 Go; I 8.6 Main; I 9.7 Set; I 9.9 Ready; II 1.4 Go; II 1.6 Main/Set; II 3.4 Go; II 3.10 Ready; II 6.1 Go; III 3.1 Set; III 3.2 Set; III 3.9 Main"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 14,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:exp-func",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "comparing-linear-quadratic-and-exponential-growth"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "slope-and-rate-of-change",
+      "label": "Slope and rate of change",
+      "scope": "Constant rate of change; rise/run; slope from points, tables and graphs.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 1.1 Set"
+        },
+        {
+          "role": "developed",
+          "reference": "I 1.6 Main; I 2.1 Main; I 2.5 Main; I 3.1 Main; I 5.2 Main; I 6.2 Main; I 8.2 Main; I 9.7 Main; I 2.7H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 1.5 Ready; I 1.7 Go; I 2.2 Ready; I 2.3 Ready; I 2.3 Go; I 2.5 Ready; I 2.6 Main; I 3.2 Main; I 5.2 Main; I 6.2 Set; I 6.3 Go; I 6.5 Go; I 6.7 Go; I 7.2 Ready; I 7.5 Ready; I 7.6 Go; I 8.1 Set; I 8.2 Main/Go; I 8.3 Main; I 8.4 Main; I 9.5 Go; I 9.7 Main; II 1.1 Go; II 1.4 Ready; II 6.9 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 4,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-var-eq",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "slope-and-rate-of-change"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "writing-and-interpreting-linear-equations-and-models",
+      "label": "Writing and interpreting linear equations and models",
+      "scope": "Includes initial value, equation forms, equivalent forms, and contextual models.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 2.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 2.4 Main; I 2.5 Main; I 2.6 Main; I 3.4 Main; I 5.2 Main; I 5.3 Main; I 5.4 Main; I 8.4 Main; I 9.7 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 1.6 Main; I 1.8 Go; I 2.4 Go; I 2.5 Ready; I 2.5 Set; I 2.5 Go; I 2.6 Main; I 2.6 Set; I 3.1 Ready; I 3.2 Main; I 3.2 Go; I 3.4 Main; I 3.4 Go; I 3.6 Main; I 4.4 Ready; I 5.2 Main; I 5.3 Main/Set; I 5.4 Ready; I 5.5 Go; I 6.1 Go; I 6.5 Go; I 7.2 Ready; I 7.5 Ready; I 8.2 Go; I 8.4 Main/Set; I 8.5 Main/Set; I 8.6 Set/Go; I 9.4 Ready; I 9.7 Main; II 3.6 Ready; II 4.1 Go; III 1.1 Main/Set; III 4.6 Go; III 5.4 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 4,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-var-eq",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 1,
+          "unit": 5,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:linear-forms",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 9,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:modeling",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "writing-and-interpreting-linear-equations-and-models"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "graphing-linear-functions",
+      "label": "Graphing linear functions",
+      "scope": "Plotting the graph of a linear equation.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "developed",
+          "reference": "I 2.5 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 1.1 Go; I 2.5 Set; I 2.6 Main; I 3.1 Ready; I 4.1 Ready; I 5.1 Go; I 5.3 Set; I 5.4 Ready; I 6.1 Go; I 7.2 Ready; I 7.3 Go; I 7.5 Ready; I 8.2 Ready/Go; I 8.4 Main/Set; I 8.5 Main/Set; I 8.6 Main/Go; I 9.5 Go; II 2.3 Ready; III 4.6 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 4,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-var-eq",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 1,
+          "unit": 5,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:linear-forms",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "graphing-linear-functions"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "exponential-growth-and-decay",
+      "label": "Exponential growth and decay",
+      "scope": "Identifying increase/decrease and converting percentages to multipliers.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 2.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 2.4 Main; I 8.6 Main; II 3.1 Main; III 2.6H Main; III 2.7H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 1.11 Main; I 2.2 Main; I 2.3 Main; I 2.6 Main; I 8.6 Main/Set; I 9.7 Set; I 9.9 Ready; III 1.3 Main; III 1.5 Main"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 14,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:exp-func",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 2,
+          "unit": 7,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:exp-models",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "exponential-growth-and-decay"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "writing-and-graphing-exponential-models",
+      "label": "Writing and graphing exponential models",
+      "scope": "Constructing exponential equations and graphs.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 2.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 2.6 Main; I 8.6 Main; II 3.1 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 2.4 Go; I 3.1 Ready; I 3.2 Go; I 3.4 Go; I 8.6 Main/Set; I 9.7 Set; I 9.9 Ready; II 1.6 Main; II 3.3 Main; III 1.3 Main/Set; III 1.5 Main; III 2.1 Ready; III 2.5 Main/Go; III 4.1 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 14,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:exp-func",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 2,
+          "unit": 6,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:rational-exp",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 2,
+          "unit": 7,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:exp-models",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 6,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:transformations",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 9,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:modeling",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "writing-and-graphing-exponential-models"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "functions-and-input-output-relationships",
+      "label": "Functions and input–output relationships",
+      "scope": "Independent/dependent variables and function tests.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 2.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 3.1 Set; I 3.7 Main; III 8.2 Main; III 8.4 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 2.2 Main; I 3.1 Main; I 3.2 Main; I 3.3 Main; I 3.6 Main; I 3.7 Ready/Set; I 5.9 Go; I 8.4 Main; I 8.5 Main; I 8.6 Main; I 9.9 Ready; II 1.5 Ready; II 1.6 Main; II 4.5 Main; II 4.7 Set; III 1.1 Main; III 1.2 Main; III 1.3 Main; III 1.4 Main; III 1.5 Main/Set; III 2.1 Main; III 2.2 Main; III 2.5 Main; III 8.1 Main; III 8.6 Main"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 8,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "functions-and-input-output-relationships"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "discrete-and-continuous-relationships",
+      "label": "Discrete and continuous relationships",
+      "scope": "Classifying domains and contextual data as discrete or continuous.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 1.11 Ready"
+        },
+        {
+          "role": "developed",
+          "reference": "I 2.1 Main; I 2.2 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 2.4 Set; I 2.6 Ready; I 3.1 Set; I 3.3 Main; I 3.5 Go"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "discrete-and-continuous-relationships"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "domain-and-range",
+      "label": "Domain and range",
+      "scope": "Including interval notation and contextual restrictions.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 2.2 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 2.4 Set; I 3.2 Main; I 3.3 Main; I 3.4 Main; I 3.6 Main; II 4.2 Main/Set; II 4.6 Main; III 1.2 Main; III 1.3 Main; III 1.5 Main; III 4.1 Main; III 7.4H Main; III 8.2 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 2.2 Main; I 3.2 Main; I 3.2 Set; I 3.3 Main; I 3.4 Main; I 3.4 Set; I 3.5 Go; I 3.6 Main/Go; I 3.7 Ready/Set; I 4.2 Go; I 4.3 Go; I 4.5 Main; I 4.6 Set; I 5.9 Go; II 1.4 Main; II 1.5 Go; II 2.1 Main; II 4.4 Main; II 4.7 Main/Set; III 2.2 Main/Set; III 3.2 Main; III 3.9 Main; III 4.2 Ready; III 7.4H Main; III 8.1 Go; III 8.2 Ready"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 8,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "domain-and-range"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "function-notation-and-evaluation",
+      "label": "Function notation and evaluation",
+      "scope": "Finding inputs/outputs and interpreting function notation.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 1.2 Ready"
+        },
+        {
+          "role": "developed",
+          "reference": "I 3.4 Main; I 3.5 Ready; I 3.6 Main; II 4.1 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 1.3 Ready; I 1.4 Ready; I 1.4 Go; I 3.5 Ready; I 3.6 Set; I 3.7 Go; I 6.1 Go; I 5.9 Go; I 8.4 Main; I 8.5 Main/Set; I 8.6 Main/Set; I 9.9 Ready; II 2.4 Go; II 3.1 Ready; II 3.5 Go; II 4.1 Ready; II 4.2 Main; II 4.6 Main; II 4.7 Main; III 1.1 Go; III 1.2 Go; III 1.3 Go; III 1.4 Main/Go; III 1.5 Main; III 3.1 Main; III 3.5 Go; III 8.1 Go; III 8.3 Ready; III 8.4 Main/Set; III 8.5 Ready; III 8.6 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 8,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "function-notation-and-evaluation"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "features-and-interpretation-of-function-graphs",
+      "label": "Features and interpretation of function graphs",
+      "scope": "Intercepts, increasing/decreasing, extrema, symmetry, end behavior, contextual/piecewise graphs.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 3.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 3.2 Main; I 3.3 Main; I 3.4 Main; I 8.4 Main; I 8.5 Main; II 4.7 Main/Set; III 3.9 Main/Set; III 4.1 Main; III 4.3 Main; III 7.4H Main; III 8.2 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 3.1 Set; I 3.2 Set; I 3.3 Main; I 3.4 Main; I 3.4 Set; I 3.6 Main/Go; I 3.6 Go; I 4.3 Go; I 5.3 Set; I 5.9 Go; I 8.4 Main; I 8.5 Main; I 8.6 Main; I 9.7 Set; II 1.5 Main; II 3.4 Go; II 3.6 Ready; II 4.1 Ready; II 4.3 Ready; II 4.6 Ready; II 4.7 Main/Set; III 1.1 Main; III 1.2 Main; III 1.3 Main; III 1.5 Main; III 3.2 Main/Set; III 3.5 Go; III 3.10 Main/Set; III 6.2 Ready; III 6.3 Ready; III 6.4 Ready; III 7.1 Set; III 7.2 Main; III 7.3 Set; III 8.1 Main; III 8.2 Go; III 8.6 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 4,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-var-eq",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 1,
+          "unit": 8,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 9,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:modeling",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "features-and-interpretation-of-function-graphs"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "comparing-functions-and-finding-intersections",
+      "label": "Comparing functions and finding intersections",
+      "scope": "Where models have equal values or one exceeds another.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 2.4 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 3.4 Main; I 3.5 Main; I 3.6 Main; I 5.7 Main; II 1.5 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 3.2 Ready; I 3.3 Ready; I 3.5 Set; I 3.6 Main; I 4.4 Go; I 4.5 Go; I 4.6 Go; I 5.1 Ready; I 5.7 Main; I 5.10 Set; I 7.3 Go; I 8.4 Main; I 8.5 Main; I 8.6 Main; I 9.7 Set; II 3.7 Go; III 8.2 Main; III 8.6 Main"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 6,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:systems",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 7,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:equations",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "comparing-functions-and-finding-intersections"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "solving-systems-of-linear-equations",
+      "label": "Solving systems of linear equations",
+      "scope": "Solve systems by graphing, substitution, elimination, and matrices, including row reduction and inverse matrices in the honors sequence; two or three variables.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 5.7 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 5.8 Main; I 5.9 Main; I 5.10 Main; II 3.12H Ready; II 3.13H Main/Set; I 5.11H Main; I 5.12H Main; I 8.10H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 3.2 Ready; I 3.3 Ready; I 3.6 Ready; I 4.4 Go; I 4.5 Go; I 4.6 Go; I 5.1 Ready; I 5.3 Ready; I 5.7 Main/Set; I 5.8 Main/Set; I 5.9 Set; I 5.10 Set; I 7.1 Go; I 7.3 Go; II 3.12H Ready; II 3.13H Set; I 5.11H Set; I 5.12H Set; I 8.9H Ready; I 8.10H Set; I 8.12H Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 6,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:systems",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "solving-systems-of-linear-equations"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "arithmetic-operations-on-functions",
+      "label": "Arithmetic operations on functions",
+      "scope": "Add, subtract, and multiply functions numerically, algebraically and graphically; interpret combined models.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 3.5 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 3.6 Main; III 8.2 Main; III 8.3 Main; III 8.6 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 3.5 Set; I 8.4 Main; I 8.5 Main; III 5.5 Go; III 8.2 Main/Set; III 8.3 Main/Set; III 8.6 Main/Set"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 9,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:modeling",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "arithmetic-operations-on-functions"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "rearranging-formulas-and-literal-equations",
+      "label": "Rearranging formulas and literal equations",
+      "scope": "Rearranging multi-variable formulas to isolate a specified variable; interpreting variables and units.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 4.2 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 4.3 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 4.2 Ready; I 4.3 Set; I 4.6 Go; I 6.2 Go; I 9.9 Go; II 4.6 Go; III 1.2 Ready; III 1.4 Main"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 9,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:modeling",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "rearranging-formulas-and-literal-equations"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "linear-inequalities-in-one-variable",
+      "label": "Linear inequalities in one variable",
+      "scope": "Properties and solution sets of one-variable inequalities, including sign reversal, interval notation and number-line graphs.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 4.4 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 4.5 Main; I 4.6 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 4.3 Ready; I 4.4 Set; I 4.5 Ready/Set; I 4.6 Ready/Set; I 5.2 Go; I 5.7 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 2,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:eq-ineq",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "linear-inequalities-in-one-variable"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "linear-inequalities-in-two-variables",
+      "label": "Linear inequalities in two variables",
+      "scope": "Write and graph linear inequalities with boundary lines, test points and shaded half-planes.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 5.2 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 5.3 Main; I 5.4 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 5.2 Set; I 5.4 Set; I 5.5 Ready/Set; I 5.6 Set/Go; I 5.8 Go; I 5.10 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 7,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-var-ineq",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "linear-inequalities-in-two-variables"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "systems-of-linear-inequalities",
+      "label": "Systems of linear inequalities",
+      "scope": "Model multiple constraints, graph the overlapping solution region, and interpret contextual restrictions.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 5.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 5.5 Main; I 5.6 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 5.1 Main/Set; I 5.4 Main; I 5.5 Main; I 5.6 Main; I 5.10 Ready"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 7,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-var-ineq",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "systems-of-linear-inequalities"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "fractions-and-proportional-relationships",
+      "label": "Fractions and proportional relationships",
+      "scope": "Operations with fractions and recognizing/representing proportional relationships; reviewed in homework.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "developed",
+          "reference": "II 6.3 Main; II 6.4 Main/Set; II 6.6 Main; II 7.7 Main; II 7.10 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 5.3 Go; I 5.5 Go; II 6.2 Main; II 6.3 Ready/Go; II 6.4 Set; II 6.5 Go; II 6.6 Go; II 6.7 Set; II 6.11 Ready; II 7.2 Main/Set; II 7.5 Ready; II 7.6 Ready; II 7.8 Go; II 9.2 Go; II 9.3 Go; II 9.4 Ready; III 4.3 Ready/Go; III 4.5 Go; III 6.8 Ready"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "fractions-and-proportional-relationships"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "pythagorean-theorem-and-coordinate-distance",
+      "label": "Pythagorean theorem and coordinate distance",
+      "scope": "Using right triangles and the Pythagorean theorem to determine or check lengths and distances in the coordinate plane.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "developed",
+          "reference": "I 8.1 Main; II 6.7 Main; II 8.1 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 5.7 Ready; I 6.1 Ready; I 6.2 Ready; I 6.3 Go; I 6.7 Go; I 7.6 Go; I 8.1 Main/Ready/Set/Go; I 8.3 Main/Go; I 9.6 Ready; I 9.7 Ready; II 3.12H Main; II 6.4 Ready; II 6.5 Ready; II 6.7 Main; II 6.9 Main; II 6.10 Main; II 6.11 Set; II 7.11 Ready; II 8.1 Go; II 8.3 Ready"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 18,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:analytic-geo",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 2,
+          "unit": 9,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:trig",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "pythagorean-theorem-and-coordinate-distance"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "parallel-and-perpendicular-lines",
+      "label": "Parallel and perpendicular lines",
+      "scope": "Slope conditions for parallel and perpendicular lines and finding their equations.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 6.2 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 6.2 Main; I 8.2 Main; II 5.4 Main/Set; II 6.4 Main/Set; II 6.5 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 6.2 Set; I 6.3 Go; I 6.5 Go; I 7.2 Main/Set; I 7.6 Go; I 8.2 Main/Set/Go; I 8.3 Main; II 2.3 Go; II 5.2 Main; II 5.3 Main; II 5.4 Set; II 5.5 Set; II 5.7 Main; II 6.4 Set; II 6.5 Set; II 6.6 Go; II 6.11 Ready"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 18,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:analytic-geo",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "parallel-and-perpendicular-lines"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "rigid-motions-and-coordinate-transformations",
+      "label": "Rigid motions and coordinate transformations",
+      "scope": "Translations, reflections and rotations of points or figures, and compositions of rigid motions.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 6.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 6.3 Main; I 6.4 Main; I 7.3 Main; I 7.4 Main; II 5.4 Main; II 7.1 Main/Set; I 8.11H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 5.1 Set; I 5.8 Ready; I 6.1 Main/Set; I 6.3 Ready/Set; I 6.4 Set/Go; I 6.6 Go; I 7.2 Ready; I 7.3 Main/Ready/Set; I 7.4 Main/Ready; I 7.5 Ready; I 7.6 Ready; I 8.2 Ready; II 4.4 Ready; II 5.1 Main; II 5.2 Go; II 5.3 Go; II 5.4 Set; II 5.6 Ready; II 6.2 Go; II 7.9 Go; II 7.10 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 15,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:transformations",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 1,
+          "unit": 16,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:transformation-properties-and-proofs",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "rigid-motions-and-coordinate-transformations"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "congruence-and-similarity-of-figures",
+      "label": "Congruence and similarity of figures",
+      "scope": "Recognizing congruence through rigid motions; similarity is encountered in the later Ready review.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 6.3 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 6.4 Main; I 6.7 Main; I 7.3 Main; I 7.4 Main; I 7.5 Main; II 6.2 Main; II 6.3 Main/Set; II 6.4 Main/Set; II 6.5 Main; II 6.7 Main/Set; II 7.2 Main; II 8.6 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 6.3 Main; I 6.7 Ready; I 7.3 Main; I 7.4 Main/Ready/Set; I 7.5 Main/Set; I 7.6 Set; I 8.3 Main; II 5.3 Ready; II 5.4 Go; II 6.1 Ready; II 6.2 Main; II 6.3 Set/Go; II 6.4 Go; II 6.5 Ready; II 6.6 Set; II 6.7 Ready/Set/Go; II 6.8 Main; II 6.11 Ready; II 7.12H Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 17,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:congruence",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 2,
+          "unit": 8,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:similarity",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "congruence-and-similarity-of-figures"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "polygons-and-quadrilateral-properties",
+      "label": "Polygons and quadrilateral properties",
+      "scope": "Definitions, classifications and geometric properties of polygons, including special quadrilaterals.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 6.5 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 6.7 Main; I 7.1 Main; I 7.2 Main; I 7.5 Main; II 5.2 Main; II 5.7 Main/Set; II 5.8 Main; II 7.3 Main; II 7.4 Main/Set; II 7.5 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 5.9 Ready; I 6.4 Ready; I 6.5 Ready/Set; I 6.6 Main; I 6.7 Main/Set; I 7.1 Main/Set; I 7.2 Main/Set; I 7.4 Set; I 7.5 Main; I 8.3 Main/Set/Go; II 5.1 Ready; II 5.4 Ready; II 5.5 Ready; II 5.7 Ready/Set; II 5.8 Main/Set/Go; II 5.9 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 17,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:congruence",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "polygons-and-quadrilateral-properties"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "reflectional-and-rotational-symmetry",
+      "label": "Reflectional and rotational symmetry",
+      "scope": "Lines of reflectional symmetry, rotation angles and symmetry of quadrilaterals and regular polygons.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 6.5 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 6.6 Main; I 6.7 Main; I 7.2 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 6.5 Main/Set; I 6.6 Ready/Set; I 6.7 Main/Set; I 7.1 Set; I 7.2 Main; I 7.6 Ready; II 7.2 Ready/Go; II 7.3 Ready; III 5.8 Ready; III 6.1 Main"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 16,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:transformation-properties-and-proofs",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 6,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:transformations",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "reflectional-and-rotational-symmetry"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "compass-and-straightedge-geometric-constructions",
+      "label": "Compass-and-straightedge geometric constructions",
+      "scope": "Construct bisectors, perpendiculars, parallels, triangles and regular polygons; justify why construction steps work.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 7.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 7.2 Main; I 7.6 Main; II 7.1 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 7.1 Main/Ready/Set; I 7.2 Main/Set; I 7.5 Go; I 7.6 Main; I 9.8 Go; II 5.2 Set; II 5.8 Ready; II 7.3 Main"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 17,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:congruence",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 2,
+          "unit": 11,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "compass-and-straightedge-geometric-constructions"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "triangle-congruence-criteria-and-geometric-proofs",
+      "label": "Triangle congruence criteria and geometric proofs",
+      "scope": "Use ASA, SAS and SSS, corresponding parts and transformations to establish congruence and justify geometric claims.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 7.4 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 7.5 Main; I 7.6 Main; II 5.1 Main; II 5.2 Main; II 5.3 Main/Set; II 5.5 Main; II 5.6 Main; II 5.7 Main; II 5.9 Main/Set; II 7.1 Main; II 7.3 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 7.4 Main/Ready/Set; I 7.5 Main/Set; I 7.6 Main/Set; I 8.3 Main/Set; II 5.2 Main; II 5.3 Ready/Set; II 5.5 Main; II 5.6 Main; II 5.7 Main; II 5.8 Main; II 5.9 Ready/Set"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 16,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:transformation-properties-and-proofs",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 1,
+          "unit": 17,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:congruence",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 2,
+          "unit": 8,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:similarity",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "triangle-congruence-criteria-and-geometric-proofs"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "coordinate-proofs-of-geometric-properties",
+      "label": "Coordinate proofs of geometric properties",
+      "scope": "Use slope and coordinate distances to prove parallel, perpendicular, congruent, and polygon properties algebraically.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 8.2 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 8.3 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 8.2 Main/Set; I 8.3 Main/Set"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "coordinate-proofs-of-geometric-properties"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "transformations-of-function-graphs",
+      "label": "Transformations of function graphs",
+      "scope": "Translate and transform linear, exponential, and quadratic graphs; connect graph changes to equations and tables.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 8.4 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 8.5 Main; I 8.6 Main; II 2.1 Main/Set; II 2.2 Main; II 8.1 Main; III 2.2 Main/Set; III 3.2 Main; III 4.2 Main/Set; III 7.1 Main; III 7.4H Ready; III 8.1 Main; III 8.5 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 8.2 Ready; I 8.4 Main/Ready/Set; I 8.5 Main/Ready/Set/Go; I 8.6 Main/Set/Go; II 1.6 Ready; II 3.5 Set; II 4.2 Go; II 4.4 Ready; III 1.4 Main; III 1.5 Main; III 2.1 Ready; III 2.5 Ready; III 3.4 Go; III 3.9 Main; III 4.1 Ready; III 6.4 Set; III 7.1 Main/Set; III 7.2 Go; III 7.3 Set; III 7.4H Ready; III 7.5 Ready; III 8.1 Main/Ready/Set; III 9.5 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 3,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-2",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 6,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:transformations",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "transformations-of-function-graphs"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "statistical-displays-and-data-distributions",
+      "label": "Statistical displays and data distributions",
+      "scope": "Construct and compare histograms, dot plots and box plots; describe shape, skew, clusters and the distribution in context.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 9.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 9.2 Main; III 9.1 Main; III 9.7 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 9.1 Main/Set/Go; I 9.2 Main/Set; I 9.4 Go; I 9.8 Ready; III 8.6 Ready; III 9.1 Main/Set; III 9.7 Ready"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 10,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:data-dist",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "statistical-displays-and-data-distributions"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "measures-of-center-spread-and-variability",
+      "label": "Measures of center, spread, and variability",
+      "scope": "Mean, median, mode, quartiles, IQR, outliers and variation; select and interpret useful numerical summaries. Intro refers to distribution-specific development; some basics appear earlier as review.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 9.2 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 9.2 Main; I 9.8 Ready; III 9.1 Main; III 9.3 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 9.1 Ready; I 9.2 Main; I 9.4 Go; I 9.6 Ready; I 9.7 Ready; I 9.8 Ready; II 6.6 Ready; III 8.3 Go; III 9.1 Main/Ready; III 9.2 Main/Set; III 9.3 Main/Set; III 9.4 Main/Set; III 9.7 Ready"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 10,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:data-dist",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "measures-of-center-spread-and-variability"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "two-way-frequency-and-relative-frequency-tables",
+      "label": "Two-way frequency and relative-frequency tables",
+      "scope": "Represent two categorical variables, calculate joint/marginal/conditional proportions, and compare categories.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 9.3 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 9.4 Main; II 9.2 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 9.3 Main/Set/Go; I 9.4 Main/Set; I 9.7 Go; II 9.1 Set; II 9.3 Main/Set; II 9.4 Go; II 9.5 Main/Go; II 9.6 Main; III 9.4 Ready; III 9.6 Ready; III 9.7 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 11,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-way-tables",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "two-way-frequency-and-relative-frequency-tables"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "scatter-plots-and-correlation",
+      "label": "Scatter plots and correlation",
+      "scope": "Analyze association between two numerical variables, direction/strength, correlation coefficients and limits of causal conclusions.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 9.5 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 9.6 Main; I 9.7 Main; III 9.5 Ready; III 9.6 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 9.3 Ready; I 9.5 Main/Ready/Set; I 9.6 Main/Set; I 9.7 Main/Set/Go; I 9.8 Main/Set; I 9.9 Main/Set; III 9.5 Ready; III 9.6 Main"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 9,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:scatterplots",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "scatter-plots-and-correlation"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "lines-of-best-fit-and-linear-regression",
+      "label": "Lines of best fit and linear regression",
+      "scope": "Construct, calculate, evaluate and interpret regression lines, slopes, intercepts and predictions in context.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 9.6 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 9.7 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 9.5 Ready; I 9.6 Main/Set; I 9.7 Main/Set; I 9.8 Main/Set; I 9.9 Main/Set"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 9,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:scatterplots",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "lines-of-best-fit-and-linear-regression"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "residuals-and-goodness-of-fit",
+      "label": "Residuals and goodness of fit",
+      "scope": "Compute signed residuals and interpret residual plots as evidence for or against a linear model.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 9.8 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 9.8 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 9.8 Main/Set; I 9.9 Main/Set"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "residuals-and-goodness-of-fit"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "area-perimeter-and-measurement",
+      "label": "Area, perimeter, and measurement",
+      "scope": "Calculate and interpret lengths, areas and perimeters; apply geometric formulas and convert measurements.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "developed",
+          "reference": "II 1.4 Main/Set; II 2.3 Main; II 7.4 Main/Set; II 7.5 Main; II 7.10 Main; III 5.8 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 1.2 Set; II 2.1 Main; II 2.4 Main; II 2.8H Set; II 3.5 Ready; II 3.6 Set; II 6.9 Ready; II 7.6 Go; II 7.7 Main/Go; II 7.11 Set; III 5.1 Ready/Go; III 5.6 Ready; III 5.8 Main/Set"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 18,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:analytic-geo",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 2,
+          "unit": 10,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:solids",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "area-perimeter-and-measurement"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "quadratic-functions-and-parabolas",
+      "label": "Quadratic functions and parabolas",
+      "scope": "Model quadratic relationships, identify characteristic graphs and rates of change, and interpret vertices, intercepts and extrema.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 1.1 Main/Set"
+        },
+        {
+          "role": "developed",
+          "reference": "II 1.2 Main; II 1.3 Main/Set; II 1.4 Main; II 2.1 Main/Ready; II 2.2 Main/Set; II 2.9 Main; II 3.5 Main; II 3.6 Main; II 3.11H Main; II 8.4 Main; II 8.5 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 1.5 Main/Set; II 1.6 Main/Set; II 2.2 Ready/Go; II 2.4 Ready; II 2.5 Ready/Go; II 2.7 Go; II 2.8H Go; II 2.10 Ready/Set; II 3.5 Set; II 3.7 Ready/Go; II 3.10 Ready; II 4.2 Go; II 6.1 Go; II 8.4 Ready; II 8.5 Ready/Go; II 8.6 Go; II 9.5 Ready; III 1.2 Main; III 1.5 Main; III 3.2 Main; III 3.9 Main; III 3.10 Main; III 4.1 Ready; III 5.4 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 3,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-2",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "quadratic-functions-and-parabolas"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "expanding-and-factoring-polynomial-expressions",
+      "label": "Expanding and factoring polynomial expressions",
+      "scope": "Apply distribution and polynomial multiplication, find common factors, factor quadratic trinomials, and connect equivalent expressions.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 1.3 Ready"
+        },
+        {
+          "role": "developed",
+          "reference": "II 2.3 Main; II 2.4 Main; II 2.6 Main/Set; II 2.7 Main/Set; II 2.8H Main/Set; III 3.3 Main/Set; III 3.4 Main/Set; III 3.6 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 1.1 Ready; II 1.2 Ready/Go; II 1.3 Ready; II 2.6 Ready/Set; II 2.9 Ready; II 2.10 Go; II 3.4 Ready; II 3.6 Go; II 3.9 Main; II 3.11H Ready; II 6.8 Go; II 7.12H Ready; II 8.1 Ready; III 3.2 Ready/Set; III 3.3 Ready/Set; III 3.4 Main/Set; III 3.5 Main; III 3.6 Main; III 3.7 Main; III 3.8 Main; III 3.9 Ready/Go; III 3.10 Main; III 4.4 Ready"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 2,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-1",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 1,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-arithmetic",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 2,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:factorization",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "expanding-and-factoring-polynomial-expressions"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "completing-the-square-and-quadratic-forms",
+      "label": "Completing the square and quadratic forms",
+      "scope": "Rewrite quadratics among standard, vertex and factored forms; complete squares and interpret structural features.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 2.3 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 2.2 Main; II 2.4 Main/Set; II 2.5 Main/Set; II 2.6 Main; II 2.7 Main; II 2.8H Main; II 2.9 Main/Set; II 3.8 Main; II 8.2 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 2.3 Set; II 2.5 Main/Set; II 2.9 Go; II 2.10 Main/Ready/Set; II 3.7 Main; II 3.11H Go; II 8.2 Ready; II 8.3 Go; II 8.5 Main"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 3,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-2",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "completing-the-square-and-quadratic-forms"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "solving-quadratic-equations",
+      "label": "Solving quadratic equations",
+      "scope": "Find roots by factoring, square roots, completing the square, graphing, or the quadratic formula; use the discriminant.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 2.7 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 3.5 Main; II 3.6 Main/Set; II 3.7 Main/Set; II 3.8 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 2.9 Main; II 2.10 Ready; II 3.4 Ready; II 3.7 Main/Set; II 3.8 Go; II 3.9 Go; II 3.10 Go; II 3.12H Go; II 3.13H Ready/Go; II 4.3 Ready; II 9.6 Ready; III 3.6 Ready; III 3.7 Main/Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 3,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-2",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 2,
+          "unit": 5,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:complex",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "solving-quadratic-equations"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "rational-exponents-and-radicals",
+      "label": "Rational exponents and radicals",
+      "scope": "Interpret fractional exponents and roots, convert forms, use exponent properties, and simplify radical expressions.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 3.2 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 3.2 Main/Set; II 3.3 Main/Set; II 3.9 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 2.1 Go; II 2.6 Go; II 3.1 Set; II 3.2 Ready/Set; II 3.3 Set; II 3.4 Main/Set; II 3.8 Ready; II 3.10 Go; II 3.13H Ready; II 4.4 Go; II 4.5 Ready/Go; II 4.6 Set"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 13,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:exp-rad",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 2,
+          "unit": 6,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:rational-exp",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 7,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:equations",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "rational-exponents-and-radicals"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "real-and-complex-numbers",
+      "label": "Real and complex numbers",
+      "scope": "Classify real and complex numbers, work with irrational/imaginary values, and perform complex arithmetic (including H extension).",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 3.8 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 3.9 Main/Set; II 3.10 Main/Set; II 3.12H Main/Set; III 7.11H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 2.7 Ready; II 3.8 Set; II 3.9 Ready/Set; II 3.12H Set; III 3.6 Set/Go; III 3.8 Ready/Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 4,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:irrationals",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 2,
+          "unit": 5,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:complex",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "real-and-complex-numbers"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "quadratic-inequalities",
+      "label": "Quadratic inequalities",
+      "scope": "Solve and graph one-variable quadratic inequalities and interpret solution intervals in context.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 3.11H Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 3.11H Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 3.11H Set"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 9,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:modeling",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "quadratic-inequalities"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "piecewise-defined-functions",
+      "label": "Piecewise-defined functions",
+      "scope": "Interpret, graph, and write piecewise-defined functions and correctly use their domain intervals.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 4.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 4.1 Main; II 4.2 Main/Set; II 4.3 Main; II 4.4 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 4.1 Ready/Set; II 4.2 Main/Set; II 4.3 Main; II 4.4 Main/Set; II 5.6 Go; III 6.2 Ready"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 1,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:abs-value",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "piecewise-defined-functions"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "absolute-value-functions-and-equations",
+      "label": "Absolute value functions and equations",
+      "scope": "Interpret, graph, and solve equations involving absolute value; connect absolute value with piecewise definitions.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 4.3 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 4.3 Main/Set; II 4.4 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 4.2 Ready; II 4.3 Set/Go; II 4.4 Main/Set; II 5.6 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 1,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:abs-value",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "absolute-value-functions-and-equations"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "inverse-functions-and-square-root-functions",
+      "label": "Inverse functions and square-root functions",
+      "scope": "Understand inverse functions from swapped inputs and outputs; determine inverses and related square-root functions.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 4.5 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 4.5 Main/Set; II 4.6 Main/Set; III 1.1 Main/Set; III 1.2 Main/Set; III 1.3 Main/Set; III 1.4 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 4.5 Set; II 4.6 Main/Set; II 4.7 Main/Go; III 1.5 Main/Set; III 1.1 Main/Set; III 1.2 Main/Set; III 1.3 Main/Set; III 1.4 Main/Set; III 2.1 Main; III 2.2 Main; III 2.5 Ready; III 7.1 Ready; III 9.1 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 8,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 6,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:transformations",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "inverse-functions-and-square-root-functions"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "angle-relationships-and-theorems",
+      "label": "Angle relationships and theorems",
+      "scope": "Use angle relationships (linear pairs, vertical and corresponding angles, triangle and polygon angle sums) in calculations and proofs.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 5.1 Main/Set"
+        },
+        {
+          "role": "developed",
+          "reference": "II 5.1 Main/Set; II 5.2 Main; II 5.3 Main; II 5.5 Main/Set; II 5.6 Main; II 6.5 Main; II 7.3 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 5.1 Go; II 5.2 Main; II 5.5 Set/Go; II 5.6 Set; II 5.9 Ready; II 6.2 Ready; II 6.3 Main; II 6.5 Set; II 6.8 Ready; II 6.10 Ready; II 7.2 Ready; II 7.6 Main/Set; III 5.3 Ready; III 5.5 Ready"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "angle-relationships-and-theorems"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "midpoints-and-segment-division",
+      "label": "Midpoints and segment division",
+      "scope": "Find midpoints and points dividing segments in specified ratios, including in coordinate geometry.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 7.1 Main/Ready"
+        },
+        {
+          "role": "developed",
+          "reference": "II 6.2 Main; II 6.6 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 7.1 Main/Ready; II 6.6 Set"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 18,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:analytic-geo",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "midpoints-and-segment-division"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "dilations-and-scale-factors",
+      "label": "Dilations and scale factors",
+      "scope": "Construct and interpret dilations, scale factors, and their effects on length, angles, and area.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 6.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 6.1 Main/Set; II 6.2 Main/Set; II 7.2 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 6.1 Ready/Set; II 6.2 Set; II 7.1 Ready"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 15,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:transformations",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 1,
+          "unit": 16,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:transformation-properties-and-proofs",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "dilations-and-scale-factors"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "right-triangle-trigonometry",
+      "label": "Right-triangle trigonometry",
+      "scope": "Define and use sine, cosine, and tangent in right triangles, understand related identities, and solve practical problems.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 6.8 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 6.8 Main/Set; II 6.9 Main/Set; II 6.10 Main/Set; II 6.11 Main; III 5.5 Main/Set; III 6.1 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 6.8 Set; II 6.9 Set; II 6.10 Ready/Set/Go; II 6.11 Main/Set/Go; II 7.3 Ready; II 7.4 Main; II 7.11 Go; III 4.5 Ready; III 4.7 Ready; III 5.2 Ready; III 5.3 Go; III 5.4 Ready; III 5.5 Main/Set; III 5.6 Main/Set/Go; III 5.7 Go; III 6.1 Main/Set/Go; III 6.2 Go; III 6.3 Go; III 6.5 Go; III 6.8 Go; III 6.9 Go; III 7.2 Ready; III 7.3 Ready; III 7.4H Go; III 7.5 Set"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 9,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:trig",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "right-triangle-trigonometry"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "triangle-centers-and-special-segments",
+      "label": "Triangle centers and special segments",
+      "scope": "Understand medians, altitude, angle and perpendicular bisectors, concurrency, and centers of triangles.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 5.9 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 5.9 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 5.9 Main"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 11,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "triangle-centers-and-special-segments"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "circle-geometry-and-theorems",
+      "label": "Circle geometry and theorems",
+      "scope": "Chords, tangents, inscribed and central angles, cyclic polygons, circle centers and geometric justifications.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 7.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 7.2 Main; II 7.3 Main/Set; II 8.8H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 7.1 Go; II 7.2 Go; II 7.4 Main; II 7.5 Ready; II 7.6 Main/Set; II 7.9 Go; II 7.10 Ready"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 11,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "circle-geometry-and-theorems"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "circumference-circle-area-arc-length-and-sectors",
+      "label": "Circumference, circle area, arc length, and sectors",
+      "scope": "Measure circles and circular regions; use circumference/area, arc lengths, sectors and related proportions.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 7.3 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 7.2 Main; II 7.4 Main; II 7.5 Main/Set; II 7.7 Main/Set; II 7.8 Main; III 6.6 Main/Ready"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 7.1 Go; II 7.3 Go; II 7.4 Ready/Go; II 7.5 Go; II 7.6 Main/Set; II 7.7 Ready/Go; II 7.8 Go; II 7.9 Ready; III 5.1 Ready; III 5.7 Ready; III 6.1 Ready; III 6.5 Ready; III 6.6 Ready"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 11,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "circumference-circle-area-arc-length-and-sectors"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "radian-measure-of-angles",
+      "label": "Radian measure of angles",
+      "scope": "Define radians using arc length and radius; convert between degrees and radians.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 7.8 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 7.9 Main; III 6.6 Main/Set; III 6.7 Main/Set; III 6.8 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 7.8 Set; II 7.9 Set; III 6.6 Main/Set/Go; III 6.7 Main/Set/Go; III 6.8 Main/Set; III 6.9 Main/Set; III 7.1 Main; III 7.4H Set; III 7.5 Go; III 7.6 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 11,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 8,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:math2-trig-func",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "radian-measure-of-angles"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "surface-area-volume-and-scaling-of-solids",
+      "label": "Surface area, volume, and scaling of solids",
+      "scope": "Surface area and volume of prisms, pyramids, cylinders and related solids; effects of scaling; Cavalieri reasoning.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 7.10 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 7.11 Main; II 7.12H Main/Set; III 5.2 Main; III 5.3 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 7.8 Ready; II 7.10 Set; II 7.11 Set; II 7.12H Go; III 4.7 Ready; III 5.1 Ready; III 5.2 Main/Go; III 5.3 Main/Set; III 5.4 Main/Set"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 10,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:solids",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "surface-area-volume-and-scaling-of-solids"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "equations-of-circles",
+      "label": "Equations of circles",
+      "scope": "Derive, write and analyze circle equations in centered and expanded forms; identify center and radius.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 8.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 8.2 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 8.1 Set; II 8.3 Main/Set; II 8.4 Go; II 8.6 Ready"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 18,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:analytic-geo",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 2,
+          "unit": 12,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:conics",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "equations-of-circles"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "parabolas-from-focus-and-directrix",
+      "label": "Parabolas from focus and directrix",
+      "scope": "Define a parabola geometrically as points equidistant from focus and directrix, including horizontal and vertical axes.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 8.4 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 8.5 Main; II 8.6 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 8.4 Set; II 8.5 Set; II 8.6 Set"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 12,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:conics",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "parabolas-from-focus-and-directrix"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "probability-and-representations-of-events",
+      "label": "Probability and representations of events",
+      "scope": "Basic and empirical probability; Venn diagrams, tree diagrams, two-way tables and addition rule.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 9.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 9.2 Main; II 9.3 Main/Set; II 9.4 Main/Set; III 9.7 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 9.1 Ready/Go; II 9.2 Ready; II 9.3 Set; II 9.5 Go; II 9.6 Set; III 9.2 Ready; III 9.3 Ready; III 9.6 Ready; III 9.7 Main/Ready/Set/Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 13,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:prob",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "probability-and-representations-of-events"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "conditional-probability",
+      "label": "Conditional probability",
+      "scope": "Probabilities of events given conditions, interpreted through tables, trees and real-world situations.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 9.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 9.2 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 9.1 Set; II 9.4 Go; II 9.5 Main; II 9.6 Main/Go; III 9.6 Ready; III 9.7 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 13,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:prob",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "conditional-probability"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "independence-of-events",
+      "label": "Independence of events",
+      "scope": "Identify independent and dependent events and test independence with conditional and joint probabilities.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 9.5 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 9.6 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 9.3 Ready; II 9.5 Set; II 9.6 Set/Go; III 9.7 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 13,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:prob",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "independence-of-events"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "logarithms-and-logarithmic-functions",
+      "label": "Logarithms and logarithmic functions",
+      "scope": "Inverse relationship with exponential functions; evaluate, graph, transform and use logarithm laws to solve equations.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 2.1 Main/Set"
+        },
+        {
+          "role": "developed",
+          "reference": "III 2.2 Main/Set; III 2.3 Main/Set; III 2.7H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 2.1 Main/Set; III 2.2 Ready/Set; III 2.3 Main/Set/Go; III 2.4 Main/Ready/Set/Go; III 2.5 Main/Set; III 9.2 Go; III 9.4 Go; III 2.8H Main; III 2.9H Main; III 7.10H Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 5,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:logs",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 6,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:transformations",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "logarithms-and-logarithmic-functions"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "polynomial-functions-and-graphs",
+      "label": "Polynomial functions and graphs",
+      "scope": "Cubic and higher-degree polynomial functions; degree, rates of change, graph transformations, roots, symmetry and end behavior.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 3.1 Main/Set"
+        },
+        {
+          "role": "developed",
+          "reference": "III 3.2 Main/Set; III 3.9 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 3.3 Main; III 3.4 Main; III 3.5 Go; III 3.6 Main; III 3.7 Main; III 3.8 Main; III 3.9 Set; III 3.10 Main/Set; III 4.2 Ready/Go; III 8.2 Go; III 9.3 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 1,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-arithmetic",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 4,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-graphs",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "polynomial-functions-and-graphs"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "polynomial-division-and-remainder-theorem",
+      "label": "Polynomial division and remainder theorem",
+      "scope": "Divide polynomial expressions; interpret quotients and remainders; use the polynomial remainder theorem.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 3.5 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 3.5 Main/Set; III 3.6 Main; III 3.7 Ready; III 4.4 Main"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 3,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-div",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "polynomial-division-and-remainder-theorem"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "polynomial-roots-and-factors",
+      "label": "Polynomial roots and factors",
+      "scope": "Find and interpret zeros, factors and multiplicity of higher-degree polynomials; apply the Fundamental Theorem of Algebra and conjugate-root relationships.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 3.7 Main/Set"
+        },
+        {
+          "role": "developed",
+          "reference": "III 3.8 Main/Set; III 3.9 Main; III 3.10 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 3.6 Ready; III 3.7 Main/Set; III 3.8 Main/Set; III 3.9 Main; III 3.10 Main/Set/Go; III 4.2 Go; III 4.4 Ready; III 4.6 Main; III 8.4 Go; III 8.5 Go; III 9.3 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 4,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-graphs",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "polynomial-roots-and-factors"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "rational-functions-and-asymptotes",
+      "label": "Rational functions and asymptotes",
+      "scope": "Graph and interpret reciprocal and other rational functions, including transformations, intercepts, asymptotes, domain restrictions and end behavior.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 4.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "III 4.1 Main/Set; III 4.2 Main/Set; III 4.3 Main/Set; III 4.4 Main/Go; III 4.6 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 4.1 Set; III 4.2 Main/Set; III 4.3 Main/Set; III 4.6 Main/Set"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 13,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:rationals",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "rational-functions-and-asymptotes"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "rational-expressions-and-equations",
+      "label": "Rational expressions and equations",
+      "scope": "Simplify, multiply, divide, add and subtract rational expressions; handle excluded values and solve equations involving rational expressions.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 4.4 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "III 4.4 Main/Set; III 4.5 Main/Set; III 4.7 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 4.4 Set/Go; III 4.5 Main/Set/Go; III 4.6 Ready; III 4.7 Main/Set/Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 1,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:algebra-foundation",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 7,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:equations",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 9,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:modeling",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 13,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:rationals",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "rational-expressions-and-equations"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "cross-sections-and-solids-of-revolution",
+      "label": "Cross sections and solids of revolution",
+      "scope": "Visualize plane sections of three-dimensional solids and figures generated by rotation; model and approximate their volumes.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 5.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "III 5.1 Main/Set; III 5.2 Main/Set; III 5.3 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 5.1 Main/Set; III 5.2 Set; III 5.3 Main; III 5.4 Main"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 10,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:solids",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "cross-sections-and-solids-of-revolution"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "law-of-sines-and-law-of-cosines",
+      "label": "Law of sines and law of cosines",
+      "scope": "Solve non-right triangles using the laws of sines and cosines, including side, angle and triangle-area applications.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 5.6 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "III 5.6 Main; III 5.7 Main/Set; III 5.8 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 5.6 Set; III 5.7 Main/Set; III 5.8 Main/Set/Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 8,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:math2-trig-func",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "law-of-sines-and-law-of-cosines"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "unit-circle-and-circular-trigonometric-functions",
+      "label": "Unit circle and circular trigonometric functions",
+      "scope": "Extend sine and cosine beyond acute angles using rotation, reference angles, the unit circle, coordinates and radian measure.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 6.2 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "III 6.2 Main/Set; III 6.3 Main/Set; III 6.5 Main/Set; III 6.7 Main/Set; III 6.8 Main/Set; III 6.9 Main/Set; III 7.4H Main/Set; III 7.5 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 6.2 Main/Set; III 6.3 Main/Set; III 6.4 Go; III 6.5 Main/Set; III 6.6 Set; III 6.7 Set; III 6.8 Main/Set; III 6.9 Main/Set/Go; III 7.1 Go; III 7.4H Main/Set/Go; III 7.5 Set; III 7.6 Ready"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 8,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:math2-trig-func",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "unit-circle-and-circular-trigonometric-functions"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "periodic-functions-and-sinusoidal-models",
+      "label": "Periodic functions and sinusoidal models",
+      "scope": "Model periodic motion and other repeating quantities with sine and cosine functions; interpret amplitude, midline, period and graph transformations.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 6.4 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "III 6.4 Main/Set; III 6.5 Main; III 7.1 Main; III 7.2 Main; III 7.4H Main; III 8.3 Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 6.4 Main/Set; III 6.5 Main; III 7.1 Main/Set; III 7.2 Main/Set; III 7.3 Main/Set; III 7.4H Main/Set; III 7.5 Ready; III 8.1 Main/Set; III 8.3 Main/Set; III 9.5 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 8,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:math2-trig-func",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "periodic-functions-and-sinusoidal-models"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "trigonometric-equations-and-identities",
+      "label": "Trigonometric equations and identities",
+      "scope": "Extend the basic right-triangle identities to periodic functions; use inverse trig and special angles to solve equations and verify identities.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 6.9 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "III 7.2 Main; III 7.3 Main; III 7.5 Main/Set; III 7.6 Main/Set; III 7.7H Main; III 7.8H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 7.1 Set/Go; III 7.2 Main/Set; III 7.3 Main/Set; III 7.5 Main/Set/Go; III 7.6 Ready/Set; III 7.9H Main"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 8,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:math2-trig-func",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "trigonometric-equations-and-identities"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "function-composition-and-decomposition",
+      "label": "Function composition and decomposition",
+      "scope": "Combine functions through composition; interpret order, decompose nested rules and evaluate from tables, graphs and equations.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 8.4 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "III 8.5 Main/Set; III 8.6 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 7.3 Go; III 8.4 Ready/Set; III 8.5 Ready/Set; III 8.6 Main/Set"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "function-composition-and-decomposition"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "normal-distributions-and-z-scores",
+      "label": "Normal distributions and z-scores",
+      "scope": "Recognize and use normal distributions, mean and standard deviation, the empirical rule and z-scores.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 9.1 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "III 9.2 Main/Set; III 9.3 Main/Set; III 9.4 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 9.1 Ready/Set; III 9.2 Main/Set; III 9.3 Main/Set; III 9.4 Main/Set; III 9.6 Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 12,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:normal-dist",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "normal-distributions-and-z-scores"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "sampling-methods-and-statistical-study-design",
+      "label": "Sampling methods and statistical study design",
+      "scope": "Populations and representative samples, sampling bias, surveys versus observational studies and experiments, association versus causation.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 9.5 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "III 9.5 Main/Set; III 9.6 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 9.3 Ready; III 9.5 Ready/Set; III 9.6 Main/Set"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 10,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:study-design",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "sampling-methods-and-statistical-study-design"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "statistical-simulations",
+      "label": "Statistical simulations",
+      "scope": "Use repeated random trials and simulations to estimate probabilities, compare strategies and examine sampling variability.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 9.7 Main"
+        },
+        {
+          "role": "developed",
+          "reference": "III 9.7 Main/Set"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 9.2 Ready; III 9.7 Ready/Set"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 13,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:prob",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "statistical-simulations"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "average-rate-of-change-and-secant-lines",
+      "label": "Average rate of change and secant lines",
+      "scope": "Compare changes over intervals in linear, exponential and quadratic graphs using endpoint slopes.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 2.7H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 2.7H Set/Go"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 8,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:functions",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 1,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-arithmetic",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "average-rate-of-change-and-secant-lines"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "matrix-representation-and-arithmetic",
+      "label": "Matrix representation and arithmetic",
+      "scope": "Represent data with matrices; add, scale and multiply matrices with compatible dimensions.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 4.7H Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 4.8H Main; I 4.9H Main; I 8.8H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 4.7H Set; I 4.8H Set; I 4.9H Set; I 8.7H Go"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "matrix-representation-and-arithmetic"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "solving-systems-with-matrix-row-reduction",
+      "label": "Solving systems with matrix row reduction",
+      "scope": "Use augmented matrices and elementary row operations to solve linear systems; extend from two to three variables.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 5.11H Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 5.12H Main; II 3.13H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 5.11H Set; I 5.12H Set; I 8.9H Ready; I 8.12H Go; II 3.12H Ready"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "solving-systems-with-matrix-row-reduction"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "identity-and-inverse-matrices",
+      "label": "Identity and inverse matrices",
+      "scope": "Investigate matrix identities and inverses, then solve matrix equations using an inverse.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 8.8H Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 8.9H Main; I 8.10H Main; II 3.13H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 8.9H Set; I 8.10H Set; I 8.12H Go; II 3.13H Set"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "identity-and-inverse-matrices"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "determinants-and-matrix-invertibility",
+      "label": "Determinants and matrix invertibility",
+      "scope": "Compute a 2 × 2 determinant and use it to decide whether an inverse or unique system solution exists.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 8.9H Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 8.10H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 8.9H Set; I 8.10H Set"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "determinants-and-matrix-invertibility"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "vectors-components-and-vector-arithmetic",
+      "label": "Vectors, components and vector arithmetic",
+      "scope": "Represent magnitude and direction, add vectors, scale vectors, and model translations and velocities.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "I 8.7H Main"
+        },
+        {
+          "role": "developed",
+          "reference": "I 8.11H Main; I 8.12H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "I 8.7H Set; I 8.11H Set; I 8.12H Set"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "vectors-components-and-vector-arithmetic"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "ellipses-and-their-equations",
+      "label": "Ellipses and their equations",
+      "scope": "Define an ellipse using two foci, derive standard form, and interpret its axes and transformations.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 8.7H Main"
+        },
+        {
+          "role": "developed",
+          "reference": "II 8.8H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 8.7H Set; II 8.8H Set"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "ellipses-and-their-equations"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "hyperbolas-and-their-equations",
+      "label": "Hyperbolas and their equations",
+      "scope": "Interpret and sketch hyperbolas using standard forms, orientation, and asymptote rectangles.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "II 8.8H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "II 8.8H Set"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "hyperbolas-and-their-equations"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "the-number-e-natural-logarithms-and-continuous-models",
+      "label": "The number e, natural logarithms and continuous models",
+      "scope": "Develop continuous compounding, use natural exponential growth/decay models, and solve with natural logarithms.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 2.6H Main"
+        },
+        {
+          "role": "developed",
+          "reference": "III 2.7H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 2.6H Set; III 2.7H Set; III 2.8H Main; III 2.9H Main"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 5,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:logs",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "the-number-e-natural-logarithms-and-continuous-models"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "reciprocal-trigonometric-functions",
+      "label": "Reciprocal trigonometric functions",
+      "scope": "Define and relate secant, cosecant and cotangent to the original trigonometric ratios.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 7.4H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 7.4H Set"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "reciprocal-trigonometric-functions"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "trigonometric-sum-difference-and-double-angle-identities",
+      "label": "Trigonometric sum, difference and double-angle identities",
+      "scope": "Derive identities, find exact values, solve equations, and justify multiplication of complex numbers in polar form.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 7.7H Main"
+        },
+        {
+          "role": "developed",
+          "reference": "III 7.11H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 7.7H Set; III 7.9H Main"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "trigonometric-sum-difference-and-double-angle-identities"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "inverse-trigonometric-functions",
+      "label": "Inverse trigonometric functions",
+      "scope": "Restrict trig-function domains to define inverse functions and use their principal outputs in solving equations.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 7.8H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 7.8H Set; III 7.9H Main"
+        }
+      ],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 9,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:trig",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "inverse-trigonometric-functions"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "polar-coordinates-and-polar-curves",
+      "label": "Polar coordinates and polar curves",
+      "scope": "Plot signed radii and angles, graph polar curves, and convert between polar and rectangular coordinates.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 7.10H Main"
+        },
+        {
+          "role": "developed",
+          "reference": "III 7.11H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 7.10H Set; III 7.11H Set"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "polar-coordinates-and-polar-curves"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "complex-numbers-in-polar-form",
+      "label": "Complex numbers in polar form",
+      "scope": "Represent complex numbers with modulus and angle; multiply, divide, and find powers and roots in polar form.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 7.11H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 7.11H Set/Go"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "complex-numbers-in-polar-form"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "parametric-curves-and-motion",
+      "label": "Parametric curves and motion",
+      "scope": "Define coordinate functions of a parameter, trace motion, eliminate a parameter, and distinguish intersecting paths from collisions.",
+      "parent_id": null,
+      "mvp_status": "mapped",
+      "mvp_evidence": [
+        {
+          "role": "introduced",
+          "reference": "III 8.7H Main"
+        },
+        {
+          "role": "developed",
+          "reference": "III 8.8H Main"
+        },
+        {
+          "role": "practice_or_review",
+          "reference": "III 8.7H Set; III 8.8H Set"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Existing MVP concept/skill entry.",
+      "comparison_status": "mapped",
+      "mvp_match_ids": [
+        "parametric-curves-and-motion"
+      ],
+      "matching_basis": "Existing MVP concept/skill entry."
+    },
+    {
+      "id": "probability-binomial",
+      "label": "Binomial probability",
+      "scope": "Probabilities for counts of successes in a fixed number of independent trials.",
+      "parent_id": null,
+      "mvp_status": "not_separately_mapped",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 11,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:binomial-prob",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted.",
+      "comparison_status": "provisionally_missing",
+      "mvp_match_ids": [],
+      "matching_basis": "No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted."
+    },
+    {
+      "id": "probability-expected-value",
+      "label": "Expected value",
+      "scope": "Probability-weighted average outcomes of random variables.",
+      "parent_id": "probability-and-representations-of-events",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 13,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:prob",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted.",
+      "comparison_status": "provisionally_missing",
+      "mvp_match_ids": [],
+      "matching_basis": "No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted."
+    },
+    {
+      "id": "counting-combinations",
+      "label": "Counting combinations",
+      "scope": "Count unordered selections of objects.",
+      "parent_id": "probability-and-representations-of-events",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 13,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:prob",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted.",
+      "comparison_status": "provisionally_missing",
+      "mvp_match_ids": [],
+      "matching_basis": "No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted."
+    },
+    {
+      "id": "counting-permutations",
+      "label": "Counting permutations",
+      "scope": "Count ordered arrangements and selections.",
+      "parent_id": "probability-and-representations-of-events",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 13,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:prob",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted.",
+      "comparison_status": "provisionally_missing",
+      "mvp_match_ids": [],
+      "matching_basis": "No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted."
+    },
+    {
+      "id": "geometric-series-sums",
+      "label": "Finite geometric sums",
+      "scope": "Sum a finite geometric sequence using a formula and its derivation.",
+      "parent_id": "geometric-sequences",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 2,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:factorization",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted.",
+      "comparison_status": "provisionally_missing",
+      "mvp_match_ids": [],
+      "matching_basis": "No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted."
+    },
+    {
+      "id": "geometry-angle-bisector-theorem",
+      "label": "Angle-bisector length theorem",
+      "scope": "Relate the lengths cut off by a triangle’s angle bisector to its adjacent sides.",
+      "parent_id": "triangle-centers-and-special-segments",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 8,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:similarity",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted.",
+      "comparison_status": "provisionally_missing",
+      "mvp_match_ids": [],
+      "matching_basis": "No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted."
+    },
+    {
+      "id": "units-dimensional-analysis",
+      "label": "Dimensional analysis",
+      "scope": "Use units to convert quantities and check a model’s dimensional consistency.",
+      "parent_id": "rates-unit-rates-and-percentages",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 3,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:units",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        },
+        {
+          "course": 3,
+          "unit": 9,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:modeling",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "rates-unit-rates-and-percentages"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "measurement-density",
+      "label": "Density models",
+      "scope": "Model quantities per unit volume, including mass density and population density.",
+      "parent_id": "surface-area-volume-and-scaling-of-solids",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 10,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:solids",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "rates-unit-rates-and-percentages"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "equations-parameter-coefficients",
+      "label": "Unknown equation coefficients",
+      "scope": "Solve for or choose coefficients in linear equations.",
+      "parent_id": "solving-linear-equations",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 2,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:eq-ineq",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "solving-linear-equations"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "inequalities-compound",
+      "label": "Compound inequalities",
+      "scope": "Express and solve AND/OR combinations of inequalities.",
+      "parent_id": "linear-inequalities-in-one-variable",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 2,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:eq-ineq",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "linear-inequalities-in-one-variable"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "algebra-division-zero",
+      "label": "Division by zero",
+      "scope": "Explain why a denominator cannot be zero; distinguish undefined and indeterminate expressions.",
+      "parent_id": "writing-and-interpreting-algebraic-expressions",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 1,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:algebra-foundation",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "rational-expressions-and-equations"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "number-irrational-proofs",
+      "label": "Proofs about irrationality",
+      "scope": "Justify irrationality and claims involving rational and irrational numbers.",
+      "parent_id": "real-and-complex-numbers",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 4,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:irrationals",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted.",
+      "comparison_status": "provisionally_missing",
+      "mvp_match_ids": [],
+      "matching_basis": "No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted."
+    },
+    {
+      "id": "statistics-boxplots-quartiles",
+      "label": "Box plots and quartiles",
+      "scope": "Construct and interpret box plots, quartiles, and the interquartile range.",
+      "parent_id": "statistical-displays-and-data-distributions",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 10,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:data-dist",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "statistical-displays-and-data-distributions"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "statistics-changing-data",
+      "label": "Effects of changing data",
+      "scope": "Determine how modifying a dataset affects its measures of center.",
+      "parent_id": "measures-of-center-spread-and-variability",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 10,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:data-dist",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "measures-of-center-spread-and-variability"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "logarithms-change-base",
+      "label": "Logarithm base conversion",
+      "scope": "Rewrite a logarithm in another base for evaluation or algebraic manipulation.",
+      "parent_id": "logarithms-and-logarithmic-functions",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 5,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:logs",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "logarithms-and-logarithmic-functions"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "equations-radical",
+      "label": "Radical equations",
+      "scope": "Solve equations containing square or cube roots.",
+      "parent_id": "rational-exponents-and-radicals",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 7,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:equations",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "rational-exponents-and-radicals"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "equations-extraneous",
+      "label": "Extraneous solutions",
+      "scope": "Identify and reject candidate solutions introduced by algebraic transformations.",
+      "parent_id": "rational-expressions-and-equations",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 7,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:equations",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "rational-expressions-and-equations"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "systems-nonlinear",
+      "label": "Nonlinear systems",
+      "scope": "Solve systems that include nonlinear equations.",
+      "parent_id": "comparing-functions-and-finding-intersections",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 3,
+          "unit": 7,
+          "source": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:equations",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "comparing-functions-and-finding-intersections"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "probability-addition",
+      "label": "Probability addition rule",
+      "scope": "Calculate probabilities of unions, accounting for overlapping events.",
+      "parent_id": "probability-and-representations-of-events",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 13,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:prob",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "probability-and-representations-of-events"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "probability-multiplication",
+      "label": "Probability multiplication rules",
+      "scope": "Calculate joint probabilities for independent and dependent events.",
+      "parent_id": "independence-of-events",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 13,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:prob",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "independence-of-events"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "geometry-tangent-construction",
+      "label": "Constructing circle tangents",
+      "scope": "Construct a tangent to a circle with compass and straightedge.",
+      "parent_id": "compass-and-straightedge-geometric-constructions",
+      "mvp_status": "map_parent_only",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 2,
+          "unit": 11,
+          "source": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:circles",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "compass-and-straightedge-geometric-constructions"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "systems-linear-graphical",
+      "label": "Linear systems: graphing",
+      "scope": "Find a linear system’s solution by graphing.",
+      "parent_id": "solving-systems-of-linear-equations",
+      "mvp_status": "mapped_method",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 6,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:systems",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "solving-systems-of-linear-equations"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "systems-linear-algebraic",
+      "label": "Linear systems: algebraic solving",
+      "scope": "Solve linear systems by equating rules, substitution, or elimination; keep matrix methods separately identified.",
+      "parent_id": "solving-systems-of-linear-equations",
+      "mvp_status": "mapped_method",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 6,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:systems",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "solving-systems-of-linear-equations"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "systems-linear-equate-rules",
+      "label": "Linear systems: equating rules",
+      "scope": "Find an intersection by setting two explicit output rules equal.",
+      "parent_id": "systems-linear-algebraic",
+      "mvp_status": "packet_verified",
+      "mvp_evidence": [],
+      "khan_matches": [],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "solving-systems-of-linear-equations"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "systems-linear-substitution",
+      "label": "Linear systems: substitution",
+      "scope": "Replace a variable with an equivalent expression to solve a linear system.",
+      "parent_id": "systems-linear-algebraic",
+      "mvp_status": "mapped_method",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 6,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:systems",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "solving-systems-of-linear-equations"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "systems-linear-elimination",
+      "label": "Linear systems: elimination",
+      "scope": "Combine equivalent equations to eliminate a variable.",
+      "parent_id": "systems-linear-algebraic",
+      "mvp_status": "mapped_method",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 6,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:systems",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "solving-systems-of-linear-equations"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "systems-linear-solution-count",
+      "label": "Linear systems: solution counts",
+      "scope": "Determine whether a linear system has zero, one, or infinitely many solutions.",
+      "parent_id": "solving-systems-of-linear-equations",
+      "mvp_status": "mapped_method",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 6,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:systems",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis.",
+      "comparison_status": "broader_match",
+      "mvp_match_ids": [
+        "solving-systems-of-linear-equations"
+      ],
+      "matching_basis": "Included under a broader MVP entry for this working comparison; detailed coverage will be revisited during packet analysis."
+    },
+    {
+      "id": "algebra-background",
+      "label": "Algebra background and notation",
+      "scope": "Historical context and reasons for algebraic notation; not classified as a mathematical gap.",
+      "parent_id": null,
+      "mvp_status": "background",
+      "mvp_evidence": [],
+      "khan_matches": [
+        {
+          "course": 1,
+          "unit": 1,
+          "source": "https://www.khanacademy.org/math/math1/x89d82521517266d4:algebra-foundation",
+          "evidence": "Reviewed lesson-group alignment in the full captured regular course outline, October 13, 2026."
+        }
+      ],
+      "comparison_note": "Contextual rather than a mathematical coverage gap.",
+      "comparison_status": "background",
+      "mvp_match_ids": [],
+      "matching_basis": "Contextual rather than a mathematical coverage gap."
+    },
+    {
+      "id": "whole-number-division-and-factors",
+      "label": "Whole-number division and factors",
+      "scope": "Whole-number long division with quotient and remainder; determine whether a divisor is a factor using zero remainder. Distinct from polynomial division.",
+      "parent_id": null,
+      "mvp_status": "packet_verified",
+      "mvp_evidence": [
+        {
+          "role": "practice_or_review",
+          "reference": "III 3.1 Go 17–28, printed p. 5 / PDF p. 9"
+        }
+      ],
+      "khan_matches": [],
+      "comparison_note": "Added from source-verified prerequisite review; not yet aligned to the Khan inventory.",
+      "comparison_status": "not_yet_compared",
+      "mvp_match_ids": [],
+      "matching_basis": "Verified student packet."
+    }
+  ],
+  "comparison_policy": "Treat the current MVP map as correct. Normalize names and consider broader entries. An unlisted mathematical skill is provisionally missing; packet-level verification is deferred."
+}

@@ -5,3 +5,7 @@ authoring/
 /MVP 1/
 /MVP 2/
 /MVP 3/
+
+# Generated Python caches
+__pycache__/
+*.py[cod]

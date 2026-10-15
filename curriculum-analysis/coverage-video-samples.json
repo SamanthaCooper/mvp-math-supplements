@@ -1,0 +1,60 @@
+{
+  "checked": "2026-10-13",
+  "method": "Total duration text in the public Khan video player; no playback-time observation of students.",
+  "samples": [
+    {
+      "topic": "systems-linear-substitution",
+      "duration": "5:21",
+      "title": "Systems of equations with substitution: potato chips",
+      "url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:systems/x89d82521517266d4:substitution/v/solving-systems-with-substitution"
+    },
+    {
+      "topic": "graphing-linear-functions",
+      "duration": "5:14",
+      "title": "Horizontal & vertical lines",
+      "url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:two-var-eq/x89d82521517266d4:hor-and-ver-lines/v/examples-of-slopes-and-equations-of-horizontal-and-vertical-lines"
+    },
+    {
+      "topic": "arithmetic-sequences",
+      "duration": "8:18",
+      "title": "Sequences intro",
+      "url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:sequences/x89d82521517266d4:arith-seq-intro/v/explicit-and-recursive-definitions-of-sequences"
+    },
+    {
+      "topic": "real-and-complex-numbers",
+      "duration": "5:32",
+      "title": "Multiplying complex numbers",
+      "url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:complex/xe2ae2386aa2e13d6:complex-mul/v/multiplying-complex-numbers"
+    },
+    {
+      "topic": "triangle-congruence-criteria-and-geometric-proofs",
+      "duration": "8:54",
+      "title": "Proof: perpendicular lines have opposite reciprocal slopes",
+      "url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:similarity/xe2ae2386aa2e13d6:proving-relationships-using-similarity/v/proof-that-perpendicular-lines-have-negative-reciprocal-slope"
+    },
+    {
+      "topic": "polynomial-division-and-remainder-theorem",
+      "duration": "5:27",
+      "title": "Polynomial division introduction",
+      "url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:poly-div/x5549cc1686316ba5:div-by-x/v/polynomial-division-intro"
+    },
+    {
+      "topic": "unit-circle-and-circular-trigonometric-functions",
+      "duration": "9:04",
+      "title": "Unit circle",
+      "url": "https://www.khanacademy.org/math/math3/x5549cc1686316ba5:math2-trig-func/x5549cc1686316ba5:unit-circle/v/unit-circle-definition-of-trig-functions-1"
+    },
+    {
+      "topic": "solving-linear-equations",
+      "duration": "7:36",
+      "title": "Why we do the same thing to both sides: Variable on both sides",
+      "url": "https://www.khanacademy.org/math/math1/x89d82521517266d4:eq-ineq/x89d82521517266d4:both-sides/v/why-we-do-the-same-thing-to-both-sides-multi-step-equations"
+    },
+    {
+      "topic": "solving-quadratic-equations",
+      "duration": "2:18",
+      "title": "Solving quadratics by taking square roots",
+      "url": "https://www.khanacademy.org/math/math2/xe2ae2386aa2e13d6:quad-2/xe2ae2386aa2e13d6:quad-by-sqrt/v/simple-quadratic-equation"
+    }
+  ]
+}

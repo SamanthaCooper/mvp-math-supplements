@@ -81,3 +81,13 @@ Lessons display small **Last updated** dates at the top and bottom, separate fro
 ## Published packet reference index
 
 `packet-reference-index.html` is linked from the home page. Rebuild it with `python3 tools/build_packet_reference_index.py`; curated entries are in `tools/packet_reference_index.json`. The 27 active student PDFs are distributed unchanged as attachments to the `mvp-student-packets-2026-10` GitHub release, with attribution and licensing information. Local PDFs and archived editions remain excluded from Git. The index and general download links use the publisher’s exact student PDF editions; index links include page anchors. Release attachments remain backup downloads. The builder also refreshes previously opened local authoring index pages with the same publisher links.
+
+## Curriculum comparison and practice tracking
+
+See [curriculum-analysis/README.md](curriculum-analysis/README.md) for the combined MVP/Khan topic inventory and the four-component packet coverage ledger. Maintain these records as each packet is analyzed; distinguish verified problem counts from inherited summaries and unknown counts. `tools/query_packet_coverage.py` reports verified practice by topic and method.
+
+The full [Khan curriculum map](khan-curriculum-map.html) has topic and course-sequence views for regular Integrated Math I–III. A matching [Excel snapshot](curriculum-analysis/khan_curriculum_map.xlsx) includes source activity links. Rebuild the HTML/JSON with `python3 tools/build_khan_curriculum_map.py`. Comparisons use the current MVP map as the working baseline, matching equivalent names and broader entries before marking provisional gaps.
+
+### Exploratory coverage mass
+
+[Estimated coverage mass](coverage-mass.html) compares allocated guided-learning and practice time budgets. Rebuild with `python3 tools/build_coverage_mass.py` after rebuilding the comparison. These are assumption ranges, not measured student times or verified exercise counts. Every listed Khan video/article contributes; practice question counts are adjustable. Shared component budgets are split across mapped broad topics to avoid double counting. The existing Khan map is preserved.

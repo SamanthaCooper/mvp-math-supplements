@@ -18,19 +18,21 @@ Read the complete module for context and examine the assigned main task and ever
 
 Consult the cumulative curriculum map (`mvp_math1-3_complete_curriculum_map.xlsx`, with its searchable presentation in `curriculum-map.html`) to locate earlier instruction, distinguish new material from review, and find useful prerequisite links. Use it as a guide; verify relevant content against the actual packets, since the map may be incomplete or mistaken. Link students to published supplements that actually explain the needed ideas, rather than assuming that a mapped topic has adequate instruction.
 
-Preserve the packet’s progression across sections. Within the assigned section, arrange ideas logically: introduce accessible ingredients before combining them. Do not introduce later techniques simply because they make a problem easier. Normally omit previews of unfamiliar future topics.
+As each packet section is analyzed, maintain its Main, Ready, Set, and Go records in `curriculum-analysis/packet-coverage.json`. Follow [the analysis README](curriculum-analysis/README.md) for topic vocabulary, source evidence, activity counting, method distinctions, and Khan/MVP comparison rules. These internal records do not require additional student-facing explanations or alter human-review status.
 
-For example, Math II 2.1 should develop the parent parabola and individual transformations before combining them in vertex form; it should not begin with completing the square or a comparison of all quadratic forms.
+Preserve the packet’s progression across sections. Within the assigned section, introduce accessible ingredients before combining them. Do not introduce later techniques simply because they make a problem easier, preview unfamiliar future topics, or mention advanced methods merely to say they are unnecessary.
 
 **Check the packet and teacher notes critically.** They may contain incorrect mathematics, inconsistent representations, or poor wording. Teacher notes help establish intent but do not override the mathematics. Compare statements, graphs, tables, rules, and expected answers independently.
 
-**Inspect source mathematics visually.** PDF text extraction can lose parentheses, variables, fractions, exponents, and equality signs. Verify expressions, graph scales, and original prompts against the actual page before writing solutions. In Math I 3.6, extraction led to misreading “find p(t) = 128” as “find p(12)”; these ask different questions.
+**Inspect source mathematics visually.** PDF text extraction can lose parentheses, variables, fractions, exponents, and equality signs. Verify expressions, graph scales, and original prompts against the actual page before writing solutions.
 
 ## 2. Lesson organization and instructional depth
 
 Use one top-level group for the main task, titled **In class: [exact task label printed in the packet]**. Begin with a prominent note:
 
 > This section explains some of the ideas you explored in class through the guided exercises. Use it alongside the “[exact task label]” portion of Section [number] in your MVP packet.
+
+When this group contains substantial visible answers or worked solutions, add a prominent **“Try the packet task on your own first”** banner before those solutions. Invite students to attempt the task, then use the explanations to check their reasoning or work through difficulties.
 
 Use subsections within that group. Keep all Ready material in one Ready section, all Set material in one Set section, and all Go material in one Go section; use subsections where needed. Teach shared ideas once, then link back from homework. Keep homework-specific explanations and examples in the relevant homework component. Update headings, navigation, anchors, and coverage references together when reorganizing.
 
@@ -42,11 +44,9 @@ For genuinely new, fundamental material:
 - Explain consequential distinctions or common mistakes.
 - Include graphs or tables when they materially help understanding.
 
-For familiar material, use the least explanation that usefully supports the exercises. Link to a specific earlier explanation when appropriate. Use neutral wording such as “For a refresher, see…” rather than “You have already learned…” Do not mention unfamiliar advanced methods simply to say they are unnecessary.
+For review, follow the brief-reminder, prerequisite-link, and answer-key approach described above. Use neutral wording such as “For a refresher, see…” rather than “You have already learned…” Group repetitive exercises by skill; checking every exercise does not require a separate explanation for each. Add an original worked example or extra practice only when it fills an instructional gap, including in Go.
 
-Reviewing every exercise does not require teaching or solving every exercise separately. Group repetitive exercises by skill. Do not add new practice problems automatically, including in Go. Add an original example only when it teaches something useful that existing explanations and exercises do not adequately support.
-
-Keep worked solutions economical. Show the steps that clarify the method and enough arithmetic to follow it, without expanding routine calculations unnecessarily. Use ordinary student-friendly language and practical methods. For graphing a line, choose two easily computed points far enough apart for accurate drawing; use a point-and-slope construction when the task specifically calls for it.
+Keep worked solutions economical. Show the steps that clarify the method and enough arithmetic to follow it, without expanding routine calculations unnecessarily. Use ordinary student-friendly language and practical methods. For equations containing fractions, multiplying both sides by a denominator early can simplify the arithmetic. Choose a clear, efficient order of operations rather than mechanically following the packet’s sequence, unless that sequence is the point of the exercise. For graphing a line, choose two easily computed points far enough apart for accurate drawing; use a point-and-slope construction when the task specifically calls for it.
 
 The packet may mix review and extensions rather than follow one coherent instructional thread. Explain useful connections without pretending every homework component practices the same in-class technique. Record meaningful disconnects in `curriculum-coherence-notes.md`, identifying the section, packet pages and problem ranges, previously taught ideas, and the particular mismatch. Keep those observations provisional; they do not automatically become student-facing criticism or require redesigning a lesson.
 
@@ -59,6 +59,8 @@ Use descriptive navigation labels, such as “Ready: line intersections (1–4).
 Keep ordinary instruction separate from packet-specific clarifications. Place a clarification near the affected work, label its exact packet location, and give a short explanation or clearer wording when needed. Do not introduce a mathematical concept primarily through criticism of the packet.
 
 **Be thorough in internal checking and selective in student-facing qualifications.** Address an issue when it could plausibly change a student’s answer, teach a wrong idea or method, or materially obscure the task. Accept normal classroom simplifications and clearly intended interpretations. Do not add warnings about remote alternatives, technically nonunique patterns, or routine unstated modeling assumptions.
+
+Use established mathematical conventions confidently unless the problem explicitly indicates otherwise. In a two-column input/output table, take the left column as inputs and the right as outputs. In “A versus B” or “A with respect to B,” B is conventionally the input on the horizontal axis and A the output on the vertical axis. Explain unfamiliar conventions where needed; their use without explanation is not itself evidence of an ambiguous problem.
 
 Preserve meaningful distinctions, including units, input versus output, endpoint inclusion, sequence indices, discrete inputs versus discontinuities, and whole-number outputs versus domain restrictions. Distinguish verified errors from inferred intentions. Apply the same scrutiny to existing supplements.
 
@@ -79,7 +81,7 @@ Presentation conventions:
 - Put compact checking keys in collapsed `details` elements with `class="answer-key"` and the established component IDs (`ready-answer-key`, `set-answer-key`, `go-answer-key`). Use descriptive summaries and `assets/answer-keys.css`.
 - **Substantial worked solutions may remain visible in the main body.** Do not force them into disclosures when that makes formatting or reading awkward. Clearly associate them with their component and problem numbers.
 - Briefly encourage students to study relevant worked examples, try the exercises independently, and then check the answers. Do not refer to worked examples when the component has none.
-- Give each problem and subpart adequate space. Avoid crowded strings of answers, equations, and prose. Bare numerical answers do not need terminal periods; explanatory sentences do.
+- Separate subpart answers into distinct lines or clearly labeled table cells. Put lengthy equations, and recursive and explicit rules, on their own lines. Readability takes priority over compactness; avoid crowded strings of answers, equations, and prose. Bare numerical answers do not need terminal periods; explanatory sentences do.
 - If a required plot is omitted, give useful numerical results or sample points and explicitly say **Plot not shown**. Do not imply those results complete a graphing or construction task.
 - For recursive rules, use a starting value and `f(n+1)` in terms of `f(n)`, with the appropriate index domain. Give recursive before explicit when both are requested.
 - Verify units, scales, endpoint inclusion, domains, rounding, equivalent forms, and all real solutions. Use terminology introduced at this point in the course; explain unfamiliar terms if needed instead of assuming knowledge.
@@ -177,7 +179,7 @@ Run `python3 tools/check_answer_keys.py` for published lessons as an additional 
 
 Include a concise end-of-lesson coverage table mapping Main task, Ready, Set, and Go problem groups to the relevant explanations, links, or answer keys. Identify ambiguous exercises and deliberate omissions honestly. Keep it a coverage record, not lengthy commentary.
 
-Deliver the requested HTML with a brief explanation of its review status and material validation limitations. The lesson should contain the needed instruction, appropriately scoped examples, checked exercises, useful packet clarifications, and selected resources where suitable. Additional Go practice and full standalone teaching are included only when warranted or requested.
+Deliver the requested HTML with a brief explanation of its review status and material validation limitations.
 
 ## Materials for a request
 

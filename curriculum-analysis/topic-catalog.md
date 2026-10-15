@@ -1,0 +1,150 @@
+# Combined topic inventory
+
+Treat the current MVP map as correct. Normalize names and consider broader entries. An unlisted mathematical skill is provisionally missing; packet-level verification is deferred.
+
+## Provisionally missing from the MVP map
+
+- **Binomial probability** — No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted.
+- **Expected value** — No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted.
+- **Counting combinations** — No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted.
+- **Counting permutations** — No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted.
+- **Finite geometric sums** — No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted.
+- **Angle-bisector length theorem** — No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted.
+- **Proofs about irrationality** — No equivalent skill stated in the current map. Broader probability, number-set, sequence, or geometric vocabulary was considered; these specific skills remain unlisted.
+
+## Full shared vocabulary
+
+- **Writing and interpreting algebraic expressions** (mapped) — Translate patterns and contexts into expressions, interpret variables and expression structure.
+- **Evaluating algebraic expressions** (mapped) — Substituting values into expressions and formulas.
+- **Solving linear equations** (mapped) — Checking solutions; one-step and multi-step linear equations.
+- **Tables, graphs, and ordered pairs** (mapped) — Representing relationships numerically, graphically, and with equations.
+- **Exponents and simple exponential equations** (mapped) — Evaluating powers and elementary equations involving powers.
+- **Rates, unit rates, and percentages** (mapped) — Computing and comparing numerical rates and percentages.
+- **Arithmetic sequences** (mapped) — Common difference; explicit/recursive rules; missing terms.
+- **Geometric sequences** (mapped) — Common ratio; explicit/recursive rules; missing terms and multiplicative patterns.
+- **Sequence formulas and applications** (mapped) — Nth terms, starting index, explicit vs. recursive notation, and contextual problems.
+- **Comparing linear, quadratic, and exponential growth** (mapped) — Identify and compare additive, quadratic and multiplicative growth in tables, graphs and equations.
+- **Slope and rate of change** (mapped) — Constant rate of change; rise/run; slope from points, tables and graphs.
+- **Writing and interpreting linear equations and models** (mapped) — Includes initial value, equation forms, equivalent forms, and contextual models.
+- **Graphing linear functions** (mapped) — Plotting the graph of a linear equation.
+- **Exponential growth and decay** (mapped) — Identifying increase/decrease and converting percentages to multipliers.
+- **Writing and graphing exponential models** (mapped) — Constructing exponential equations and graphs.
+- **Functions and input–output relationships** (mapped) — Independent/dependent variables and function tests.
+- **Discrete and continuous relationships** (mapped) — Classifying domains and contextual data as discrete or continuous.
+- **Domain and range** (mapped) — Including interval notation and contextual restrictions.
+- **Function notation and evaluation** (mapped) — Finding inputs/outputs and interpreting function notation.
+- **Features and interpretation of function graphs** (mapped) — Intercepts, increasing/decreasing, extrema, symmetry, end behavior, contextual/piecewise graphs.
+- **Comparing functions and finding intersections** (mapped) — Where models have equal values or one exceeds another.
+- **Solving systems of linear equations** (mapped) — Solve systems by graphing, substitution, elimination, and matrices, including row reduction and inverse matrices in the honors sequence; two or three variables.
+- **Arithmetic operations on functions** (mapped) — Add, subtract, and multiply functions numerically, algebraically and graphically; interpret combined models.
+- **Rearranging formulas and literal equations** (mapped) — Rearranging multi-variable formulas to isolate a specified variable; interpreting variables and units.
+- **Linear inequalities in one variable** (mapped) — Properties and solution sets of one-variable inequalities, including sign reversal, interval notation and number-line graphs.
+- **Linear inequalities in two variables** (mapped) — Write and graph linear inequalities with boundary lines, test points and shaded half-planes.
+- **Systems of linear inequalities** (mapped) — Model multiple constraints, graph the overlapping solution region, and interpret contextual restrictions.
+- **Fractions and proportional relationships** (mapped) — Operations with fractions and recognizing/representing proportional relationships; reviewed in homework.
+- **Pythagorean theorem and coordinate distance** (mapped) — Using right triangles and the Pythagorean theorem to determine or check lengths and distances in the coordinate plane.
+- **Parallel and perpendicular lines** (mapped) — Slope conditions for parallel and perpendicular lines and finding their equations.
+- **Rigid motions and coordinate transformations** (mapped) — Translations, reflections and rotations of points or figures, and compositions of rigid motions.
+- **Congruence and similarity of figures** (mapped) — Recognizing congruence through rigid motions; similarity is encountered in the later Ready review.
+- **Polygons and quadrilateral properties** (mapped) — Definitions, classifications and geometric properties of polygons, including special quadrilaterals.
+- **Reflectional and rotational symmetry** (mapped) — Lines of reflectional symmetry, rotation angles and symmetry of quadrilaterals and regular polygons.
+- **Compass-and-straightedge geometric constructions** (mapped) — Construct bisectors, perpendiculars, parallels, triangles and regular polygons; justify why construction steps work.
+- **Triangle congruence criteria and geometric proofs** (mapped) — Use ASA, SAS and SSS, corresponding parts and transformations to establish congruence and justify geometric claims.
+- **Coordinate proofs of geometric properties** (mapped) — Use slope and coordinate distances to prove parallel, perpendicular, congruent, and polygon properties algebraically.
+- **Transformations of function graphs** (mapped) — Translate and transform linear, exponential, and quadratic graphs; connect graph changes to equations and tables.
+- **Statistical displays and data distributions** (mapped) — Construct and compare histograms, dot plots and box plots; describe shape, skew, clusters and the distribution in context.
+- **Measures of center, spread, and variability** (mapped) — Mean, median, mode, quartiles, IQR, outliers and variation; select and interpret useful numerical summaries. Intro refers to distribution-specific development; some basics appear earlier as review.
+- **Two-way frequency and relative-frequency tables** (mapped) — Represent two categorical variables, calculate joint/marginal/conditional proportions, and compare categories.
+- **Scatter plots and correlation** (mapped) — Analyze association between two numerical variables, direction/strength, correlation coefficients and limits of causal conclusions.
+- **Lines of best fit and linear regression** (mapped) — Construct, calculate, evaluate and interpret regression lines, slopes, intercepts and predictions in context.
+- **Residuals and goodness of fit** (mapped) — Compute signed residuals and interpret residual plots as evidence for or against a linear model.
+- **Area, perimeter, and measurement** (mapped) — Calculate and interpret lengths, areas and perimeters; apply geometric formulas and convert measurements.
+- **Quadratic functions and parabolas** (mapped) — Model quadratic relationships, identify characteristic graphs and rates of change, and interpret vertices, intercepts and extrema.
+- **Expanding and factoring polynomial expressions** (mapped) — Apply distribution and polynomial multiplication, find common factors, factor quadratic trinomials, and connect equivalent expressions.
+- **Completing the square and quadratic forms** (mapped) — Rewrite quadratics among standard, vertex and factored forms; complete squares and interpret structural features.
+- **Solving quadratic equations** (mapped) — Find roots by factoring, square roots, completing the square, graphing, or the quadratic formula; use the discriminant.
+- **Rational exponents and radicals** (mapped) — Interpret fractional exponents and roots, convert forms, use exponent properties, and simplify radical expressions.
+- **Real and complex numbers** (mapped) — Classify real and complex numbers, work with irrational/imaginary values, and perform complex arithmetic (including H extension).
+- **Quadratic inequalities** (mapped) — Solve and graph one-variable quadratic inequalities and interpret solution intervals in context.
+- **Piecewise-defined functions** (mapped) — Interpret, graph, and write piecewise-defined functions and correctly use their domain intervals.
+- **Absolute value functions and equations** (mapped) — Interpret, graph, and solve equations involving absolute value; connect absolute value with piecewise definitions.
+- **Inverse functions and square-root functions** (mapped) — Understand inverse functions from swapped inputs and outputs; determine inverses and related square-root functions.
+- **Angle relationships and theorems** (mapped) — Use angle relationships (linear pairs, vertical and corresponding angles, triangle and polygon angle sums) in calculations and proofs.
+- **Midpoints and segment division** (mapped) — Find midpoints and points dividing segments in specified ratios, including in coordinate geometry.
+- **Dilations and scale factors** (mapped) — Construct and interpret dilations, scale factors, and their effects on length, angles, and area.
+- **Right-triangle trigonometry** (mapped) — Define and use sine, cosine, and tangent in right triangles, understand related identities, and solve practical problems.
+- **Triangle centers and special segments** (mapped) — Understand medians, altitude, angle and perpendicular bisectors, concurrency, and centers of triangles.
+- **Circle geometry and theorems** (mapped) — Chords, tangents, inscribed and central angles, cyclic polygons, circle centers and geometric justifications.
+- **Circumference, circle area, arc length, and sectors** (mapped) — Measure circles and circular regions; use circumference/area, arc lengths, sectors and related proportions.
+- **Radian measure of angles** (mapped) — Define radians using arc length and radius; convert between degrees and radians.
+- **Surface area, volume, and scaling of solids** (mapped) — Surface area and volume of prisms, pyramids, cylinders and related solids; effects of scaling; Cavalieri reasoning.
+- **Equations of circles** (mapped) — Derive, write and analyze circle equations in centered and expanded forms; identify center and radius.
+- **Parabolas from focus and directrix** (mapped) — Define a parabola geometrically as points equidistant from focus and directrix, including horizontal and vertical axes.
+- **Probability and representations of events** (mapped) — Basic and empirical probability; Venn diagrams, tree diagrams, two-way tables and addition rule.
+- **Conditional probability** (mapped) — Probabilities of events given conditions, interpreted through tables, trees and real-world situations.
+- **Independence of events** (mapped) — Identify independent and dependent events and test independence with conditional and joint probabilities.
+- **Logarithms and logarithmic functions** (mapped) — Inverse relationship with exponential functions; evaluate, graph, transform and use logarithm laws to solve equations.
+- **Polynomial functions and graphs** (mapped) — Cubic and higher-degree polynomial functions; degree, rates of change, graph transformations, roots, symmetry and end behavior.
+- **Polynomial division and remainder theorem** (mapped) — Divide polynomial expressions; interpret quotients and remainders; use the polynomial remainder theorem.
+- **Polynomial roots and factors** (mapped) — Find and interpret zeros, factors and multiplicity of higher-degree polynomials; apply the Fundamental Theorem of Algebra and conjugate-root relationships.
+- **Rational functions and asymptotes** (mapped) — Graph and interpret reciprocal and other rational functions, including transformations, intercepts, asymptotes, domain restrictions and end behavior.
+- **Rational expressions and equations** (mapped) — Simplify, multiply, divide, add and subtract rational expressions; handle excluded values and solve equations involving rational expressions.
+- **Cross sections and solids of revolution** (mapped) — Visualize plane sections of three-dimensional solids and figures generated by rotation; model and approximate their volumes.
+- **Law of sines and law of cosines** (mapped) — Solve non-right triangles using the laws of sines and cosines, including side, angle and triangle-area applications.
+- **Unit circle and circular trigonometric functions** (mapped) — Extend sine and cosine beyond acute angles using rotation, reference angles, the unit circle, coordinates and radian measure.
+- **Periodic functions and sinusoidal models** (mapped) — Model periodic motion and other repeating quantities with sine and cosine functions; interpret amplitude, midline, period and graph transformations.
+- **Trigonometric equations and identities** (mapped) — Extend the basic right-triangle identities to periodic functions; use inverse trig and special angles to solve equations and verify identities.
+- **Function composition and decomposition** (mapped) — Combine functions through composition; interpret order, decompose nested rules and evaluate from tables, graphs and equations.
+- **Normal distributions and z-scores** (mapped) — Recognize and use normal distributions, mean and standard deviation, the empirical rule and z-scores.
+- **Sampling methods and statistical study design** (mapped) — Populations and representative samples, sampling bias, surveys versus observational studies and experiments, association versus causation.
+- **Statistical simulations** (mapped) — Use repeated random trials and simulations to estimate probabilities, compare strategies and examine sampling variability.
+- **Average rate of change and secant lines** (mapped) — Compare changes over intervals in linear, exponential and quadratic graphs using endpoint slopes.
+- **Matrix representation and arithmetic** (mapped) — Represent data with matrices; add, scale and multiply matrices with compatible dimensions.
+- **Solving systems with matrix row reduction** (mapped) — Use augmented matrices and elementary row operations to solve linear systems; extend from two to three variables.
+- **Identity and inverse matrices** (mapped) — Investigate matrix identities and inverses, then solve matrix equations using an inverse.
+- **Determinants and matrix invertibility** (mapped) — Compute a 2 × 2 determinant and use it to decide whether an inverse or unique system solution exists.
+- **Vectors, components and vector arithmetic** (mapped) — Represent magnitude and direction, add vectors, scale vectors, and model translations and velocities.
+- **Ellipses and their equations** (mapped) — Define an ellipse using two foci, derive standard form, and interpret its axes and transformations.
+- **Hyperbolas and their equations** (mapped) — Interpret and sketch hyperbolas using standard forms, orientation, and asymptote rectangles.
+- **The number e, natural logarithms and continuous models** (mapped) — Develop continuous compounding, use natural exponential growth/decay models, and solve with natural logarithms.
+- **Reciprocal trigonometric functions** (mapped) — Define and relate secant, cosecant and cotangent to the original trigonometric ratios.
+- **Trigonometric sum, difference and double-angle identities** (mapped) — Derive identities, find exact values, solve equations, and justify multiplication of complex numbers in polar form.
+- **Inverse trigonometric functions** (mapped) — Restrict trig-function domains to define inverse functions and use their principal outputs in solving equations.
+- **Polar coordinates and polar curves** (mapped) — Plot signed radii and angles, graph polar curves, and convert between polar and rectangular coordinates.
+- **Complex numbers in polar form** (mapped) — Represent complex numbers with modulus and angle; multiply, divide, and find powers and roots in polar form.
+- **Parametric curves and motion** (mapped) — Define coordinate functions of a parameter, trace motion, eliminate a parameter, and distinguish intersecting paths from collisions.
+- **Binomial probability** (provisionally missing) — Probabilities for counts of successes in a fixed number of independent trials.
+- **Expected value** (provisionally missing) — Probability-weighted average outcomes of random variables.
+- **Counting combinations** (provisionally missing) — Count unordered selections of objects.
+- **Counting permutations** (provisionally missing) — Count ordered arrangements and selections.
+- **Finite geometric sums** (provisionally missing) — Sum a finite geometric sequence using a formula and its derivation.
+- **Angle-bisector length theorem** (provisionally missing) — Relate the lengths cut off by a triangle’s angle bisector to its adjacent sides.
+- **Dimensional analysis** (broader match) — Use units to convert quantities and check a model’s dimensional consistency.
+- **Density models** (broader match) — Model quantities per unit volume, including mass density and population density.
+- **Unknown equation coefficients** (broader match) — Solve for or choose coefficients in linear equations.
+- **Compound inequalities** (broader match) — Express and solve AND/OR combinations of inequalities.
+- **Division by zero** (broader match) — Explain why a denominator cannot be zero; distinguish undefined and indeterminate expressions.
+- **Proofs about irrationality** (provisionally missing) — Justify irrationality and claims involving rational and irrational numbers.
+- **Box plots and quartiles** (broader match) — Construct and interpret box plots, quartiles, and the interquartile range.
+- **Effects of changing data** (broader match) — Determine how modifying a dataset affects its measures of center.
+- **Logarithm base conversion** (broader match) — Rewrite a logarithm in another base for evaluation or algebraic manipulation.
+- **Radical equations** (broader match) — Solve equations containing square or cube roots.
+- **Extraneous solutions** (broader match) — Identify and reject candidate solutions introduced by algebraic transformations.
+- **Nonlinear systems** (broader match) — Solve systems that include nonlinear equations.
+- **Probability addition rule** (broader match) — Calculate probabilities of unions, accounting for overlapping events.
+- **Probability multiplication rules** (broader match) — Calculate joint probabilities for independent and dependent events.
+- **Constructing circle tangents** (broader match) — Construct a tangent to a circle with compass and straightedge.
+- **Linear systems: graphing** (broader match) — Find a linear system’s solution by graphing.
+- **Linear systems: algebraic solving** (broader match) — Solve linear systems by equating rules, substitution, or elimination; keep matrix methods separately identified.
+- **Linear systems: equating rules** (broader match) — Find an intersection by setting two explicit output rules equal.
+- **Linear systems: substitution** (broader match) — Replace a variable with an equivalent expression to solve a linear system.
+- **Linear systems: elimination** (broader match) — Combine equivalent equations to eliminate a variable.
+- **Linear systems: solution counts** (broader match) — Determine whether a linear system has zero, one, or infinitely many solutions.
+- **Algebra background and notation** (background) — Historical context and reasons for algebraic notation; not classified as a mathematical gap.
+
+### Whole-number division and factors
+
+- ID: `whole-number-division-and-factors`
+- Scope: Whole-number long division, remainders, and divisibility; separate from polynomial division.
+- Verified review: Math III 3.1 Go 17–28, printed p. 5 / PDF p. 9 (October 14, 2026).
+- Khan alignment: not yet compared.
