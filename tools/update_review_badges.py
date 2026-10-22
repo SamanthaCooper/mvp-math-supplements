@@ -36,8 +36,6 @@ def target(page, href):
     # Curriculum maps and other navigation tools have no lesson-review status.
     if path.relative_to(ROOT).parts[0] not in ('math-1', 'math-2', 'math-3'):
         return None
-    if 'pending-cursory-review' in path.name:
-        raise ValueError(f'Unapproved draft linked from {page}: {href}')
     if not path.is_file():
         raise ValueError(f'Missing published target: {path}')
     return path

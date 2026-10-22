@@ -27,7 +27,7 @@ class Inspector(HTMLParser):
 def published():
  for index in sorted(ROOT.glob('math-*/module-*/index.html')):
   for filename in sorted(set(re.findall(r'href=["\'](section-[^"\']+\.html)["\']',index.read_text()))):
-   if '/' not in filename and 'pending' not in filename:yield index.parent/filename
+   if '/' not in filename:yield index.parent/filename
 
 def check():
  errors=[];count=0;keys=0
